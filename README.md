@@ -11,7 +11,7 @@ This project is intended for use by developers/ROM hackers to create their own g
 - [ ] 905 Pokémon (Up to Gen 8)
 - [ ] Items Through Gen 8
 - [ ] Mega Evolutions
-- [ ] Decapitalization 
+- [X] Decapitalization 
 - [ ] Overworld Trainer Facing
 - [ ] Reusable TMs
 - [ ] Day/Night Cycle
@@ -31,6 +31,8 @@ This project is intended for use by developers/ROM hackers to create their own g
     - Each move is defined as either physical, special, or status.
     - Places where the game previously checked the type, it now checks the move.
     - Icons for move categories have been added to the status menu.
+- All previously unnecessarily capitalized text has been decapitalized. (Thanks to [**lioniac**](https://github.com/lioniac/frdecap)!)
+- The default text speed has been changed to fast.
 
 ### Installation ###
 For instructions on how to setup, install, and build the project, refer to the original [**INSTALLATION.MD**](https://github.com/pret/pokefirered/blob/master/INSTALL.md).
