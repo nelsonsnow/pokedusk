@@ -4,7 +4,7 @@ This is a version of Pokémon FireRed and LeafGreen based on the [**FireRed and 
 
 This project is intended for use by developers/ROM hackers to create their own games, and it not intended to be played by itself.
 
-### Features (16% Complete): ###
+### Features (32% Complete): ###
 - [X] Fairy Type 
 - [X] Physical/Special Split
 - [ ] Moves & Abilities Through Gen 8
@@ -13,7 +13,7 @@ This project is intended for use by developers/ROM hackers to create their own g
 - [ ] Mega Evolutions
 - [X] Decapitalization 
 - [ ] Overworld Trainer Facing
-- [ ] Reusable TMs
+- [X] Reusable TMs
 - [ ] Day/Night Cycle
 - [ ] Seasons
 - [ ] Roaming Pokémon
@@ -33,6 +33,9 @@ This project is intended for use by developers/ROM hackers to create their own g
     - Icons for move categories have been added to the status menu.
 - All previously unnecessarily capitalized text has been decapitalized. (Thanks to [**lioniac**](https://github.com/lioniac/frdecap)!)
 - The default text speed has been changed to fast.
+- TMs are no longer removed from the player's bag when used.
+    - The TM count is no longer displayed, as it is obsolete.
+    - The option to give Pokémon TMs (to hold) has been removed.
 
 ### Installation ###
 For instructions on how to setup, install, and build the project, refer to the original [**INSTALLATION.MD**](https://github.com/pret/pokefirered/blob/master/INSTALL.md).

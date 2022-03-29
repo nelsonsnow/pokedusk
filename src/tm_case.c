@@ -165,12 +165,12 @@ static void (*const sSelectTMActionTasks[])(u8 taskId) = {
 
 static const struct MenuAction sMenuActions_UseGiveExit[] = {
     {gOtherText_Use,  TMHMContextMenuAction_Use },
-    {gOtherText_Give, TMHMContextMenuAction_Give},
+    //{gOtherText_Give, TMHMContextMenuAction_Give}, // TMHM items can no longer be held
     {gOtherText_Exit, TMHMContextMenuAction_Exit},
 };
 
-static const u8 sMenuActionIndices_Field[] = {0, 1, 2};
-static const u8 sMenuActionIndices_UnionRoom[] = {1, 2};
+static const u8 sMenuActionIndices_Field[] = {0, 1};
+static const u8 sMenuActionIndices_UnionRoom[] = {1};
 static const struct YesNoFuncTable sYesNoFuncTable = {Task_PrintSaleConfirmedText, Task_SaleOfTMsCanceled};
 
 static const u8 sText_ClearTo18[] = _("{CLEAR_TO 18}");
@@ -561,9 +561,10 @@ static void TMCase_ItemPrintFunc(u8 windowId, u32 itemId, u8 y)
     {
         if (!itemid_is_unique(BagGetItemIdByPocketPosition(POCKET_TM_CASE, itemId)))
         {
-            ConvertIntToDecimalStringN(gStringVar1, BagGetQuantityByPocketPosition(POCKET_TM_CASE, itemId), STR_CONV_MODE_RIGHT_ALIGN, 3);
-            StringExpandPlaceholders(gStringVar4, gText_TimesStrVar1);
-            AddTextPrinterParameterized_ColorByIndex(windowId, 0, gStringVar4, 0x7E, y, 0, 0, 0xFF, 1);
+            // This would display the quantity, but quantity is no longer important
+            //ConvertIntToDecimalStringN(gStringVar1, BagGetQuantityByPocketPosition(POCKET_TM_CASE, itemId), STR_CONV_MODE_RIGHT_ALIGN, 3);
+            //StringExpandPlaceholders(gStringVar4, gText_TimesStrVar1);
+            //AddTextPrinterParameterized_ColorByIndex(windowId, 0, gStringVar4, 0x7E, y, 0, 0, 0xFF, 1);
         }
         else
         {
@@ -778,7 +779,7 @@ static void Task_SelectTMAction_FromFieldBag(u8 taskId)
     TMCase_SetWindowBorder2(2);
     if (!MenuHelpers_LinkSomething() && InUnionRoom() != TRUE)
     {
-        AddTMContextMenu(&sTMCaseDynamicResources->contextMenuWindowId, 0);
+        AddTMContextMenu(&sTMCaseDynamicResources->contextMenuWindowId, 1);
         sTMCaseDynamicResources->menuActionIndices = sMenuActionIndices_Field;
         sTMCaseDynamicResources->numMenuActions = NELEMS(sMenuActionIndices_Field);
     }
@@ -1338,10 +1339,10 @@ static void PrintStringTMCaseOnWindow3(void)
 
 static void DrawMoveInfoUIMarkers(void)
 {
-    BlitMoveInfoIcon(4, 19, 0, 0);
-    BlitMoveInfoIcon(4, 20, 0, 12);
-    BlitMoveInfoIcon(4, 21, 0, 24);
-    BlitMoveInfoIcon(4, 22, 0, 36);
+    BlitMoveInfoIcon(4, 20, 0, 0);
+    BlitMoveInfoIcon(4, 21, 0, 12);
+    BlitMoveInfoIcon(4, 22, 0, 24);
+    BlitMoveInfoIcon(4, 23, 0, 36);
     CopyWindowToVram(4, COPYWIN_GFX);
 }
 
