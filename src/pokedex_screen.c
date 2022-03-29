@@ -1554,7 +1554,9 @@ static void ItemPrintFunc_OrderedListMenu(u8 windowId, u32 itemId, u8 y)
         type1 = gBaseStats[species].type1;
         BlitMoveInfoIcon(sPokedexScreenData->numericalOrderWindowId, type1 + 1, 0x78, y);
         if (type1 != gBaseStats[species].type2)
+        {
             BlitMoveInfoIcon(sPokedexScreenData->numericalOrderWindowId, gBaseStats[species].type2 + 1, 0x98, y);
+        }    
     }
 }
 

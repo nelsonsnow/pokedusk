@@ -3334,7 +3334,7 @@ static bool32 ResetVineGfx(void)
     return TRUE;
 }
 
-static const u8 sPluralTxt[] = _("IES");
+static const u8 sPluralTxt[] = _("ies");
 
 static void PrintPrizeMessage(u16 itemId, u16 quantity)
 {
