@@ -213,6 +213,7 @@ struct PokemonSummaryScreenData
     s16 ALIGNED(4) flipPagesBgHofs; /* 0x324C */
 
     u16 moveTypes[5]; /* 0x3250 */
+    u16 moveCats[5]; /* 0x3250 */
     u16 moveIds[5]; /* 0x325A */
     u8 ALIGNED(4) numMoves; /* 0x3264 */
     u8 ALIGNED(4) isSwappingMoves; /* 0x3268 */
@@ -2270,6 +2271,7 @@ static void BufferMonMoveI(u8 i)
 
     sMonSummaryScreen->numMoves++;
     sMonSummaryScreen->moveTypes[i] = gBattleMoves[sMonSummaryScreen->moveIds[i]].type;
+    sMonSummaryScreen->moveCats[i] = gBattleMoves[sMonSummaryScreen->moveIds[i]].category;
     StringCopy(sMonSummaryScreen->summary.moveNameStrBufs[i], gMoveNames[sMonSummaryScreen->moveIds[i]]);
 
     if (i >= 4 && sMonSummaryScreen->mode == PSS_MODE_SELECT_MOVE)
@@ -2509,6 +2511,7 @@ static void PrintSkillsPage(void)
 }
 
 #define GetMoveNamePrinterYpos(x) ((x) * 28 + 5)
+#define GetMoveCatPrinterYpos(x) ((x) * 28 + 18)
 #define GetMovePpPinterYpos(x) ((x) * 28 + 16)
 
 static void PrintMovesPage(void)
@@ -2911,6 +2914,7 @@ static void PokeSum_PrintAbilityNameAndDesc(void)
 static void PokeSum_DrawMoveTypeIcons(void)
 {
     u8 i;
+    u16 testMoveCats;
 
     FillWindowPixelBuffer(sMonSummaryScreen->windowIds[5], 0);
 
@@ -2920,6 +2924,7 @@ static void PokeSum_DrawMoveTypeIcons(void)
             continue;
 
         BlitMoveInfoIcon(sMonSummaryScreen->windowIds[5], sMonSummaryScreen->moveTypes[i] + 1, 3, GetMoveNamePrinterYpos(i));
+        BlitMoveInfoIcon(sMonSummaryScreen->windowIds[5], sMonSummaryScreen->moveCats[i] + 24, 3, GetMoveCatPrinterYpos(i));
     }
 
     if (sMonSummaryScreen->mode == PSS_MODE_SELECT_MOVE)

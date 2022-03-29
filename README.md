@@ -4,9 +4,9 @@ This is a version of Pokémon FireRed and LeafGreen based on the [**FireRed and 
 
 This project is intended for use by developers/ROM hackers to create their own games, and it not intended to be played by itself.
 
-### Features (8% Complete): ###
+### Features (16% Complete): ###
 - [X] Fairy Type 
-- [ ] Physical/Special Split
+- [X] Physical/Special Split
 - [ ] Moves & Abilities Through Gen 8
 - [ ] 905 Pokémon (Up to Gen 8)
 - [ ] Items Through Gen 8
@@ -18,5 +18,20 @@ This project is intended for use by developers/ROM hackers to create their own g
 - [ ] Seasons
 - [ ] Roaming Pokémon
 
+### Screenshots ###
+![](docs/pokefirered_rev1-0.png)
+![](docs/pokefirered_rev1-1.png)
+![](docs/pokefirered_rev1-2.png)
+
+### Comprehensive List of Changes ###
+- The Fairy-type has been added as a new Pokémon type.
+    - This type features the type icon in the summary menu.
+    - Moves and Pokémon that were changed to be Fairy-type in newer games have been updated.
+- The "Physical/Special Split" has been implemented.
+    - Each move is defined as either physical, special, or status.
+    - Places where the game previously checked the type, it now checks the move.
+    - Icons for move categories have been added to the status menu.
+
+### Installation ###
 For instructions on how to setup, install, and build the project, refer to the original [**INSTALLATION.MD**](https://github.com/pret/pokefirered/blob/master/INSTALL.md).
 

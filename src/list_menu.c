@@ -75,6 +75,9 @@ const struct MoveMenuInfoIcon gMoveMenuInfoIcons[] =
     { 40, 12, 0xC8 },       // -Accuracy- icon
     { 40, 12, 0xE0 },       // -PP- icon
     { 40, 12, 0xE8 },       // -Effect- icon
+    { 32, 12, 0x120 },      // Physical icon
+    { 32, 12, 0x124 },      // Special icon
+    { 32, 12, 0x128 },      // Status icon
 };
 
 static void ListMenuDummyTask(u8 taskId)
@@ -754,5 +757,5 @@ void ListMenuLoadStdPalAt(u8 palOffset, u8 palId)
 
 void BlitMoveInfoIcon(u8 windowId, u8 iconId, u16 x, u16 y)
 {
-    BlitBitmapRectToWindow(windowId, gFireRedMenuElements_Gfx + gMoveMenuInfoIcons[iconId].offset * 32, 0, 0, 128, 128, x, y, gMoveMenuInfoIcons[iconId].width, gMoveMenuInfoIcons[iconId].height);
+    BlitBitmapRectToWindow(windowId, gFireRedMenuElements_Gfx + gMoveMenuInfoIcons[iconId].offset * 32, 0, 0, 128, 160, x, y, gMoveMenuInfoIcons[iconId].width, gMoveMenuInfoIcons[iconId].height);
 }

@@ -241,6 +241,7 @@ struct BattleMove
     u8 target;
     s8 priority;
     u8 flags;
+    u8 category;    
 };
 
 extern const struct BattleMove gBattleMoves[];
@@ -286,6 +287,13 @@ enum
     BODY_COLOR_GRAY,
     BODY_COLOR_WHITE,
     BODY_COLOR_PINK
+};
+
+enum
+{
+    MOVE_PHYSICAL,
+    MOVE_SPECIAL,
+    MOVE_STATUS
 };
 
 #define EVO_FRIENDSHIP       0x0001 // Pokémon levels up with friendship ≥ 220
