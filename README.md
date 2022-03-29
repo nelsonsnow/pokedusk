@@ -1,4 +1,4 @@
-# Pokémon FireRed and LeafGreen: Tez Version
+# Pokémon FireRed and LeafGreen - Updated
 
 This is a version of Pokémon FireRed and LeafGreen based on the [**FireRed and LeafGreen disassembly**](https://github.com/pret/pokefirered) with added features, aiming to bring the additions and quality of life changes found in the newer games.
 
