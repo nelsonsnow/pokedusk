@@ -12,7 +12,7 @@ This project is intended for use by developers/ROM hackers to create their own g
 - [ ] Items Through Gen 8
 - [ ] Mega Evolutions
 - [X] Decapitalization 
-- [ ] Overworld Trainer Facing
+- [X] Overworld Trainer Facing
 - [X] Reusable TMs
 - [ ] Day/Night Cycle
 - [ ] Seasons
@@ -36,6 +36,7 @@ This project is intended for use by developers/ROM hackers to create their own g
 - TMs are no longer removed from the player's bag when used.
     - The TM count is no longer displayed, as it is obsolete.
     - The option to give Pokémon TMs (to hold) has been removed.
+- The player faces trainers before a trainer battle begins.
 
 ### Installation ###
 For instructions on how to setup, install, and build the project, refer to the original [**INSTALLATION.MD**](https://github.com/pret/pokefirered/blob/master/INSTALL.md).
