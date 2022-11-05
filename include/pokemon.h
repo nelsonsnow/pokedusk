@@ -238,7 +238,7 @@ struct BattleMove
     u8 accuracy;
     u8 pp;
     u8 secondaryEffectChance;
-    u8 target;
+    u16 target;
     s8 priority;
     u8 flags;
     u8 category;    
@@ -252,6 +252,7 @@ extern const struct BattleMove gBattleMoves[];
 #define FLAG_SNATCH_AFFECTED        0x8
 #define FLAG_MIRROR_MOVE_AFFECTED   0x10
 #define FLAG_KINGSROCK_AFFECTED     0x20
+#define FLAG_DEFROST                0x40
 
 struct SpindaSpot
 {

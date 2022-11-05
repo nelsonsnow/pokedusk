@@ -3023,7 +3023,7 @@ void HandleAction_RunBattleScript(void) // identical to RunBattleScriptCommands
 u8 GetMoveTarget(u16 move, u8 setTarget)
 {
     u8 targetBattler = 0;
-    u8 moveTarget;
+    u16 moveTarget;
     u8 side;
 
     if (setTarget)
@@ -3033,6 +3033,7 @@ u8 GetMoveTarget(u16 move, u8 setTarget)
     switch (moveTarget)
     {
     case MOVE_TARGET_SELECTED:
+    case MOVE_TARGET_ME_FIRST:
         side = GetBattlerSide(gBattlerAttacker) ^ BIT_SIDE;
         if (gSideTimers[side].followmeTimer && gBattleMons[gSideTimers[side].followmeTarget].hp)
             targetBattler = gSideTimers[side].followmeTarget;
@@ -3057,11 +3058,12 @@ u8 GetMoveTarget(u16 move, u8 setTarget)
     case MOVE_TARGET_BOTH:
     case MOVE_TARGET_FOES_AND_ALLY:
     case MOVE_TARGET_OPPONENTS_FIELD:
+    case MOVE_TARGET_USERS_FIELD:   
         targetBattler = GetBattlerAtPosition((GetBattlerPosition(gBattlerAttacker) & BIT_SIDE) ^ BIT_SIDE);
         if (gAbsentBattlerFlags & gBitTable[targetBattler])
             targetBattler ^= BIT_FLANK;
         break;
-    case MOVE_TARGET_RANDOM:
+    case MOVE_TARGET_RANDOM:        
         side = GetBattlerSide(gBattlerAttacker) ^ BIT_SIDE;
         if (gSideTimers[side].followmeTimer && gBattleMons[gSideTimers[side].followmeTarget].hp)
             targetBattler = gSideTimers[side].followmeTarget;
@@ -3087,9 +3089,17 @@ u8 GetMoveTarget(u16 move, u8 setTarget)
         else
             targetBattler = GetBattlerAtPosition((GetBattlerPosition(gBattlerAttacker) & BIT_SIDE) ^ BIT_SIDE);
         break;
-    case MOVE_TARGET_USER_OR_SELECTED:
     case MOVE_TARGET_USER:
+    case MOVE_TARGET_USER_OR_SELECTED:
+    case MOVE_TARGET_USER_OR_ALLY:
+    case MOVE_TARGET_USER_AND_ALLIES:
         targetBattler = gBattlerAttacker;
+        break;
+    case MOVE_TARGET_ALLIES:
+        targetBattler = GetBattlerAtPosition(GetBattlerPosition(gBattlerAttacker) ^ BIT_FLANK);
+        break;
+    case MOVE_TARGET_ALL:
+        targetBattler = GetBattlerAtPosition(GetBattlerAtPosition(GetBattlerAtPosition(GetBattlerPosition(gBattlerAttacker) ^ BIT_FLANK) ^ BIT_SIDE) ^ BIT_FLANK);
         break;
     }
     *(gBattleStruct->moveTarget + gBattlerAttacker) = targetBattler;

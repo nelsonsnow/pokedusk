@@ -59,14 +59,20 @@
 #define MSG_DISPLAY             0x7
 #define BATTLE_COMMUNICATION_ENTRIES_COUNT  0x8
 
-#define MOVE_TARGET_SELECTED          0x0
-#define MOVE_TARGET_DEPENDS           0x1
-#define MOVE_TARGET_USER_OR_SELECTED  0x2
-#define MOVE_TARGET_RANDOM            0x4
-#define MOVE_TARGET_BOTH              0x8
-#define MOVE_TARGET_USER              0x10
-#define MOVE_TARGET_FOES_AND_ALLY     0x20
-#define MOVE_TARGET_OPPONENTS_FIELD   0x40
+#define MOVE_TARGET_SELECTED          0x0       // Targets enemy, or selected enemy or ally
+#define MOVE_TARGET_DEPENDS           0x1       // Depends on another factor
+#define MOVE_TARGET_USER_OR_SELECTED  0x2       // Targets self or any other target
+#define MOVE_TARGET_RANDOM            0x4       // Targets random enemy
+#define MOVE_TARGET_BOTH              0x8       // Targets both enemies
+#define MOVE_TARGET_USER              0x10      // Targets self
+#define MOVE_TARGET_FOES_AND_ALLY     0x20      // Targets everyone except self
+#define MOVE_TARGET_OPPONENTS_FIELD   0x40      // Targets enemy field
+#define MOVE_TARGET_USERS_FIELD       0x80      // Target ally field
+#define MOVE_TARGET_ME_FIRST          0x100     // TODO: targets opponent if target has not gone and selected a damaging move, otherwise fails
+#define MOVE_TARGET_USER_OR_ALLY      0x200     // Targets self, or an ally
+#define MOVE_TARGET_USER_AND_ALLIES   0x400     // Targets self. and an ally
+#define MOVE_TARGET_ALLIES            0x800     // Targets allies only
+#define MOVE_TARGET_ALL               0x1000    // Targets everyone
 
 struct TrainerMonNoItemDefaultMoves
 {
@@ -372,7 +378,7 @@ struct BattleStruct
     u8 filler2; // unused
     u8 turnCountersTracker;
     u8 wrappedMove[MAX_BATTLERS_COUNT * 2]; // Leftover from Ruby's ewram access.
-    u8 moveTarget[MAX_BATTLERS_COUNT];
+    u16 moveTarget[MAX_BATTLERS_COUNT];
     u8 expGetterMonId;
     u8 field_11; // unused
     u8 wildVictorySong;

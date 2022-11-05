@@ -112,6 +112,7 @@ RAMSCRGEN := tools/ramscrgen/ramscrgen
 FIX := tools/gbafix/gbafix
 MAPJSON := tools/mapjson/mapjson
 JSONPROC := tools/jsonproc/jsonproc
+SCRIPT := tools/poryscript/poryscript.exe
 
 PERL := perl
 
@@ -161,7 +162,7 @@ MID_OBJS := $(patsubst $(MID_SUBDIR)/%.mid,$(MID_BUILDDIR)/%.o,$(MID_SRCS))
 OBJS := $(C_OBJS) $(C_ASM_OBJS) $(ASM_OBJS) $(DATA_ASM_OBJS) $(SONG_OBJS) $(MID_OBJS)
 OBJS_REL := $(patsubst $(OBJ_DIR)/%,%,$(OBJS))
 
-TOOLDIRS := $(filter-out tools/agbcc tools/binutils tools/analyze_source,$(wildcard tools/*))
+TOOLDIRS := $(filter-out tools/agbcc tools/binutils tools/poryscript,$(wildcard tools/*))
 TOOLBASE = $(TOOLDIRS:tools/%=%)
 TOOLS = $(foreach tool,$(TOOLBASE),tools/$(tool)/$(tool)$(EXE))
 
@@ -221,6 +222,7 @@ include songs.mk
 %.png: ;
 %.pal: ;
 %.aif: ;
+%.pory: ;
 
 %.1bpp: %.png  ; $(GFX) $< $@
 %.4bpp: %.png  ; $(GFX) $< $@
@@ -233,6 +235,7 @@ sound/direct_sound_samples/cry_%.bin: sound/direct_sound_samples/cry_%.aif ; $(A
 sound/%.bin: sound/%.aif ; $(AIF) $< $@
 sound/songs/%.s: sound/songs/%.mid
 	$(MID) $< $@
+data/maps/%/.inc: data/maps/%/scripts.pory; $(SCRIPT) -i $< -o $@ -fw tools/poryscript/font_widths.json
 
 ifeq ($(MODERN),0)
 $(C_BUILDDIR)/agb_flash.o: CFLAGS := -O -mthumb-interwork

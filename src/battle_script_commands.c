@@ -3966,6 +3966,7 @@ static void atk49_moveend(void)
     u16 *choicedMoveAtk = NULL;
     u8 arg1, arg2;
     u16 originallyUsedMove;
+    u16 moveFlags;
 
     if (gChosenMove == 0xFFFF)
         originallyUsedMove = MOVE_NONE;
@@ -3979,6 +3980,7 @@ static void atk49_moveend(void)
         holdEffectAtk = ItemId_GetHoldEffect(gBattleMons[gBattlerAttacker].item);
     choicedMoveAtk = &gBattleStruct->choicedMove[gBattlerAttacker];
     GET_MOVE_TYPE(gCurrentMove, moveType);
+    moveFlags = gBattleMoves[gCurrentMove].flags;    
     do
     {
         switch (gBattleScripting.atk49_state)
@@ -4006,7 +4008,7 @@ static void atk49_moveend(void)
              && gBattlerAttacker != gBattlerTarget
              && gSpecialStatuses[gBattlerTarget].specialDmg
              && !(gMoveResultFlags & MOVE_RESULT_NO_EFFECT)
-             && moveType == TYPE_FIRE)
+             && (moveType == TYPE_FIRE || moveFlags & FLAG_DEFROST))
             {
                 gBattleMons[gBattlerTarget].status1 &= ~(STATUS1_FREEZE);
                 gActiveBattler = gBattlerTarget;
