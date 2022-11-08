@@ -1,19 +1,19 @@
-Route19_Text_RichardIntro:: @ 81877A3
+Route19_Text_RichardIntro::
     .string "I have to exercise and warm up\n"
     .string "before going out for a swim.$"
 
-Route19_Text_RichardDefeat:: @ 81877DF
+Route19_Text_RichardDefeat::
     .string "All warmed up!$"
 
-Route19_Text_RichardPostBattle:: @ 81877EE
+Route19_Text_RichardPostBattle::
     .string "Thanks, kid!\n"
     .string "I'm ready for a swim.$"
 
-Route19_Text_ReeceIntro:: @ 8187811
+Route19_Text_ReeceIntro::
     .string "Wait! Slow down!\n"
     .string "You'll have a heart attack!$"
 
-Route19_Text_ReeceDefeat:: @ 818783E
+Route19_Text_ReeceDefeat::
     .string "Ooh!\n"
     .string "That's chilly!$"
 
@@ -21,24 +21,24 @@ Route19_Text_ReecePostBattle:: @ 8187852
     .string "Watch out for Tentacool.\n"
     .string "They sting so painfully.$"
 
-Route19_Text_MatthewIntro:: @ 8187884
+Route19_Text_MatthewIntro::
     .string "I love swimming!\n"
     .string "What about you?$"
 
-Route19_Text_MatthewDefeat:: @ 81878A5
+Route19_Text_MatthewDefeat::
     .string "Belly flop!$"
 
 Route19_Text_MatthewPostBattle:: @ 81878B1
     .string "I can beat even marine Pokémon\n"
     .string "at swimming.$"
 
-Route19_Text_DouglasIntro:: @ 81878DD
+Route19_Text_DouglasIntro::
     .string "What's beyond the horizon?$"
 
-Route19_Text_DouglasDefeat:: @ 81878F8
+Route19_Text_DouglasDefeat::
     .string "Glub!$"
 
-Route19_Text_DouglasPostBattle:: @ 81878FE
+Route19_Text_DouglasPostBattle::
     .string "I see a couple of islands over\n"
     .string "yonder!$"
 
@@ -46,65 +46,65 @@ Route19_Text_DavidIntro:: @ 8187925
     .string "I tried diving for Pokémon, but it\n"
     .string "was a no-go.$"
 
-Route19_Text_DavidDefeat:: @ 8187955
+Route19_Text_DavidDefeat::
     .string "Help!$"
 
-Route19_Text_DavidPostBattle:: @ 818795B
+Route19_Text_DavidPostBattle::
     .string "I guess you have to fish for sea\n"
     .string "Pokémon.$"
 
-Route19_Text_TonyIntro:: @ 8187985
+Route19_Text_TonyIntro::
     .string "I look at the sea to forget all\n"
     .string "the bad things that happened.$"
 
-Route19_Text_TonyDefeat:: @ 81879C3
+Route19_Text_TonyDefeat::
     .string "Ooh!\n"
     .string "Traumatic!$"
 
-Route19_Text_TonyPostBattle:: @ 81879D3
+Route19_Text_TonyPostBattle::
     .string "I'm looking at the sea to forget\n"
     .string "the bad thing that happened!$"
 
-Route19_Text_AnyaIntro:: @ 8187A11
+Route19_Text_AnyaIntro::
     .string "Oh, I just love your ride!\n"
     .string "Can I have it if I win?$"
 
-Route19_Text_AnyaDefeat:: @ 8187A44
+Route19_Text_AnyaDefeat::
     .string "Oh! I lost!$"
 
-Route19_Text_AnyaPostBattle:: @ 8187A50
+Route19_Text_AnyaPostBattle::
     .string "It's still a long way to go to\n"
     .string "Seafoam Islands…\p"
     .string "I want to go back to Fuchsia…$"
 
-Route19_Text_AliceIntro:: @ 8187A9E
+Route19_Text_AliceIntro::
     .string "Swimming's great!\n"
     .string "Sunburns aren't!$"
 
-Route19_Text_AliceDefeat:: @ 8187AC1
+Route19_Text_AliceDefeat::
     .string "Shocker!$"
 
-Route19_Text_AlicePostBattle:: @ 8187ACA
+Route19_Text_AlicePostBattle::
     .string "My boyfriend wanted to swim to\n"
     .string "Seafoam Islands.$"
 
-Route19_Text_AxleIntro:: @ 8187AFA
+Route19_Text_AxleIntro::
     .string "Ahoy, there!\n"
     .string "These waters are treacherous!$"
 
-Route19_Text_AxleDefeat:: @ 8187B25
+Route19_Text_AxleDefeat::
     .string "Ooh!\n"
     .string "Dangerous!$"
 
-Route19_Text_AxlePostBattle:: @ 8187B35
+Route19_Text_AxlePostBattle::
     .string "M-my legs! They cramped up!\n"
     .string "Glub, glub…$"
 
-Route19_Text_ConnieIntro:: @ 8187B5D
+Route19_Text_ConnieIntro::
     .string "I swam here with my friends…\n"
     .string "I'm tired…$"
 
-Route19_Text_ConnieDefeat:: @ 8187B85
+Route19_Text_ConnieDefeat::
     .string "I'm exhausted…$"
 
 Route19_Text_ConniePostBattle:: @ 8187B94

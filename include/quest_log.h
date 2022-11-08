@@ -30,7 +30,6 @@ struct UnkStruct_203B044
 
 extern u8 gQuestLogState;
 extern u8 gQuestLogPlaybackState;
-extern const u8 gUnknown_84566A8[];
 extern struct FieldInput gQuestLogFieldInput;
 extern struct UnkStruct_203B044 gUnknown_203B044;
 extern u16 *gUnknown_203AE04;
@@ -85,7 +84,7 @@ void sub_81113E4(void);
 void sub_8111438(void);
 void StartRecordingQuestLogEntry(u16 eventId);
 bool8 WillCommandOfSizeFitInSav1Record(u16 *cursor, size_t size);
-bool8 sub_8110944(const void * a0, size_t cmdSize);
+bool8 sub_8110944(const void *a0, size_t cmdSize);
 
 void sub_8113BD8(void);
 void ResetUnk203B044(void);

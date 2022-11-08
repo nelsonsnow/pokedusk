@@ -1,10 +1,10 @@
-Text_MonSentToBoxInSomeonesPC:: @ 81A5CF1
+Text_MonSentToBoxInSomeonesPC::
     .string "{STR_VAR_2} was transferred to\n"
     .string "Someone's PC.\p"
     .string "It was placed in \n"
     .string "Box “{STR_VAR_1}.”$"
 
-Text_MonSentToBoxInBillsPC:: @ 81A5D31
+Text_MonSentToBoxInBillsPC::
     .string "{STR_VAR_2} was transferred to\n"
     .string "Bill's PC.\p"
     .string "It was placed in \n"
@@ -22,13 +22,13 @@ Text_MonSentToBoxBillsBoxFull:: @ 81A5DB1
     .string "{STR_VAR_2} was transferred to\n"
     .string "Box “{STR_VAR_1}.”$"
 
-Text_PlayerObtainedTheMon:: @ 81A5DF1
+Text_PlayerObtainedTheMon::
     .string "{PLAYER} obtained\n"
     .string "the {STR_VAR_1}!$"
 
 @ Unused. Translated below
 @ You cannot carry any more Pokemon, so {STR_VAR_2} was sent to PC Box {STR_VAR_1}!
-Text_MonSentToBoxInPC:: @ 81A5E05
+Text_MonSentToBoxInPC::
     .string "ポケモンを　もちきれないので\n"
     .string "パソコンの　ボックス“{STR_VAR_1}”　に\l"
     .string "{STR_VAR_2}を　てんそうした！$"

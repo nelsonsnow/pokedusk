@@ -1,55 +1,55 @@
-ThreeIsland_BondBridge_Text_NikkiIntro:: @ 8189E42
+ThreeIsland_BondBridge_Text_NikkiIntro::
     .string "The salty tang of the sea…\n"
     .string "It tickles my heart.$"
 
-ThreeIsland_BondBridge_Text_NikkiDefeat:: @ 8189E72
+ThreeIsland_BondBridge_Text_NikkiDefeat::
     .string "…Sniff, sniff…\n"
     .string "Something smells unpleasant…$"
 
-ThreeIsland_BondBridge_Text_NikkiPostBattle:: @ 8189E9E
+ThreeIsland_BondBridge_Text_NikkiPostBattle::
     .string "Perhaps that reek is your sweaty\n"
     .string "Pokémon's body odor…$"
 
-ThreeIsland_BondBridge_Text_VioletIntro:: @ 8189ED4
+ThreeIsland_BondBridge_Text_VioletIntro::
     .string "Where are you off to in such\n"
     .string "a hurry?$"
 
-ThreeIsland_BondBridge_Text_VioletDefeat:: @ 8189EFA
+ThreeIsland_BondBridge_Text_VioletDefeat::
     .string "You're raising some wonderful\n"
     .string "Pokémon.$"
 
-ThreeIsland_BondBridge_Text_VioletPostBattle:: @ 8189F21
+ThreeIsland_BondBridge_Text_VioletPostBattle::
     .string "If you keep going this way, you'll\n"
     .string "eventually reach Berry Forest.$"
 
-ThreeIsland_BondBridge_Text_AmiraIntro:: @ 8189F63
+ThreeIsland_BondBridge_Text_AmiraIntro::
     .string "My mommy said that I can't swim\n"
     .string "without my float ring.$"
 
-ThreeIsland_BondBridge_Text_AmiraDefeat:: @ 8189F9A
+ThreeIsland_BondBridge_Text_AmiraDefeat::
     .string "Waaah!\n"
     .string "Waaah!$"
 
-ThreeIsland_BondBridge_Text_AmiraPostBattle:: @ 8189FA8
+ThreeIsland_BondBridge_Text_AmiraPostBattle::
     .string "This year, I'm going to finally\n"
     .string "learn how to swim!$"
 
-ThreeIsland_BondBridge_Text_AlexisIntro:: @ 8189FDB
+ThreeIsland_BondBridge_Text_AlexisIntro::
     .string "Yay, yay!\n"
     .string "Pokémon!$"
 
-ThreeIsland_BondBridge_Text_AlexisDefeat:: @ 8189FEE
+ThreeIsland_BondBridge_Text_AlexisDefeat::
     .string "What happens now?$"
 
-ThreeIsland_BondBridge_Text_AlexisPostBattle:: @ 818A000
+ThreeIsland_BondBridge_Text_AlexisPostBattle::
     .string "Did I just win?\n"
     .string "Or did I lose?$"
 
-ThreeIsland_BondBridge_Text_TishaIntro:: @ 818A01F
+ThreeIsland_BondBridge_Text_TishaIntro::
     .string "Oh, no, don't come here!\n"
     .string "Please, stay away from me!$"
 
-ThreeIsland_BondBridge_Text_TishaDefeat:: @ 818A053
+ThreeIsland_BondBridge_Text_TishaDefeat::
     .string "Okay, you've won!\n"
     .string "Now will you please go away?$"
 

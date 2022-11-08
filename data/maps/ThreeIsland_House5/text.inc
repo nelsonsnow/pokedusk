@@ -1,4 +1,4 @@
-ThreeIsland_House5_Text_ImNotLostelle:: @ 81A3469
+ThreeIsland_House5_Text_ImNotLostelle::
     .string "Me?\n"
     .string "I'm not Lostelle.\p"
     .string "She's probably gone to the\n"

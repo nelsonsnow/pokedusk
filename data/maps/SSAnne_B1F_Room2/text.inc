@@ -1,7 +1,7 @@
 SSAnne_B1F_Room2_Text_HueyIntro:: @ 8174239
     .string "Even us sailors have Pokémon, too!$"
 
-SSAnne_B1F_Room2_Text_HueyDefeat:: @ 817425C
+SSAnne_B1F_Room2_Text_HueyDefeat::
     .string "Okay, you're not bad.$"
 
 SSAnne_B1F_Room2_Text_HueyPostBattle:: @ 8174272

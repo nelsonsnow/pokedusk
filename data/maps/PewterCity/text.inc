@@ -1,4 +1,4 @@
-Text_DreamEaterTeach:: @ 817E316
+Text_DreamEaterTeach::
     .string "Yawn!\n"
     .string "I must have dozed off in the sun.\p"
     .string "I had this weird dream about\n"
@@ -9,14 +9,14 @@ Text_DreamEaterTeach:: @ 817E316
     .string "Let me teach it to a Pokémon so\n"
     .string "I can forget about it!$"
 
-Text_DreamEaterDeclined:: @ 817E3E9
+Text_DreamEaterDeclined::
     .string "…Snore…$"
 
 Text_DreamEaterWhichMon:: @ 817E3F1
     .string "Which Pokémon wants to learn\n"
     .string "Dream Eater?$"
 
-Text_DreamEaterTaught:: @ 817E41B
+Text_DreamEaterTaught::
     .string "…ZZZ…\n"
     .string "I…can't eat…anymore…$"
 
@@ -41,7 +41,7 @@ PewterCity_Text_WerentThoseFossilsAmazing:: @ 817E55C
     .string "Weren't those fossils from Mt. Moon\n"
     .string "amazing?$"
 
-PewterCity_Text_ReallyYouHaveToGo:: @ 817E589
+PewterCity_Text_ReallyYouHaveToGo::
     .string "Really?\n"
     .string "You absolutely have to go!$"
 
@@ -50,11 +50,11 @@ PewterCity_Text_ThisIsTheMuseum:: @ 817E5AC
     .string "You have to pay to get in, but it's\n"
     .string "worth it. See you around!$"
 
-PewterCity_Text_DoYouKnowWhatImDoing:: @ 817E602
+PewterCity_Text_DoYouKnowWhatImDoing::
     .string "Psssst!\n"
     .string "Do you know what I'm doing?$"
 
-PewterCity_Text_ThatsRightItsHardWork:: @ 817E626
+PewterCity_Text_ThatsRightItsHardWork::
     .string "That's right!\n"
     .string "It's hard work!$"
 
@@ -67,7 +67,7 @@ PewterCity_Text_BrocksLookingForChallengersFollowMe:: @ 817E67E
     .string "Brock's looking for new\n"
     .string "challengers. Follow me!$"
 
-PewterCity_Text_GoTakeOnBrock:: @ 817E6C7
+PewterCity_Text_GoTakeOnBrock::
     .string "If you have the right stuff,\n"
     .string "go take on Brock!$"
 
@@ -96,20 +96,20 @@ PewterCity_Text_CitySign:: @ 817E824
     .string "A Stone Gray City$"
 
 @ The below 3 JP texts are unused. Possibly a cut NPC meant to give the player the Berry Pouch
-PewterCity_Text_DefeatedBrockYouCanHaveTreasure:: @ 817E842
+PewterCity_Text_DefeatedBrockYouCanHaveTreasure::
     .string "あッれー！\n"
     .string "その　ジムバッジ‥‥\l"
     .string "すげえな　タケシに　かったのかよ！\p"
     .string "かんどう　したから\n"
     .string "おれの　たからもの　やるよ！$"
 
-PewterCity_Text_BerriesInsideUseCarefully:: @ 817E87E
+PewterCity_Text_BerriesInsideUseCarefully::
     .string "なかには　きのみが　はいってるぜ\p"
     .string "やくに　たつ　きのみも\n"
     .string "はいって　いるから\l"
     .string "だいじに　つかって　くれよ！$"
 
-PewterCity_Text_MonsWillUseHeldBerriesOnTheirOwn:: @ 817E8B4
+PewterCity_Text_MonsWillUseHeldBerriesOnTheirOwn::
     .string "ポケモンに　きのみを\n"
     .string "もたせて　おけば\l"
     .string "たたかっている　ときに\l"
@@ -117,33 +117,33 @@ PewterCity_Text_MonsWillUseHeldBerriesOnTheirOwn:: @ 817E8B4
     .string "キズぐすり　とか　どくけし　より\n"
     .string "てがるで　べんり　だろ？$"
 
-PewterCity_Text_OhPlayer:: @ 817E902
+PewterCity_Text_OhPlayer::
     .string "Oh, {PLAYER}{KUN}!$"
 
-PewterCity_Text_AskedToDeliverThis:: @ 817E90C
+PewterCity_Text_AskedToDeliverThis::
     .string "I'm glad I caught up to you.\n"
     .string "I'm Prof. Oak's Aide.\p"
     .string "I've been asked to deliver this,\n"
     .string "so here you go.$"
 
-PewterCity_Text_ReceivedRunningShoesFromAide:: @ 817E970
+PewterCity_Text_ReceivedRunningShoesFromAide::
     .string "{PLAYER} received the\n"
     .string "Running Shoes from the Aide.$"
 
-PewterCity_Text_SwitchedShoesWithRunningShoes:: @ 817E99D
+PewterCity_Text_SwitchedShoesWithRunningShoes::
     .string "{PLAYER} switched shoes with the\n"
     .string "Running Shoes.$"
 
-PewterCity_Text_ExplainRunningShoes:: @ 817E9C7
+PewterCity_Text_ExplainRunningShoes::
     .string "Press the B Button to run.\n"
     .string "But only where there's room to run!$"
 
-PewterCity_Text_MustBeGoingBackToLab:: @ 817EA06
+PewterCity_Text_MustBeGoingBackToLab::
     .string "Well, I must be going back to\n"
     .string "the Lab.\p"
     .string "Bye-bye!$"
 
-PewterCity_Text_RunningShoesLetterFromMom:: @ 817EA36
+PewterCity_Text_RunningShoesLetterFromMom::
     .string "There's a letter attached…\p"
     .string "Dear {PLAYER},\p"
     .string "Here is a pair of Running Shoes\n"

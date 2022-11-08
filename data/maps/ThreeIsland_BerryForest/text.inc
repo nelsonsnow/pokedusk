@@ -8,20 +8,20 @@ ThreeIsland_BerryForest_Text_HelpScaryPokemon:: @ 817ADD6
     .string "I'm too scared to move!\n"
     .string "But I want to go home…$"
 
-ThreeIsland_BerryForest_Text_HereItComesAgain:: @ 817AE8E
+ThreeIsland_BerryForest_Text_HereItComesAgain::
     .string "Oh! Here it comes again!\n"
     .string "No! Go away! It's scaring me!\p"
     .string "Waaaaaaah!\n"
     .string "I want my daddy!$"
 
-ThreeIsland_BerryForest_Text_ThankYouHaveThis:: @ 817AEE1
+ThreeIsland_BerryForest_Text_ThankYouHaveThis::
     .string "Ohh! That was so scary!\n"
     .string "Thank you!\p"
     .string "Lostelle came to pick some\n"
     .string "Berries.\p"
     .string "You can have this!$"
 
-ThreeIsland_BerryForest_Text_LetsGoHome:: @ 817AF3B
+ThreeIsland_BerryForest_Text_LetsGoHome::
     .string "What's your name?\p"
     .string "Lostelle's scared, so can I go\n"
     .string "with you to my daddy's house?\p"

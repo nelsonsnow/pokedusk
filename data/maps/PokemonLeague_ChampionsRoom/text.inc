@@ -1,4 +1,4 @@
-PokemonLeague_ChampionsRoom_Text_Intro:: @ 8178B6C
+PokemonLeague_ChampionsRoom_Text_Intro::
     .string "{RIVAL}: Hey, {PLAYER}!\p"
     .string "I was looking forward to seeing\n"
     .string "you, {PLAYER}.\p"
@@ -16,7 +16,7 @@ PokemonLeague_ChampionsRoom_Text_Intro:: @ 8178B6C
     .string "I am the most powerful Trainer in\n"
     .string "the world!$"
 
-PokemonLeague_ChampionsRoom_Text_RematchIntro:: @ 8178CD4
+PokemonLeague_ChampionsRoom_Text_RematchIntro::
     .string "{RIVAL}: Hey, {PLAYER}!\p"
     .string "You came back, {PLAYER}!\n"
     .string "Hahah, that is so great!\p"
@@ -43,7 +43,7 @@ PokemonLeague_ChampionsRoom_Text_Defeat:: @ 8178E3F
     .string "My reign is over already?\n"
     .string "It's not fair!$"
 
-PokemonLeague_ChampionsRoom_Text_Victory:: @ 8178EC3
+PokemonLeague_ChampionsRoom_Text_Victory::
     .string "はーはッ！\n"
     .string "かった！　かった！　かった！\p"
     .string "{PLAYER}に　まける　ような\n"
@@ -54,7 +54,7 @@ PokemonLeague_ChampionsRoom_Text_Victory:: @ 8178EC3
     .string "ほめて　つかわす！\n"
     .string "はーッ！　はーはッはッ！$"
 
-PokemonLeague_ChampionsRoom_Text_PostBattle:: @ 8178F2F
+PokemonLeague_ChampionsRoom_Text_PostBattle::
     .string "Why?\n"
     .string "Why did I lose?\p"
     .string "I never made any mistakes raising\n"

@@ -1,4 +1,4 @@
-Route16_NorthEntrance_1F_Text_NoPedestriansOnCyclingRoad:: @ 819F95F
+Route16_NorthEntrance_1F_Text_NoPedestriansOnCyclingRoad::
     .string "No pedestrians are allowed on\n"
     .string "Cycling Road!$"
 
@@ -6,11 +6,11 @@ Route16_NorthEntrance_1F_Text_CyclingRoadIsDownhillCourse:: @ 819F98B
     .string "Cycling Road is a downhill course\n"
     .string "by the sea. It's a great ride.$"
 
-Route16_NorthEntrance_1F_Text_ExcuseMeWaitUp:: @ 819F9CC
+Route16_NorthEntrance_1F_Text_ExcuseMeWaitUp::
     .string "Excuse me!\n"
     .string "Wait up, please!$"
 
-Route16_NorthEntrance_1F_Text_HowdYouGetInGoodEffort:: @ 819F9E8
+Route16_NorthEntrance_1F_Text_HowdYouGetInGoodEffort::
     .string "How'd you get in?\n"
     .string "Good effort!$"
 

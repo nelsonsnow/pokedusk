@@ -15,7 +15,7 @@ PalletTown_Text_RaisingMonsToo:: @ 817D7C8
     .string "When they get strong, they can\n"
     .string "protect me.$"
 
-PalletTown_Text_CanStoreItemsAndMonsInPC:: @ 817D80D
+PalletTown_Text_CanStoreItemsAndMonsInPC::
     .string "Technology is incredible!\p"
     .string "You can now store and recall items\n"
     .string "and Pokémon as data via PC.$"
@@ -23,10 +23,10 @@ PalletTown_Text_CanStoreItemsAndMonsInPC:: @ 817D80D
 PalletTown_Text_OakPokemonResearchLab:: @ 817D866
     .string "Oak Pokémon Research Lab$"
 
-PalletTown_Text_PlayersHouse:: @ 817D87F
+PalletTown_Text_PlayersHouse::
     .string "{PLAYER}'s house$"
 
-PalletTown_Text_RivalsHouse:: @ 817D88A
+PalletTown_Text_RivalsHouse::
     .string "{RIVAL}'s house$"
 
 PalletTown_Text_TownSign:: @ 817D895
@@ -41,14 +41,14 @@ PalletTown_Text_OakLetMeSeePokedex:: @ 817D8BF
     .string "May I see it?\p"
     .string "Let's see…$"
 
-PalletTown_Text_CaughtXPuttingInHonestEffort:: @ 817D925
+PalletTown_Text_CaughtXPuttingInHonestEffort::
     .string "You've caught {STR_VAR_2}…\p"
     .string "Hm, it looks as if you're putting\n"
     .string "in an honest effort.\p"
     .string "When you manage to fill it some\n"
     .string "more, come show me, please.$"
 
-PalletTown_Text_CaughtXImpressiveFollowMe:: @ 817D9AA
+PalletTown_Text_CaughtXImpressiveFollowMe::
     .string "You've caught… {STR_VAR_2}!?\n"
     .string "Now, this is impressive!\p"
     .string "There's something I wanted to ask\n"

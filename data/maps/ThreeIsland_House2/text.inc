@@ -1,4 +1,4 @@
-ThreeIsland_House2_Text_CantMakeThisSpoonBend:: @ 81A3245
+ThreeIsland_House2_Text_CantMakeThisSpoonBend::
     .string "Urrrrrrrrgggghhhh…\n"
     .string "Kwaaaaah!\p"
     .string "…It's useless! I can't make this\n"

@@ -1,4 +1,4 @@
-PewterCity_Museum_1F_Text_TeamRocketMtMoonImOnPhone:: @ 81916A9
+PewterCity_PokemonCenter_1F_Text_TeamRocketMtMoonImOnPhone::
     .string "What!?\p"
     .string "Team Rocket is at Mt. Moon?\n"
     .string "Huh?\p"
@@ -8,7 +8,7 @@ PewterCity_Museum_1F_Text_TeamRocketMtMoonImOnPhone:: @ 81916A9
 PewterCity_Museum_1F_Text_Jigglypuff:: @ 81916EA
     .string "Jigglypuff: Puu pupuu!$"
 
-PewterCity_Museum_1F_Text_WhenJiggylypuffSingsMonsGetDrowsy:: @ 8191701
+PewterCity_PokemonCenter_1F_Text_WhenJiggylypuffSingsMonsGetDrowsy::
     .string "Yawn!\p"
     .string "When Jigglypuff sings, Pokémon get\n"
     .string "drowsy…\p"

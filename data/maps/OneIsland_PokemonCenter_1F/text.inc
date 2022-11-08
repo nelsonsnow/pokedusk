@@ -46,7 +46,7 @@ OneIsland_PokemonCenter_1F_Text_BillLetMeHelpYou:: @ 81A0F40
     .string "I think we can make it work.\l"
     .string "Let me help you, okay?$"
 
-OneIsland_PokemonCenter_1F_Text_CanYouDeliverThisMeteoritePlayer:: @ 81A0FB1
+OneIsland_PokemonCenter_1F_Text_CanYouDeliverThisMeteoritePlayer::
     .string "{PLAYER}, can I get you to wait for\n"
     .string "me just a bit?\p"
     .string "…Actually, can I get you to do\n"
@@ -77,11 +77,11 @@ OneIsland_PokemonCenter_1F_Text_PassLetsYouTravelBetweenIslands:: @ 81A1150
     .string "Islands One, Two, and Three.\p"
     .string "Oh, you should have this, too.$"
 
-OneIsland_PokemonCenter_1F_Text_ReceivedExtraPageForTownMap:: @ 81A11EC
+OneIsland_PokemonCenter_1F_Text_ReceivedExtraPageForTownMap::
     .string "{PLAYER} received an extra page\n"
     .string "for the Town Map!$"
 
-OneIsland_PokemonCenter_1F_Text_ReceivedTownMap:: @ 81A1218
+OneIsland_PokemonCenter_1F_Text_ReceivedTownMap::
     .string "{PLAYER} received\n"
     .string "a Town Map!$"
 
@@ -89,11 +89,11 @@ OneIsland_PokemonCenter_1F_Text_BillCatchYouLater:: @ 81A1230
     .string "Bill: I'll catch you later!\n"
     .string "Say hi to the guy for me!$"
 
-OneIsland_PokemonCenter_1F_Text_HmmHowAboutLikeThis:: @ 81A1266
+OneIsland_PokemonCenter_1F_Text_HmmHowAboutLikeThis::
     .string "Hmm…\p"
     .string "How about we try this like this…$"
 
-OneIsland_PokemonCenter_1F_Text_GotPCWorkingStrollAWhileMore:: @ 81A128C
+OneIsland_PokemonCenter_1F_Text_GotPCWorkingStrollAWhileMore::
     .string "Oh, hey, {PLAYER}!\p"
     .string "Did you see?\n"
     .string "We got the PC working!\p"
@@ -102,13 +102,13 @@ OneIsland_PokemonCenter_1F_Text_GotPCWorkingStrollAWhileMore:: @ 81A128C
     .string "Can you go out on a stroll or\n"
     .string "something for a while more?$"
 
-OneIsland_PokemonCenter_1F_Text_SorryForBeingPoorHost:: @ 81A1321
+OneIsland_PokemonCenter_1F_Text_SorryForBeingPoorHost::
     .string "I'm sorry for taking up so much of\n"
     .string "Bill's time.\p"
     .string "I'm also sorry for being such a \n"
     .string "poor host on your visit here.$"
 
-OneIsland_PokemonCenter_1F_Text_UsualPCServicesUnavailable:: @ 81A1390
+OneIsland_PokemonCenter_1F_Text_UsualPCServicesUnavailable::
     .string "The usual PC services aren't\n"
     .string "available…$"
 
@@ -167,7 +167,7 @@ OneIsland_PokemonCenter_1F_Text_CelioCaughtMoreMonMaybeICanBeUseful:: @ 81A169B
     .string "Do you know what?\n"
     .string "Maybe I can be useful to you.$"
 
-OneIsland_PokemonCenter_1F_Text_YoullBeTradingFromTrainersFarAway:: @ 81A1723
+OneIsland_PokemonCenter_1F_Text_YoullBeTradingFromTrainersFarAway::
     .string "I'm modifying the Network Machine\n"
     .string "right now.\p"
     .string "I'm changing it so it can handle\n"
@@ -176,7 +176,7 @@ OneIsland_PokemonCenter_1F_Text_YoullBeTradingFromTrainersFarAway:: @ 81A1723
     .string "trading for exotic Pokémon from\l"
     .string "Trainers far away.$"
 
-OneIsland_PokemonCenter_1F_Text_NeedsSpecialGemstone:: @ 81A17DF
+OneIsland_PokemonCenter_1F_Text_NeedsSpecialGemstone::
     .string "But, there is a slight catch.\p"
     .string "For the link to work, the Machine\n"
     .string "needs a special gemstone.\p"
@@ -184,7 +184,7 @@ OneIsland_PokemonCenter_1F_Text_NeedsSpecialGemstone:: @ 81A17DF
     .string "but I haven't found one yet.\p"
     .string "Who knows where it could be.$"
 
-OneIsland_PokemonCenter_1F_Text_TryingToFindGem:: @ 81A1896
+OneIsland_PokemonCenter_1F_Text_TryingToFindGem::
     .string "I was trying to find the gem\n"
     .string "even while I was studying.\p"
     .string "As a result, I've made no headway\n"
@@ -194,7 +194,7 @@ OneIsland_PokemonCenter_1F_Text_TryingToFindGem:: @ 81A1896
     .string "But this time, I want to try to do\n"
     .string "things by myself.$"
 
-OneIsland_PokemonCenter_1F_Text_OhThats:: @ 81A197E
+OneIsland_PokemonCenter_1F_Text_OhThats::
     .string "Oh!\n"
     .string "Th-that's…$"
 
@@ -202,18 +202,18 @@ OneIsland_PokemonCenter_1F_Text_HandedRubyToCelio:: @ 81A198D
     .string "{PLAYER} handed the Ruby\n"
     .string "to Celio.$"
 
-OneIsland_PokemonCenter_1F_Text_MayIAskOneMoreFavor:: @ 81A19AA
+OneIsland_PokemonCenter_1F_Text_MayIAskOneMoreFavor::
     .string "Thank you!\n"
     .string "{PLAYER}, you're simply amazing.\p"
     .string "… … …  … … …\p"
     .string "Um… May I ask one more giant favor\n"
     .string "of you?$"
 
-OneIsland_PokemonCenter_1F_Text_PleaseINeedYourHelp:: @ 81A1A08
+OneIsland_PokemonCenter_1F_Text_PleaseINeedYourHelp::
     .string "It… It's not anything weird.\n"
     .string "Please, I need your help.$"
 
-OneIsland_PokemonCenter_1F_Text_AnotherGemstoneInSeviiIslands:: @ 81A1A3F
+OneIsland_PokemonCenter_1F_Text_AnotherGemstoneInSeviiIslands::
     .string "While I was studying gemstones,\n"
     .string "I discovered something important.\p"
     .string "There is another gem that forms\n"
@@ -229,7 +229,7 @@ OneIsland_PokemonCenter_1F_Text_ReturnedTriPassForRainbowPass:: @ 81A1B56
     .string "{PLAYER} returned the Tri-Pass and\n"
     .string "received the Rainbow Pass.$"
 
-OneIsland_PokemonCenter_1F_Text_ObtainedExtraMapPage:: @ 81A1B8E
+OneIsland_PokemonCenter_1F_Text_ObtainedExtraMapPage::
     .string "Obtained an extra page for the\n"
     .string "Town Map!$"
 
@@ -255,14 +255,14 @@ OneIsland_PokemonCenter_1F_Text_ThankYouGiveMeTime:: @ 81A1C4E
     .string "Now it's my turn to work for you!\n"
     .string "Please give me a little time.$"
 
-OneIsland_PokemonCenter_1F_Text_OkayThisIsGood:: @ 81A1D45
+OneIsland_PokemonCenter_1F_Text_OkayThisIsGood::
     .string "Okay, this is good…$"
 
-OneIsland_PokemonCenter_1F_Text_LinkedUpWithLanette:: @ 81A1D59
+OneIsland_PokemonCenter_1F_Text_LinkedUpWithLanette::
     .string "I did it!\n"
     .string "I linked up with Lanette!$"
 
-OneIsland_PokemonCenter_1F_Text_ManagedToLinkWithHoennThankYou:: @ 81A1D7D
+OneIsland_PokemonCenter_1F_Text_ManagedToLinkWithHoennThankYou::
     .string "{PLAYER}…\n"
     .string "{PLAYER}, I did it!\p"
     .string "I've managed to link up with\n"
@@ -273,7 +273,7 @@ OneIsland_PokemonCenter_1F_Text_ManagedToLinkWithHoennThankYou:: @ 81A1D7D
     .string "Thanks to you, my dream came\n"
     .string "true…$"
 
-OneIsland_PokemonCenter_1F_Text_WishYouBestOfLuck:: @ 81A1E39
+OneIsland_PokemonCenter_1F_Text_WishYouBestOfLuck::
     .string "I…\n"
     .string "I'm not crying.\p"
     .string "That's enough about me!\p"
@@ -286,7 +286,7 @@ OneIsland_PokemonCenter_1F_Text_CelioHearingRumorsAboutYou:: @ 81A1EBD
     .string "{PLAYER}, I've been hearing rumors\n"
     .string "about you.$"
 
-OneIsland_PokemonCenter_1F_Text_BillsFirstMonWasAbra:: @ 81A1EF3
+OneIsland_PokemonCenter_1F_Text_BillsFirstMonWasAbra::
     .string "{PLAYER}, what's your favorite kind\n"
     .string "of Pokémon?\p"
     .string "Bill is a Pokémaniac, so he loves\n"
@@ -294,7 +294,7 @@ OneIsland_PokemonCenter_1F_Text_BillsFirstMonWasAbra:: @ 81A1EF3
     .string "Apparently, the first one he caught\n"
     .string "was an Abra.$"
 
-OneIsland_PokemonCenter_1F_Text_BillsHometownInGoldenrod:: @ 81A1F7C
+OneIsland_PokemonCenter_1F_Text_BillsHometownInGoldenrod::
     .string "By the way, {PLAYER}, you're from\n"
     .string "Pallet Town, aren't you?\p"
     .string "I've heard that it's a quiet and\n"
@@ -305,19 +305,19 @@ OneIsland_PokemonCenter_1F_Text_BillsHometownInGoldenrod:: @ 81A1F7C
     .string "festive, bustling city.\p"
     .string "I'd like to go there one day.$"
 
-OneIsland_PokemonCenter_1F_Text_BillCantStomachMilk:: @ 81A2076
+OneIsland_PokemonCenter_1F_Text_BillCantStomachMilk::
     .string "{PLAYER}, is there anything that\n"
     .string "you can't stand?\p"
     .string "Apparently, Bill simply can't\n"
     .string "stomach milk at all.$"
 
-OneIsland_PokemonCenter_1F_Text_CameFromPalletDontKnowIt:: @ 81A20D5
+OneIsland_PokemonCenter_1F_Text_CameFromPalletDontKnowIt::
     .string "Oh, you're a stranger here!\n"
     .string "Hi! Where did you come from?\p"
     .string "…Pallet Town?\n"
     .string "I don't know it!$"
 
-OneIsland_PokemonCenter_1F_Text_EnormousVolcanoOnIsland:: @ 81A212D
+OneIsland_PokemonCenter_1F_Text_EnormousVolcanoOnIsland::
     .string "On this island, there's an enormous\n"
     .string "volcano.\p"
     .string "It hasn't erupted lately, so why\n"
@@ -334,19 +334,19 @@ OneIsland_PokemonCenter_1F_Text_TradedWithFarAwayBoyfriend:: @ 81A21D0
     .string "thank you and Celio.\p"
     .string "So, thank you!$"
 
-OneIsland_PokemonCenter_1F_Text_MachineUnderAdjustment:: @ 81A223F
+OneIsland_PokemonCenter_1F_Text_MachineUnderAdjustment::
     .string "Network Machine\n"
     .string "Link Level 0\p"
     .string "…Pokémon Storage System under\n"
     .string "adjustment…$"
 
-OneIsland_PokemonCenter_1F_Text_MachineLinkedWithKanto:: @ 81A2286
+OneIsland_PokemonCenter_1F_Text_MachineLinkedWithKanto::
     .string "Network Machine\n"
     .string "Link Level 1\p"
     .string "Link established with the Kanto\n"
     .string "region.$"
 
-OneIsland_PokemonCenter_1F_Text_MachineLinkedWithKantoAndHoenn:: @ 81A22CB
+OneIsland_PokemonCenter_1F_Text_MachineLinkedWithKantoAndHoenn::
     .string "Network Machine\n"
     .string "Link Level 2\p"
     .string "Link established with the Kanto\n"

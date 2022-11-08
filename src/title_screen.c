@@ -9,6 +9,7 @@
 #include "intro.h"
 #include "load_save.h"
 #include "new_game.h"
+#include "random.h"
 #include "save.h"
 #include "main_menu.h"
 #include "clear_save_data_screen.h"
@@ -54,7 +55,7 @@ static void UpdateScanlineEffectRegBuffer(s16 a0);
 static void ScheduleStopScanlineEffect(void);
 static void LoadMainTitleScreenPalsAndResetBgs(void);
 static void CB2_FadeOutTransitionToSaveClearScreen(void);
-static void SpriteCallback_TitleScreenFlameOrLeaf(struct Sprite * sprite);
+static void SpriteCallback_TitleScreenFlameOrLeaf(struct Sprite *sprite);
 static void CB2_FadeOutTransitionToBerryFix(void);
 static void LoadSpriteGfxAndPals(void);
 static void Task_FlameOrLeafSpawner(u8 taskId);
@@ -65,7 +66,7 @@ static void SetPalOnOrCreateBlankSprite(bool32 a0);
 static u8 CreateSlashSprite(void);
 static void ScheduleHideSlashSprite(u8 spriteId);
 static bool32 IsSlashSpriteHidden(u8 spriteId);
-static void SpriteCallback_Slash(struct Sprite * sprite);
+static void SpriteCallback_Slash(struct Sprite *sprite);
 
 // bg3
 static const u8 sBorderBgTiles[] = INCBIN_U8("graphics/title_screen/border_bg.4bpp.lz");
@@ -518,15 +519,15 @@ static void SetTitleScreenScene_FadeIn(s16 * data)
         if (data[2] > 36)
         {
             CreateTask(Task_TitleScreen_SlideWin0, 3);
-            sub_80717A8(0x2000, -4, 0x01, 0x10, RGB(30, 30, 31), 0, 0);
+            BlendPalettesGradually(0x2000, -4, 0x01, 0x10, RGB(30, 30, 31), 0, 0);
             data[2] = 0;
             data[1]++;
         }
         break;
     case 4:
-        if (!sub_807185C(0))
+        if (!IsBlendPalettesGraduallyTaskActive(0))
         {
-            sub_80717A8(0x2000, -4, 0x0F, 0x00, RGB(30, 30, 31), 0, 0);
+            BlendPalettesGradually(0x2000, -4, 0x0F, 0x00, RGB(30, 30, 31), 0, 0);
             data[1]++;
         }
         break;
@@ -535,14 +536,14 @@ static void SetTitleScreenScene_FadeIn(s16 * data)
         if (data[2] > 20)
         {
             data[2] = 0;
-            sub_80717A8(0x2000, -4, 0x01, 0x10, RGB(30, 30, 31), 0, 0);
+            BlendPalettesGradually(0x2000, -4, 0x01, 0x10, RGB(30, 30, 31), 0, 0);
             data[1]++;
         }
         break;
     case 6:
-        if (!sub_807185C(0))
+        if (!IsBlendPalettesGraduallyTaskActive(0))
         {
-            sub_80717A8(0x2000, -4, 0x0F, 0x00, RGB(30, 30, 31), 0, 0);
+            BlendPalettesGradually(0x2000, -4, 0x0F, 0x00, RGB(30, 30, 31), 0, 0);
             data[1]++;
         }
         break;
@@ -551,12 +552,12 @@ static void SetTitleScreenScene_FadeIn(s16 * data)
         if (data[2] > 20)
         {
             data[2] = 0;
-            sub_80717A8(0x2000, -3, 0x00, 0x10, RGB(30, 30, 31), 0, 0);
+            BlendPalettesGradually(0x2000, -3, 0x00, 0x10, RGB(30, 30, 31), 0, 0);
             data[1]++;
         }
         break;
     case 8:
-        if (!sub_807185C(0))
+        if (!IsBlendPalettesGraduallyTaskActive(0))
         {
             data[5] = 1;
             r4 = (0x10000 << CreateBlankSprite()) | 0x00001FFF;
@@ -564,12 +565,12 @@ static void SetTitleScreenScene_FadeIn(s16 * data)
             BeginNormalPaletteFade(r4, 1, 0x10, 0x00, RGB(30, 30, 31));
             ShowBg(0);
             CpuCopy16(gGraphics_TitleScreen_BoxArtMonPals, gPlttBufferUnfaded + 0xD0, 0x20);
-            sub_80717A8(0x2000, 1, 0x0F, 0x00, RGB(30, 30, 31), 0, 0);
+            BlendPalettesGradually(0x2000, 1, 0x0F, 0x00, RGB(30, 30, 31), 0, 0);
             data[1]++;
         }
         break;
     case 9:
-        if (!sub_807185C(0) && !gPaletteFade.active)
+        if (!IsBlendPalettesGraduallyTaskActive(0) && !gPaletteFade.active)
         {
             SetTitleScreenScene(data, TITLESCREENSCENE_RUN);
         }
@@ -638,7 +639,7 @@ static void SetTitleScreenScene_Restart(s16 * data)
         if (!gPaletteFade.active && !IsSlashSpriteHidden(data[6]))
         {
             FadeOutMapMusic(10);
-            BeginNormalPaletteFade(0xFFFFFFFF, 3, 0, 0x10, RGB_BLACK);
+            BeginNormalPaletteFade(PALETTES_ALL, 3, 0, 0x10, RGB_BLACK);
             SignalEndTitleScreenPaletteSomethingTask();
             data[1]++;
         }
@@ -662,7 +663,7 @@ static void SetTitleScreenScene_Restart(s16 * data)
     case 4:
         HelpSystem_Disable();
         DestroyTask(FindTaskIdByFunc(Task_TitleScreenMain));
-        SetMainCallback2(CB2_CopyrightScreen);
+        SetMainCallback2(CB2_InitCopyrightScreenAfterTitleScreen);
         break;
     }
 }
@@ -674,7 +675,7 @@ static void SetTitleScreenScene_Cry(s16 * data)
     case 0:
         if (!gPaletteFade.active)
         {
-            PlayCry1(TITLE_SPECIES, 0);
+            PlayCry_Normal(TITLE_SPECIES, 0);
             ScheduleHideSlashSprite(data[6]);
             data[2] = 0;
             data[1]++;
@@ -698,7 +699,7 @@ static void SetTitleScreenScene_Cry(s16 * data)
             SetSaveBlocksPointers();
             ResetMenuAndMonGlobals();
             Save_ResetSaveCounters();
-            Save_LoadGameData(SAVE_NORMAL);
+            LoadGameSave(SAVE_NORMAL);
             if (gSaveFileStatus == SAVE_STATUS_EMPTY || gSaveFileStatus == SAVE_STATUS_INVALID)
                 Sav2_ClearSetDefault();
             SetPokemonCryStereo(gSaveBlock2Ptr->optionsSound);
@@ -871,7 +872,7 @@ static void LoadMainTitleScreenPalsAndResetBgs(void)
     if (taskId != 0xFF)
         DestroyTask(taskId);
 
-    sub_8071898();
+    DestroyBlendPalettesGraduallyTask();
     ResetPaletteFadeControl();
     LoadPalette(gGraphics_TitleScreen_GameTitleLogoPals, 0x00, 0x1A0);
     LoadPalette(gGraphics_TitleScreen_BoxArtMonPals, 0xD0, 0x20);
@@ -896,7 +897,7 @@ static void CB2_FadeOutTransitionToBerryFix(void)
     if (!UpdatePaletteFade())
     {
         m4aMPlayAllStop();
-        SetMainCallback2(mb_berry_fix_serve);
+        SetMainCallback2(CB2_InitBerryFixProgram);
     }
 }
 
@@ -909,19 +910,19 @@ static void LoadSpriteGfxAndPals(void)
     LoadSpritePalettes(sSpritePals);
 }
 
-static void SpriteCallback_TitleScreenFlameOrLeaf(struct Sprite * sprite)
+static void SpriteCallback_TitleScreenFlameOrLeaf(struct Sprite *sprite)
 {
     s16 * data = sprite->data;
     sprite->data[0] -= data[1];
-    sprite->pos1.x = sprite->data[0] >> 4;
-    if (sprite->pos1.x < -8)
+    sprite->x = sprite->data[0] >> 4;
+    if (sprite->x < -8)
     {
         DestroySprite(sprite);
         return;
     }
     data[2] += data[3];
-    sprite->pos1.y = data[2] >> 4;
-    if (sprite->pos1.y < 0x10 || sprite->pos1.y > 0xc8)
+    sprite->y = data[2] >> 4;
+    if (sprite->y < 0x10 || sprite->y > 0xc8)
     {
         DestroySprite(sprite);
         return;
@@ -1044,16 +1045,16 @@ static void CreateFlameOrLeafSprite(s32 y0, s32 x1, s32 y1)
     }
 }
 
-static void SpriteCallback_LG_8079800(struct Sprite * sprite)
+static void SpriteCallback_LG_8079800(struct Sprite *sprite)
 {
-    sprite->pos1.x -= 7;
-    if (sprite->pos1.x < -16)
+    sprite->x -= 7;
+    if (sprite->x < -16)
     {
-        sprite->pos1.x = 0x100;
+        sprite->x = 0x100;
         sprite->data[7]++;
         if (sprite->data[7] >= NELEMS(gUnknown_LG_83BFA10))
             sprite->data[7] = 0;
-        sprite->pos1.y = gUnknown_LG_83BFA10[sprite->data[7]];
+        sprite->y = gUnknown_LG_83BFA10[sprite->data[7]];
     }
 }
 
@@ -1121,7 +1122,7 @@ static u16 TitleScreen_rand(u8 taskId, u8 field)
     u32 rngval;
 
     rngval = GetWordTaskArg(taskId, field);
-    rngval = rngval * 1103515245 + 24691;
+    rngval = ISO_RANDOMIZE1(rngval);
     SetWordTaskArg(taskId, field, rngval);
     return rngval >> 16;
 }
@@ -1170,7 +1171,7 @@ static bool32 IsSlashSpriteHidden(u8 spriteId)
         return FALSE;
 }
 
-static void SpriteCallback_Slash(struct Sprite * sprite)
+static void SpriteCallback_Slash(struct Sprite *sprite)
 {
     switch (sprite->data[0])
     {
@@ -1188,23 +1189,23 @@ static void SpriteCallback_Slash(struct Sprite * sprite)
         }
         break;
     case 1:
-        sprite->pos1.x += 9;
-        if (sprite->pos1.x == 67)
+        sprite->x += 9;
+        if (sprite->x == 67)
         {
-            sprite->pos1.y -= 7;
+            sprite->y -= 7;
         }
-        if (sprite->pos1.x == 148)
+        if (sprite->x == 148)
         {
-            sprite->pos1.y += 7;
+            sprite->y += 7;
         }
-        if (sprite->pos1.x > 272)
+        if (sprite->x > 272)
         {
             sprite->invisible = TRUE;
             if (sprite->data[2])
                 sprite->data[0] = 2;
             else
             {
-                sprite->pos1.x = -0x20;
+                sprite->x = -0x20;
                 sprite->data[1] = 540;
                 sprite->data[0] = 0;
             }

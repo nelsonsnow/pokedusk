@@ -1,4 +1,4 @@
-ViridianCity_Mart_Text_YouCameFromPallet:: @ 819021A
+ViridianCity_Mart_Text_YouCameFromPallet::
     .string "Hey!\n"
     .string "You came from Pallet Town?$"
 
@@ -11,11 +11,11 @@ ViridianCity_Mart_Text_ReceivedOaksParcelFromClerk:: @ 8190289
     .string "{PLAYER} received Oak's Parcel\n"
     .string "from the Pokémon Mart clerk.$"
 
-ViridianCity_Mart_Text_SayHiToOakForMe:: @ 81902BF
+ViridianCity_Mart_Text_SayHiToOakForMe::
     .string "Okay, thanks! Please say hi to\n"
     .string "Prof. Oak for me, too.$"
 
-ViridianCity_Mart_Text_ShopDoesGoodBusinessInAntidotes:: @ 81902F5
+ViridianCity_Mart_Text_ShopDoesGoodBusinessInAntidotes::
     .string "This shop does good business in\n"
     .string "Antidotes, I've heard.$"
 

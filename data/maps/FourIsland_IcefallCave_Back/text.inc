@@ -4,7 +4,7 @@ FourIsland_IcefallCave_Back_Text_LoreleiKeepHandsOffMons:: @ 817B04F
     .string "Do as I say, or you'll have me to\n"
     .string "answer to!$"
 
-FourIsland_IcefallCave_Back_Text_ShutItLadyLeaveUsBe:: @ 817B0B9
+FourIsland_IcefallCave_Back_Text_ShutItLadyLeaveUsBe::
     .string "Aww, shut it, lady, and leave\n"
     .string "us be.\p"
     .string "Don't let your glasses get all\n"
@@ -22,12 +22,12 @@ FourIsland_IcefallCave_Back_Text_LoreleiPlayerHelpMeKickPoachersOut:: @ 817B109
     .string "Are you ready?\n"
     .string "You take that one, please!$"
 
-FourIsland_IcefallCave_Back_Text_GruntIntro:: @ 817B20B
+FourIsland_IcefallCave_Back_Text_GruntIntro::
     .string "W-what?!\p"
     .string "Who says we can't do what we want\n"
     .string "with the Pokémon we catch?$"
 
-FourIsland_IcefallCave_Back_Text_GruntDefeat:: @ 817B251
+FourIsland_IcefallCave_Back_Text_GruntDefeat::
     .string "We didn't plan on this!$"
 
 FourIsland_IcefallCave_Back_Text_LoreleiWhereHaveYouTakenMons:: @ 817B269
@@ -40,7 +40,7 @@ FourIsland_IcefallCave_Back_Text_LoreleiWhereHaveYouTakenMons:: @ 817B269
     .string "I'm smashing your ring once and\n"
     .string "for all!$"
 
-FourIsland_IcefallCave_Back_Text_NotTellingYouThat:: @ 817B2EF
+FourIsland_IcefallCave_Back_Text_NotTellingYouThat::
     .string "N-no way!\n"
     .string "I'm not telling you that!$"
 
@@ -52,7 +52,7 @@ FourIsland_IcefallCave_Back_Text_LoreleiWellDeepFreezeYou:: @ 817B313
     .string "Go, Lapras!\n"
     .string "Ice Beam…$"
 
-FourIsland_IcefallCave_Back_Text_OkayRocketWareHouseFiveIsland:: @ 817B399
+FourIsland_IcefallCave_Back_Text_OkayRocketWareHouseFiveIsland::
     .string "Wawaah! Okay!\n"
     .string "I'll talk!\p"
     .string "The Pokémon are in the Rocket\n"
@@ -63,7 +63,7 @@ FourIsland_IcefallCave_Back_Text_OkayRocketWareHouseFiveIsland:: @ 817B399
     .string "into the Rocket Warehouse!\p"
     .string "Heheheheh!$"
 
-FourIsland_IcefallCave_Back_Text_ThankYouThisIsAwful:: @ 817B457
+FourIsland_IcefallCave_Back_Text_ThankYouThisIsAwful::
     .string "{PLAYER}, thank you.\n"
     .string "But this is awful…\p"
     .string "I was born and raised here on\n"

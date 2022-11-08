@@ -118,7 +118,7 @@ void HandleIntroSlide(u8 terrain)
     gTasks[taskId].data[6] = 0;
 }
 
-void sub_80BC41C(u8 taskId)
+void BattleIntroSlideEnd(u8 taskId)
 {
     DestroyTask(taskId);
     gBattle_BG1_X = 0;
@@ -206,7 +206,7 @@ static void BattleIntroSlide1(u8 taskId)
         }
         break;
     case 4:
-        sub_80BC41C(taskId);
+        BattleIntroSlideEnd(taskId);
         break;
     }
 }
@@ -305,7 +305,7 @@ static void BattleIntroSlide2(u8 taskId)
         }
         break;
     case 4:
-        sub_80BC41C(taskId);
+        BattleIntroSlideEnd(taskId);
         break;
     }
     if (gTasks[taskId].data[0] != 4)
@@ -384,7 +384,7 @@ static void BattleIntroSlide3(u8 taskId)
         }
         break;
     case 4:
-        sub_80BC41C(taskId);
+        BattleIntroSlideEnd(taskId);
         break;
     }
     if (gTasks[taskId].data[0] != 4)
@@ -460,7 +460,7 @@ static void BattleIntroSlideLink(u8 taskId)
         }
         break;
     case 4:
-        sub_80BC41C(taskId);
+        BattleIntroSlideEnd(taskId);
         break;
     }
 }
@@ -479,8 +479,8 @@ void CopyBattlerSpriteToBg(s32 bgId, u8 x, u8 y, u8 battlerPosition, u8 palno, u
     LoadBgTilemap(bgId, tilemapDest, BG_SCREEN_SIZE, 0);
 }
 
-// not used
-static void sub_80BCFCC(u8 arg0, u8 arg1, u8 battlerPosition, u8 arg3, u8 arg4, u16 arg5, u8 arg6, u8 arg7)
+// Unused
+static void DrawBattlerOnBgDMA(u8 arg0, u8 arg1, u8 battlerPosition, u8 arg3, u8 arg4, u16 arg5, u8 arg6, u8 arg7)
 {
     s32 i, j, offset;
 

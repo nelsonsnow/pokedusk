@@ -1,4 +1,4 @@
-ThreeIsland_PokemonCenter_1F_Text_PCNetworkCanLinkWithKanto:: @ 81A2FB5
+ThreeIsland_PokemonCenter_1F_Text_PCNetworkCanLinkWithKanto::
     .string "Hey, did you hear the news?\p"
     .string "The PC network here can now link\n"
     .string "with PCs in Kanto.\p"

@@ -100,7 +100,7 @@ static u8 BikeInputHandler_Normal(u8 *direction_p, u16 newKeys, u16 heldKeys)
     }
 }
 
-static u8 BikeInputHandler_Turning(u8 *direction_p, UNUSED u16 newKeys, UNUSED u16 heldKeys)
+static u8 BikeInputHandler_Turning(u8 *direction_p, u16 newKeys, u16 heldKeys)
 {
     *direction_p = gPlayerAvatar.newDirBackup;
     gPlayerAvatar.runningState = TURN_DIRECTION;
@@ -177,28 +177,31 @@ static void BikeTransition_MoveDirection(u8 direction)
         {
             if (collision == COLLISION_LEDGE_JUMP)
                 PlayerJumpLedge(direction);
-            else if (collision != COLLISION_STOP_SURFING && collision != COLLISION_LEDGE_JUMP && collision != COLLISION_PUSHED_BOULDER && collision != COLLISION_UNKNOWN_WARP_6C_6D_6E_6F)
+            else if (collision != COLLISION_STOP_SURFING
+                  && collision != COLLISION_LEDGE_JUMP
+                  && collision != COLLISION_PUSHED_BOULDER
+                  && collision != COLLISION_DIRECTIONAL_STAIR_WARP)
                 PlayerOnBikeCollide(direction);
         }
         else
         {
             
             if (collision == COLLISION_COUNT)
-                PlayerGoSpeed2(direction);
+                PlayerWalkFast(direction);
             else if (PlayerIsMovingOnRockStairs(direction))
-                PlayerGoSpeed2(direction);
+                PlayerWalkFast(direction);
             else
                 PlayerRideWaterCurrent(direction);
         }
     }
 }
 
-static void BikeTransition_Downhill(UNUSED u8 v)
+static void BikeTransition_Downhill(u8 v)
 {
     u8 collision = GetBikeCollision(DIR_SOUTH);
 
     if (collision == COLLISION_NONE)
-        sub_805C164(DIR_SOUTH);
+        PlayerWalkFaster(DIR_SOUTH);
     else if (collision == COLLISION_LEDGE_JUMP)
         PlayerJumpLedge(DIR_SOUTH);
 }
@@ -206,7 +209,7 @@ static void BikeTransition_Downhill(UNUSED u8 v)
 static void BikeTransition_Uphill(u8 direction)
 {
     if (GetBikeCollision(direction) == COLLISION_NONE)
-        PlayerGoSpeed1(direction);
+        PlayerWalkNormal(direction);
 }
 
 static u8 GetBikeCollision(u8 direction)
@@ -249,7 +252,7 @@ bool8 RS_IsRunningDisallowed(u8 r0)
 
 bool32 IsRunningDisallowed(u8 metatileBehavior)
 {
-    if (!(gMapHeader.flags & MAP_ALLOW_RUN))
+    if (!gMapHeader.allowRunning)
         return TRUE;
     if (MetatileBehaviorForbidsBiking(metatileBehavior) != TRUE)
         return FALSE;
@@ -263,7 +266,7 @@ static bool8 MetatileBehaviorForbidsBiking(u8 metatileBehavior)
         return TRUE;
     if (!MetatileBehavior_IsFortreeBridge(metatileBehavior))
         return FALSE;
-    if (PlayerGetZCoord() & 1)
+    if (PlayerGetElevation() & 1)
         return FALSE;
     return TRUE;
 }

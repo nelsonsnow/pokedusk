@@ -2,22 +2,22 @@ SilphCo_6F_Text_RocketsTookOverBuilding:: @ 8175F24
     .string "The Rockets came and took over\n"
     .string "the building!$"
 
-SilphCo_6F_Text_BetterGetBackToWork:: @ 8175F51
+SilphCo_6F_Text_BetterGetBackToWork::
     .string "Well, better get back to work.$"
 
-SilphCo_6F_Text_HelpMePlease:: @ 8175F70
+SilphCo_6F_Text_HelpMePlease::
     .string "Oh dear, oh dear.\n"
     .string "Help me, please!$"
 
-SilphCo_6F_Text_WeGotEngaged:: @ 8175F93
+SilphCo_6F_Text_WeGotEngaged::
     .string "We got engaged.\n"
     .string "Heheh!$"
 
-SilphCo_6F_Text_ThatManIsSuchACoward:: @ 8175FAA
+SilphCo_6F_Text_ThatManIsSuchACoward::
     .string "That man next to me…\n"
     .string "He's such a coward!$"
 
-SilphCo_6F_Text_NeedsMeToLookAfterHim:: @ 8175FD3
+SilphCo_6F_Text_NeedsMeToLookAfterHim::
     .string "He's so helpless, he needed\n"
     .string "someone like me to look after him.$"
 
@@ -41,10 +41,10 @@ SilphCo_6F_Text_Grunt1Intro:: @ 81760DE
     .string "I am one of the four Rocket\n"
     .string "Brothers!$"
 
-SilphCo_6F_Text_Grunt1Defeat:: @ 8176104
+SilphCo_6F_Text_Grunt1Defeat::
     .string "Flame out!$"
 
-SilphCo_6F_Text_Grunt1PostBattle:: @ 817610F
+SilphCo_6F_Text_Grunt1PostBattle::
     .string "No matter!\n"
     .string "My brothers will avenge me!$"
 
@@ -55,7 +55,7 @@ SilphCo_6F_Text_TaylorIntro:: @ 8176136
     .string "That's why Team Rocket came after\n"
     .string "us, I'm sure of it!$"
 
-SilphCo_6F_Text_TaylorDefeat:: @ 81761BD
+SilphCo_6F_Text_TaylorDefeat::
     .string "Shoot!$"
 
 SilphCo_6F_Text_TaylorPostBattle:: @ 81761C4
@@ -65,10 +65,10 @@ SilphCo_6F_Text_TaylorPostBattle:: @ 81761C4
 SilphCo_6F_Text_Grunt2Intro:: @ 81761F1
     .string "You dare betray Team Rocket?$"
 
-SilphCo_6F_Text_Grunt2Defeat:: @ 817620E
+SilphCo_6F_Text_Grunt2Defeat::
     .string "You traitor!$"
 
-SilphCo_6F_Text_Grunt2PostBattle:: @ 817621B
+SilphCo_6F_Text_Grunt2PostBattle::
     .string "If you stand for justice, you\n"
     .string "betray us bad guys!$"
 

@@ -1,4 +1,4 @@
-ViridianCity_PokemonCenter_1F_Text_FeelFreeToUsePC:: @ 8190384
+ViridianCity_PokemonCenter_1F_Text_FeelFreeToUsePC::
     .string "Please feel free to use that PC in\n"
     .string "the corner.\p"
     .string "The receptionist told me so.\n"

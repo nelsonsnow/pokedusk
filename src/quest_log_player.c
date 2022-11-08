@@ -80,7 +80,7 @@ static void QL_GfxTransition_Fish(void)
     if (gQuestLogPlaybackState == 1 || gQuestLogPlaybackState == 3)
     {
         u8 taskId;
-        ScriptContext2_Enable();
+        LockPlayerFieldControls();
         gPlayerAvatar.preventStep = TRUE;
         taskId = CreateTask(Task_QLFishMovement, 0xFF);
         gTasks[taskId].data[0] = 0;
@@ -127,9 +127,9 @@ static void Task_QLFishMovement(u8 taskId)
                 else
                     QL_SetObjectGraphicsId(objectEvent, GetPlayerAvatarGraphicsIdByStateId(PLAYER_AVATAR_GFX_RIDE));
                 ObjectEventTurn(objectEvent, objectEvent->movementDirection);
-                sprite->pos2.x = 0;
-                sprite->pos2.y = 0;
-                ScriptContext2_Disable();
+                sprite->x2 = 0;
+                sprite->y2 = 0;
+                UnlockPlayerFieldControls();
                 DestroyTask(taskId);
             }
             break;
@@ -151,7 +151,7 @@ static void QL_GfxTransition_StartSurf(void)
         gFieldEffectArguments[2] = gPlayerAvatar.objectEventId;
         fieldEffectId = FieldEffectStart(FLDEFF_SURF_BLOB);
         objectEvent->fieldEffectSpriteId = fieldEffectId;
-        sub_80DC44C(fieldEffectId, 1);
+        SetSurfBlob_BobState(fieldEffectId, BOB_PLAYER_AND_MON);
     }
 }
 
@@ -166,7 +166,7 @@ static void Task_QLVSSeekerMovement(u8 taskId)
     if (!FieldEffectActiveListContains(FLDEFF_USE_VS_SEEKER))
     {
         UnfreezeObjectEvents();
-        ScriptContext2_Disable();
+        UnlockPlayerFieldControls();
         DestroyTask(taskId);
     }
 }

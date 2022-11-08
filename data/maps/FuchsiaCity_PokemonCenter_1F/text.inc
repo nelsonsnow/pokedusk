@@ -4,7 +4,7 @@ FuchsiaCity_PokemonCenter_1F_Text_CantBecomeGoodTrainerWithOneMon:: @ 8198CB7
     .string "But raising many Pokémon evenly\n"
     .string "is no easy task, either.$"
 
-FuchsiaCity_PokemonCenter_1F_Text_PokemonLeagueWestOfViridian:: @ 8198D2E
+FuchsiaCity_PokemonCenter_1F_Text_PokemonLeagueWestOfViridian::
     .string "There's a narrow trail west of\n"
     .string "Viridian City.\p"
     .string "It goes to the Pokémon League HQ.\n"

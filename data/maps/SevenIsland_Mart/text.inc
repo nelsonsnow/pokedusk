@@ -4,7 +4,7 @@ SevenIsland_Mart_Text_MonHavePersonalitiesOfTheirOwn:: @ 81A0A4F
     .string "My Pikachu has a Hasty nature,\n"
     .string "so it grew to be a speedy Pokémon.$"
 
-SevenIsland_Mart_Text_PreparationsCompleteForRuins:: @ 81A0ACC
+SevenIsland_Mart_Text_PreparationsCompleteForRuins::
     .string "Okay, preparations are complete\n"
     .string "for me to explore the Ruins.$"
 

@@ -1,8 +1,8 @@
-Route20_Text_BarryIntro:: @ 8187E40
+Route20_Text_BarryIntro::
     .string "The water is shallow here.\n"
     .string "There are many people swimming.$"
 
-Route20_Text_BarryDefeat:: @ 8187E7B
+Route20_Text_BarryDefeat::
     .string "Splash!$"
 
 Route20_Text_BarryPostBattle:: @ 8187E83
@@ -13,40 +13,40 @@ Route20_Text_ShirleyIntro:: @ 8187EBB
     .string "Seafoam is a quiet getaway.\n"
     .string "I'm vacationing here.$"
 
-Route20_Text_ShirleyDefeat:: @ 8187EED
+Route20_Text_ShirleyDefeat::
     .string "Quit it!$"
 
-Route20_Text_ShirleyPostBattle:: @ 8187EF6
+Route20_Text_ShirleyPostBattle::
     .string "There's a huge cavern underneath\n"
     .string "this island.$"
 
-Route20_Text_TiffanyIntro:: @ 8187F24
+Route20_Text_TiffanyIntro::
     .string "I love floating with the fishes\n"
     .string "here among the waves.$"
 
-Route20_Text_TiffanyDefeat:: @ 8187F5A
+Route20_Text_TiffanyDefeat::
     .string "Yowch!$"
 
-Route20_Text_TiffanyPostBattle:: @ 8187F61
+Route20_Text_TiffanyPostBattle::
     .string "Want to float with me?$"
 
-Route20_Text_IreneIntro:: @ 8187F78
+Route20_Text_IreneIntro::
     .string "Are you on vacation, too?$"
 
-Route20_Text_IreneDefeat:: @ 8187F92
+Route20_Text_IreneDefeat::
     .string "No mercy at all!$"
 
 Route20_Text_IrenePostBattle:: @ 8187FA3
     .string "Seafoam used to be a single island\n"
     .string "in the distant past.$"
 
-Route20_Text_DeanIntro:: @ 8187FDB
+Route20_Text_DeanIntro::
     .string "Check out my buff physique!$"
 
-Route20_Text_DeanDefeat:: @ 8187FF7
+Route20_Text_DeanDefeat::
     .string "Wimpy!$"
 
-Route20_Text_DeanPostBattle:: @ 8187FFE
+Route20_Text_DeanPostBattle::
     .string "I should've been buffing up my\n"
     .string "Pokémon, not me!$"
 
@@ -54,7 +54,7 @@ Route20_Text_DarrinIntro:: @ 818802E
     .string "Why are you riding a Pokémon?\n"
     .string "Can't you swim?$"
 
-Route20_Text_DarrinDefeat:: @ 818805C
+Route20_Text_DarrinDefeat::
     .string "Ouch!\n"
     .string "Torpedoed!$"
 
@@ -64,22 +64,22 @@ Route20_Text_DarrinPostBattle:: @ 818806D
 Route20_Text_RogerIntro:: @ 818808E
     .string "I rode my bird Pokémon here.$"
 
-Route20_Text_RogerDefeat:: @ 81880AB
+Route20_Text_RogerDefeat::
     .string "Oh, no!\n"
     .string "Now what am I to do?$"
 
-Route20_Text_RogerPostBattle:: @ 81880C8
+Route20_Text_RogerPostBattle::
     .string "My birds are exhausted.\n"
     .string "They can't Fly me back!$"
 
-Route20_Text_NoraIntro:: @ 81880F8
+Route20_Text_NoraIntro::
     .string "My boyfriend gave me big pearls.$"
 
-Route20_Text_NoraDefeat:: @ 8188119
+Route20_Text_NoraDefeat::
     .string "Oh, no!\n"
     .string "My pearls were in them!$"
 
-Route20_Text_NoraPostBattle:: @ 8188139
+Route20_Text_NoraPostBattle::
     .string "Will my pearls grow bigger inside\n"
     .string "Cloyster?$"
 
@@ -87,7 +87,7 @@ Route20_Text_MissyIntro:: @ 8188165
     .string "I swam here from Cinnabar Island.\n"
     .string "It wasn't easy, I tell you.$"
 
-Route20_Text_MissyDefeat:: @ 81881A3
+Route20_Text_MissyDefeat::
     .string "I'm so disappointed!$"
 
 Route20_Text_MissyPostBattle:: @ 81881B8
@@ -101,7 +101,7 @@ Route20_Text_MelissaIntro:: @ 8188218
     .string "for Pokémon.\p"
     .string "My daddy works there.$"
 
-Route20_Text_MelissaDefeat:: @ 818825C
+Route20_Text_MelissaDefeat::
     .string "Wait!\n"
     .string "You're supposed to wait!$"
 

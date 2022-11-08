@@ -1,4 +1,4 @@
-VermilionCity_Mart_Text_TeamRocketAreWickedPeople:: @ 8194A77
+VermilionCity_Mart_Text_TeamRocketAreWickedPeople::
     .string "There are wicked people who will\n"
     .string "use Pokémon for criminal acts.\p"
     .string "Team Rocket traffics in rare\n"

@@ -1,4 +1,4 @@
-CeladonCity_Gym_Text_ErikaIntro:: @ 8197114
+CeladonCity_Gym_Text_ErikaIntro::
     .string "Hello…\n"
     .string "Lovely weather, isn't it?\l"
     .string "It's so pleasant…\p"
@@ -14,7 +14,7 @@ CeladonCity_Gym_Text_ErikaIntro:: @ 8197114
     .string "you wished to challenge me.\p"
     .string "Very well, but I shall not lose.{PLAY_BGM MUS_ENCOUNTER_GYM_LEADER}$"
 
-CeladonCity_Gym_Text_ErikaDefeat:: @ 8197260
+CeladonCity_Gym_Text_ErikaDefeat::
     .string "Oh!\n"
     .string "I concede defeat.\l"
     .string "You are remarkably strong.\p"
@@ -34,7 +34,7 @@ CeladonCity_Gym_Text_ExplainRainbowBadgeTakeThis:: @ 8197327
     .string "Strength in and out of battle.\p"
     .string "Please also take this with you.$"
 
-CeladonCity_Gym_Text_ReceivedTM19FromErika:: @ 81973BA
+CeladonCity_Gym_Text_ReceivedTM19FromErika::
     .string "{PLAYER} received TM19\n"
     .string "from Erika.$"
 
@@ -45,7 +45,7 @@ CeladonCity_Gym_Text_ExplainTM19:: @ 81973D7
     .string "Wouldn't you agree that it's a\n"
     .string "wonderful move?$"
 
-CeladonCity_Gym_Text_ShouldMakeRoomForThis:: @ 819745D
+CeladonCity_Gym_Text_ShouldMakeRoomForThis::
     .string "You should make room for this.$"
 
 CeladonCity_Gym_Text_KayIntro:: @ 819747C
@@ -53,18 +53,18 @@ CeladonCity_Gym_Text_KayIntro:: @ 819747C
     .string "Only real ladies are allowed in\n"
     .string "here!$"
 
-CeladonCity_Gym_Text_KayDefeat:: @ 81974C4
+CeladonCity_Gym_Text_KayDefeat::
     .string "You're too rough!$"
 
-CeladonCity_Gym_Text_KayPostBattle:: @ 81974D6
+CeladonCity_Gym_Text_KayPostBattle::
     .string "Bleaah!\n"
     .string "I hope Erika wipes you out!$"
 
-CeladonCity_Gym_Text_BridgetIntro:: @ 81974FA
+CeladonCity_Gym_Text_BridgetIntro::
     .string "Oh, welcome.\n"
     .string "I was getting bored.$"
 
-CeladonCity_Gym_Text_BridgetDefeat:: @ 819751C
+CeladonCity_Gym_Text_BridgetDefeat::
     .string "My makeup!$"
 
 CeladonCity_Gym_Text_BridgetPostBattle:: @ 8197527
@@ -73,24 +73,24 @@ CeladonCity_Gym_Text_BridgetPostBattle:: @ 8197527
     .string "They also have an edge on Rock-\n"
     .string "and Ground-type Pokémon.$"
 
-CeladonCity_Gym_Text_TinaIntro:: @ 8197595
+CeladonCity_Gym_Text_TinaIntro::
     .string "…Weren't you peeking in here\n"
     .string "earlier?$"
 
-CeladonCity_Gym_Text_TinaDefeat:: @ 81975BB
+CeladonCity_Gym_Text_TinaDefeat::
     .string "You're an eye-opener!$"
 
 CeladonCity_Gym_Text_TinaPostBattle:: @ 81975D1
     .string "Oh, you were looking at Erika…\n"
     .string "You weren't looking at me…$"
 
-CeladonCity_Gym_Text_TamiaIntro:: @ 819760B
+CeladonCity_Gym_Text_TamiaIntro::
     .string "Look, look!\n"
     .string "See my Pokémon!\p"
     .string "I like the Grass type.\n"
     .string "I like how they're easy to raise.$"
 
-CeladonCity_Gym_Text_TamiaDefeat:: @ 8197660
+CeladonCity_Gym_Text_TamiaDefeat::
     .string "No!$"
 
 CeladonCity_Gym_Text_TamiaPostBattle:: @ 8197664
@@ -99,12 +99,12 @@ CeladonCity_Gym_Text_TamiaPostBattle:: @ 8197664
     .string "Why? We also use them for making\n"
     .string "flower arrangements!$"
 
-CeladonCity_Gym_Text_LisaIntro:: @ 81976C5
+CeladonCity_Gym_Text_LisaIntro::
     .string "Oh, hey!\p"
     .string "We don't like Bug- or Fire-type\n"
     .string "Pokémon in here!$"
 
-CeladonCity_Gym_Text_LisaDefeat:: @ 81976FF
+CeladonCity_Gym_Text_LisaDefeat::
     .string "Oh!\n"
     .string "You!$"
 
@@ -112,15 +112,15 @@ CeladonCity_Gym_Text_LisaPostBattle:: @ 8197708
     .string "Our Leader Erika might be quiet,\n"
     .string "but she's famous around here.$"
 
-CeladonCity_Gym_Text_LoriIntro:: @ 8197747
+CeladonCity_Gym_Text_LoriIntro::
     .string "Pleased to meet you.\n"
     .string "My hobby is Pokémon training.$"
 
-CeladonCity_Gym_Text_LoriDefeat:: @ 819777A
+CeladonCity_Gym_Text_LoriDefeat::
     .string "Oh!\n"
     .string "Splendid!$"
 
-CeladonCity_Gym_Text_LoriPostBattle:: @ 8197788
+CeladonCity_Gym_Text_LoriPostBattle::
     .string "I have a blind date coming up.\n"
     .string "I have to learn to be polite,\l"
     .string "especially if I have to battle.$"
@@ -130,7 +130,7 @@ CeladonCity_Gym_Text_MaryIntro:: @ 81977E5
     .string "You'd better not underestimate\n"
     .string "the nice ladies here.$"
 
-CeladonCity_Gym_Text_MaryDefeat:: @ 8197832
+CeladonCity_Gym_Text_MaryDefeat::
     .string "Oh!\n"
     .string "Beaten!$"
 

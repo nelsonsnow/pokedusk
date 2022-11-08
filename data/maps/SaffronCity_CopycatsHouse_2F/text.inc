@@ -1,4 +1,4 @@
-SaffronCity_CopycatsHouse_2F_Text_MimickingFavoriteHobbyMale:: @ 819AC60
+SaffronCity_CopycatsHouse_2F_Text_MimickingFavoriteHobbyMale::
     .string "{PLAYER}: Hi!\n"
     .string "Do you like Pokémon?\p"
     .string "{PLAYER}: Uh, no, I just asked you.\p"
@@ -7,7 +7,7 @@ SaffronCity_CopycatsHouse_2F_Text_MimickingFavoriteHobbyMale:: @ 819AC60
     .string "Copycat: Hmm? Quit mimicking?\n"
     .string "But, that's my favorite hobby!$"
 
-SaffronCity_CopycatsHouse_2F_Text_MimickingFavoriteHobbyFemale:: @ 819ACF1
+SaffronCity_CopycatsHouse_2F_Text_MimickingFavoriteHobbyFemale::
     .string "{PLAYER}: Hi.\n"
     .string "You must like Pokémon.\p"
     .string "{PLAYER}: No, not me.\n"
@@ -18,7 +18,7 @@ SaffronCity_CopycatsHouse_2F_Text_MimickingFavoriteHobbyFemale:: @ 819ACF1
     .string "Copycat: Hmm? Quit mimicking?\l"
     .string "But that's my favorite hobby!$"
 
-Text_MimicTeach:: @ 819AD85
+Text_MimicTeach::
     .string "Oh wow!\n"
     .string "A Poké Doll!\p"
     .string "For me?\n"
@@ -33,7 +33,7 @@ Text_MimicWhichMon:: @ 819ADEE
     .string "I really love Mimic!\n"
     .string "Who's going to learn it?$"
 
-Text_MimicTaughtMale:: @ 819AE1C
+Text_MimicTaughtMale::
     .string "{PLAYER}: Hi!\n"
     .string "Thanks for earlier!\p"
     .string "{PLAYER}: Pardon?\p"
@@ -42,7 +42,7 @@ Text_MimicTaughtMale:: @ 819AE1C
     .string "Copycat: You bet!\n"
     .string "It's a scream!$"
 
-Text_MimicTaughtFemale:: @ 819AE90
+Text_MimicTaughtFemale::
     .string "{PLAYER}: Hi!\n"
     .string "Thanks for what you did for us.\p"
     .string "{PLAYER}: Pardon?\p"
@@ -51,10 +51,10 @@ Text_MimicTaughtFemale:: @ 819AE90
     .string "Copycat: You bet!\n"
     .string "It's a scream!$"
 
-SaffronCity_CopycatsHouse_2F_Text_TooMuchInBag:: @ 819AF1A
+SaffronCity_CopycatsHouse_2F_Text_TooMuchInBag::
     .string "にもつが　いっぱいね！$"
 
-SaffronCity_CopycatsHouse_2F_Text_MimickingFavoriteHobbyMaleJP:: @ 819AF26
+SaffronCity_CopycatsHouse_2F_Text_MimickingFavoriteHobbyMaleJP::
     .string "{PLAYER}“やあ！　こんにちは！\n"
     .string "きみ　ポケモン　すきかい？\p"
     .string "{PLAYER}“ぼく　じゃなくって\n"
@@ -66,7 +66,7 @@ SaffronCity_CopycatsHouse_2F_Text_MimickingFavoriteHobbyMaleJP:: @ 819AF26
     .string "だって　あたし　\n"
     .string "ものまね　しゅみ　なんだ　もん！”$"
 
-SaffronCity_CopycatsHouse_2F_Text_MimickingFavoriteHobbyFemaleJP:: @ 819AFB0
+SaffronCity_CopycatsHouse_2F_Text_MimickingFavoriteHobbyFemaleJP::
     .string "{PLAYER}“こんにちは！\n"
     .string "ポケモン　すきなのね？\p"
     .string "{PLAYER}“わたし　じゃなくって\n"
@@ -91,12 +91,12 @@ SaffronCity_CopycatsHouse_2F_Text_MarioWearingABucket:: @ 819B0A0
     .string "A game with Mario wearing a bucket\n"
     .string "on his head!$"
 
-SaffronCity_CopycatsHouse_2F_Text_MySecrets:: @ 819B0D0
+SaffronCity_CopycatsHouse_2F_Text_MySecrets::
     .string "…\p"
     .string "My Secrets!\p"
     .string "Skill: Mimicry!\n"
     .string "Hobby: Collecting dolls!\l"
     .string "Favorite Pokémon: Clefairy!$"
 
-SaffronCity_CopycatsHouse_2F_Text_HuhCantSee:: @ 819B123
+SaffronCity_CopycatsHouse_2F_Text_HuhCantSee::
     .string "？　みえないぞ‥$"

@@ -24,13 +24,13 @@ Route25_SeaCottage_Text_ImBillHelpMeOutLady:: @ 819FEE6
     .string "So, how about it?\n"
     .string "Help me out here!$"
 
-Route25_SeaCottage_Text_RunCellSeparationOnPC:: @ 819FFD3
+Route25_SeaCottage_Text_RunCellSeparationOnPC::
     .string "Wait till I get inside the\n"
     .string "Teleporter.\p"
     .string "When I do, go to my PC and run\n"
     .string "the Cell Separation System.$"
 
-Route25_SeaCottage_Text_NoPleaseChief:: @ 81A0035
+Route25_SeaCottage_Text_NoPleaseChief::
     .string "No!?\n"
     .string "Now don't be so cold!\p"
     .string "Come on, you gotta help a guy in\n"
@@ -40,7 +40,7 @@ Route25_SeaCottage_Text_NoPleaseChief:: @ 81A0035
     .string "Okay?\l"
     .string "All right!$"
 
-Route25_SeaCottage_Text_NoPleaseBeautiful:: @ 81A00B6
+Route25_SeaCottage_Text_NoPleaseBeautiful::
     .string "No!?\n"
     .string "Now don't be so cold!\p"
     .string "Come on, you gotta help a guy in\n"
@@ -74,7 +74,7 @@ Route25_SeaCottage_Text_ReceivedSSTicketFromBill:: @ 81A028E
     .string "{PLAYER} received an S.S. Ticket\n"
     .string "from Bill.$"
 
-Route25_SeaCottage_Text_YouveGotTooMuchStuff:: @ 81A02B4
+Route25_SeaCottage_Text_YouveGotTooMuchStuff::
     .string "You've got too much stuff!$"
 
 Route25_SeaCottage_Text_SSAnnePartyYouGoInstead:: @ 81A02CF

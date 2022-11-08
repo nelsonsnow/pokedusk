@@ -1,4 +1,4 @@
-SaffronCity_Text_WhatDoYouWantGetLost:: @ 8181003
+SaffronCity_Text_WhatDoYouWantGetLost::
     .string "What do you want?\n"
     .string "Get lost!$"
 
@@ -6,18 +6,18 @@ SaffronCity_Text_BossTakeTownForTeamRocket:: @ 818101F
     .string "Boss said he'll take this town\n"
     .string "in the name of Team Rocket!$"
 
-SaffronCity_Text_DontGetDefiantOrIllHurtYou:: @ 818105A
+SaffronCity_Text_DontGetDefiantOrIllHurtYou::
     .string "Don't get defiant!\n"
     .string "Or I'll have to hurt you!$"
 
 SaffronCity_Text_SaffronBelongsToTeamRocket:: @ 8181087
     .string "Saffron belongs to Team Rocket!$"
 
-SaffronCity_Text_CriminalLifeMakesMeFeelAlive:: @ 81810A7
+SaffronCity_Text_CriminalLifeMakesMeFeelAlive::
     .string "My life as a criminal makes me feel\n"
     .string "so alive!$"
 
-SaffronCity_Text_WatchWhereYoureWalking:: @ 81810D5
+SaffronCity_Text_WatchWhereYoureWalking::
     .string "Ow!\n"
     .string "Watch where you're walking!$"
 
@@ -34,7 +34,7 @@ SaffronCity_Text_SafeToGoOutAgain:: @ 8181189
     .string "Yeah! Team Rocket is gone!\n"
     .string "It's safe to go out again!$"
 
-SaffronCity_Text_PeopleComingBackToSaffron:: @ 81811BF
+SaffronCity_Text_PeopleComingBackToSaffron::
     .string "People fled from here in droves\n"
     .string "when those Rockets came.\p"
     .string "They should be flocking back to\n"
@@ -53,11 +53,11 @@ SaffronCity_Text_SawRocketBossEscaping:: @ 8181299
     .string "I saw the Rocket Boss escaping\n"
     .string "Silph's building.$"
 
-SaffronCity_Text_ImASecurityGuard:: @ 81812CA
+SaffronCity_Text_ImASecurityGuard::
     .string "I'm a security guard.\p"
     .string "Suspicious kids I don't allow in!$"
 
-SaffronCity_Text_HesTakingASnooze:: @ 8181302
+SaffronCity_Text_HesTakingASnooze::
     .string "…\n"
     .string "Snore…\p"
     .string "Hah! He's taking a snooze!$"

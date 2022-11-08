@@ -1,4 +1,4 @@
-Text_SeismicTossTeach:: @ 81909A3
+Text_SeismicTossTeach::
     .string "The secrets of space…\n"
     .string "The mysteries of earth…\p"
     .string "There are so many things about\n"
@@ -9,7 +9,7 @@ Text_SeismicTossTeach:: @ 81909A3
     .string "Well, how about Seismic Toss?\n"
     .string "Should I teach that to a Pokémon?$"
 
-Text_SeismicTossDeclined:: @ 8190AA9
+Text_SeismicTossDeclined::
     .string "Is that so?\n"
     .string "I'm sure you'll be back for it.$"
 
@@ -17,7 +17,7 @@ Text_SeismicTossWhichMon:: @ 8190AD5
     .string "Which Pokémon wants to learn\n"
     .string "Seismic Toss?$"
 
-Text_SeismicTossTaught:: @ 8190B00
+Text_SeismicTossTaught::
     .string "I hope you won't toss in the towel.\n"
     .string "Keep it up.$"
 
@@ -26,14 +26,14 @@ PewterCity_Museum_1F_Text_WhatsSpecialAboutMoonStone:: @ 8190B30
     .string "What's so special about it?\n"
     .string "Looks like an ordinary rock to me.$"
 
-PewterCity_Museum_1F_Text_BoughtColorTVForMoonLanding:: @ 8190B80
+PewterCity_Museum_1F_Text_BoughtColorTVForMoonLanding::
     .string "July 20, 1969!\p"
     .string "Humankind first set foot on the\n"
     .string "moon that day.\p"
     .string "I bought a color TV just so I\n"
     .string "could watch that news.$"
 
-PewterCity_Museum_1F_Text_RunningSpaceExhibitThisMonth:: @ 8190BF3
+PewterCity_Museum_1F_Text_RunningSpaceExhibitThisMonth::
     .string "This month, we're running a space\n"
     .string "exhibit.$"
 
@@ -45,7 +45,7 @@ PewterCity_Museum_1F_Text_AskedDaddyToCatchPikachu:: @ 8190C1E
 PewterCity_Museum_1F_Text_PikachuSoonIPromise:: @ 8190C60
     .string "Yeah, a Pikachu soon, I promise!$"
 
-PewterCity_Museum_1F_Text_SpaceShuttle:: @ 8190C81
+PewterCity_Museum_1F_Text_SpaceShuttle::
     .string "Space Shuttle$"
 
 PewterCity_Museum_1F_Text_MeteoriteThatFellOnMtMoon:: @ 8190C8F

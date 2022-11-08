@@ -1,4 +1,4 @@
-SaffronCity_House_Text_DontLookAtMyLetter:: @ 819BE74
+SaffronCity_House_Text_DontLookAtMyLetter::
     .string "…Thank you for writing.\n"
     .string "I hope to see you soon!\p"
     .string "…Hey!\n"

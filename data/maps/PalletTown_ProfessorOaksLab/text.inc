@@ -1,24 +1,24 @@
-PalletTown_ProfessorOaksLab_Text_RivalGrampsIsntAround:: @ 818DC67
+PalletTown_ProfessorOaksLab_Text_RivalGrampsIsntAround::
     .string "{RIVAL}: What, it's only {PLAYER}?\n"
     .string "Gramps isn't around.$"
 
-PalletTown_ProfessorOaksLab_Text_RivalFedUpWithWaiting:: @ 818DC94
+PalletTown_ProfessorOaksLab_Text_RivalFedUpWithWaiting::
     .string "{RIVAL}: Gramps!\n"
     .string "I'm fed up with waiting!$"
 
-PalletTown_ProfessorOaksLab_Text_RivalNoFairWhatAboutMe:: @ 818DCB9
+PalletTown_ProfessorOaksLab_Text_RivalNoFairWhatAboutMe::
     .string "{RIVAL}: Hey! Gramps! No fair!\n"
     .string "What about me?$"
 
-PalletTown_ProfessorOaksLab_Text_RivalGoChoosePlayer:: @ 818DCE2
+PalletTown_ProfessorOaksLab_Text_RivalGoChoosePlayer::
     .string "{RIVAL}: Heh, I don't need to be\n"
     .string "greedy like you. I'm mature!\p"
     .string "Go ahead and choose, {PLAYER}!$"
 
-PalletTown_ProfessorOaksLab_Text_RivalIllTakeThisOneThen:: @ 818DD34
+PalletTown_ProfessorOaksLab_Text_RivalIllTakeThisOneThen::
     .string "{RIVAL}: I'll take this one, then!$"
 
-PalletTown_ProfessorOaksLab_Text_RivalReceivedMonFromOak:: @ 818DD52
+PalletTown_ProfessorOaksLab_Text_RivalReceivedMonFromOak::
     .string "{RIVAL} received the {STR_VAR_1}\n"
     .string "from Prof. Oak!$"
 
@@ -26,7 +26,7 @@ PalletTown_ProfessorOaksLab_Text_RivalMyMonLooksTougher:: @ 818DD75
     .string "{RIVAL}: My Pokémon looks a lot\n"
     .string "tougher than yours.$"
 
-PalletTown_ProfessorOaksLab_Text_RivalLetsCheckOutMons:: @ 818DDA4
+PalletTown_ProfessorOaksLab_Text_RivalLetsCheckOutMons::
     .string "{RIVAL}: Wait, {PLAYER}!\n"
     .string "Let's check out our Pokémon!\p"
     .string "Come on, I'll take you on!$"
@@ -37,28 +37,28 @@ PalletTown_ProfessorOaksLab_Text_RivalDefeat:: @ 818DDEA
     .string "I picked the wrong Pokémon!$"
 
 @ Also used for early Route 22 battle
-Text_RivalVictory:: @ 818DE1A
+Text_RivalVictory::
     .string "{RIVAL}: Yeah!\n"
     .string "Am I great or what?$"
 
-PalletTown_ProfessorOaksLab_Text_RivalGoToughenMyMon:: @ 818DE38
+PalletTown_ProfessorOaksLab_Text_RivalGoToughenMyMon::
     .string "{RIVAL}: Okay! I'll make my\n"
     .string "Pokémon battle to toughen it up!\p"
     .string "{PLAYER}! Gramps!\n"
     .string "Smell you later!$"
 
-PalletTown_ProfessorOaksLab_Text_RivalGramps:: @ 818DE8D
+PalletTown_ProfessorOaksLab_Text_RivalGramps::
     .string "{RIVAL}: Gramps!$"
 
-PalletTown_ProfessorOaksLab_Text_RivalWhatDidYouCallMeFor:: @ 818DE99
+PalletTown_ProfessorOaksLab_Text_RivalWhatDidYouCallMeFor::
     .string "{RIVAL}: I almost forgot!\n"
     .string "What did you call me for?$"
 
-PalletTown_ProfessorOaksLab_Text_RivalLeaveItToMeGramps:: @ 818DEC8
+PalletTown_ProfessorOaksLab_Text_RivalLeaveItToMeGramps::
     .string "{RIVAL}: All right, Gramps!\n"
     .string "Leave it all to me!$"
 
-PalletTown_ProfessorOaksLab_Text_RivalTellSisNotToGiveYouMap:: @ 818DEF3
+PalletTown_ProfessorOaksLab_Text_RivalTellSisNotToGiveYouMap::
     .string "{PLAYER}, I hate to say it, but you\n"
     .string "won't be necessary for this.\p"
     .string "I know! I'll borrow a Town Map\n"
@@ -122,7 +122,7 @@ PalletTown_ProfessorOaksLab_Text_OakThisMonIsEnergetic:: @ 818E2E5
     .string "This Pokémon is really quite\n"
     .string "energetic!$"
 
-PalletTown_ProfessorOaksLab_Text_ReceivedMonFromOak:: @ 818E30D
+PalletTown_ProfessorOaksLab_Text_ReceivedMonFromOak::
     .string "{PLAYER} received the {STR_VAR_1}\n"
     .string "from Prof. Oak!$"
 
@@ -150,7 +150,7 @@ PalletTown_ProfessorOaksLab_Text_OakHaveSomethingForMe:: @ 818E405
 PalletTown_ProfessorOaksLab_Text_DeliveredOaksParcel:: @ 818E4AF
     .string "{PLAYER} delivered Oak's Parcel.$"
 
-PalletTown_ProfessorOaksLab_Text_OakCustomBallIOrdered:: @ 818E4CA
+PalletTown_ProfessorOaksLab_Text_OakCustomBallIOrdered::
     .string "Ah! \n"
     .string "It's the custom Poké Ball!\p"
     .string "I had it on order.\n"
@@ -160,7 +160,7 @@ PalletTown_ProfessorOaksLab_Text_OakHaveRequestForYouTwo:: @ 818E508
     .string "Oak: Oh, right!\n"
     .string "I have a request for you two.$"
 
-PalletTown_ProfessorOaksLab_Text_OakPokedexOnDesk:: @ 818E536
+PalletTown_ProfessorOaksLab_Text_OakPokedexOnDesk::
     .string "On the desk there is my invention,\n"
     .string "the Pokédex!\p"
     .string "It automatically records data on\n"
@@ -195,7 +195,7 @@ PalletTown_ProfessorOaksLab_Text_OakExplainCatching:: @ 818E6D0
     .string "A healthy Pokémon can escape.\n"
     .string "You have to be lucky!$"
 
-PalletTown_ProfessorOaksLab_Text_OakCompleteMonGuideWasMyDream:: @ 818E784
+PalletTown_ProfessorOaksLab_Text_OakCompleteMonGuideWasMyDream::
     .string "To make a complete guide on all\n"
     .string "the Pokémon in the world…\p"
     .string "That was my dream!\p"
@@ -211,7 +211,7 @@ PalletTown_ProfessorOaksLab_Text_OakMonsAroundWorldWait:: @ 818E871
     .string "Pokémon around the world wait for\n"
     .string "you, {PLAYER}!$"
 
-PalletTown_ProfessorOaksLab_Text_OakAddedNothingToPokedex:: @ 818E89C
+PalletTown_ProfessorOaksLab_Text_OakAddedNothingToPokedex::
     .string "Ah, {PLAYER}!\n"
     .string "How is your Pokédex shaping up?\p"
     .string "{RIVAL} has already caught some\n"
@@ -228,7 +228,7 @@ PalletTown_ProfessorOaksLab_Text_OakComeSeeMeSometime:: @ 818E98E
     .string "After all, I want to know how your\n"
     .string "Pokédex is coming along.$"
 
-PalletTown_ProfessorOaksLab_Text_BlankEncyclopedia:: @ 818E9E5
+PalletTown_ProfessorOaksLab_Text_BlankEncyclopedia::
     .string "It's like an encyclopedia, but the\n"
     .string "pages are blank.$"
 
@@ -250,7 +250,7 @@ PalletTown_ProfessorOaksLab_Text_AllMonTypesHaveStrongAndWeakPoints:: @ 818EAB6
     .string "All Pokémon types have strong and\n"
     .string "weak points against others.$"
 
-PalletTown_ProfessorOaksLab_Text_EmailMessage:: @ 818EAF4
+PalletTown_ProfessorOaksLab_Text_EmailMessage::
     .string "There's an e-mail message here.\p"
     .string "…\p"
     .string "Finally!\n"
@@ -268,7 +268,7 @@ PalletTown_ProfessorOaksLab_Text_StudyAsOaksAide:: @ 818EBE6
     .string "I study Pokémon as Prof. Oak's\n"
     .string "Aide.$"
 
-PalletTown_ProfessorOaksLab_Text_DaisyWillGroomMons:: @ 818EC0B
+PalletTown_ProfessorOaksLab_Text_DaisyWillGroomMons::
     .string "Hi, {PLAYER}. I bet you've become\n"
     .string "good friends with your Pokémon.\p"
     .string "By the way, did you know about\n"
@@ -292,13 +292,13 @@ PalletTown_ProfessorOaksLab_Text_OakIsAuthorityOnMons:: @ 818ED81
     .string "Many Pokémon Trainers hold him in\n"
     .string "high regard.$"
 
-PalletTown_ProfessorOaksLab_Text_OakFavorToAskYouPlayer:: @ 818EDF5
+PalletTown_ProfessorOaksLab_Text_OakFavorToAskYouPlayer::
     .string "Ah, now this is excellent!\p"
     .string "{PLAYER}, I have another important\n"
     .string "favor to ask of you.\p"
     .string "I need you to listen closely.$"
 
-PalletTown_ProfessorOaksLab_Text_OakSightingsOfRareMons:: @ 818EE60
+PalletTown_ProfessorOaksLab_Text_OakSightingsOfRareMons::
     .string "Recently, there have been sightings\n"
     .string "of many rare Pokémon species.\p"
     .string "I'm talking about Pokémon that\n"
@@ -308,7 +308,7 @@ PalletTown_ProfessorOaksLab_Text_OakSightingsOfRareMons:: @ 818EE60
     .string "Since I can't do it, {PLAYER}, I'd\n"
     .string "like you to go in my place.$"
 
-PalletTown_ProfessorOaksLab_Text_RivalJustLetMeHandleEverything:: @ 818EF59
+PalletTown_ProfessorOaksLab_Text_RivalJustLetMeHandleEverything::
     .string "{RIVAL}: Hey, I heard that!\p"
     .string "Gramps, what's with favoring\n"
     .string "{PLAYER} over me all the time?\p"
@@ -327,7 +327,7 @@ PalletTown_ProfessorOaksLab_Text_OakTookBothPokedexUnits:: @ 818F062
     .string "Prof. Oak took both Pokédex\n"
     .string "units.$"
 
-PalletTown_ProfessorOaksLab_Text_OakNowTheseUnitsCanRecordMoreData:: @ 818F085
+PalletTown_ProfessorOaksLab_Text_OakNowTheseUnitsCanRecordMoreData::
     .string "… … …  … … …\p"
     .string "… … …  … … …\p"
     .string "…And that's done!\p"
@@ -337,7 +337,7 @@ PalletTown_ProfessorOaksLab_Text_OakNowTheseUnitsCanRecordMoreData:: @ 818F085
 PalletTown_ProfessorOaksLab_Text_PlayersPokedexWasUpgraded:: @ 818F0E8
     .string "{PLAYER}'s Pokédex was upgraded!$"
 
-PalletTown_ProfessorOaksLab_Text_OakMustReallyWorkToFillPokedex:: @ 818F103
+PalletTown_ProfessorOaksLab_Text_OakMustReallyWorkToFillPokedex::
     .string "Now, {PLAYER} and {RIVAL}!\p"
     .string "This time, you really must work\n"
     .string "towards filling your Pokédexes.\p"
@@ -346,7 +346,7 @@ PalletTown_ProfessorOaksLab_Text_OakMustReallyWorkToFillPokedex:: @ 818F103
     .string "Truly, this is a monumentally great\n"
     .string "undertaking in Pokémon history!$"
 
-PalletTown_ProfessorOaksLab_Text_RivalIllCompleteThePokedex:: @ 818F1DB
+PalletTown_ProfessorOaksLab_Text_RivalIllCompleteThePokedex::
     .string "{RIVAL}: Gramps, calm down.\n"
     .string "Don't get so excited.\p"
     .string "I'll get the Pokédex completed,\n"

@@ -17,23 +17,23 @@ Text_WantToUsePokeFlute:: @ 81853CC
 Text_PlayedPokeFlute:: @ 81853E8
     .string "{PLAYER} played the Poké Flute.$"
 
-Route12_Text_NedIntro:: @ 8185402
+Route12_Text_NedIntro::
     .string "Yeah!\n"
     .string "I got a bite here!$"
 
-Route12_Text_NedDefeat:: @ 818541B
+Route12_Text_NedDefeat::
     .string "Tch!\n"
     .string "Just a small fry…$"
 
-Route12_Text_NedPostBattle:: @ 8185432
+Route12_Text_NedPostBattle::
     .string "Hang on!\n"
     .string "My line's snagged!$"
 
-Route12_Text_ChipIntro:: @ 818544E
+Route12_Text_ChipIntro::
     .string "Be patient.\n"
     .string "Fishing is a waiting game.$"
 
-Route12_Text_ChipDefeat:: @ 8185475
+Route12_Text_ChipDefeat::
     .string "That one got away!$"
 
 Route12_Text_ChipPostBattle:: @ 8185488
@@ -44,7 +44,7 @@ Route12_Text_JustinIntro:: @ 81854B9
     .string "I'm searching for a Moon Stone.\n"
     .string "Have you found one?$"
 
-Route12_Text_JustinDefeat:: @ 81854ED
+Route12_Text_JustinDefeat::
     .string "Oww!$"
 
 Route12_Text_JustinPostBattle:: @ 81854F2
@@ -52,15 +52,15 @@ Route12_Text_JustinPostBattle:: @ 81854F2
     .string "evolve with a Moon Stone.\p"
     .string "I would have won then, I bet.$"
 
-Route12_Text_LucaIntro:: @ 8185547
+Route12_Text_LucaIntro::
     .string "Electricity is my specialty.\p"
     .string "I don't know a thing about Pokémon\n"
     .string "of the sea, though.$"
 
-Route12_Text_LucaDefeat:: @ 818559B
+Route12_Text_LucaDefeat::
     .string "Unplugged!$"
 
-Route12_Text_LucaPostBattle:: @ 81855A6
+Route12_Text_LucaPostBattle::
     .string "Water conducts electricity, so you\n"
     .string "should zap sea Pokémon.$"
 
@@ -68,33 +68,33 @@ Route12_Text_HankIntro:: @ 81855E1
     .string "The Fishing Fool versus Pokémon\n"
     .string "Kid!$"
 
-Route12_Text_HankDefeat:: @ 8185606
+Route12_Text_HankDefeat::
     .string "Touch too much!$"
 
-Route12_Text_HankPostBattle:: @ 8185616
+Route12_Text_HankPostBattle::
     .string "I guess you get to be good at\n"
     .string "what you like.\p"
     .string "Well, you beat me at Pokémon,\n"
     .string "but you can't top me at fishing.$"
 
-Route12_Text_ElliotIntro:: @ 8185682
+Route12_Text_ElliotIntro::
     .string "I love fishing, don't get me wrong.\p"
     .string "But it'd be best if I also had more\n"
     .string "work.$"
 
-Route12_Text_ElliotDefeat:: @ 81856D0
+Route12_Text_ElliotDefeat::
     .string "It's not easy…$"
 
-Route12_Text_ElliotPostBattle:: @ 81856DF
+Route12_Text_ElliotPostBattle::
     .string "It's all right.\n"
     .string "Losing doesn't bug me anymore.$"
 
-Route12_Text_AndrewIntro:: @ 818570E
+Route12_Text_AndrewIntro::
     .string "What's catching?\p"
     .string "You never know what you could\n"
     .string "catch!$"
 
-Route12_Text_AndrewDefeat:: @ 8185744
+Route12_Text_AndrewDefeat::
     .string "Lost it!$"
 
 Route12_Text_AndrewPostBattle:: @ 818574D

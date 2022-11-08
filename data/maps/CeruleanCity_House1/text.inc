@@ -5,12 +5,12 @@ CeruleanCity_House1_Text_BadgesHaveAmazingSecrets:: @ 81918E7
     .string "Those Badges have amazing secrets,\n"
     .string "did you know?$"
 
-CeruleanCity_House1_Text_DescribeWhichBadge:: @ 8191967
+CeruleanCity_House1_Text_DescribeWhichBadge::
     .string "Now then…\p"
     .string "Which of the eight Badges should\n"
     .string "I describe?$"
 
-CeruleanCity_House1_Text_ComeVisitAnytime:: @ 819199E
+CeruleanCity_House1_Text_ComeVisitAnytime::
     .string "Come visit me anytime you wish.$"
 
 CeruleanCity_House1_Text_AttackStatFlash:: @ 81919BE

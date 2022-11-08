@@ -1,5 +1,5 @@
 @ The 5 texts below are supposed to be in FourIsland_House1
-Text_BodySlamTeach:: @ 81A3505
+Text_BodySlamTeach::
     .string "Ready?\n"
     .string "Boing!\p"
     .string "We're having a Body Slam match\n"
@@ -9,7 +9,7 @@ Text_BodySlamTeach:: @ 81A3505
     .string "How about I teach Body Slam to\n"
     .string "a Pokémon of yours instead?$"
 
-Text_BodySlamDeclined:: @ 81A35C7
+Text_BodySlamDeclined::
     .string "Come again!\n"
     .string "Boing!$"
 
@@ -17,10 +17,10 @@ Text_BodySlamWhichMon:: @ 81A35DA
     .string "Which Pokémon wants to learn how\n"
     .string "to Body Slam?$"
 
-Text_BodySlamTaught:: @ 81A3609
+Text_BodySlamTaught::
     .string "Boioing!$"
 
-FourIsland_House1_Text_FatMan:: @ 81A3612
+FourIsland_House1_Text_FatMan::
     .string "それ　ぼよーん！\n"
     .string "おまえ　おもいなあー！$"
 
@@ -38,7 +38,7 @@ FourIsland_PokemonCenter_1F_Text_DayCarePeopleFoundEggBefore:: @ 81A3697
     .string "They said that they'd found Eggs\n"
     .string "before on their property.$"
 
-FourIsland_PokemonCenter_1F_Text_NewPokemonJournalHasntArrived:: @ 81A3734
+FourIsland_PokemonCenter_1F_Text_NewPokemonJournalHasntArrived::
     .string "What's this?\p"
     .string "The new Pokémon Journal hasn't\n"
     .string "arrived on this island?$"

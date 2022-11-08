@@ -1,4 +1,4 @@
-Text_FirstShouldRestoreMonsHealth:: @ 81A5E89
+Text_FirstShouldRestoreMonsHealth::
 	.string "First, you should restore your\n"
 	.string "Pokémon to full health.$"
 
@@ -40,14 +40,14 @@ Text_MomExplainHPGetPotions:: @ 81A6046
 	.string "Make me proud, honey!\p"
 	.string "Take care!$"
 
-Text_WhitedOutLostMoney:: @ 81A6197
+Text_WhitedOutLostMoney::
 	.string "{PLAYER} is out of usable\n"
 	.string "Pokémon!\p"
 	.string "{PLAYER} panicked and lost ¥{STR_VAR_1}…\p"
 	.string "… … … …\p"
 	.string "{PLAYER} whited out!$"
 
-Text_WhitedOut:: @ 81A61E5
+Text_WhitedOut::
 	.string "{PLAYER} is out of usable\n"
 	.string "Pokémon!\p"
 	.string "{PLAYER} whited out!$"

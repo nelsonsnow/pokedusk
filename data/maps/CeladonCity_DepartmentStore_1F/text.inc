@@ -1,4 +1,4 @@
-CeladonCity_DepartmentStore_1F_Text_WelcomeToDeptStore:: @ 81954DD
+CeladonCity_DepartmentStore_1F_Text_WelcomeToDeptStore::
     .string "Hello!\n"
     .string "Welcome to Celadon Dept. Store.\p"
     .string "The board on the right describes\n"

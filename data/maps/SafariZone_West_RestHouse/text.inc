@@ -16,7 +16,7 @@ SafariZone_West_Text_BaitMakesMonStickAround:: @ 8177D39
     .string "likely to stick around if they get\l"
     .string "busy eating.$"
 
-SafariZone_West_Text_HikedLotsDidntSeeMonIWanted:: @ 8177D8B
+SafariZone_West_Text_HikedLotsDidntSeeMonIWanted::
     .string "I hiked a lot, but I didn't see any\n"
     .string "Pokémon I wanted.$"
 

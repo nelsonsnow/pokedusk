@@ -1,4 +1,4 @@
-SSAnne_1F_Room3_Text_CruiseIsElegantAndCozy:: @ 8173AFA
+SSAnne_1F_Room3_Text_CruiseIsElegantAndCozy::
     .string "A world cruise is so elegant yet\n"
     .string "cozy!$"
 

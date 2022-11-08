@@ -17,7 +17,7 @@ CeruleanCity_PokemonCenter_1F_Text_BillCollectsRareMons:: @ 8192116
     .string "Bill has lots of Pokémon!\n"
     .string "He collects rare ones, too!$"
 
-CeruleanCity_PokemonCenter_1F_Text_TryTradingUpstairs:: @ 819214C
+CeruleanCity_PokemonCenter_1F_Text_TryTradingUpstairs::
     .string "Why don't you go upstairs and try\n"
     .string "trading Pokémon with your friends?\p"
     .string "You could get a lot more variety\n"

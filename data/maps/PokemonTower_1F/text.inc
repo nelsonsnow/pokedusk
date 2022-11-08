@@ -2,17 +2,17 @@ PokemonTower_1F_Text_ErectedInMemoryOfDeadMons:: @ 8179B7A
     .string "Pokémon Tower was erected in the\n"
     .string "memory of Pokémon that died.$"
 
-PokemonTower_1F_Text_ComeToPayRespectsSon:: @ 8179BB8
+PokemonTower_1F_Text_ComeToPayRespectsSon::
     .string "Did you come to pay respects?\p"
     .string "Bless your Pokémon-loving heart,\n"
     .string "son.$"
 
-PokemonTower_1F_Text_ComeToPayRespectsGirl:: @ 8179BFC
+PokemonTower_1F_Text_ComeToPayRespectsGirl::
     .string "Did you come to pay respects?\p"
     .string "Bless your Pokémon-loving heart,\n"
     .string "girl.$"
 
-PokemonTower_1F_Text_CameToPrayForDepartedClefairy:: @ 8179C41
+PokemonTower_1F_Text_CameToPrayForDepartedClefairy::
     .string "I came to pray for my dearly\n"
     .string "departed Clefairy.\p"
     .string "Sniff!\n"

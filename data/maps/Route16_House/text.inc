@@ -1,10 +1,10 @@
-Route16_House_Text_FoundMySecretRetreat:: @ 819F851
+Route16_House_Text_FoundMySecretRetreat::
     .string "Oh, dear.\n"
     .string "You've found my secret retreat.\p"
     .string "Please don't tell anyone I'm here.\n"
     .string "I'll make it up to you with this!$"
 
-Route16_House_Text_ReceivedHM02FromGirl:: @ 819F8C0
+Route16_House_Text_ReceivedHM02FromGirl::
     .string "{PLAYER} received HM02\n"
     .string "from the girl.$"
 
@@ -13,7 +13,7 @@ Route16_House_Text_ExplainHM02:: @ 819F8E0
     .string "It's a wonderfully convenient move.\p"
     .string "Please, put it to good use.$"
 
-Route16_House_Text_DontHaveAnyRoomForThis:: @ 819F92D
+Route16_House_Text_DontHaveAnyRoomForThis::
     .string "You don't have any room for this.$"
 
 Route16_House_Text_Fearow:: @ 819F94F

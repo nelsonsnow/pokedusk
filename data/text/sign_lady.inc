@@ -1,14 +1,14 @@
 @ For the NPC in Pallet Town that talks about the Trainer Tips sign
 
-PalletTown_Text_HmmIsThatRight:: @ 81B1C8B
+PalletTown_Text_HmmIsThatRight::
 	.string "Hmm…\n"
 	.string "Is that right…$"
 
-PalletTown_Text_OhLookLook:: @ 81B1C9F
+PalletTown_Text_OhLookLook::
 	.string "Oh!\n"
 	.string "Look, look!$"
 
-PalletTown_Text_ReadItReadIt:: @ 81B1CAF
+PalletTown_Text_ReadItReadIt::
 	.string "Read it, read it!$"
 
 @ Used by sign
@@ -16,10 +16,10 @@ PalletTown_Text_PressStartToOpenMenu:: @ 81B1CC1
 	.string "Trainer Tips\p"
 	.string "Press Start to open the Menu!$"
 
-PalletTown_Text_SignsAreUsefulArentThey:: @ 81B1CEC
+PalletTown_Text_SignsAreUsefulArentThey::
 	.string "Signs are useful, aren't they?$"
 
-PalletTown_Text_LookCopiedTrainerTipsSign:: @ 81B1D0B
+PalletTown_Text_LookCopiedTrainerTipsSign::
 	.string "Look, look!\p"
 	.string "I copied what it said on one of\n"
 	.string "those Trainer Tips signs!$"

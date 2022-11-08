@@ -1,4 +1,4 @@
-IndigoPlateau_PokemonCenter_1F_Text_GymGuyAdvice:: @ 819A837
+IndigoPlateau_PokemonCenter_1F_Text_GymGuyAdvice::
     .string "Yo!\n"
     .string "Champ in the making!\p"
     .string "At the Pokémon League, you will\n"
@@ -8,13 +8,13 @@ IndigoPlateau_PokemonCenter_1F_Text_GymGuyAdvice:: @ 819A837
     .string "This is it!\n"
     .string "Go for it!$"
 
-IndigoPlateau_PokemonCenter_1F_Text_FaceEliteFourGoodLuck:: @ 819A8D8
+IndigoPlateau_PokemonCenter_1F_Text_FaceEliteFourGoodLuck::
     .string "From here on, you face the\n"
     .string "Elite Four one by one.\p"
     .string "If you win, a door opens to the\n"
     .string "next Trainer. Good luck!$"
 
-IndigoPlateau_PokemonCenter_1F_Text_LoreleiIsAbsentClosedForTimeBeing:: @ 819A943
+IndigoPlateau_PokemonCenter_1F_Text_LoreleiIsAbsentClosedForTimeBeing::
     .string "I am so sorry, but you've wasted\n"
     .string "your time coming here.\p"
     .string "Lorelei of the Elite Four is\n"

@@ -1,4 +1,4 @@
-FourIsland_Mart_Text_LoreleiGrewUpOnThisIsland:: @ 81A3A60
+FourIsland_Mart_Text_LoreleiGrewUpOnThisIsland::
     .string "We've had a great and powerful\n"
     .string "Trainer grow up on this island.\p"
     .string "I bet even you'd know her.\n"

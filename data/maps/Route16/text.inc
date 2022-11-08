@@ -1,10 +1,10 @@
-Route16_Text_LaoIntro:: @ 8186C4D
+Route16_Text_LaoIntro::
     .string "What do you want?$"
 
-Route16_Text_LaoDefeat:: @ 8186C5F
+Route16_Text_LaoDefeat::
     .string "Don't you dare laugh!$"
 
-Route16_Text_LaoPostBattle:: @ 8186C75
+Route16_Text_LaoPostBattle::
     .string "We like just hanging here.\n"
     .string "What's it to you?$"
 
@@ -12,39 +12,39 @@ Route16_Text_KojiIntro:: @ 8186CA2
     .string "Nice Bike!\n"
     .string "Hand it over!$"
 
-Route16_Text_KojiDefeat:: @ 8186CBB
+Route16_Text_KojiDefeat::
     .string "Knockout!$"
 
 Route16_Text_KojiPostBattle:: @ 8186CC5
     .string "Forget it, who needs your Bike!$"
 
-Route16_Text_LukeIntro:: @ 8186CE5
+Route16_Text_LukeIntro::
     .string "Come out and play, little mouse!$"
 
-Route16_Text_LukeDefeat:: @ 8186D06
+Route16_Text_LukeDefeat::
     .string "You little rat!$"
 
-Route16_Text_LukePostBattle:: @ 8186D16
+Route16_Text_LukePostBattle::
     .string "I hate losing!\n"
     .string "Get out of my face!$"
 
-Route16_Text_HideoIntro:: @ 8186D39
+Route16_Text_HideoIntro::
     .string "Hey, you just bumped me!$"
 
-Route16_Text_HideoDefeat:: @ 8186D52
+Route16_Text_HideoDefeat::
     .string "Kaboom!$"
 
-Route16_Text_HideoPostBattle:: @ 8186D5A
+Route16_Text_HideoPostBattle::
     .string "We'll always be hanging around here\n"
     .string "even if you don't like it.\p"
     .string "You can detour to Vermilion from\n"
     .string "Fuchsia going along the coast.$"
 
-Route16_Text_CamronIntro:: @ 8186DD9
+Route16_Text_CamronIntro::
     .string "I'm feeling hungry and mean!\n"
     .string "I need a punching bag!$"
 
-Route16_Text_CamronDefeat:: @ 8186E0D
+Route16_Text_CamronDefeat::
     .string "Bad, bad, bad!$"
 
 Route16_Text_CamronPostBattle:: @ 8186E1C
@@ -53,14 +53,14 @@ Route16_Text_CamronPostBattle:: @ 8186E1C
     .string "I'd use them to leave my enemies\n"
     .string "in tatters.$"
 
-Route16_Text_RubenIntro:: @ 8186E86
+Route16_Text_RubenIntro::
     .string "Hey, there!\n"
     .string "Let's have ourselves a good time!$"
 
-Route16_Text_RubenDefeat:: @ 8186EB4
+Route16_Text_RubenDefeat::
     .string "Don't make me mad!$"
 
-Route16_Text_RubenPostBattle:: @ 8186EC7
+Route16_Text_RubenPostBattle::
     .string "I get my kicks by harassing people\n"
     .string "with my stinking Pokémon.\p"
     .string "They're great for startling people.\n"
@@ -70,7 +70,7 @@ Route16_Text_MonSprawledOutInSlumber:: @ 8186F3D
     .string "A Pokémon is sprawled out in\n"
     .string "a deep and comfortable slumber.$"
 
-Route16_Text_CyclingRoadSign:: @ 8186F7A
+Route16_Text_CyclingRoadSign::
     .string "Enjoy the slope!\n"
     .string "Cycling Road$"
 

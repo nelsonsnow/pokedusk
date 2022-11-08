@@ -3,7 +3,7 @@ CeladonCity_DepartmentStore_2F_Text_SuperRepelMorePowerfulRepel:: @ 81955C7
     .string "bay…\p"
     .string "Hmm, it's a more powerful Repel.$"
 
-CeladonCity_DepartmentStore_2F_Text_BuyReviveForLongOutings:: @ 819560F
+CeladonCity_DepartmentStore_2F_Text_BuyReviveForLongOutings::
     .string "For long outings, you should buy\n"
     .string "Revive.$"
 

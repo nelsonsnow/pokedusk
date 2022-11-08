@@ -1,27 +1,27 @@
-Route3_Text_TunnelFromCeruleanTiring:: @ 8183491
+Route3_Text_TunnelFromCeruleanTiring::
     .string "Whew… I better take a rest…\n"
     .string "Groan…\p"
     .string "That tunnel from Cerulean takes a\n"
     .string "lot out of you!$"
 
-Route3_Text_ColtonIntro:: @ 81834E6
+Route3_Text_ColtonIntro::
     .string "Hey!\n"
     .string "I saw you in Viridian Forest!$"
 
-Route3_Text_ColtonDefeat:: @ 8183509
+Route3_Text_ColtonDefeat::
     .string "You beat me again!$"
 
 Route3_Text_ColtonPostBattle:: @ 818351C
     .string "There are other kinds of Pokémon\n"
     .string "than the ones you find in forests.$"
 
-Route3_Text_BenIntro:: @ 8183560
+Route3_Text_BenIntro::
     .string "Hi!\n"
     .string "I like shorts!\p"
     .string "They're delightfully comfy and\n"
     .string "easy to wear!$"
 
-Route3_Text_BenDefeat:: @ 81835A0
+Route3_Text_BenDefeat::
     .string "I don't believe it!$"
 
 Route3_Text_BenPostBattle:: @ 81835B4
@@ -30,14 +30,14 @@ Route3_Text_BenPostBattle:: @ 81835B4
     .string "Each Box can hold up to\n"
     .string "30 Pokémon.$"
 
-Route3_Text_JaniceIntro:: @ 8183616
+Route3_Text_JaniceIntro::
     .string "Excuse me!\n"
     .string "You looked at me, didn't you?$"
 
-Route3_Text_JaniceDefeat:: @ 818363F
+Route3_Text_JaniceDefeat::
     .string "You're mean!$"
 
-Route3_Text_JanicePostBattle:: @ 818364C
+Route3_Text_JanicePostBattle::
     .string "You shouldn't be staring if you\n"
     .string "don't want to battle!$"
 
@@ -53,26 +53,26 @@ Route3_Text_GregPostBattle:: @ 81836D9
     .string "If a Pokémon Box on the PC gets\n"
     .string "full, just switch to another Box.$"
 
-Route3_Text_SallyIntro:: @ 818371B
+Route3_Text_SallyIntro::
     .string "That look you gave me…\n"
     .string "It's so intriguing!$"
 
-Route3_Text_SallyDefeat:: @ 8183746
+Route3_Text_SallyDefeat::
     .string "Be nice!$"
 
-Route3_Text_SallyPostBattle:: @ 818374F
+Route3_Text_SallyPostBattle::
     .string "You can avoid battles by not\n"
     .string "letting Trainers see you.$"
 
-Route3_Text_CalvinIntro:: @ 8183786
+Route3_Text_CalvinIntro::
     .string "Hey! You're not wearing shorts!\n"
     .string "What's wrong with you?$"
 
-Route3_Text_CalvinDefeat:: @ 81837BD
+Route3_Text_CalvinDefeat::
     .string "Lost!\n"
     .string "Lost! Lost!$"
 
-Route3_Text_CalvinPostBattle:: @ 81837CF
+Route3_Text_CalvinPostBattle::
     .string "I always wear shorts, even in\n"
     .string "winter. That's my policy.$"
 
@@ -80,18 +80,18 @@ Route3_Text_JamesIntro:: @ 8183807
     .string "I'll battle you with the Pokémon\n"
     .string "I just caught.$"
 
-Route3_Text_JamesDefeat:: @ 8183837
+Route3_Text_JamesDefeat::
     .string "Done like dinner!$"
 
 Route3_Text_JamesPostBattle:: @ 8183849
     .string "Trained Pokémon are stronger than\n"
     .string "the wild ones.$"
 
-Route3_Text_RobinIntro:: @ 818387A
+Route3_Text_RobinIntro::
     .string "Eek!\n"
     .string "Did you touch me?$"
 
-Route3_Text_RobinDefeat:: @ 8183891
+Route3_Text_RobinDefeat::
     .string "That's it?$"
 
 Route3_Text_RobinPostBattle:: @ 818389C

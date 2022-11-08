@@ -13,7 +13,7 @@ CeladonCity_Text_GameCornerIsBadForCitysImage:: @ 817FF4A
     .string "That's why the new Game Corner is\n"
     .string "bad for our city's image.$"
 
-CeladonCity_Text_BlewItAllAtSlots:: @ 817FFC5
+CeladonCity_Text_BlewItAllAtSlots::
     .string "Moan…\n"
     .string "I blew it all at the slots!\p"
     .string "I knew I should have cashed in my\n"
@@ -27,7 +27,7 @@ CeladonCity_Text_MyTrustedPalPoliwrath:: @ 818001B
 CeladonCity_Text_Poliwrath:: @ 8180075
     .string "Poliwrath: Ribi ribit!$"
 
-CeladonCity_Text_GetLostOrIllPunchYou:: @ 818008C
+CeladonCity_Text_GetLostOrIllPunchYou::
     .string "What are you staring at?\n"
     .string "Get lost, or I'll punch you.$"
 
@@ -55,7 +55,7 @@ CeladonCity_Text_GymSign:: @ 81801A2
 CeladonCity_Text_MansionSign:: @ 81801E5
     .string "Celadon Mansion$"
 
-CeladonCity_Text_DeptStoreSign:: @ 81801F5
+CeladonCity_Text_DeptStoreSign::
     .string "Find what you need at the\n"
     .string "Celadon Dept. Store!$"
 
@@ -75,7 +75,7 @@ CeladonCity_Text_GameCornerSign:: @ 81802CF
     .string "Rocket Game Corner\n"
     .string "The playground for grown-ups!$"
 
-CeladonCity_Text_ScaldedTongueOnTea:: @ 8180300
+CeladonCity_Text_ScaldedTongueOnTea::
     .string "Aaaagh, ow…\n"
     .string "I scalded my tongue!\p"
     .string "This nice old lady in the Mansion\n"
@@ -83,7 +83,7 @@ CeladonCity_Text_ScaldedTongueOnTea:: @ 8180300
     .string "But it was boiling hot!\n"
     .string "Gotta cool it to drink it.$"
 
-Text_SoftboiledTeach:: @ 8180388
+Text_SoftboiledTeach::
     .string "Hello, there!\p"
     .string "I've seen you about, but I never\n"
     .string "had a chance to chat.\p"
@@ -92,7 +92,7 @@ Text_SoftboiledTeach:: @ 8180388
     .string "I'd like to celebrate by teaching\n"
     .string "you the move SoftBoiled.$"
 
-Text_SoftboiledDeclined:: @ 818043F
+Text_SoftboiledDeclined::
     .string "I'll always be keeping an eye out\n"
     .string "for you.\p"
     .string "I hope we can chat again.$"
@@ -101,10 +101,10 @@ Text_SoftboiledWhichMon:: @ 8180484
     .string "So, who's the Pokémon that gets\n"
     .string "the chance to learn SoftBoiled?$"
 
-Text_SoftboiledTaught:: @ 81804C4
+Text_SoftboiledTaught::
     .string "I wish you the best of luck!$"
 
-CeladonCity_Text_SomeoneStoleSilphScope:: @ 81804E1
+CeladonCity_Text_SomeoneStoleSilphScope::
     .string "Oh, what am I to do…\p"
     .string "Someone stole our Silph Scope.\p"
     .string "The thief came running this way,\n"

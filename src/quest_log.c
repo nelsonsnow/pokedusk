@@ -138,9 +138,6 @@ static void UpdateTrainerFansAfterLinkBattle(struct TrainerFanClub *);
 static bool8 DidPlayerGetFirstFans(struct TrainerFanClub * );
 static void SetPlayerGotFirstFans(struct TrainerFanClub *);
 static bool8 InQuestLogDisabledLocation(void);
-static bool8 sub_8113778(u16, const u16 *);
-static bool8 sub_81137E4(u16, const u16 *);
-static u16 *sub_8113828(u16, const u16 *);
 static bool8 TrySetLinkQuestLogEvent(u16, const u16 *);
 static bool8 TrySetTrainerBattleQuestLogEvent(u16, const u16 *);
 
@@ -156,7 +153,7 @@ static const u16 sUnknown_8456638[] = INCBIN_U16("graphics/unknown/unknown_84566
 
 static const u8 sQuestLogTextLineYCoords[] = {17, 10, 3};
 
-void SetQuestLogRecordAndPlaybackPointers(void * oldPointer)
+void SetQuestLogRecordAndPlaybackPointers(void *oldPointer)
 {
     ptrdiff_t offset = (void *)gSaveBlock1Ptr - oldPointer;
     if (gUnknown_203AE04)
@@ -204,10 +201,10 @@ void RunQuestLogCB(void)
         sQuestLogCB();
 }
 
-bool8 sub_8110944(const void * a0, size_t cmdSize)
+bool8 sub_8110944(const void *a0, size_t cmdSize)
 {
-    void * r2 = gSaveBlock1Ptr->questLog[sCurrentSceneNum].script;
-    void * r0 = gSaveBlock1Ptr->questLog[sCurrentSceneNum].end;
+    void *r2 = gSaveBlock1Ptr->questLog[sCurrentSceneNum].script;
+    void *r0 = gSaveBlock1Ptr->questLog[sCurrentSceneNum].end;
     r0 -= cmdSize;
     if ((const void *)a0 < r2 || (const void *)a0 > r0)
         return FALSE;
@@ -216,8 +213,8 @@ bool8 sub_8110944(const void * a0, size_t cmdSize)
 
 bool8 WillCommandOfSizeFitInSav1Record(u16 *cursor, size_t size)
 {
-    void * start = gSaveBlock1Ptr->questLog[sCurrentSceneNum].script;
-    void * end = gSaveBlock1Ptr->questLog[sCurrentSceneNum].end;
+    void *start = gSaveBlock1Ptr->questLog[sCurrentSceneNum].script;
+    void *end = gSaveBlock1Ptr->questLog[sCurrentSceneNum].end;
     end -= size;
     if ((void *)cursor < start || (void *)cursor > end)
         return FALSE;
@@ -259,7 +256,7 @@ static void QLogCB_Playback(void)
         else
         {
             sQuestLogCurrentScene.sceneEndMode = 2;
-            ScriptContext2_Enable();
+            LockPlayerFieldControls();
             QuestLog_BeginFadeAtEndOfScene(0);
         }
     }
@@ -338,8 +335,8 @@ static void SetNPCInitialCoordsAtScene(u8 sceneNum)
             questLog->npcData[i].y = (u8)gSaveBlock1Ptr->objectEventTemplates[i].y;
             questLog->npcData[i].negy = FALSE;
         }
-        questLog->npcData[i].elevation = gSaveBlock1Ptr->objectEventTemplates[i].elevation;
-        questLog->npcData[i].movementType = gSaveBlock1Ptr->objectEventTemplates[i].movementType;
+        questLog->npcData[i].elevation = gSaveBlock1Ptr->objectEventTemplates[i].objUnion.normal.elevation;
+        questLog->npcData[i].movementType = gSaveBlock1Ptr->objectEventTemplates[i].objUnion.normal.movementType;
     }
 }
 
@@ -462,7 +459,7 @@ void sub_8110FCC(void)
 
 static bool8 FieldCB2_QuestLogStartPlaybackWithWarpExit(void)
 {
-    LoadPalette(stdpal_get(4), 0xF0, 0x20);
+    LoadPalette(GetTextWindowPalette(4), 0xF0, 0x20);
     SetQuestLogState(QL_STATE_PLAYBACK);
     FieldCB_DefaultWarpExit();
     sQuestLogCurrentScene = (struct UnkStruct_203AE94){};
@@ -472,7 +469,7 @@ static bool8 FieldCB2_QuestLogStartPlaybackWithWarpExit(void)
 
 static bool8 FieldCB2_QuestLogStartPlaybackStandingInPlace(void)
 {
-    LoadPalette(stdpal_get(4), 0xF0, 0x20);
+    LoadPalette(GetTextWindowPalette(4), 0xF0, 0x20);
     SetQuestLogState(QL_STATE_PLAYBACK);
     FieldCB_WarpExitFadeFromBlack();
     sQuestLogCurrentScene = (struct UnkStruct_203AE94){};
@@ -499,12 +496,12 @@ void DrawPreviouslyOnQuestHeader(u8 sceneNum)
         StringAppend(gStringVar4, gStringVar1);
     }
 
-    AddTextPrinterParameterized4(sQuestLogHeaderWindowIds[0], 2, 2, 2, 1, 2, sTextColors, 0, gStringVar4);
+    AddTextPrinterParameterized4(sQuestLogHeaderWindowIds[0], FONT_2, 2, 2, 1, 2, sTextColors, 0, gStringVar4);
     PutWindowTilemap(sQuestLogHeaderWindowIds[0]);
     PutWindowTilemap(sQuestLogHeaderWindowIds[1]);
     CopyWindowToVram(sQuestLogHeaderWindowIds[0], COPYWIN_GFX);
     CopyWindowToVram(sQuestLogHeaderWindowIds[2], COPYWIN_GFX);
-    CopyWindowToVram(sQuestLogHeaderWindowIds[1], COPYWIN_BOTH);
+    CopyWindowToVram(sQuestLogHeaderWindowIds[1], COPYWIN_FULL);
 }
 
 void CommitQuestLogWindow1(void)
@@ -528,8 +525,8 @@ static void QuestLogPlaybackSetObjectEventTemplates(u8 sceneNum)
             gSaveBlock1Ptr->objectEventTemplates[i].y = -(u8)questLog->npcData[i].y;
         else
             gSaveBlock1Ptr->objectEventTemplates[i].y = questLog->npcData[i].y;
-        gSaveBlock1Ptr->objectEventTemplates[i].elevation = questLog->npcData[i].elevation;
-        gSaveBlock1Ptr->objectEventTemplates[i].movementType = questLog->npcData[i].movementType;
+        gSaveBlock1Ptr->objectEventTemplates[i].objUnion.normal.elevation = questLog->npcData[i].elevation;
+        gSaveBlock1Ptr->objectEventTemplates[i].objUnion.normal.movementType = questLog->npcData[i].movementType;
     }
 
     SetSav1ObjectEventsFromQuestLog(questLog, gSaveBlock1Ptr->objectEventTemplates);
@@ -794,7 +791,7 @@ static void QuestLog_AdvancePlayhead(void)
 {
     if (!gPaletteFade.active)
     {
-        ScriptContext2_Enable();
+        LockPlayerFieldControls();
         if (++sCurrentSceneNum < QUEST_LOG_SCENE_COUNT && gSaveBlock1Ptr->questLog[sCurrentSceneNum].startType != 0)
         {
             sNumScenes--;
@@ -812,7 +809,7 @@ static void QuestLog_StartFinalScene(void)
 {
     ResetSpecialVars();
     Save_ResetSaveCounters();
-    Save_LoadGameData(SAVE_NORMAL);
+    LoadGameSave(SAVE_NORMAL);
     SetMainCallback2(CB2_EnterFieldFromQuestLog);
     gFieldCallback2 = FieldCB2_FinalScene;
     FreeAllWindowBuffers();
@@ -855,7 +852,7 @@ static void Task_RunPlaybackCB(u8 taskId)
     case 0:
         if (++data[0] == 0x7F)
         {
-            BeginNormalPaletteFade(0xFFFFFFFF, 0, 0, 16, 0);
+            BeginNormalPaletteFade(PALETTES_ALL, 0, 0, 16, 0);
             sQuestLogCurrentScene.sceneEndMode = 2;
             data[1]++;
         }
@@ -994,7 +991,7 @@ static void DrawQuestLogSceneDescription(void)
 
     PutWindowTilemap(sQuestLogHeaderWindowIds[2]);
     sub_8111D90(sQuestLogHeaderWindowIds[2]);
-    AddTextPrinterParameterized4(sQuestLogHeaderWindowIds[2], 2, 2, sQuestLogTextLineYCoords[numLines], 1, 0, sTextColors, 0, gStringVar4);
+    AddTextPrinterParameterized4(sQuestLogHeaderWindowIds[2], FONT_2, 2, sQuestLogTextLineYCoords[numLines], 1, 0, sTextColors, 0, gStringVar4);
     ScheduleBgCopyTilemapToVram(0);
 }
 
@@ -1054,7 +1051,7 @@ static void QuestLog_WaitFadeAndCancelPlayback(void)
 {
     if (!gPaletteFade.active)
     {
-        ScriptContext2_Enable();
+        LockPlayerFieldControls();
         for (sCurrentSceneNum = sCurrentSceneNum; sCurrentSceneNum < QUEST_LOG_SCENE_COUNT; sCurrentSceneNum++)
         {
             if (gSaveBlock1Ptr->questLog[sCurrentSceneNum].startType == 0)
@@ -1079,7 +1076,7 @@ void QuestLog_BackUpPalette(u16 offset, u16 size)
 
 static bool8 FieldCB2_FinalScene(void)
 {
-    LoadPalette(stdpal_get(4), 0xF0, 0x20);
+    LoadPalette(GetTextWindowPalette(4), 0xF0, 0x20);
     DrawPreviouslyOnQuestHeader(0);
     FieldCB_WarpExitFadeFromBlack();
     CreateTask(Task_FinalScene_WaitFade, 0xFF);
@@ -1090,12 +1087,12 @@ static void Task_FinalScene_WaitFade(u8 taskId)
 {
     struct Task *task = &gTasks[taskId];
 
-    if (ScriptContext2_IsEnabled() != TRUE)
+    if (ArePlayerFieldControlsLocked() != TRUE)
     {
         FreezeObjectEvents();
         HandleEnforcedLookDirectionOnPlayerStopMoving();
         StopPlayerAvatar();
-        ScriptContext2_Enable();
+        LockPlayerFieldControls();
         task->func = Task_QuestLogScene_SavedGame;
     }
 }
@@ -1116,7 +1113,7 @@ static void Task_QuestLogScene_SavedGame(u8 taskId)
         task->data[1] = 0;
         task->func = Task_WaitAtEndOfQuestLog;
         FreezeObjectEvents();
-        ScriptContext2_Enable();
+        LockPlayerFieldControls();
     }
 }
 
@@ -1182,7 +1179,7 @@ static void Task_EndQuestLog(u8 taskId)
         Free(sPalettesBackup);
         sQuestLogCurrentScene = (struct UnkStruct_203AE94){};
         ClearPlayerHeldMovementAndUnfreezeObjectEvents();
-        ScriptContext2_Disable();
+        UnlockPlayerFieldControls();
         gTextFlags.autoScroll = FALSE;
         gGlobalFieldTintMode = QL_TINT_NONE;
         DisableWildEncounters(FALSE);
@@ -1202,8 +1199,8 @@ static bool8 sub_81121D8(u8 taskId)
     if (data[1] > 15)
         return TRUE;
 
-    sub_80716F8(gPlttBufferUnfaded + 0x01, gPlttBufferFaded + 0x01, 0xDF, 0x0F - data[1]);
-    sub_80716F8(gPlttBufferUnfaded + 0x100, gPlttBufferFaded + 0x100, 0x100, 0x0F - data[1]);
+    CopyPaletteInvertedTint(gPlttBufferUnfaded + 0x01, gPlttBufferFaded + 0x01, 0xDF, 0x0F - data[1]);
+    CopyPaletteInvertedTint(gPlttBufferUnfaded + 0x100, gPlttBufferFaded + 0x100, 0x100, 0x0F - data[1]);
     FillWindowPixelRect(sQuestLogHeaderWindowIds[0], 0x00, 0, sQuestLogHeaderWindowTemplates[0].height * 8 - 1 - data[1], sQuestLogHeaderWindowTemplates[0].width * 8, 1);
     FillWindowPixelRect(sQuestLogHeaderWindowIds[1], 0x00, 0, data[1], sQuestLogHeaderWindowTemplates[1].width * 8, 1);
     CopyWindowToVram(sQuestLogHeaderWindowIds[0], COPYWIN_GFX);
@@ -1300,7 +1297,7 @@ void sub_811246C(struct Sprite *sprite)
             QuestLogUpdatePlayerSprite(sMovementScripts[0][1]);
             sMovementScripts[0][1] = 0xFF;
         }
-        sub_8063E28(objectEvent, sprite);
+        UpdateQuestLogObjectEventCurrentMovement(objectEvent, sprite);
     }
     else
     {
@@ -1309,7 +1306,7 @@ void sub_811246C(struct Sprite *sprite)
             ObjectEventSetHeldMovement(objectEvent, sMovementScripts[objectEvent->localId][0]);
             sMovementScripts[objectEvent->localId][0] = 0xFF;
         }
-        sub_8063E28(objectEvent, sprite);
+        UpdateQuestLogObjectEventCurrentMovement(objectEvent, sprite);
     }
 }
 
@@ -1420,7 +1417,7 @@ void sub_81127F8(struct FieldInput * a0)
         sCurQuestLogEntry[sQuestLogCursor].mapGroup = r2 >> 16;
         sCurQuestLogEntry[sQuestLogCursor].animId = r2 >> 24; // always 0
         sQuestLogCursor++;
-        if (ScriptContext2_IsEnabled())
+        if (ArePlayerFieldControlsLocked())
             sNextStepDelay = TRUE;
         else
             sNextStepDelay = FALSE;
@@ -1593,7 +1590,7 @@ void sub_8112B3C(void)
         }
         break;
     case 2:
-        if (ScriptContext2_IsEnabled() != TRUE)
+        if (ArePlayerFieldControlsLocked() != TRUE)
         {
             sNextStepDelay++;
             if (sQuestLogCursor >= sNumEventsInLogEntry)
@@ -1630,7 +1627,7 @@ u8 sub_8112CAC(void)
 
 static bool8 RecordHeadAtEndOfEntryOrScriptContext2Enabled(void)
 {
-    if (sQuestLogCursor >= sNumEventsInLogEntry || ScriptContext2_IsEnabled() == TRUE)
+    if (sQuestLogCursor >= sNumEventsInLogEntry || ArePlayerFieldControlsLocked() == TRUE)
         return TRUE;
     return FALSE;
 }
@@ -1648,9 +1645,9 @@ static const struct FlagOrVarRecord sDummyFlagOrVarRecord = {
     0x7FFF
 };
 
-void * QuestLogGetFlagOrVarPtr(bool8 isFlag, u16 idx)
+void *QuestLogGetFlagOrVarPtr(bool8 isFlag, u16 idx)
 {
-    void * response;
+    void *response;
     if (sQuestLogCursor == 0)
         return NULL;
     if (sQuestLogCursor >= sNumEventsInLogEntry)

@@ -7,7 +7,7 @@ SaffronCity_PokemonCenter_1F_Text_SilphCoVictimOfFame:: @ 819C058
     .string "It's a victim of its own fame - it\n"
     .string "attracted Team Rocket.$"
 
-SaffronCity_PokemonCenter_1F_Text_GreatIfEliteFourCameBeatRockets:: @ 819C0B4
+SaffronCity_PokemonCenter_1F_Text_GreatIfEliteFourCameBeatRockets::
     .string "Sigh…\n"
     .string "Wouldn't this be great?\p"
     .string "If the Elite Four came and\n"

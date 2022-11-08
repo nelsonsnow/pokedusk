@@ -1,4 +1,4 @@
-SixIsland_PokemonCenter_1F_Text_SomethingHiddenOnThisIsland:: @ 81A3E02
+SixIsland_PokemonCenter_1F_Text_SomethingHiddenOnThisIsland::
     .string "For ten years, I've searched for\n"
     .string "Ruins.\p"
     .string "No, make that twenty years.\p"
@@ -13,7 +13,7 @@ SixIsland_PokemonCenter_1F_Text_SomeMonsEvolveByTradingWithHeldItem:: @ 81A3E87
     .string "Some Pokémon evolve only when\n"
     .string "traded while holding specific items.$"
 
-SixIsland_PokemonCenter_1F_Text_RivalImpossibleToGetAllMonsAroundHere:: @ 81A3F30
+SixIsland_PokemonCenter_1F_Text_RivalImpossibleToGetAllMonsAroundHere::
     .string "{RIVAL}: Hey, {PLAYER}!\n"
     .string "How's your Pokédex filling up?\p"
     .string "It looks like it's impossible to get\n"

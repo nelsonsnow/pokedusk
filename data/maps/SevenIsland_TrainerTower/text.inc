@@ -1,23 +1,23 @@
-SevenIsland_TrainerTower_Text_DarioIntro:: @ 818C1ED
+SevenIsland_TrainerTower_Text_DarioIntro::
     .string "I sensed your approach.$"
 
-SevenIsland_TrainerTower_Text_DarioDefeat:: @ 818C205
+SevenIsland_TrainerTower_Text_DarioDefeat::
     .string "Give up…$"
 
-SevenIsland_TrainerTower_Text_DarioPostBattle:: @ 818C20E
+SevenIsland_TrainerTower_Text_DarioPostBattle::
     .string "In your future, I sense that you\n"
     .string "will meet many others.\p"
     .string "I think you will be linked to each\n"
     .string "other by a strange power.$"
 
-SevenIsland_TrainerTower_Text_RodetteIntro:: @ 818C283
+SevenIsland_TrainerTower_Text_RodetteIntro::
     .string "Somewhere on this island, peculiar\n"
     .string "Pokémon are sleeping.$"
 
 SevenIsland_TrainerTower_Text_RodetteDefeat:: @ 818C2BC
     .string "What an amazing Trainer!$"
 
-SevenIsland_TrainerTower_Text_RodettePostBattle:: @ 818C2D5
+SevenIsland_TrainerTower_Text_RodettePostBattle::
     .string "Somewhere on this island, peculiar\n"
     .string "Pokémon are sleeping.\p"
     .string "Could it be that they're waiting\n"
@@ -31,11 +31,11 @@ SevenIsland_TrainerTower_Text_TrainerTowerAhead:: @ 818C370
     .string "Trainer Tower Ahead$"
 
 @ Unused text perhaps indicating Trainer Tower was planned to be unlocked by something
-SevenIsland_TrainerTower_Text_LooksLikeTrainerTowerIsClosed:: @ 818C384
+SevenIsland_TrainerTower_Text_LooksLikeTrainerTowerIsClosed::
     .string "トレーナータワーには\n"
     .string "いまは　はいれない　みたい‥$"
 
-SevenIsland_TrainerTower_Text_TrainerTowerIsOpenLetsGoIn:: @ 818C39E
+SevenIsland_TrainerTower_Text_TrainerTowerIsOpenLetsGoIn::
     .string "トレーナータワーが　あいてる！\n"
     .string "さっそく　はいってみよう！$"
 

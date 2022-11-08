@@ -1,4 +1,4 @@
-LavenderTown_Mart_Text_SearchingForStatRaiseItems:: @ 8193CE5
+LavenderTown_Mart_Text_SearchingForStatRaiseItems::
     .string "I'm searching for items that raise\n"
     .string "the stats of Pokémon.\p"
     .string "They're effective over the course\n"
@@ -18,7 +18,7 @@ LavenderTown_Mart_Text_TrainerDuosCanChallengeYou:: @ 8193DF1
     .string "If that happens, you have to send\n"
     .string "out two Pokémon to battle, too.$"
 
-LavenderTown_Mart_Text_SoldNuggetFromMountainsFor5000:: @ 8193E82
+LavenderTown_Mart_Text_SoldNuggetFromMountainsFor5000::
     .string "この　あいだ　やまおくで\n"
     .string "きんのたまを　ひろい　ましてね！\p"
     .string "つかえない　しなもの　ですが\n"

@@ -14,7 +14,10 @@ PewterCity_Gym_Text_BrockIntro:: @ 8190CD4
     .string "Fine, then!\n"
     .string "Show me your best!{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}$"
 
-PewterCity_Gym_Text_BrockDefeat:: @ 8190E4F
+@ NOTE: This defeat text actually causes a buffer overflow. It's too long for the gDisplayedStringBattle
+@ buffer that it's put into, and it stomps all over the gBattleTextBuffs after, as well as the otherwise
+@ unused array after that, sFlickerArray. Perhaps that's the reason why said array exists.
+PewterCity_Gym_Text_BrockDefeat::
     .string "I took you for granted, and so\n"
     .string "I lost.\p"
     .string "As proof of your victory, I confer\n"
@@ -29,15 +32,15 @@ PewterCity_Gym_Text_BrockDefeat:: @ 8190E4F
     .string "Of course, a Pokémon must know the\n"
     .string "move Flash to use it.$"
 
-PewterCity_Gym_Text_TakeThisWithYou:: @ 8190FC1
+PewterCity_Gym_Text_TakeThisWithYou::
     .string "Wait!\n"
     .string "Take this with you.$"
 
-PewterCity_Gym_Text_ReceivedTM39FromBrock:: @ 8190FDB
+PewterCity_Gym_Text_ReceivedTM39FromBrock::
     .string "{PLAYER} received TM39\n"
     .string "from Brock.$"
 
-PewterCity_Gym_Text_ExplainTM39:: @ 8190FF8
+PewterCity_Gym_Text_ExplainTM39::
     .string "A TM, Technical Machine, contains a\n"
     .string "technique for Pokémon.\p"
     .string "Using a TM teaches the move it\n"
@@ -59,24 +62,24 @@ PewterCity_Gym_Text_BrockPostBattle:: @ 819110F
     .string "Go to the Gym in Cerulean and test\n"
     .string "your abilities.$"
 
-PewterCity_Gym_Text_DontHaveRoomForThis:: @ 81911CE
+PewterCity_Gym_Text_DontHaveRoomForThis::
     .string "You don't have room for this.$"
 
-PewterCity_Gym_Text_LiamIntro:: @ 81911EC
+PewterCity_Gym_Text_LiamIntro::
     .string "Stop right there, kid!\p"
     .string "You're ten thousand light-years \n"
     .string "from facing Brock!$"
 
-PewterCity_Gym_Text_LiamDefeat:: @ 8191237
+PewterCity_Gym_Text_LiamDefeat::
     .string "Darn!\p"
     .string "Light-years isn't time…\n"
     .string "It measures distance!$"
 
-PewterCity_Gym_Text_LiamPostBattle:: @ 819126B
+PewterCity_Gym_Text_LiamPostBattle::
     .string "You're pretty hot.\n"
     .string "…But not as hot as Brock!$"
 
-PewterCity_Gym_Text_LetMeTakeYouToTheTop:: @ 8191298
+PewterCity_Gym_Text_LetMeTakeYouToTheTop::
     .string "Hiya!\n"
     .string "Do you want to dream big?\p"
     .string "Do you dare to dream of becoming\n"
@@ -85,7 +88,7 @@ PewterCity_Gym_Text_LetMeTakeYouToTheTop:: @ 8191298
     .string "you on how to win.\p"
     .string "Let me take you to the top!$"
 
-PewterCity_Gym_Text_LetsGetHappening:: @ 819133C
+PewterCity_Gym_Text_LetsGetHappening::
     .string "All right!\n"
     .string "Let's get happening!$"
 
@@ -97,11 +100,11 @@ PewterCity_Gym_Text_TryDifferentPartyOrders:: @ 819135C
     .string "Try different orders to suit your\n"
     .string "opponent's party.$"
 
-PewterCity_Gym_Text_ItsFreeLetsGetHappening:: @ 8191412
+PewterCity_Gym_Text_ItsFreeLetsGetHappening::
     .string "It's a free service!\n"
     .string "Let's get happening!$"
 
-PewterCity_Gym_Text_YoureChampMaterial:: @ 819143C
+PewterCity_Gym_Text_YoureChampMaterial::
     .string "Just as I thought!\n"
     .string "You're Pokémon champ material!$"
 

@@ -124,37 +124,37 @@ gNameChoice_Momo:: @ 81C5823
 gNameChoice_Suzi:: @ 81C5828
     .string "Suzi$"
 
-gNewGame_HelpDocs1:: @ 81C582D
+gNewGame_HelpDocs1::
     .string "The various buttons will be explained in\n"
     .string "the order of their importance.$"
 
-gNewGame_HelpDocs2:: @ 81C5875
+gNewGame_HelpDocs2::
     .string "Moves the main character.\n"
     .string "Also used to choose various data\n"
     .string "headings.$"
 
-gNewGame_HelpDocs3:: @ 81C58BA
+gNewGame_HelpDocs3::
     .string "Used to confirm a choice, check\n"
     .string "things, chat, and scroll text.$"
 
-gNewGame_HelpDocs4:: @ 81C58F9
+gNewGame_HelpDocs4::
     .string "Used to exit, cancel a choice,\n"
     .string "and cancel a mode.$"
 
-gNewGame_HelpDocs5:: @ 81C592B
+gNewGame_HelpDocs5::
     .string "Press this button to open the\n"
     .string "Menu.$"
 
-gNewGame_HelpDocs6:: @ 81C594F
+gNewGame_HelpDocs6::
     .string "Used to shift items and to use\n"
     .string "a registered item.$"
 
-gNewGame_HelpDocs7:: @ 81C5981
+gNewGame_HelpDocs7::
     .string "If you need help playing the\n"
     .string "game, or on how to do things,\n"
     .string "press the L or R Button.$"
 
-gOakText_AskPlayerGender:: @ 81C59D5
+gOakText_AskPlayerGender::
     .string "Now tell me. Are you a boy?\n"
     .string "Or are you a girl?$"
 
@@ -186,15 +186,15 @@ gNewGameAdventureIntro3::
     .string "Press the A Button, and let your\n"
     .string "adventure begin!$"
 
-gOakText_WelcomeToTheWorld:: @ 81C5C78
+gOakText_WelcomeToTheWorld::
     .string "Hello, there!\n"
     .string "Glad to meet you!\pWelcome to the world of Pokémon!\pMy name is Oak.\pPeople affectionately refer to me\n"
     .string "as the Pokémon Professor.\p$"
 
-gOakText_WorldInhabited1:: @ 81C5D06
+gOakText_WorldInhabited1::
     .string "This world…$"
 
-gOakText_WorldInhabited2:: @ 81C5D12
+gOakText_WorldInhabited2::
     .string "…is inhabited far and wide by\n"
     .string "creatures called Pokémon.\p$"
 
@@ -202,29 +202,29 @@ gOakText_PetsBattlingStudy:: @ 81C5D4B
     .string "For some people, Pokémon are pets.\n"
     .string "Others use them for battling.\pAs for myself…\pI study Pokémon as a profession.\p$"
 
-gOakText_TellMeALittleAboutYourself:: @ 81C5DBD
+gOakText_TellMeALittleAboutYourself::
     .string "But first, tell me a little about\n"
     .string "yourself.\p$"
 
-gOakText_AskPlayerName:: @ 81C5DEA
+gOakText_AskPlayerName::
     .string "Let's begin with your name.\n"
     .string "What is it?\p$"
 
-gOakText_FinalizePlayerName:: @ 81C5E13
+gOakText_FinalizePlayerName::
     .string "Right…\n"
     .string "So your name is {PLAYER}.$"
 
-gOakText_IntroduceRival:: @ 81C5E2E
+gOakText_IntroduceRival::
     .string "This is my grandson.\pHe's been your rival since you both\n"
     .string "were babies.\p…Erm, what was his name now?$"
 
-gOakText_AskRivalName:: @ 81C5E91
+gOakText_AskRivalName::
     .string "Your rival's name, what was it now?$"
 
-gOakText_ConfirmRivalName:: @ 81C5EB5
+gOakText_ConfirmRivalName::
     .string "…Er, was it {RIVAL}?$"
 
-gOakText_RememberRivalName:: @ 81C5EC5
+gOakText_RememberRivalName::
     .string "That's right! I remember now!\n"
     .string "His name is {RIVAL}!\p$"
 

@@ -32,7 +32,7 @@ SilphCo_11F_Text_ThatsOurSecretPrototype:: @ 8176FEB
     .string "You should be quiet about using it,\n"
     .string "though.$"
 
-SilphCo_11F_Text_YouHaveNoRoomForThis:: @ 817708E
+SilphCo_11F_Text_YouHaveNoRoomForThis::
     .string "You have no room for this.$"
 
 SilphCo_11F_Text_ThanksForRescuingUs:: @ 81770A9
@@ -41,7 +41,7 @@ SilphCo_11F_Text_ThanksForRescuingUs:: @ 81770A9
     .string "We, from the President down,\n"
     .string "are indebted to you.$"
 
-SilphCo_11F_Text_GiovanniIntro:: @ 8177108
+SilphCo_11F_Text_GiovanniIntro::
     .string "Ah, {PLAYER}!\n"
     .string "So we meet again!\p"
     .string "The President and I are discussing\n"
@@ -50,11 +50,11 @@ SilphCo_11F_Text_GiovanniIntro:: @ 8177108
     .string "matters…\p"
     .string "Or, experience a world of pain!$"
 
-SilphCo_11F_Text_GiovanniDefeat:: @ 81771AB
+SilphCo_11F_Text_GiovanniDefeat::
     .string "Arrgh!!\n"
     .string "I lost again!?$"
 
-SilphCo_11F_Text_GiovanniPostBattle:: @ 81771C2
+SilphCo_11F_Text_GiovanniPostBattle::
     .string "Blast it all!\n"
     .string "You ruined our plans for Silph!\p"
     .string "But, Team Rocket will never fall!\p"
@@ -62,26 +62,26 @@ SilphCo_11F_Text_GiovanniPostBattle:: @ 81771C2
     .string "Pokémon exist for Team Rocket!\p"
     .string "I must go, but I shall return!$"
 
-SilphCo_11F_Text_Grunt2Intro:: @ 817726A
+SilphCo_11F_Text_Grunt2Intro::
     .string "Stop right there!\n"
     .string "Don't you move!$"
 
-SilphCo_11F_Text_Grunt2Defeat:: @ 817728C
+SilphCo_11F_Text_Grunt2Defeat::
     .string "Don't…\n"
     .string "Please!$"
 
 SilphCo_11F_Text_Grunt2PostBattle:: @ 817729B
     .string "So, you want to see my Boss?$"
 
-SilphCo_11F_Text_Grunt1Intro:: @ 81772B8
+SilphCo_11F_Text_Grunt1Intro::
     .string "Halt! Do you have an appointment\n"
     .string "with my Boss?$"
 
-SilphCo_11F_Text_Grunt1Defeat:: @ 81772E7
+SilphCo_11F_Text_Grunt1Defeat::
     .string "Gaah!\n"
     .string "Demolished!$"
 
-SilphCo_11F_Text_Grunt1PostBattle:: @ 81772F9
+SilphCo_11F_Text_Grunt1PostBattle::
     .string "Watch your step…\n"
     .string "My Boss likes his Pokémon tough!$"
 

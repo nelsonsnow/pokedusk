@@ -1,7 +1,7 @@
 SixIsland_DottedHole_SapphireRoom_Text_FoundSapphire:: @ 817BD82
     .string "{PLAYER} found a Sapphire!$"
 
-SixIsland_DottedHole_SapphireRoom_Text_IWasRightInTailingYou:: @ 817BD97
+SixIsland_DottedHole_SapphireRoom_Text_IWasRightInTailingYou::
     .string "Fufu… Fufufufu…\n"
     .string "I guessed right.\p"
     .string "I was right in tailing you!$"

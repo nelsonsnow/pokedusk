@@ -8,7 +8,7 @@ CeruleanCity_House2_Text_RocketsStoleTMForDig:: @ 8191E13
     .string "Mankey or a Sandshrew…\p"
     .string "That cost me a bundle, it did!$"
 
-CeruleanCity_House2_Text_TeachDiglettDigWithoutTM:: @ 8191ED8
+CeruleanCity_House2_Text_TeachDiglettDigWithoutTM::
     .string "I figure what's lost is lost.\p"
     .string "I decided to teach Diglett how to\n"
     .string "Dig without a TM.$"

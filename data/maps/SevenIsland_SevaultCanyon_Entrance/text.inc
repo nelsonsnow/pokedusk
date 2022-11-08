@@ -1,35 +1,35 @@
-SevenIsland_SevaultCanyon_Entrance_Text_MiahIntro:: @ 818C3BC
+SevenIsland_SevaultCanyon_Entrance_Text_MiahIntro::
     .string "Kyahaha!\n"
     .string "I'll flick you away effortlessly!$"
 
-SevenIsland_SevaultCanyon_Entrance_Text_MiahDefeat:: @ 818C3E7
+SevenIsland_SevaultCanyon_Entrance_Text_MiahDefeat::
     .string "Tch!\n"
     .string "Too strong for me!$"
 
-SevenIsland_SevaultCanyon_Entrance_Text_MiahPostBattle:: @ 818C3FF
+SevenIsland_SevaultCanyon_Entrance_Text_MiahPostBattle::
     .string "What's that?\n"
     .string "I don't act the way I look?\p"
     .string "Heh, that's a part of my strategy!$"
 
-SevenIsland_SevaultCanyon_Entrance_Text_MasonIntro:: @ 818C44B
+SevenIsland_SevaultCanyon_Entrance_Text_MasonIntro::
     .string "Howdy!\n"
     .string "Are you a member of my fan club?$"
 
-SevenIsland_SevaultCanyon_Entrance_Text_MasonDefeat:: @ 818C473
+SevenIsland_SevaultCanyon_Entrance_Text_MasonDefeat::
     .string "Oh, so you're not a fan…\p"
     .string "Well, I can change that.\n"
     .string "Let me sing for you!$"
 
-SevenIsland_SevaultCanyon_Entrance_Text_MasonPostBattle:: @ 818C4BA
+SevenIsland_SevaultCanyon_Entrance_Text_MasonPostBattle::
     .string "Lalalah…\n"
     .string "My Pokémon, I send them out,\l"
     .string "all the girls scream and shout!$"
 
-SevenIsland_SevaultCanyon_Entrance_Text_NicolasIntro:: @ 818C500
+SevenIsland_SevaultCanyon_Entrance_Text_NicolasIntro::
     .string "This island is too spread out…\n"
     .string "It's not easy patrolling the place.$"
 
-SevenIsland_SevaultCanyon_Entrance_Text_NicolasDefeat:: @ 818C543
+SevenIsland_SevaultCanyon_Entrance_Text_NicolasDefeat::
     .string "Uh-huh…$"
 
 SevenIsland_SevaultCanyon_Entrance_Text_NicolasPostBattle:: @ 818C54B
@@ -38,11 +38,11 @@ SevenIsland_SevaultCanyon_Entrance_Text_NicolasPostBattle:: @ 818C54B
     .string "You'll be headed for the Tower,\n"
     .string "won't you?$"
 
-SevenIsland_SevaultCanyon_Entrance_Text_MadelineIntro:: @ 818C5AA
+SevenIsland_SevaultCanyon_Entrance_Text_MadelineIntro::
     .string "I punish people who abuse\n"
     .string "Pokémon!$"
 
-SevenIsland_SevaultCanyon_Entrance_Text_MadelineDefeat:: @ 818C5CD
+SevenIsland_SevaultCanyon_Entrance_Text_MadelineDefeat::
     .string "You don't seem to be a problem\n"
     .string "Trainer.$"
 

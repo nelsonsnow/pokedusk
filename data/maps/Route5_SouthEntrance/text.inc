@@ -1,4 +1,4 @@
-Route5_SouthEntrance_Text_ThirstyOnGuardDuty:: @ 819E04B
+Route5_SouthEntrance_Text_ThirstyOnGuardDuty::
     .string "I'm on guard duty.\n"
     .string "Gee, I'm thirsty, though!\p"
     .string "Oh, wait there, the road's closed.$"
@@ -7,7 +7,7 @@ Route5_SouthEntrance_Text_ThatTeaLooksTasty:: @ 819E09B
     .string "Oh, that Tea…\n"
     .string "It looks awfully tasty…$"
 
-Route5_SouthEntrance_Text_ThanksIllShareTeaWithGuards:: @ 819E0C1
+Route5_SouthEntrance_Text_ThanksIllShareTeaWithGuards::
     .string "Huh? I can have this drink?\n"
     .string "Gee, thanks!\l"
     .string "… …\l"
@@ -21,6 +21,6 @@ Route5_SouthEntrance_Text_ThanksIllShareTeaWithGuards:: @ 819E0C1
     .string "I'll share this Tea with the other\n"
     .string "guards!$"
 
-Route5_SouthEntrance_Text_HiHowsItGoing:: @ 819E16D
+Route5_SouthEntrance_Text_HiHowsItGoing::
     .string "Hi, how's it going?$"
 

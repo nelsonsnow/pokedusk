@@ -1,7 +1,7 @@
-SSAnne_B1F_Room3_Text_DylanIntro:: @ 81742A6
+SSAnne_B1F_Room3_Text_DylanIntro::
     .string "I like feisty kids like you!$"
 
-SSAnne_B1F_Room3_Text_DylanDefeat:: @ 81742C3
+SSAnne_B1F_Room3_Text_DylanDefeat::
     .string "Argh!\n"
     .string "Lost it!$"
 

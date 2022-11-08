@@ -3,11 +3,11 @@ FuchsiaCity_WardensHouse_Text_HifFuffHefifoo:: @ 8198DF9
     .string "Ha lof ha feef ee hafahi ho.\n"
     .string "Heff hee fwee!$"
 
-FuchsiaCity_WardensHouse_Text_AhHowheeHoHoo:: @ 8198E3F
+FuchsiaCity_WardensHouse_Text_AhHowheeHoHoo::
     .string "Ah howhee ho hoo!\n"
     .string "Eef ee hafahi ho!$"
 
-FuchsiaCity_WardensHouse_Text_HeOhayHeHaHoo:: @ 8198E63
+FuchsiaCity_WardensHouse_Text_HeOhayHeHaHoo::
     .string "Ha?\n"
     .string "He ohay heh ha hoo ee haheh!$"
 
@@ -38,7 +38,7 @@ FuchsiaCity_WardensHouse_Text_ThanksLassieGiveYouSomething:: @ 8198F96
     .string "Let me give you something for your\n"
     .string "trouble.$"
 
-FuchsiaCity_WardensHouse_Text_ReceivedHM04FromWarden:: @ 8199068
+FuchsiaCity_WardensHouse_Text_ReceivedHM04FromWarden::
     .string "{PLAYER} received HM04\n"
     .string "from the Warden.$"
 
@@ -51,7 +51,7 @@ FuchsiaCity_WardensHouse_Text_ExplainStrength:: @ 819908A
     .string "House in the Safari Zone?$"
 
 @ Unused
-FuchsiaCity_WardensHouse_Text_YouHaveTooMuchStuff:: @ 819912B
+FuchsiaCity_WardensHouse_Text_YouHaveTooMuchStuff::
     .string "なんや　にもつ\n"
     .string "いっぱいやんけ！$"
 

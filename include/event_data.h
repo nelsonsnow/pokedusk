@@ -35,8 +35,6 @@ bool32 IsMysteryEventEnabled(void);
 void DisableMysteryGift(void);
 void EnableMysteryGift(void);
 bool32 IsMysteryGiftEnabled(void);
-void sub_809D4D8(void);
-void sub_809D570(void);
 void DisableResetRTC(void);
 void EnableResetRTC(void);
 bool32 CanResetRTC(void);
@@ -54,7 +52,7 @@ void ResetSpecialVars(void);
 void ResetMysteryEventFlags(void);
 void ResetMysteryEventVars(void);
 bool32 IsNationalPokedexEnabled(void);
-void sub_806E190(void);
+void EnableNationalPokedex_RSE(void);
 void ClearTempFieldEventData(void);
 
 #endif // GUARD_EVENT_DATA_H

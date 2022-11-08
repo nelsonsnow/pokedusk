@@ -1,16 +1,16 @@
-LavenderTown_Text_DoYouBelieveInGhosts:: @ 817F52E
+LavenderTown_Text_DoYouBelieveInGhosts::
     .string "Do you believe in ghosts?$"
 
-LavenderTown_Text_SoThereAreBelievers:: @ 817F548
+LavenderTown_Text_SoThereAreBelievers::
     .string "Really?\n"
     .string "So there are believers…$"
 
-LavenderTown_Text_JustImaginingWhiteHand:: @ 817F568
+LavenderTown_Text_JustImaginingWhiteHand::
     .string "Hahaha, I guess not.\p"
     .string "That white hand on your shoulder…\n"
     .string "I'm just imagining it.$"
 
-LavenderTown_Text_TownKnownAsMonGraveSite:: @ 817F5B6
+LavenderTown_Text_TownKnownAsMonGraveSite::
     .string "This town is known as the grave\n"
     .string "site of Pokémon.\p"
     .string "Memorial services are held in\n"

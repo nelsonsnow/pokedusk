@@ -1,4 +1,4 @@
-CinnabarIsland_Gym_Text_BlaineIntro:: @ 8199543
+CinnabarIsland_Gym_Text_BlaineIntro::
     .string "Hah!\p"
     .string "I am Blaine, the red-hot Leader\n"
     .string "of Cinnabar Gym!\p"
@@ -8,7 +8,7 @@ CinnabarIsland_Gym_Text_BlaineIntro:: @ 8199543
     .string "Hah!\n"
     .string "You better have Burn Heal!{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}$"
 
-CinnabarIsland_Gym_Text_BlaineDefeat:: @ 81995FA
+CinnabarIsland_Gym_Text_BlaineDefeat::
     .string "I have burned down to nothing!\n"
     .string "Not even ashes remain!\p"
     .string "You have earned the VolcanoBadge.$"
@@ -18,13 +18,13 @@ CinnabarIsland_Gym_Text_FireBlastIsUltimateFireMove:: @ 8199652
     .string "technique.\p"
     .string "Don't waste it on Water Pokémon.$"
 
-CinnabarIsland_Gym_Text_ExplainVolcanoBadge:: @ 819969E
+CinnabarIsland_Gym_Text_ExplainVolcanoBadge::
     .string "Hah!\p"
     .string "The VolcanoBadge heightens the\n"
     .string "Special stats of your Pokémon.\p"
     .string "Here, you can have this, too!$"
 
-CinnabarIsland_Gym_Text_ReceivedTM38FromBlaine:: @ 81996FF
+CinnabarIsland_Gym_Text_ReceivedTM38FromBlaine::
     .string "{PLAYER} received TM38\n"
     .string "from Blaine.$"
 
@@ -34,31 +34,31 @@ CinnabarIsland_Gym_Text_BlainePostBattle:: @ 819971D
     .string "Vulpix or Charmeleon would be\n"
     .string "ideal for that move.$"
 
-CinnabarIsland_Gym_Text_MakeSpaceForThis:: @ 8199789
+CinnabarIsland_Gym_Text_MakeSpaceForThis::
     .string "Make space for this, child!$"
 
 CinnabarIsland_Gym_Text_ErikIntro:: @ 81997A5
     .string "Do you know how hot Pokémon fire\n"
     .string "breath can get?$"
 
-CinnabarIsland_Gym_Text_ErikDefeat:: @ 81997D6
+CinnabarIsland_Gym_Text_ErikDefeat::
     .string "Yow!\n"
     .string "Hot, hot, hot!$"
 
-CinnabarIsland_Gym_Text_ErikPostBattle:: @ 81997EA
+CinnabarIsland_Gym_Text_ErikPostBattle::
     .string "Fire, or to be more precise,\n"
     .string "combustion…\p"
     .string "…Oxygen in the air…\n"
     .string "Blah, blah, blah, blah…$"
 
-CinnabarIsland_Gym_Text_QuinnIntro:: @ 819983F
+CinnabarIsland_Gym_Text_QuinnIntro::
     .string "I was a thief, but I went straight\n"
     .string "as a Trainer.$"
 
-CinnabarIsland_Gym_Text_QuinnDefeat:: @ 8199870
+CinnabarIsland_Gym_Text_QuinnDefeat::
     .string "I surrender!$"
 
-CinnabarIsland_Gym_Text_QuinnPostBattle:: @ 819987D
+CinnabarIsland_Gym_Text_QuinnPostBattle::
     .string "I get this uncontrollable urge to\n"
     .string "steal other people's Pokémon.$"
 
@@ -66,11 +66,11 @@ CinnabarIsland_Gym_Text_AveryIntro:: @ 81998BD
     .string "I've studied Pokémon thoroughly.\n"
     .string "You can't win!$"
 
-CinnabarIsland_Gym_Text_AveryDefeat:: @ 81998ED
+CinnabarIsland_Gym_Text_AveryDefeat::
     .string "Waah!\n"
     .string "My studies were insufficient!$"
 
-CinnabarIsland_Gym_Text_AveryPostBattle:: @ 8199911
+CinnabarIsland_Gym_Text_AveryPostBattle::
     .string "My theories are too complicated\n"
     .string "for you to understand.$"
 
@@ -78,7 +78,7 @@ CinnabarIsland_Gym_Text_RamonIntro:: @ 8199948
     .string "I like using Fire-type Pokémon.\n"
     .string "I just do.$"
 
-CinnabarIsland_Gym_Text_RamonDefeat:: @ 8199973
+CinnabarIsland_Gym_Text_RamonDefeat::
     .string "Too hot to handle!$"
 
 CinnabarIsland_Gym_Text_RamonPostBattle:: @ 8199986
@@ -89,7 +89,7 @@ CinnabarIsland_Gym_Text_DerekIntro:: @ 81999B7
     .string "I know why Blaine became a\n"
     .string "Trainer.$"
 
-CinnabarIsland_Gym_Text_DerekDefeat:: @ 81999DB
+CinnabarIsland_Gym_Text_DerekDefeat::
     .string "Ow!$"
 
 CinnabarIsland_Gym_Text_DerekPostBattle:: @ 81999DF
@@ -104,7 +104,7 @@ CinnabarIsland_Gym_Text_DustyIntro:: @ 8199A7F
     .string "I've been to many Gyms, but this\n"
     .string "one best suits my style.$"
 
-CinnabarIsland_Gym_Text_DustyDefeat:: @ 8199AB9
+CinnabarIsland_Gym_Text_DustyDefeat::
     .string "Yowza!\n"
     .string "Too hot!$"
 
@@ -112,19 +112,19 @@ CinnabarIsland_Gym_Text_DustyPostBattle:: @ 8199AC9
     .string "Ponyta, Ninetales…\n"
     .string "Those are popular Fire Pokémon.$"
 
-CinnabarIsland_Gym_Text_ZacIntro:: @ 8199AFC
+CinnabarIsland_Gym_Text_ZacIntro::
     .string "Fire is weak against H2O.$"
 
-CinnabarIsland_Gym_Text_ZacDefeat:: @ 8199B16
+CinnabarIsland_Gym_Text_ZacDefeat::
     .string "Oh!\n"
     .string "Snuffed out!$"
 
-CinnabarIsland_Gym_Text_ZacPostBattle:: @ 8199B27
+CinnabarIsland_Gym_Text_ZacPostBattle::
     .string "Water beats fire, of course.\p"
     .string "But fire melts ice, so the Fire\n"
     .string "type beats Ice-type Pokémon.$"
 
-CinnabarIsland_Gym_Text_GymGuyAdvice:: @ 8199B81
+CinnabarIsland_Gym_Text_GymGuyAdvice::
     .string "Yo!\n"
     .string "Champ in the making!\p"
     .string "The hotheaded Blaine is a Fire\n"
@@ -133,7 +133,7 @@ CinnabarIsland_Gym_Text_GymGuyAdvice:: @ 8199B81
     .string "You'd better take some\n"
     .string "Burn Heals, too.$"
 
-CinnabarIsland_Gym_Text_GymGuyPostVictory:: @ 8199C0C
+CinnabarIsland_Gym_Text_GymGuyPostVictory::
     .string "{PLAYER}!\n"
     .string "You beat that firebrand!$"
 
@@ -169,7 +169,7 @@ CinnabarIsland_Gym_Text_QuizQuestion2:: @ 8199D79
 CinnabarIsland_Gym_Text_QuizQuestion3:: @ 8199DA9
     .string "Poliwag evolves three times?$"
 
-CinnabarIsland_Gym_Text_QuizQuestion4:: @ 8199DC6
+CinnabarIsland_Gym_Text_QuizQuestion4::
     .string "Are electric moves effective\n"
     .string "against Ground-type Pokémon?$"
 
@@ -180,11 +180,11 @@ CinnabarIsland_Gym_Text_QuizQuestion5:: @ 8199E00
 CinnabarIsland_Gym_Text_QuizQuestion6:: @ 8199E36
     .string "TM28 contains Tombstony?$"
 
-CinnabarIsland_Gym_Text_CorrectGoOnThrough:: @ 8199E4F
+CinnabarIsland_Gym_Text_CorrectGoOnThrough::
     .string "You're absolutely correct!\p"
     .string "Go on through!$"
 
-CinnabarIsland_Gym_Text_SorryBadCall:: @ 8199E79
+CinnabarIsland_Gym_Text_SorryBadCall::
     .string "Sorry!\n"
     .string "Bad call!$"
 

@@ -21,7 +21,7 @@ SSAnne_CaptainsOffice_Text_ThankYouHaveHMForCut:: @ 81736A6
     .string "Teach Cut to your Pokémon, and\n"
     .string "you can see it Cut anytime!$"
 
-SSAnne_CaptainsOffice_Text_ObtainedHM01FromCaptain:: @ 81737AF
+SSAnne_CaptainsOffice_Text_ObtainedHM01FromCaptain::
     .string "{PLAYER} obtained HM01\n"
     .string "from the Captain!$"
 
@@ -39,15 +39,15 @@ SSAnne_CaptainsOffice_Text_SSAnneWillSetSailSoon:: @ 8173831
     .string "Farewell, until our return to\n"
     .string "Vermilion City!$"
 
-SSAnne_CaptainsOffice_Text_YouHaveNoRoomForThis:: @ 81738C3
+SSAnne_CaptainsOffice_Text_YouHaveNoRoomForThis::
     .string "Oh, no!\n"
     .string "You have no room for this!$"
 
-SSAnne_CaptainsOffice_Text_YuckShouldntHaveLooked:: @ 81738E6
+SSAnne_CaptainsOffice_Text_YuckShouldntHaveLooked::
     .string "Yuck!\n"
     .string "Shouldn't have looked!$"
 
-SSAnne_CaptainsOffice_Text_HowToConquerSeasickness:: @ 8173903
+SSAnne_CaptainsOffice_Text_HowToConquerSeasickness::
     .string "How to Conquer Seasickness…\n"
     .string "The Captain's reading this!$"
 

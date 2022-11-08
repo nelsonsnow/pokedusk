@@ -221,7 +221,7 @@ const struct ListMenuTemplate sListMenuTemplate_ThreeOptions = {
     .lettersSpacing = 0,
     .itemVerticalPadding = 0,
     .scrollMultiple = 0,
-    .fontId = 2,
+    .fontId = FONT_2,
     .cursorKind = 0
 };
 
@@ -266,7 +266,7 @@ const struct ListMenuTemplate sListMenu_ReceiveSendToss = {
     .lettersSpacing = 0,
     .itemVerticalPadding = 0,
     .scrollMultiple = 0,
-    .fontId = 2,
+    .fontId = FONT_2,
     .cursorKind = 0
 };
 
@@ -287,7 +287,7 @@ const struct ListMenuTemplate sListMenu_ReceiveToss = {
     .lettersSpacing = 0,
     .itemVerticalPadding = 0,
     .scrollMultiple = 0,
-    .fontId = 2,
+    .fontId = FONT_2,
     .cursorKind = 0
 };
 
@@ -308,7 +308,7 @@ const struct ListMenuTemplate sListMenu_ReceiveSend = {
     .lettersSpacing = 0,
     .itemVerticalPadding = 0,
     .scrollMultiple = 0,
-    .fontId = 2,
+    .fontId = FONT_2,
     .cursorKind = 0
 };
 
@@ -329,11 +329,11 @@ const struct ListMenuTemplate sListMenu_Receive = {
     .lettersSpacing = 0,
     .itemVerticalPadding = 2,
     .scrollMultiple = 0,
-    .fontId = 2,
+    .fontId = FONT_2,
     .cursorKind = 0
 };
 
-const u8 *const Unref_08366ED8[] = {
+static const u8 *const sUnusedMenuTexts[] = {
     gText_VarietyOfEventsImportedWireless,
     gText_WonderCardsInPossession,
     gText_ReadNewsThatArrived,
@@ -344,8 +344,8 @@ ALIGNED(4) const u8 sMG_Ereader_TextColor_1[3]      = { 0, 1, 2 };
 ALIGNED(4) const u8 sMG_Ereader_TextColor_1_Copy[3] = { 0, 1, 2 };
 ALIGNED(4) const u8 sMG_Ereader_TextColor_2[3]      = { 1, 2, 3 };
 
-const u8 gUnknown_8466EF3[] = _("テスト");
-const u8 gUnknown_8466EF7[] = _("むげんのチケット");
+static const u8 sText_Test[] = _("テスト");
+static const u8 sText_EonTicket[] = _("むげんのチケット");
 
 void vblankcb_mystery_gift_e_reader_run(void)
 {
@@ -390,8 +390,8 @@ bool32 HandleMysteryGiftOrEReaderSetup(s32 mg_or_ereader)
         SetBgTilemapBuffer(1, Alloc(0x800));
         SetBgTilemapBuffer(0, Alloc(0x800));
 
-        LoadUserWindowBorderGfx(0, 10, 0xE0);
-        DrawWindowBorderWithStdpal3(0,  1, 0xF0);
+        LoadUserWindowGfx2(0, 10, 0xE0);
+        LoadStdWindowGfxOnBg(0,  1, 0xF0);
         DecompressAndLoadBgGfxUsingHeap(3, gUnkTextboxBorderGfx, 0x100, 0, 0);
         InitWindows(sMainWindows);
         DeactivateAllTextPrinters();
@@ -403,7 +403,7 @@ bool32 HandleMysteryGiftOrEReaderSetup(s32 mg_or_ereader)
         break;
     case 1:
         LoadPalette(gUnkTextboxBorderPal, 0, 0x20);
-        LoadPalette(stdpal_get(2), 0xd0, 0x20);
+        LoadPalette(GetTextWindowPalette(2), 0xd0, 0x20);
         FillBgTilemapBufferRect(0, 0x000, 0, 0, 32, 32, 0x11);
         FillBgTilemapBufferRect(1, 0x000, 0, 0, 32, 32, 0x11);
         FillBgTilemapBufferRect(2, 0x000, 0, 0, 32, 32, 0x11);
@@ -469,14 +469,14 @@ void PrintMysteryGiftOrEReaderTopMenu(bool8 mg_or_ereader, bool32 usePickOkCance
     if (!mg_or_ereader)
     {
         src = usePickOkCancel == TRUE ? gText_PickOKExit : gText_PickOKCancel;
-        AddTextPrinterParameterized4(0, 2, 2, 2, 0, 0, sMG_Ereader_TextColor_1, 0, gText_MysteryGift2);
-        width = 222 - GetStringWidth(0, src, 0);
-        AddTextPrinterParameterized4(0, 0, width, 2, 0, 0, sMG_Ereader_TextColor_1, 0, src);
+        AddTextPrinterParameterized4(0, FONT_2, 2, 2, 0, 0, sMG_Ereader_TextColor_1, 0, gText_MysteryGift2);
+        width = 222 - GetStringWidth(FONT_0, src, 0);
+        AddTextPrinterParameterized4(0, FONT_0, width, 2, 0, 0, sMG_Ereader_TextColor_1, 0, src);
     }
     else
     {
-        AddTextPrinterParameterized4(0, 2, 2, 2, 0, 0, sMG_Ereader_TextColor_1, 0, gJPText_MysteryGift);
-        AddTextPrinterParameterized4(0, 0, 0x78, 2, 0, 0, sMG_Ereader_TextColor_1, 0, gJPText_DecideStop);
+        AddTextPrinterParameterized4(0, FONT_2, 2, 2, 0, 0, sMG_Ereader_TextColor_1, 0, gJPText_MysteryGift);
+        AddTextPrinterParameterized4(0, FONT_0, 0x78, 2, 0, 0, sMG_Ereader_TextColor_1, 0, gJPText_DecideStop);
     }
     CopyWindowToVram(0, COPYWIN_GFX);
     PutWindowTilemap(0);
@@ -527,10 +527,10 @@ void AddTextPrinterToWindow1(const u8 *str)
 {
     StringExpandPlaceholders(gStringVar4, str);
     FillWindowPixelBuffer(1, 0x11);
-    AddTextPrinterParameterized4(1, 2, 0, 2, 0, 2, sMG_Ereader_TextColor_2, 0, gStringVar4);
+    AddTextPrinterParameterized4(1, FONT_2, 0, 2, 0, 2, sMG_Ereader_TextColor_2, 0, gStringVar4);
     DrawTextBorderOuter(1, 0x001, 0xF);
     PutWindowTilemap(1);
-    CopyWindowToVram(1, COPYWIN_BOTH);
+    CopyWindowToVram(1, COPYWIN_FULL);
 }
 
 void ClearTextWindow(void)
@@ -634,7 +634,7 @@ u32 MysteryGift_HandleThreeOptionMenu(u8 * unused0, u16 * unused1, u8 whichMenu)
     width = 0;
     for (i = 0; i < listMenuTemplate.totalItems; i++)
     {
-        u32 curWidth = GetStringWidth(2, listMenuTemplate.items[i].label, listMenuTemplate.lettersSpacing);
+        u32 curWidth = GetStringWidth(FONT_2, listMenuTemplate.items[i].label, listMenuTemplate.lettersSpacing);
         if (curWidth > width)
             width = curWidth;
     }
@@ -668,7 +668,7 @@ s8 mevent_message_print_and_prompt_yes_no(u8 * textState, u16 * windowId, bool8 
             *windowId = AddWindow(&sWindowTemplate_PromptYesOrNo_Width20);
         }
         FillWindowPixelBuffer(*windowId, 0x11);
-        AddTextPrinterParameterized4(*windowId, 2, 0, 2, 0, 2, sMG_Ereader_TextColor_2, 0, gStringVar4);
+        AddTextPrinterParameterized4(*windowId, FONT_2, 0, 2, 0, 2, sMG_Ereader_TextColor_2, 0, gStringVar4);
         DrawTextBorderOuter(*windowId, 0x001, 0x0F);
         CopyWindowToVram(*windowId, COPYWIN_GFX);
         PutWindowTilemap(*windowId);
@@ -684,7 +684,7 @@ s8 mevent_message_print_and_prompt_yes_no(u8 * textState, u16 * windowId, bool8 
         {
             windowTemplate.tilemapTop = 15;
         }
-        CreateYesNoMenu(&windowTemplate, 2, 0, 2, 10, 14, 0);
+        CreateYesNoMenu(&windowTemplate, FONT_2, 0, 2, 10, 14, 0);
         (*textState)++;
         break;
     case 2:
@@ -729,7 +729,7 @@ s32 HandleMysteryGiftListMenu(u8 * textState, u16 * windowId, bool32 cannotToss,
         }
         *windowId = AddWindow(&sMysteryGiftMenuWindowTemplate);
         FillWindowPixelBuffer(*windowId, 0x11);
-        AddTextPrinterParameterized4(*windowId, 2, 0, 2, 0, 2, sMG_Ereader_TextColor_2, 0, gStringVar4);
+        AddTextPrinterParameterized4(*windowId, FONT_2, 0, 2, 0, 2, sMG_Ereader_TextColor_2, 0, gStringVar4);
         DrawTextBorderOuter(*windowId, 0x001, 0x0F);
         CopyWindowToVram(*windowId, COPYWIN_GFX);
         PutWindowTilemap(*windowId);
@@ -802,18 +802,18 @@ bool32 HandleLoadWonderCardOrNews(u8 * state, bool32 cardOrNews)
     case 0:
         if (cardOrNews == 0)
         {
-            InitWonderCardResources(GetSavedWonderCard(), sav1_get_mevent_buffer_2());
+            WonderCard_Init(GetSavedWonderCard(), sav1_get_mevent_buffer_2());
         }
         else
         {
-            InitWonderNewsResources(GetSavedWonderNews());
+            WonderNews_Init(GetSavedWonderNews());
         }
         (*state)++;
         break;
     case 1:
         if (cardOrNews == 0)
         {
-            v0 = FadeToWonderCardMenu();
+            v0 = WonderCard_Enter();
             check:
             if (v0 != 0)
             {
@@ -823,7 +823,7 @@ bool32 HandleLoadWonderCardOrNews(u8 * state, bool32 cardOrNews)
         }
         else
         {
-            v0 = FadeToWonderNewsMenu();
+            v0 = WonderNews_Enter();
             goto check;
         }
     done:
@@ -851,9 +851,9 @@ bool32 TearDownCardOrNews_ReturnToTopMenu(bool32 cardOrNews, bool32 arg1)
 {
     if (cardOrNews == 0)
     {
-        if (FadeOutFromWonderCard(arg1) != 0)
+        if (WonderCard_Exit(arg1) != 0)
         {
-            DestroyWonderCardResources();
+            WonderCard_Destroy();
             return TRUE;
         }
         else
@@ -863,9 +863,9 @@ bool32 TearDownCardOrNews_ReturnToTopMenu(bool32 cardOrNews, bool32 arg1)
     }
     else
     {
-        if (FadeOutFromWonderNews(arg1) != 0)
+        if (WonderNews_Exit(arg1) != 0)
         {
-            DestroyWonderNewsResources();
+            WonderNews_Destroy();
             return TRUE;
         }
         else
@@ -1456,10 +1456,10 @@ void task00_mystery_gift(u8 taskId)
         }
         else
         {
-            switch (MENews_GetInput(gMain.newKeys))
+            switch (WonderNews_GetInput(gMain.newKeys))
             {
             case 0:
-                MENews_RemoveScrollIndicatorArrowPair();
+                WonderNews_RemoveScrollIndicatorArrowPair();
                 data->state = 21;
                 break;
             case 1:
@@ -1507,7 +1507,7 @@ void task00_mystery_gift(u8 taskId)
         case -2u:
             if (data->IsCardOrNews == 1)
             {
-                MENews_AddScrollIndicatorArrowPair();
+                WonderNews_AddScrollIndicatorArrowPair();
             }
             data->state = 20;
             break;

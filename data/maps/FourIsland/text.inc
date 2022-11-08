@@ -16,7 +16,7 @@ FourIsland_Text_LoreleiMetLaprasAsChild:: @ 8182A75
     .string "Perhaps that Pokémon has been with\n"
     .string "her ever since.$"
 
-FourIsland_Text_RivalAlreadyGotEggBeSmellingYa:: @ 8182B37
+FourIsland_Text_RivalAlreadyGotEggBeSmellingYa::
     .string "{RIVAL}: Hey!\n"
     .string "{PLAYER}!\p"
     .string "What are you doing here in the\n"
@@ -37,7 +37,7 @@ FourIsland_Text_RivalAlreadyGotEggBeSmellingYa:: @ 8182B37
     .string "waste.\p"
     .string "Be smelling ya!$"
 
-FourIsland_Text_LoreleiHasLotsOfStuffedDolls:: @ 8182CE3
+FourIsland_Text_LoreleiHasLotsOfStuffedDolls::
     .string "Oh, you found me!\n"
     .string "Please don't tell Lorelei.\p"
     .string "Did you know that Lorelei has lots\n"
@@ -45,7 +45,7 @@ FourIsland_Text_LoreleiHasLotsOfStuffedDolls:: @ 8182CE3
     .string "Every time she comes back to\n"
     .string "Four Island, her collection grows!$"
 
-FourIsland_Text_MadeSlushieUsingIcefallCaveIce:: @ 8182D8E
+FourIsland_Text_MadeSlushieUsingIcefallCaveIce::
     .string "Ooh, chilly!\p"
     .string "I made a slushie using ice I\n"
     .string "shaved inside Icefall Cave.\p"

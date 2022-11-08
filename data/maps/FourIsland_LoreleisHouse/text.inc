@@ -18,7 +18,7 @@ FourIsland_LoreleisHouse_Text_IllReturnToLeagueInShortWhile:: @ 81A390C
     .string "I'll return to the Pokémon League\n"
     .string "in a short while.$"
 
-FourIsland_LoreleisHouse_Text_WillDoWhatICanHereAndNow:: @ 81A39D8
+FourIsland_LoreleisHouse_Text_WillDoWhatICanHereAndNow::
     .string "I don't know what will happen in\n"
     .string "the future, but…\p"
     .string "I will do what I can here and now.\n"

@@ -1,4 +1,4 @@
-LavenderTown_PokemonCenter_1F_Text_HearMrFujiNotFromAroundHere:: @ 819358E
+LavenderTown_PokemonCenter_1F_Text_HearMrFujiNotFromAroundHere::
     .string "I recently moved to this town.\p"
     .string "I hear that Mr. Fuji's not from\n"
     .string "these parts originally, either.$"
@@ -17,7 +17,7 @@ LavenderTown_VolunteerPokemonHouse_Text_MrFujiLooksAfterOrphanedMons:: @ 8193652
     .string "He looks after abandoned and\n"
     .string "orphaned Pokémon.$"
 
-LavenderTown_VolunteerPokemonHouse_Text_MonsNiceToHug:: @ 81936B4
+LavenderTown_VolunteerPokemonHouse_Text_MonsNiceToHug::
     .string "It's so warm!\n"
     .string "Pokémon are so nice to hug.$"
 
@@ -46,7 +46,7 @@ LavenderTown_VolunteerPokemonHouse_Text_ExplainPokeFlute:: @ 81937E5
     .string "Try using it on Pokémon that are\n"
     .string "sleeping obstacles.$"
 
-LavenderTown_VolunteerPokemonHouse_Text_MustMakeRoomForThis:: @ 819385B
+LavenderTown_VolunteerPokemonHouse_Text_MustMakeRoomForThis::
     .string "You must make room for this!$"
 
 LavenderTown_VolunteerPokemonHouse_Text_HasPokeFluteHelpedYou:: @ 8193878

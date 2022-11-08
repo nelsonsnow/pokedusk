@@ -1,7 +1,7 @@
-gText_WouldYouLikeToSaveTheGame:: @ 81C55C9
+gText_WouldYouLikeToSaveTheGame::
 	.string "Would you like to save the game?$"
 
-gText_AlreadySaveFile_WouldLikeToOverwrite:: @ 81C55EA
+gText_AlreadySaveFile_WouldLikeToOverwrite::
 	.string "There is already a saved file.\n"
 	.string "Is it okay to overwrite it?$"
 
@@ -9,10 +9,10 @@ gText_SavingDontTurnOffThePower:: @ 81C5625
 	.string "Saving…\n"
 	.string "Don't Turn Off The Power.$"
 
-gText_PlayerSavedTheGame:: @ 81C5647
+gText_PlayerSavedTheGame::
 	.string "{PLAYER} saved the game.$"
 
-gText_SaveFailed::
+gText_SaveFailed2::
 	.string "セーブに　しっぱい　しました‥$"
 
 gText_DifferentGameFile:: @ 81C566A

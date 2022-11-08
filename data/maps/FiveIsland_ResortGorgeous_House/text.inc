@@ -32,18 +32,18 @@ FiveIsland_ResortGorgeous_House_Text_MonYouCaughtForMeThankYou:: @ 81A43F7
     .string "Sebastian!\n"
     .string "I need you here this instant!$"
 
-FiveIsland_ResortGorgeous_House_Text_ButlerYesMyLady:: @ 81A450B
+FiveIsland_ResortGorgeous_House_Text_ButlerYesMyLady::
     .string "Butler: Yes, my lady.$"
 
 FiveIsland_ResortGorgeous_House_Text_SelphyGiveTokenOfAppreciation:: @ 81A4521
     .string "Selphy: See to it that this person\n"
     .string "is given a token of appreciation.$"
 
-FiveIsland_ResortGorgeous_House_Text_ButlerIShallDoAsYouBid:: @ 81A4566
+FiveIsland_ResortGorgeous_House_Text_ButlerIShallDoAsYouBid::
     .string "Butler: I shall do as you bid,\n"
     .string "my lady.$"
 
-FiveIsland_ResortGorgeous_House_Text_ButlerPleaseAcceptThisAsHerThanks:: @ 81A458E
+FiveIsland_ResortGorgeous_House_Text_ButlerPleaseAcceptThisAsHerThanks::
     .string "Butler: I sincerely thank you for\n"
     .string "pleasing Lady Selphy.\p"
     .string "Please accept this as her thanks…$"
@@ -52,7 +52,7 @@ FiveIsland_ResortGorgeous_House_Text_ButlerBagAppearsToBeFull:: @ 81A45E8
     .string "Butler: Your Bag appears to be\n"
     .string "unfortunately full.$"
 
-FiveIsland_ResortGorgeous_House_Text_OhHowDisappointing:: @ 81A461B
+FiveIsland_ResortGorgeous_House_Text_OhHowDisappointing::
     .string "Oh…\n"
     .string "How disappointing.$"
 

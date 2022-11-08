@@ -1,4 +1,4 @@
-EventScript_RepelWoreOff:: @ 81BFB65
+EventScript_RepelWoreOff::
 	msgbox Text_RepelWoreOff, MSGBOX_SIGN
 	end
 

@@ -24,11 +24,11 @@ PokemonLeague_BrunosRoom_Text_RematchIntro:: @ 817830C
     .string "superior power!\p"
     .string "Hoo hah!{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}$"
 
-PokemonLeague_BrunosRoom_Text_Defeat:: @ 8178409
+PokemonLeague_BrunosRoom_Text_Defeat::
     .string "Why?\n"
     .string "How could I lose?$"
 
-PokemonLeague_BrunosRoom_Text_PostBattle:: @ 8178420
+PokemonLeague_BrunosRoom_Text_PostBattle::
     .string "My job is done.\n"
     .string "Go face your next challenge.$"
 

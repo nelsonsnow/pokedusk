@@ -3,7 +3,7 @@ FuchsiaCity_House1_Text_WardenIsOldHasFalseTeeth:: @ 8198BBB
     .string "but he's still very much active.\p"
     .string "All his teeth are false, though.$"
 
-FuchsiaCity_House1_Text_BillIsMyGrandson:: @ 8198C1F
+FuchsiaCity_House1_Text_BillIsMyGrandson::
     .string "Hmm?\n"
     .string "You've met Bill?\p"
     .string "He's my grandson!\p"

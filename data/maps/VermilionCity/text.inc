@@ -1,4 +1,4 @@
-VermilionCity_Text_GrimerMultipliesInSludge:: @ 817F723
+VermilionCity_Text_GrimerMultipliesInSludge::
     .string "We're careful about pollution here.\p"
     .string "We've heard Grimer multiplies in\n"
     .string "toxic sludge.$"
@@ -12,7 +12,7 @@ VermilionCity_Text_SSAnneHasDepartedForYear:: @ 817F7A6
     .string "She'll be back in Vermilion about\n"
     .string "this time next year.$"
 
-VermilionCity_Text_BuildingOnThisLand:: @ 817F7FD
+VermilionCity_Text_BuildingOnThisLand::
     .string "I'm putting up a building on this\n"
     .string "plot of land. I own it all.\p"
     .string "My Pokémon is tamping the land\n"
@@ -71,7 +71,7 @@ VermilionCity_Text_DontHaveNeededSSTicket:: @ 817FABA
     .string "{SIZE}ÇSorry!\p"
     .string "You need a ticket to get aboard.$"
 
-VermilionCity_Text_TheShipSetSail:: @ 817FB10
+VermilionCity_Text_TheShipSetSail::
     .string "The ship set sail.$"
 
 VermilionCity_Text_BoardSeagallopTriPass:: @ 817FB23
@@ -79,7 +79,7 @@ VermilionCity_Text_BoardSeagallopTriPass:: @ 817FB23
     .string "Would you like to board\n"
     .string "a Seagallop ferry?$"
 
-VermilionCity_Text_Seagallop7Departing:: @ 817FB67
+VermilionCity_Text_Seagallop7Departing::
     .string "Okay, everything's in order.\p"
     .string "Seagallop Hi-Speed 7 will be\n"
     .string "departing immediately.$"
@@ -101,23 +101,23 @@ VermilionCity_Text_OhAuroraTicketTakeYouToBirthIsland:: @ 817FC5F
     .string "We'll be happy to take you to\n"
     .string "Birth Island anytime.$"
 
-VermilionCity_Text_BoardSeagallopFerry:: @ 817FCC1
+VermilionCity_Text_BoardSeagallopFerry::
     .string "Would you like to board\n"
     .string "a Seagallop ferry?$"
 
-VermilionCity_Text_Seagallop10Departing:: @ 817FCEC
+VermilionCity_Text_Seagallop10Departing::
     .string "Okay, everything's in order for you\n"
     .string "to board a special ferry.\p"
     .string "Seagallop Hi-Speed 10 will be\n"
     .string "departing immediately.$"
 
-VermilionCity_Text_Seagallop12Departing:: @ 817FD5F
+VermilionCity_Text_Seagallop12Departing::
     .string "Okay, everything's in order for you\n"
     .string "to board a special ferry.\p"
     .string "Seagallop Hi-Speed 12 will be\n"
     .string "departing immediately.$"
 
-VermilionCity_Text_Route2AideHasPackageForYou:: @ 817FDD2
+VermilionCity_Text_Route2AideHasPackageForYou::
     .string "Oh, hello, {PLAYER}!\n"
     .string "How are you doing?\p"
     .string "It's me, one of Prof. Oak's Aides.\p"

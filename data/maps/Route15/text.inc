@@ -2,60 +2,60 @@ Route15_Text_KindraIntro:: @ 818650B
     .string "I just got some Pokémon in trades.\n"
     .string "Can I try them out on you?$"
 
-Route15_Text_KindraDefeat:: @ 8186549
+Route15_Text_KindraDefeat::
     .string "Not good enough!$"
 
-Route15_Text_KindraPostBattle:: @ 818655A
+Route15_Text_KindraPostBattle::
     .string "You can't change the nickname of\n"
     .string "any Pokémon you get in a trade.\p"
     .string "Only the Original Trainer can get\n"
     .string "the nickname changed.$"
 
-Route15_Text_BeckyIntro:: @ 81865D3
+Route15_Text_BeckyIntro::
     .string "You look gentle, so I think I can\n"
     .string "beat you.\p"
     .string "I'll give it a go!$"
 
-Route15_Text_BeckyDefeat:: @ 8186612
+Route15_Text_BeckyDefeat::
     .string "No, wrong!$"
 
 Route15_Text_BeckyPostBattle:: @ 818661D
     .string "I'm afraid of Bikers. They look so\n"
     .string "ugly and mean!$"
 
-Route15_Text_EdwinIntro:: @ 818664F
+Route15_Text_EdwinIntro::
     .string "When I whistle, I can summon bird\n"
     .string "Pokémon.$"
 
-Route15_Text_EdwinDefeat:: @ 818667A
+Route15_Text_EdwinDefeat::
     .string "Ow!\n"
     .string "That's tragic!$"
 
-Route15_Text_EdwinPostBattle:: @ 818668D
+Route15_Text_EdwinPostBattle::
     .string "Maybe I'm not cut out for battles.\n"
     .string "I'm not the right type, I guess.$"
 
-Route15_Text_ChesterIntro:: @ 81866D1
+Route15_Text_ChesterIntro::
     .string "Hmm? My birds are shivering!\n"
     .string "You're good, aren't you?$"
 
-Route15_Text_ChesterDefeat:: @ 8186707
+Route15_Text_ChesterDefeat::
     .string "Just as I thought!$"
 
-Route15_Text_ChesterPostBattle:: @ 818671A
+Route15_Text_ChesterPostBattle::
     .string "This is so obvious, you should know\n"
     .string "this, but…\p"
     .string "Moves like Earthquake and Fissure\n"
     .string "have no effect on bird Pokémon.$"
 
-Route15_Text_GraceIntro:: @ 818678B
+Route15_Text_GraceIntro::
     .string "Oh, you're a little cutie!\n"
     .string "So like a darling Pokémon!$"
 
-Route15_Text_GraceDefeat:: @ 81867C1
+Route15_Text_GraceDefeat::
     .string "You looked so cute, too!$"
 
-Route15_Text_GracePostBattle:: @ 81867DA
+Route15_Text_GracePostBattle::
     .string "I forgive you.\n"
     .string "I can take it.\l"
     .string "I'm a big girl now.$"
@@ -73,34 +73,34 @@ Route15_Text_OliviaPostBattle:: @ 818686F
     .string "when I get home.\p"
     .string "It's so reassuring.$"
 
-Route15_Text_ErnestIntro:: @ 81868B6
+Route15_Text_ErnestIntro::
     .string "Hey, kid! C'mon!\n"
     .string "I just got these off some loser!$"
 
-Route15_Text_ErnestDefeat:: @ 81868E8
+Route15_Text_ErnestDefeat::
     .string "Why not?$"
 
-Route15_Text_ErnestPostBattle:: @ 81868F1
+Route15_Text_ErnestPostBattle::
     .string "Life's too short.\n"
     .string "It's cool to live as an outlaw.\l"
     .string "Team Rocket Rules!$"
 
-Route15_Text_AlexIntro:: @ 8186936
+Route15_Text_AlexIntro::
     .string "Fork over all your cash when you\n"
     .string "lose to me, kid!$"
 
-Route15_Text_AlexDefeat:: @ 8186968
+Route15_Text_AlexDefeat::
     .string "That can't be true!$"
 
-Route15_Text_AlexPostBattle:: @ 818697C
+Route15_Text_AlexPostBattle::
     .string "I was just joking about the money.\n"
     .string "Don't take me all serious.$"
 
-Route15_Text_CeliaIntro:: @ 81869BA
+Route15_Text_CeliaIntro::
     .string "What's cool and happening?\n"
     .string "Trading Pokémon!$"
 
-Route15_Text_CeliaDefeat:: @ 81869E6
+Route15_Text_CeliaDefeat::
     .string "I said trade!$"
 
 Route15_Text_CeliaPostBattle:: @ 81869F4
@@ -110,10 +110,10 @@ Route15_Text_CeliaPostBattle:: @ 81869F4
 Route15_Text_YazminIntro:: @ 8186A22
     .string "Want to play with my Pokémon?$"
 
-Route15_Text_YazminDefeat:: @ 8186A40
+Route15_Text_YazminDefeat::
     .string "I was too impatient!$"
 
-Route15_Text_YazminPostBattle:: @ 8186A55
+Route15_Text_YazminPostBattle::
     .string "I'll go train with weaker people.$"
 
 Route15_Text_RouteSign:: @ 8186A77

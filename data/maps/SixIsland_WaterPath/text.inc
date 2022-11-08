@@ -1,61 +1,61 @@
-SixIsland_WaterPath_Text_RoseIntro:: @ 818B896
+SixIsland_WaterPath_Text_RoseIntro::
     .string "I let a pleasant breeze lead me\n"
     .string "all the way here.$"
 
-SixIsland_WaterPath_Text_RoseDefeat:: @ 818B8C8
+SixIsland_WaterPath_Text_RoseDefeat::
     .string "Giggle… You're so cute when you're\n"
     .string "determined.$"
 
-SixIsland_WaterPath_Text_RosePostBattle:: @ 818B8F7
+SixIsland_WaterPath_Text_RosePostBattle::
     .string "I want to go to the woods over\n"
     .string "there, but…\p"
     .string "There are lots of Bug Pokémon.\n"
     .string "They scare me a little.$"
 
-SixIsland_WaterPath_Text_EdwardIntro:: @ 818B959
+SixIsland_WaterPath_Text_EdwardIntro::
     .string "I'm practicing in secret so no one\n"
     .string "can see me.$"
 
-SixIsland_WaterPath_Text_EdwardDefeat:: @ 818B988
+SixIsland_WaterPath_Text_EdwardDefeat::
     .string "Nobody saw me losing, right?$"
 
-SixIsland_WaterPath_Text_EdwardPostBattle:: @ 818B9A5
+SixIsland_WaterPath_Text_EdwardPostBattle::
     .string "As a performer, I don't want people\n"
     .string "to know about the effort I put in.$"
 
-SixIsland_WaterPath_Text_SamirIntro:: @ 818B9EC
+SixIsland_WaterPath_Text_SamirIntro::
     .string "What, you're suggesting that you're\n"
     .string "sick of seeing Swimmers like me?\p"
     .string "Aww, don't be hatin'!$"
 
-SixIsland_WaterPath_Text_SamirDefeat:: @ 818BA47
+SixIsland_WaterPath_Text_SamirDefeat::
     .string "Oh, no, no, no.$"
 
-SixIsland_WaterPath_Text_SamirPostBattle:: @ 818BA57
+SixIsland_WaterPath_Text_SamirPostBattle::
     .string "I couldn't lift the stigma of being\n"
     .string "a Swimmer…$"
 
-SixIsland_WaterPath_Text_DeniseIntro:: @ 818BA86
+SixIsland_WaterPath_Text_DeniseIntro::
     .string "My boyfriend's always busy, so I\n"
     .string "come swimming by myself.$"
 
-SixIsland_WaterPath_Text_DeniseDefeat:: @ 818BAC0
+SixIsland_WaterPath_Text_DeniseDefeat::
     .string "Awww, I knew this would happen!$"
 
-SixIsland_WaterPath_Text_DenisePostBattle:: @ 818BAE0
+SixIsland_WaterPath_Text_DenisePostBattle::
     .string "When I can't be with my boyfriend,\n"
     .string "I spend time with the Pokémon he\l"
     .string "gave me.$"
 
-SixIsland_WaterPath_Text_EarlIntro:: @ 818BB2D
+SixIsland_WaterPath_Text_EarlIntro::
     .string "Tell me, where are the mountains\n"
     .string "around these parts?$"
 
-SixIsland_WaterPath_Text_EarlDefeat:: @ 818BB62
+SixIsland_WaterPath_Text_EarlDefeat::
     .string "I lost my way while I was busy\n"
     .string "battling!$"
 
-SixIsland_WaterPath_Text_EarlPostBattle:: @ 818BB8B
+SixIsland_WaterPath_Text_EarlPostBattle::
     .string "Aren't there any mountains around\n"
     .string "these parts?$"
 
@@ -92,7 +92,7 @@ SixIsland_WaterPath_Text_MiaNotEnoughMons:: @ 818BCCF
     .string "Pokémon?\p"
     .string "Don't you feel lonesome?$"
 
-SixIsland_WaterPath_Text_WantedUltimateHorn:: @ 818BD0C
+SixIsland_WaterPath_Text_WantedUltimateHorn::
     .string "Wanted!\n"
     .string "The Ultimate Horn!$"
 

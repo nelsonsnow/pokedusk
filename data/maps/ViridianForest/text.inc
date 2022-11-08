@@ -1,4 +1,4 @@
-ViridianForest_Text_FriendsItchingToBattle:: @ 8172255
+ViridianForest_Text_FriendsItchingToBattle::
     .string "I came here with some friends to\n"
     .string "catch us some Bug Pokémon!\p"
     .string "They're all itching to get into\n"
@@ -12,52 +12,52 @@ ViridianForest_Text_RickIntro:: @ 81722C7
 ViridianForest_Text_RickDefeat:: @ 81722F9
     .string "No!\nCaterpie can't hack it!$"
 
-ViridianForest_Text_RickPostBattle:: @ 8172315
+ViridianForest_Text_RickPostBattle::
     .string "Ssh! You'll scare the bugs away.\n"
     .string "Another time, okay?$"
 
-ViridianForest_Text_DougIntro:: @ 817234A
+ViridianForest_Text_DougIntro::
     .string "Yo!\n"
     .string "You can't jam out if you're a\l"
     .string "Pokémon Trainer!$"
 
-ViridianForest_Text_DougDefeat:: @ 817237D
+ViridianForest_Text_DougDefeat::
     .string "Huh?\n"
     .string "I ran out of Pokémon!$"
 
-ViridianForest_Text_DougPostBattle:: @ 8172398
+ViridianForest_Text_DougPostBattle::
     .string "That totally stinks! I'm going to\n"
     .string "catch some stronger ones!$"
 
-ViridianForest_Text_SammyIntro:: @ 81723D4
+ViridianForest_Text_SammyIntro::
     .string "Hey, wait up!\n"
     .string "What's the hurry? Why the rush?$"
 
-ViridianForest_Text_SammyDefeat:: @ 8172402
+ViridianForest_Text_SammyDefeat::
     .string "I give!\n"
     .string "You're good at this!$"
 
-ViridianForest_Text_SammyPostBattle:: @ 817241F
+ViridianForest_Text_SammyPostBattle::
     .string "Sometimes, you can find stuff on\n"
     .string "the ground.\p"
     .string "I'm looking for the stuff I\n"
     .string "dropped. Can you help me?$"
 
-ViridianForest_Text_AnthonyIntro:: @ 8172482
+ViridianForest_Text_AnthonyIntro::
     .string "I might be little, but I won't like\n"
     .string "it if you go easy on me!$"
 
-ViridianForest_Text_AnthonyDefeat:: @ 81724BF
+ViridianForest_Text_AnthonyDefeat::
     .string "Oh, boo.\n"
     .string "Nothing went right.$"
 
-ViridianForest_Text_AnthonyPostBattle:: @ 81724DC
+ViridianForest_Text_AnthonyPostBattle::
     .string "I lost some of my allowance…$"
 
 ViridianForest_Text_CharlieIntro:: @ 81724F9
     .string "Did you know that Pokémon evolve?$"
 
-ViridianForest_Text_CharlieDefeat:: @ 817251B
+ViridianForest_Text_CharlieDefeat::
     .string "Oh!\n"
     .string "I lost!$"
 

@@ -8,7 +8,7 @@ CinnabarIsland_PokemonCenter_1F_Text_CinnabarGymLocked:: @ 819A4F8
     .string "The Gym Leader's friend used to\n"
     .string "live there, they say.$"
 
-CinnabarIsland_PokemonCenter_1F_Text_VisitUnionRoom:: @ 819A5BE
+CinnabarIsland_PokemonCenter_1F_Text_VisitUnionRoom::
     .string "Do you have lots of friends?\p"
     .string "Linking up with the usual friends\n"
     .string "is fun, of course.\p"
@@ -29,10 +29,10 @@ CinnabarIsland_PokemonCenter_1F_Text_ReadyToSailToOneIsland:: @ 819A725
     .string "Bill: Hey, you kept me waiting!\n"
     .string "Ready to set sail to One Island?$"
 
-CinnabarIsland_PokemonCenter_1F_Text_OhNotDoneYet:: @ 819A766
+CinnabarIsland_PokemonCenter_1F_Text_OhNotDoneYet::
     .string "Oh, you're still not done yet?$"
 
-CinnabarIsland_PokemonCenter_1F_Text_LetsGo:: @ 819A785
+CinnabarIsland_PokemonCenter_1F_Text_LetsGo::
     .string "Well, that's it.\n"
     .string "Let's go!$"
 

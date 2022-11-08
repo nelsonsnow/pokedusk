@@ -1,4 +1,4 @@
-FuchsiaCity_Mart_Text_DontTheyHaveSafariZonePennants:: @ 81980BC
+FuchsiaCity_Mart_Text_DontTheyHaveSafariZonePennants::
     .string "Don't they have any pennants\n"
     .string "promoting the Safari Zone?\p"
     .string "How about some paper lanterns?\n"

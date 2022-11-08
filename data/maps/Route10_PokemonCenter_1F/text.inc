@@ -8,11 +8,11 @@ Route10_PokemonCenter_1F_Text_NuggetUselessSoldFor5000:: @ 819E59D
     .string "A Nugget is totally useless.\n"
     .string "So I sold it for ¥5000.$"
 
-Route10_PokemonCenter_1F_Text_HeardGhostsHauntLavender:: @ 819E5D2
+Route10_PokemonCenter_1F_Text_HeardGhostsHauntLavender::
     .string "I heard that ghosts haunt\n"
     .string "Lavender Town.$"
 
-Route10_PokemonCenter_1F_Text_GiveEverstoneIfCaught20Mons:: @ 819E5FB
+Route10_PokemonCenter_1F_Text_GiveEverstoneIfCaught20Mons::
     .string "Oh… {PLAYER}!\n"
     .string "I've been looking for you!\p"
     .string "It's me, one of the ever-present\n"
@@ -26,7 +26,7 @@ Route10_PokemonCenter_1F_Text_GiveEverstoneIfCaught20Mons:: @ 819E5FB
     .string "Have you gathered data on at least\n"
     .string "twenty kinds of Pokémon?$"
 
-Route10_PokemonCenter_1F_Text_GreatHereYouGo:: @ 819E733
+Route10_PokemonCenter_1F_Text_GreatHereYouGo::
     .string "Great! You have caught or owned\n"
     .string "{STR_VAR_3} kinds of Pokémon!\p"
     .string "Congratulations!\n"

@@ -1,4 +1,4 @@
-CeladonCity_GameCorner_Text_CanExchangeCoinsNextDoor:: @ 8196940
+CeladonCity_GameCorner_Text_CanExchangeCoinsNextDoor::
     .string "Welcome!\p"
     .string "You can exchange your Coins for\n"
     .string "fabulous prizes next door.$"
@@ -8,35 +8,35 @@ CeladonCity_GameCorner_Text_WelcomeBuySomeCoins:: @ 8196984
     .string "Do you need some game Coins?\n"
     .string "Would you like to buy some?$"
 
-CeladonCity_GameCorner_Text_ComePlaySometime:: @ 81969DC
+CeladonCity_GameCorner_Text_ComePlaySometime::
     .string "No?\n"
     .string "Please come play sometime!$"
 
-CeladonCity_GameCorner_Text_SorryDontHaveCoinCase:: @ 81969FB
+CeladonCity_GameCorner_Text_SorryDontHaveCoinCase::
     .string "Oh, I'm sorry.\n"
     .string "You don't have a Coin Case.$"
 
-CeladonCity_GameCorner_Text_CoinCaseIsFull:: @ 8196A26
+CeladonCity_GameCorner_Text_CoinCaseIsFull::
     .string "Whoops!\n"
     .string "Your Coin Case is full.$"
 
 CeladonCity_GameCorner_Text_CantAffordCoins:: @ 8196A46
     .string "You can't afford the Coins.$"
 
-CeladonCity_GameCorner_Text_HereAreYourCoins:: @ 8196A62
+CeladonCity_GameCorner_Text_HereAreYourCoins::
     .string "Thank you.\n"
     .string "Here are your Coins!$"
 
-CeladonCity_GameCorner_Text_RumoredTeamRocketRunsThisPlace:: @ 8196A82
+CeladonCity_GameCorner_Text_RumoredTeamRocketRunsThisPlace::
     .string "Keep this quiet.\p"
     .string "It's rumored that this place is run\n"
     .string "by Team Rocket.$"
 
-CeladonCity_GameCorner_Text_ThinkMachinesHaveDifferentOdds:: @ 8196AC7
+CeladonCity_GameCorner_Text_ThinkMachinesHaveDifferentOdds::
     .string "I think these machines have\n"
     .string "different odds.$"
 
-CeladonCity_GameCorner_Text_DoYouWantToPlay:: @ 8196AF3
+CeladonCity_GameCorner_Text_DoYouWantToPlay::
     .string "Kid, do you want to play?$"
 
 CeladonCity_GameCorner_Text_Received10CoinsFromMan:: @ 8196B0D
@@ -46,15 +46,15 @@ CeladonCity_GameCorner_Text_Received10CoinsFromMan:: @ 8196B0D
 CeladonCity_GameCorner_Text_DontNeedMyCoins:: @ 8196B30
     .string "You don't need my Coins!$"
 
-CeladonCity_GameCorner_Text_WinsComeAndGo:: @ 8196B49
+CeladonCity_GameCorner_Text_WinsComeAndGo::
     .string "Wins seem to come and go.\n"
     .string "Nothing's a sure thing.$"
 
-CeladonCity_GameCorner_Text_WinOrLoseItsOnlyLuck:: @ 8196B7B
+CeladonCity_GameCorner_Text_WinOrLoseItsOnlyLuck::
     .string "These slot games…\n"
     .string "Win or lose, it's only by luck.$"
 
-CeladonCity_GameCorner_Text_GymGuyAdvice:: @ 8196BAD
+CeladonCity_GameCorner_Text_GymGuyAdvice::
     .string "Hey!\p"
     .string "You have better things to do,\n"
     .string "champ in the making!\p"
@@ -71,11 +71,11 @@ CeladonCity_GameCorner_Text_RareMonsForCoins:: @ 8196CA1
     .string "be exchanged for your Coins.\p"
     .string "But, I just can't seem to win!$"
 
-CeladonCity_GameCorner_Text_SoEasyToGetHooked:: @ 8196CFE
+CeladonCity_GameCorner_Text_SoEasyToGetHooked::
     .string "Games are scary!\n"
     .string "It's so easy to get hooked!$"
 
-CeladonCity_GameCorner_Text_WantSomeCoins:: @ 8196D2B
+CeladonCity_GameCorner_Text_WantSomeCoins::
     .string "What's up?\n"
     .string "Want some Coins?$"
 
@@ -90,7 +90,7 @@ CeladonCity_GameCorner_Text_NeedMoreCoinsForMonIWant:: @ 8196D87
     .string "Darn! I need more Coins for the\n"
     .string "Pokémon I want!$"
 
-CeladonCity_GameCorner_Text_HereAreSomeCoinsShoo:: @ 8196DB7
+CeladonCity_GameCorner_Text_HereAreSomeCoinsShoo::
     .string "Hey, what? You're throwing me off!\n"
     .string "Here are some Coins, so shoo!$"
 
@@ -98,19 +98,19 @@ CeladonCity_GameCorner_Text_Received20CoinsFromMan:: @ 8196DF8
     .string "{PLAYER} received 20 Coins\n"
     .string "from the man.$"
 
-CeladonCity_GameCorner_Text_YouveGotPlentyCoins:: @ 8196E1B
+CeladonCity_GameCorner_Text_YouveGotPlentyCoins::
     .string "You've got plenty of your own\n"
     .string "Coins!$"
 
-CeladonCity_GameCorner_Text_WatchReelsClosely:: @ 8196E40
+CeladonCity_GameCorner_Text_WatchReelsClosely::
     .string "The trick is to watch the reels\n"
     .string "closely.$"
 
-CeladonCity_GameCorner_Text_GruntIntro:: @ 8196E69
+CeladonCity_GameCorner_Text_GruntIntro::
     .string "I'm guarding this poster!\n"
     .string "Go away, or else!$"
 
-CeladonCity_GameCorner_Text_GruntDefeat:: @ 8196E95
+CeladonCity_GameCorner_Text_GruntDefeat::
     .string "Dang!$"
 
 CeladonCity_GameCorner_Text_GruntPostBattle:: @ 8196E9B
@@ -118,7 +118,7 @@ CeladonCity_GameCorner_Text_GruntPostBattle:: @ 8196E9B
     .string "be discovered!\p"
     .string "I better tell Boss!$"
 
-CeladonCity_GameCorner_Text_SwitchBehindPosterPushIt:: @ 8196EDC
+CeladonCity_GameCorner_Text_SwitchBehindPosterPushIt::
     .string "Hey!\p"
     .string "A switch behind the poster!?\n"
     .string "Let's push it!$"
@@ -126,11 +126,11 @@ CeladonCity_GameCorner_Text_SwitchBehindPosterPushIt:: @ 8196EDC
 CeladonCity_GameCorner_Text_CoinCaseIsRequired:: @ 8196F0D
     .string "A Coin Case is required…$"
 
-CeladonCity_GameCorner_Text_DontHaveCoinCase:: @ 8196F26
+CeladonCity_GameCorner_Text_DontHaveCoinCase::
     .string "Oops!\n"
     .string "Don't have the Coin Case!$"
 
-CeladonCity_GameCorner_Text_SlotMachineWantToPlay:: @ 8196F46
+CeladonCity_GameCorner_Text_SlotMachineWantToPlay::
     .string "A slot machine!\n"
     .string "Want to play?$"
 
@@ -142,7 +142,7 @@ CeladonCity_GameCorner_Text_OutToLunch:: @ 8196F81
     .string "Out To Lunch\n"
     .string "This is reserved.$"
 
-CeladonCity_GameCorner_Text_SomeonesKeys:: @ 8196FA0
+CeladonCity_GameCorner_Text_SomeonesKeys::
     .string "Someone's keys!\n"
     .string "They'll be back.$"
 

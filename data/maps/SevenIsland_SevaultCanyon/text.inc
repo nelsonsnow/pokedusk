@@ -1,80 +1,80 @@
-SevenIsland_SevaultCanyon_Text_CyndyIntro:: @ 818C887
+SevenIsland_SevaultCanyon_Text_CyndyIntro::
     .string "My conditioning's in top form!$"
 
-SevenIsland_SevaultCanyon_Text_CyndyDefeat:: @ 818C8A6
+SevenIsland_SevaultCanyon_Text_CyndyDefeat::
     .string "Huh?\n"
     .string "Something's not right…$"
 
-SevenIsland_SevaultCanyon_Text_CyndyPostBattle:: @ 818C8C2
+SevenIsland_SevaultCanyon_Text_CyndyPostBattle::
     .string "The way I am now, I may have to\n"
     .string "hold off on Trainer Tower…$"
 
-SevenIsland_SevaultCanyon_Text_EvanIntro:: @ 818C8FD
+SevenIsland_SevaultCanyon_Text_EvanIntro::
     .string "It doesn't matter if you happen to\n"
     .string "have the strongest Pokémon…\p"
     .string "It doesn't mean a thing if you don't\n"
     .string "know how to use them properly!$"
 
-SevenIsland_SevaultCanyon_Text_EvanDefeat:: @ 818C980
+SevenIsland_SevaultCanyon_Text_EvanDefeat::
     .string "You're a master at this.$"
 
-SevenIsland_SevaultCanyon_Text_EvanPostBattle:: @ 818C999
+SevenIsland_SevaultCanyon_Text_EvanPostBattle::
     .string "You see them every so often,\n"
     .string "Trainers with awesome Pokémon\l"
     .string "who have no idea what to do.\p"
     .string "Before training Pokémon, Trainers\n"
     .string "themselves need to grow up.$"
 
-SevenIsland_SevaultCanyon_Text_JacksonIntro:: @ 818CA2F
+SevenIsland_SevaultCanyon_Text_JacksonIntro::
     .string "I work to protect the environment.\n"
     .string "In turn, nature protects me!$"
 
-SevenIsland_SevaultCanyon_Text_JacksonDefeat:: @ 818CA6F
+SevenIsland_SevaultCanyon_Text_JacksonDefeat::
     .string "Whoa! You're tough!\n"
     .string "How about protecting me?$"
 
-SevenIsland_SevaultCanyon_Text_JacksonPostBattle:: @ 818CA9C
+SevenIsland_SevaultCanyon_Text_JacksonPostBattle::
     .string "From far out among the stars, our\n"
     .string "planet is just a drop of water.\p"
     .string "But we want to protect that drop\n"
     .string "of water for everyone.$"
 
-SevenIsland_SevaultCanyon_Text_KatelynIntro:: @ 818CB16
+SevenIsland_SevaultCanyon_Text_KatelynIntro::
     .string "Those shoes you have are pretty\n"
     .string "snazzy.$"
 
-SevenIsland_SevaultCanyon_Text_KatelynDefeat:: @ 818CB3E
+SevenIsland_SevaultCanyon_Text_KatelynDefeat::
     .string "You're hot stuff in spite of your\n"
     .string "cute looks.$"
 
-SevenIsland_SevaultCanyon_Text_KatelynPostBattle:: @ 818CB6C
+SevenIsland_SevaultCanyon_Text_KatelynPostBattle::
     .string "Your mom bought those snazzy\n"
     .string "Running Shoes for you?\p"
     .string "She must adore you.$"
 
-SevenIsland_SevaultCanyon_Text_LeroyIntro:: @ 818CBB4
+SevenIsland_SevaultCanyon_Text_LeroyIntro::
     .string "You look strong.\n"
     .string "Let me battle you, please!$"
 
-SevenIsland_SevaultCanyon_Text_LeroyDefeat:: @ 818CBE0
+SevenIsland_SevaultCanyon_Text_LeroyDefeat::
     .string "I knew it!\n"
     .string "You're as tough as I thought!$"
 
-SevenIsland_SevaultCanyon_Text_LeroyPostBattle:: @ 818CC09
+SevenIsland_SevaultCanyon_Text_LeroyPostBattle::
     .string "The way you battle has given me\n"
     .string "a lot of useful data.\p"
     .string "Thanks so much!$"
 
-SevenIsland_SevaultCanyon_Text_MichelleIntro:: @ 818CC4F
+SevenIsland_SevaultCanyon_Text_MichelleIntro::
     .string "I was given the best possible\n"
     .string "education to become this strong.\p"
     .string "I don't want to lose to anyone!$"
 
-SevenIsland_SevaultCanyon_Text_MichelleDefeat:: @ 818CCAE
+SevenIsland_SevaultCanyon_Text_MichelleDefeat::
     .string "Thank you. I feel like I've been\n"
     .string "set free by losing to you.$"
 
-SevenIsland_SevaultCanyon_Text_MichellePostBattle:: @ 818CCEA
+SevenIsland_SevaultCanyon_Text_MichellePostBattle::
     .string "For some reason, I get furious\n"
     .string "over the slightest thing.\p"
     .string "I'll calm myself by breathing\n"
@@ -120,7 +120,7 @@ SevenIsland_SevaultCanyon_Text_RouteSign:: @ 818CF2B
     .string "Sevault Canyon\n"
     .string "Tanoby Ruins Ahead$"
 
-SevenIsland_SevaultCanyon_Text_BrunoTrainedWithBrawly:: @ 818CF4D
+SevenIsland_SevaultCanyon_Text_BrunoTrainedWithBrawly::
     .string "Training by oneself is certainly\n"
     .string "not a bad thing.\p"
     .string "But it's also not bad to aim for\n"

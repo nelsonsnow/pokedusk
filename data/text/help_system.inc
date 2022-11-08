@@ -1,16 +1,16 @@
-Help_Text_WhatShouldIDo:: @ 81B2DF8
+Help_Text_WhatShouldIDo::
 	.string "What should I do in this situation?$"
 
-Help_Text_HowDoIDoThis:: @ 81B2E1C
+Help_Text_HowDoIDoThis::
 	.string "How do I do this?$"
 
-Help_Text_WhatDoesThisTermMean:: @ 81B2E2E
+Help_Text_WhatDoesThisTermMean::
 	.string "What does this term mean?$"
 
-Help_Text_AboutThisGame:: @ 81B2E48
+Help_Text_AboutThisGame::
 	.string "About this game$"
 
-Help_Text_TypeMatchupList:: @ 81B2E58
+Help_Text_TypeMatchupList::
 	.string "Type Matchup List$"
 
 Help_Text_Exit:: @ 81B2E6A
@@ -22,19 +22,19 @@ Help_Text_Cancel:: @ 81B2E6F
 Help_Text_TryDoingItOnYourOwn::
 	.string "じぶんの ちからで やってみよう！$"
 
-Help_Text_DescWhatShouldIDo:: @ 81B2E88
+Help_Text_DescWhatShouldIDo::
 	.string "Select to obtain hints for getting\n"
 	.string "over challenging situations.$"
 
-Help_Text_DescHowDoIDoThis:: @ 81B2EC8
+Help_Text_DescHowDoIDoThis::
 	.string "Detailed instructions are given for\n"
 	.string "various operations.$"
 
-Help_Text_DescWhatDoesThisTermMean:: @ 81B2F00
+Help_Text_DescWhatDoesThisTermMean::
 	.string "Detailed descriptions are given for\n"
 	.string "terms that appear in the game.$"
 
-Help_Text_DescAboutThisGame:: @ 81B2F43
+Help_Text_DescAboutThisGame::
 	.string "Detailed descriptions are given\n"
 	.string "about this game.$"
 
@@ -52,52 +52,52 @@ Help_Text_Greetings:: @ 81B2FC9
 	.string "The help messages change to suit the\l"
 	.string "situation, so check them often, please.$"
 
-Help_Text_PlayingForFirstTime:: @ 81B3083
+Help_Text_PlayingForFirstTime::
 	.string "I'm playing for the first time. Help!$"
 
-Help_Text_WhatShouldIBeDoing:: @ 81B30A9
+Help_Text_WhatShouldIBeDoing::
 	.string "What should I be doing?$"
 
-Help_Text_CantGetOutOfRoom:: @ 81B30C1
+Help_Text_CantGetOutOfRoom::
 	.string "I can't get out of a room!$"
 
-Help_Text_CantFindPersonIWant:: @ 81B30DC
+Help_Text_CantFindPersonIWant::
 	.string "I can't find the person I want.$"
 
-Help_Text_TalkedToEveryoneNowWhat:: @ 81B30FC
+Help_Text_TalkedToEveryoneNowWhat::
 	.string "I've talked to everyone. Now what?$"
 
-Help_Text_SomeoneBlockingMyWay:: @ 81B311F
+Help_Text_SomeoneBlockingMyWay::
 	.string "There's someone blocking my way!$"
 
-Help_Text_ICantGoOn:: @ 81B3140
+Help_Text_ICantGoOn::
 	.string "I can't go on!$"
 
-Help_Text_OutOfThingsToDo:: @ 81B314F
+Help_Text_OutOfThingsToDo::
 	.string "I'm out of things to do.$"
 
-Help_Text_WhatHappenedToItemIGot:: @ 81B3168
+Help_Text_WhatHappenedToItemIGot::
 	.string "What happened to the item I got?$"
 
-Help_Text_WhatAreMyAdventureBasics:: @ 81B3189
+Help_Text_WhatAreMyAdventureBasics::
 	.string "What are the basics of my adventure?$"
 
-Help_Text_HowAreRoadsForestsDifferent:: @ 81B31AE
+Help_Text_HowAreRoadsForestsDifferent::
 	.string "How are roads and forests different?$"
 
-Help_Text_HowAreCavesDifferent:: @ 81B31D3
+Help_Text_HowAreCavesDifferent::
 	.string "How are caves different?$"
 
-Help_Text_HowDoIProgress:: @ 81B31EC
+Help_Text_HowDoIProgress::
 	.string "How do I progress?$"
 
-Help_Text_WhenCanIUseItem:: @ 81B31FF
+Help_Text_WhenCanIUseItem::
 	.string "When can I use items?$"
 
-Help_Text_WhatsABattle:: @ 81B3215
+Help_Text_WhatsABattle::
 	.string "What's a battle?$"
 
-Help_Text_HowDoIPrepareForBattle:: @ 81B3226
+Help_Text_HowDoIPrepareForBattle::
 	.string "How do I prepare for battle?$"
 
 Help_Text_WhatIsAMonsVitality:: @ 81B3243
@@ -106,7 +106,7 @@ Help_Text_WhatIsAMonsVitality:: @ 81B3243
 Help_Text_MyMonsAreHurt:: @ 81B3261
 	.string "My Pokémon are hurt!$"
 
-Help_Text_WhatIsStatusProblem:: @ 81B3276
+Help_Text_WhatIsStatusProblem::
 	.string "What is a status problem?$"
 
 Help_Text_WhatHappensIfAllMyMonsFaint:: @ 81B3290
@@ -136,10 +136,10 @@ Help_Text_WhatAreMoves:: @ 81B3344
 Help_Text_WhatAreHiddenMoves:: @ 81B335C
 	.string "What are Hidden moves?$"
 
-Help_Text_WhatMovesShouldIUse:: @ 81B3373
+Help_Text_WhatMovesShouldIUse::
 	.string "What moves should I use?$"
 
-Help_Text_WantToAddMoreMoves:: @ 81B338C
+Help_Text_WantToAddMoreMoves::
 	.string "I want to add more moves.$"
 
 Help_Text_WantToMakeMonStronger:: @ 81B33A6
@@ -148,10 +148,10 @@ Help_Text_WantToMakeMonStronger:: @ 81B33A6
 Help_Text_FoeMonsTooStrong:: @ 81B33CA
 	.string "The foe Pokémon are too strong!$"
 
-Help_Text_WhatDoIDoInCave:: @ 81B33EA
+Help_Text_WhatDoIDoInCave::
 	.string "What do I do in a cave?$"
 
-Help_Text_NothingIWantToKnow:: @ 81B3402
+Help_Text_NothingIWantToKnow::
 	.string "There's nothing that I want to know!$"
 
 Help_Text_WhatsPokemonCenter:: @ 81B3427
@@ -160,13 +160,13 @@ Help_Text_WhatsPokemonCenter:: @ 81B3427
 Help_Text_WhatsPokemonMart:: @ 81B3440
 	.string "What's a Pokémon Mart?$"
 
-Help_Text_WantToEndGame:: @ 81B3457
+Help_Text_WantToEndGame::
 	.string "I want to end the game.$"
 
 Help_Text_WhatsAMon:: @ 81B346F
 	.string "What's a Pokémon?$"
 
-Help_Text_WhatIsThatPersonLike:: @ 81B3481
+Help_Text_WhatIsThatPersonLike::
 	.string "What is that person like?$"
 
 Help_Text_WhatDoesHiddenMoveDo:: @ 81B349B
@@ -184,7 +184,7 @@ Help_Text_WantToEndSafari:: @ 81B34F6
 Help_Text_WhatIsAGym:: @ 81B3516
 	.string "What is a Gym?$"
 
-Help_Text_AnswerPlayingForFirstTime:: @ 81B3525
+Help_Text_AnswerPlayingForFirstTime::
 	.string "You become the main character,\n"
 	.string "exploring the world of Pokémon.\l"
 	.string "By talking to people and solving\l"
@@ -192,7 +192,7 @@ Help_Text_AnswerPlayingForFirstTime:: @ 81B3525
 	.string "Strive for the goal together with your\l"
 	.string "wonderful Pokémon.$"
 
-Help_Text_AnswerWhatShouldIBeDoing:: @ 81B35E6
+Help_Text_AnswerWhatShouldIBeDoing::
 	.string "When you come across another person,\n"
 	.string "go up to them and press the A Button.\l"
 	.string "That will get them to talk and interact\l"
@@ -201,7 +201,7 @@ Help_Text_AnswerWhatShouldIBeDoing:: @ 81B35E6
 	.string "the same way. Talk to people and check\l"
 	.string "things often to obtain information.$"
 
-Help_Text_AnswerCantGetOutOfRoom:: @ 81B36EB
+Help_Text_AnswerCantGetOutOfRoom::
 	.string "On the stairs or the exits of a\n"
 	.string "building is a red mat. Move your\l"
 	.string "character to stand on top of the\l"
@@ -209,7 +209,7 @@ Help_Text_AnswerCantGetOutOfRoom:: @ 81B36EB
 	.string "toward the stairs or the exit to\l"
 	.string "advance.$"
 
-Help_Text_AnswerCantFindPersonIWant:: @ 81B379A
+Help_Text_AnswerCantFindPersonIWant::
 	.string "This isn't something you should worry\n"
 	.string "about too much.\l"
 	.string "Talk to other people, check signs,\l"
@@ -217,11 +217,11 @@ Help_Text_AnswerCantFindPersonIWant:: @ 81B379A
 	.string "Sometimes, you may need to just move\l"
 	.string "to a new town or place.$"
 
-Help_Text_AnswerTalkedToEveryoneNowWhat:: @ 81B3849
+Help_Text_AnswerTalkedToEveryoneNowWhat::
 	.string "Try moving on to a new road, town, or\n"
 	.string "place.$"
 
-Help_Text_AnswerSomeoneBlockingMyWay:: @ 81B3876
+Help_Text_AnswerSomeoneBlockingMyWay::
 	.string "There could be something in the town\n"
 	.string "or inside a building that is the cause.\l"
 	.string "Try talking to the people in the area\l"
@@ -230,7 +230,7 @@ Help_Text_AnswerSomeoneBlockingMyWay:: @ 81B3876
 	.string "Afterwards, try talking to the person\l"
 	.string "blocking your way again.$"
 
-Help_Text_AnswerICantGoOn:: @ 81B3972
+Help_Text_AnswerICantGoOn::
 	.string "Try talking to people by going up to\n"
 	.string "them and pressing the A Button.\l"
 	.string "Also, try checking things like odd trees\l"
@@ -238,13 +238,13 @@ Help_Text_AnswerICantGoOn:: @ 81B3972
 	.string "Press the {PLUS} Control Pad and try going\l"
 	.string "to places that look impassable, too.$"
 
-Help_Text_AnswerOutOfThingsToDo:: @ 81B3A51
+Help_Text_AnswerOutOfThingsToDo::
 	.string "Try going to places where you \n"
 	.string "haven't visited yet.\l"
 	.string "Also, check everything that looks\l"
 	.string "suspicious by pressing the A Button.$"
 
-Help_Text_AnswerWhatHappenedToItemIGot:: @ 81B3ACC
+Help_Text_AnswerWhatHappenedToItemIGot::
 	.string "Any item that you are given by another\n"
 	.string "character goes in your Bag.\l"
 	.string "The item is automatically sorted and\l"
@@ -262,13 +262,13 @@ Help_Text_AnswerWhatAreMyAdventureBasics:: @ 81B3BB6
 	.string "Stock up on healing items at\l"
 	.string "Pokémon Marts before traveling far.$"
 
-Help_Text_AnswerHowAreRoadsForestsDifferent:: @ 81B3C99
+Help_Text_AnswerHowAreRoadsForestsDifferent::
 	.string "Forests are basically the same as\n"
 	.string "roads but they can be like mazes.\l"
 	.string "All forests have a way out, so don't\l"
 	.string "give up if you get lost.$"
 
-Help_Text_AnswerHowAreCavesDifferent:: @ 81B3D1B
+Help_Text_AnswerHowAreCavesDifferent::
 	.string "Caves are dark and dangerous. Wild\n"
 	.string "Pokémon can appear anywhere in them.\l"
 	.string "If there is an emergency, rush to a\l"
@@ -276,7 +276,7 @@ Help_Text_AnswerHowAreCavesDifferent:: @ 81B3D1B
 	.string "New towns await discovery beyond some\l"
 	.string "caves, so don't give up.$"
 
-Help_Text_AnswerHowDoIProgress:: @ 81B3DE3
+Help_Text_AnswerHowDoIProgress::
 	.string "The object of the game is to train\n"
 	.string "your Pokémon and move forward.\l"
 	.string "You must collect info and solve\l"
@@ -285,7 +285,7 @@ Help_Text_AnswerHowDoIProgress:: @ 81B3DE3
 	.string "What would get that impeding\l"
 	.string "person out of the way?$"
 
-Help_Text_AnswerWhenCanIUseItem:: @ 81B3EBC
+Help_Text_AnswerWhenCanIUseItem::
 	.string "There are several kinds of items.\n"
 	.string "Some can be used only on the field.\l"
 	.string "Some are only for use during battle.\l"
@@ -325,7 +325,7 @@ Help_Text_AnswerMyMonsAreHurt:: @ 81B41D7
 	.string "This service is free, so get in the\l"
 	.string "habit of healing your Pokémon often.$"
 
-Help_Text_AnswerWhatIsStatusProblem:: @ 81B42B3
+Help_Text_AnswerWhatIsStatusProblem::
 	.string "A status problem refers to an ailment\n"
 	.string "that is inflicted on a Pokémon by its\l"
 	.string "foe's attack. These include burns,\l"
@@ -437,7 +437,7 @@ Help_Text_AnswerWantToMakeMonStronger:: @ 81B4D26
 	.string "them. Battle wild Pokémon often to\l"
 	.string "level up your party.$"
 
-Help_Text_AnswerFoeMonsTooStrong:: @ 81B4E0B
+Help_Text_AnswerFoeMonsTooStrong::
 	.string "If your foes are too strong, try\n"
 	.string "leveling up your Pokémon some more.\l"
 	.string "Go back the way you came and battle\l"
@@ -453,7 +453,7 @@ Help_Text_AnswerWhatDoIDoInCave:: @ 81B4ED8
 	.string "to heal them right away. It is very\l"
 	.string "dangerous to force your luck in caves.$"
 
-Help_Text_AnswerNothingIWantToKnow:: @ 81B4FB2
+Help_Text_AnswerNothingIWantToKnow::
 	.string "Trust your own knowledge and power.\n"
 	.string "Believe in yourself and find your way!$"
 
@@ -473,7 +473,7 @@ Help_Text_AnswerWhatsPokemonMart:: @ 81B50FF
 	.string "Pokémon Mart. Some Marts carry items\l"
 	.string "that are available only in their towns.$"
 
-Help_Text_AnswerWantToEndGame:: @ 81B51B1
+Help_Text_AnswerWantToEndGame::
 	.string "You can safely end your game by\n"
 	.string "selecting “Save” on the Menu.\l"
 	.string "Once you have saved, the game can be\l"
@@ -546,16 +546,16 @@ Help_Text_UsingItem:: @ 81B5728
 Help_Text_UsingBag:: @ 81B5737
 	.string " Using “Bag”$"
 
-Help_Text_UsingAnItem:: @ 81B5744
+Help_Text_UsingAnItem::
 	.string "  Using an item$"
 
-Help_Text_UsingKeyItem:: @ 81B5754
+Help_Text_UsingKeyItem::
 	.string "  Using a key item$"
 
 Help_Text_UsingPokeBall:: @ 81B5767
 	.string "  Using a Poké Ball$"
 
-Help_Text_UsingPlayer:: @ 81B577B
+Help_Text_UsingPlayer::
 	.string " Using “{PLAYER}”$"
 
 Help_Text_UsingSave:: @ 81B5787
@@ -570,22 +570,22 @@ Help_Text_UsingPotion:: @ 81B57A5
 Help_Text_UsingTownMap:: @ 81B57B8
 	.string "    Using the Town Map$"
 
-Help_Text_UsingTM:: @ 81B57CF
+Help_Text_UsingTM::
 	.string "    Using a TM$"
 
-Help_Text_UsingHM:: @ 81B57DE
+Help_Text_UsingHM::
 	.string "    Using an HM$"
 
-Help_Text_UsingMoveOutsideOfBattle:: @ 81B57EE
+Help_Text_UsingMoveOutsideOfBattle::
 	.string "Using a move outside of battle$"
 
 Help_Text_RidingBicycle:: @ 81B580D
 	.string "    Riding the Bicycle$"
 
-Help_Text_EnteringName:: @ 81B5824
+Help_Text_EnteringName::
 	.string "Entering a name$"
 
-Help_Text_UsingPC:: @ 81B5834
+Help_Text_UsingPC::
 	.string "Using a PC$"
 
 Help_Text_UsingBillsPC:: @ 81B583F
@@ -600,10 +600,10 @@ Help_Text_UsingDeposit:: @ 81B5863
 Help_Text_UsingMove:: @ 81B5875
 	.string "  Using “Move”$"
 
-Help_Text_MovingItems:: @ 81B5884
+Help_Text_MovingItems::
 	.string "  Moving items$"
 
-Help_Text_UsingPlayersPC:: @ 81B5893
+Help_Text_UsingPlayersPC::
 	.string " Using “{PLAYER}'s PC”$"
 
 Help_Text_UsingWithdrawItem:: @ 81B58A4
@@ -639,10 +639,10 @@ Help_Text_UsingBag2:: @ 81B5950
 Help_Text_ReadingPokedex:: @ 81B595D
 	.string " Reading the “Pokédex”$"
 
-Help_Text_UsingHomePC:: @ 81B5974
+Help_Text_UsingHomePC::
 	.string "Using the PC at home$"
 
-Help_Text_UsingItemStorage:: @ 81B5989
+Help_Text_UsingItemStorage::
 	.string "Using the Item Storage System$"
 
 Help_Text_UsingWithdrawItem2:: @ 81B59A7
@@ -825,7 +825,7 @@ Help_Text_HowToRideBicycle:: @ 81B66BA
 	.string "   “Register” it for instant use by\n"
 	.string "   pressing Select.$"
 
-Help_Text_HowToEnterName:: @ 81B678E
+Help_Text_HowToEnterName::
 	.string "{CIRCLE_1} Move the cursor to the letter you\n"
 	.string "   want with the {PLUS} Control Pad, then\n"
 	.string "   press the A Button to enter it.\n"
@@ -883,7 +883,7 @@ Help_Text_HowToMoveItems:: @ 81B6C4F
 	.string "   another Pokémon, or return the item\n"
 	.string "   to the Bag with the A Button.$"
 
-Help_Text_HowToUsePlayersPC:: @ 81B6D4A
+Help_Text_HowToUsePlayersPC::
 	.string "{CIRCLE_1} Select “{PLAYER}'s PC” on the PC.\n"
 	.string "{CIRCLE_2} Select either “Item Storage” or\n"
 	.string "   “Mailbox.”\n"
@@ -985,7 +985,7 @@ Help_Text_HowToReadPokedex:: @ 81B752C
 	.string "   Town Map with its habitat(s).$"
 	.endif
 
-Help_Text_HowToUseHomePC:: @ 81B7611
+Help_Text_HowToUseHomePC::
 	.string "{CIRCLE_1} Go up to the PC at home, then press\n"
 	.string "   the A Button.\n"
 	.string "{CIRCLE_2} The PC will turn on.\n"
@@ -1040,7 +1040,7 @@ Help_Text_HowToUseBall:: @ 81B7A60
 	.string "When wild Pokémon appear, throw lots\n"
 	.string "of Safari Balls to catch them!$"
 
-Help_Text_HowToUseBait:: @ 81B7AEE
+Help_Text_HowToUseBait::
 	.string "{CIRCLE_1} Select to throw the special food\n"
 	.string "   used only in the Safari Zone.\n"
 	.string "It is Pokémon food rolled up into\n"
@@ -1048,7 +1048,7 @@ Help_Text_HowToUseBait:: @ 81B7AEE
 	.string "thrown, the wild Pokémon may get\n"
 	.string "attracted by it, and may not flee!$"
 
-Help_Text_HowToUseRock:: @ 81B7BBE
+Help_Text_HowToUseRock::
 	.string "{CIRCLE_1} Select to throw a rock lying on\n"
 	.string "   the ground in the Safari Zone.\n"
 	.string "Throwing a rock at a Pokémon may \n"
@@ -1060,7 +1060,7 @@ Help_Text_HowToUseHallOfFame:: @ 81B7C57
 	.string "{CIRCLE_2} The Pokémon that have entered the\n"
 	.string "   Hall Of Fame can be examined.$"
 
-Help_Text_HP:: @ 81B7CC1
+Help_Text_HP::
 	.string "HP$"
 
 Help_Text_EXP:: @ 81B7CC4
@@ -1084,13 +1084,13 @@ Help_Text_SpDef:: @ 81B7CF6
 Help_Text_Speed:: @ 81B7CFE
 	.string "Speed$"
 
-Help_Text_Level:: @ 81B7D04
+Help_Text_Level::
 	.string "Lv. {LEFT_PAREN}Level{RIGHT_PAREN}$"
 
 Help_Text_Type:: @ 81B7D12
 	.string "Type$"
 
-Help_Text_OT:: @ 81B7D17
+Help_Text_OT::
 	.string "OT$"
 
 Help_Text_Item:: @ 81B7D1A
@@ -1108,10 +1108,10 @@ Help_Text_MoveType:: @ 81B7D2D
 Help_Text_Nature:: @ 81B7D37
 	.string "Nature$"
 
-Help_Text_IDNo:: @ 81B7D3E
+Help_Text_IDNo::
 	.string "ID No.$"
 
-Help_Text_PP:: @ 81B7D45
+Help_Text_PP::
 	.string "PP$"
 
 Help_Text_Power:: @ 81B7D48
@@ -1162,10 +1162,10 @@ Help_Text_Frame:: @ 81B7DC6
 Help_Text_Cancel2:: @ 81B7DCC
 	.string "Cancel$"
 
-Help_Text_TM:: @ 81B7DD3
+Help_Text_TM::
 	.string "TM$"
 
-Help_Text_HM:: @ 81B7DD6
+Help_Text_HM::
 	.string "HM$"
 
 Help_Text_HMMove:: @ 81B7DD9
@@ -1180,7 +1180,7 @@ Help_Text_StatusProblem:: @ 81B7DEB
 Help_Text_Pokemon:: @ 81B7DFA
 	.string "Pokémon$"
 
-Help_Text_IDNo2:: @ 81B7E02
+Help_Text_IDNo2::
 	.string "ID No.$"
 
 Help_Text_Money2:: @ 81B7E09
@@ -1253,7 +1253,7 @@ Help_Text_DefineSpeed:: @ 81B83EF
 	.string "in battle, the Pokémon can make a move\l"
 	.string "before its slower opponent.$"
 
-Help_Text_DefineLevel:: @ 81B847B
+Help_Text_DefineLevel::
 	.string "Lv. (Level) indicates the growth and\n"
 	.string "strength of a Pokémon.\l"
 	.string "In general, when a Pokémon levels up,\l"
@@ -1294,13 +1294,13 @@ Help_Text_DefineAbility:: @ 81B87B8
 	.string "species to species. Some species may\l"
 	.string "have more than one kind of ability.$"
 
-Help_Text_DefineMoney:: @ 81B8897
+Help_Text_DefineMoney::
 	.string "Whenever you win a battle against a\n"
 	.string "Trainer, you are given prize money.\l"
 	.string "Save up your prize money so you can\l"
 	.string "enjoy shopping at Pokémon Marts!$"
 
-Help_Text_DefineMoveType:: @ 81B8924
+Help_Text_DefineMoveType::
 	.string "Moves are also classified by types.\n"
 	.string "If a Pokémon of a certain type uses\l"
 	.string "a move of the same type, the move's\l"
@@ -1315,7 +1315,7 @@ Help_Text_DefineNature:: @ 81B8A04
 	.string "nature appears to affect how the\l"
 	.string "Pokémon will grow upon leveling up.$"
 
-Help_Text_DefineIDNo:: @ 81B8A84
+Help_Text_DefineIDNo::
 	.string "The ID No. is a special number assigned\n"
 	.string "specifically to you as a Trainer.\l"
 	.string "Together with the OT name, the ID No.\l"
@@ -1324,7 +1324,7 @@ Help_Text_DefineIDNo:: @ 81B8A84
 	.string "The ID No. does not change even if the\l"
 	.string "Pokémon is traded.$"
 
-Help_Text_DefinePP:: @ 81B8B62
+Help_Text_DefinePP::
 	.string "PP stands for “Power Points.”\n"
 	.string "It indicates the number of times a\l"
 	.string "certain move can be used in battle.\l"
@@ -1358,7 +1358,7 @@ Help_Text_DefineItems:: @ 81B8DD4
 	.string "Items may be used, given to a Pokémon\l"
 	.string "to hold, or tossed out as garbage.$"
 
-Help_Text_DefineKeyItems:: @ 81B8E67
+Help_Text_DefineKeyItems::
 	.string "Important items that you find or \n"
 	.string "receive from people are placed in the\l"
 	.string "Key Items Pocket.\l"
@@ -1376,14 +1376,14 @@ Help_Text_DefinePokeBalls:: @ 81B8F4D
 	.string "Pokémon to hold, or tossed out as\l"
 	.string "garbage.$"
 
-Help_Text_DefinePokedex:: @ 81B901B
+Help_Text_DefinePokedex::
 	.string "This indicates the number of species of\n"
 	.string "Pokémon you have caught and/or\l"
 	.string "evolved to fill the Pokédex.\l"
 	.string "Try hard to catch all sorts of\l"
 	.string "Pokémon!$"
 
-Help_Text_DefinePlayTime:: @ 81B90A7
+Help_Text_DefinePlayTime::
 	.string "This is the total amount of time that\n"
 	.string "you have played this game.$"
 
@@ -1393,16 +1393,16 @@ Help_Text_DefineBadges:: @ 81B90E8
 	.string "Earn Badges by defeating Gym Leaders\l"
 	.string "in various cities and towns.$"
 
-Help_Text_DefineTextSpeed:: @ 81B9170
+Help_Text_DefineTextSpeed::
 	.string "You can adjust how quickly the text is\n"
 	.string "displayed. Choose one: Slow, Mid,\l"
 	.string "or Fast.$"
 
-Help_Text_DefineBattleScene:: @ 81B91C2
+Help_Text_DefineBattleScene::
 	.string "You can choose to turn the battle\n"
 	.string "animation On or Off.$"
 
-Help_Text_DefineBattleStyle:: @ 81B91F9
+Help_Text_DefineBattleStyle::
 	.string "You can choose whether or not a\n"
 	.string "Trainer can switch a Pokémon after\l"
 	.string "it has made its foe faint.\l"
@@ -1423,17 +1423,17 @@ Help_Text_DefineButtonMode:: @ 81B92ED
 	.string "Set to “L=A” to make the L Button\l"
 	.string "work the same as the A Button.$"
 
-Help_Text_DefineFrame:: @ 81B93D8
+Help_Text_DefineFrame::
 	.string "You may choose the design of the frame\n"
 	.string "around certain menus. Try them out and\l"
 	.string "see what you like.$"
 
-Help_Text_DefineCancel2:: @ 81B9439
+Help_Text_DefineCancel2::
 	.string "The settings will be changed to the\n"
 	.string "selections shown in red, and you will\l"
 	.string "return to the Menu.$"
 
-Help_Text_DefineTM:: @ 81B9497
+Help_Text_DefineTM::
 	.string "A TM (Technical Machine) is a device\n"
 	.string "used to teach a move to a Pokémon.\l"
 	.string "There are many different kinds.\l"
@@ -1441,7 +1441,7 @@ Help_Text_DefineTM:: @ 81B9497
 	.string "Pokémon capable of using them.\l"
 	.string "A TM breaks after a single use.$"
 
-Help_Text_DefineHM:: @ 81B9560
+Help_Text_DefineHM::
 	.string "An HM (Hidden Machine) is a device used\n"
 	.string "to teach a Hidden move to a Pokémon.\l"
 	.string "A Hidden move can be taught only to\l"
@@ -1468,7 +1468,7 @@ Help_Text_DefineEvolution:: @ 81B9749
 	.string "it may learn. Some Pokémon evolve\l"
 	.string "due to reasons other than leveling up.$"
 
-Help_Text_DefineStatusProblem:: @ 81B984F
+Help_Text_DefineStatusProblem::
 	.string "Status problems include:\n"
 	.string "Sleep: Can't use moves.\l"
 	.string "Poison: Causes steady HP loss.\l"
@@ -1484,7 +1484,7 @@ Help_Text_DefinePokemon:: @ 81B991C
 	.string "People raise Pokémon to be their pets,\l"
 	.string "use them for battling, and so on.$"
 
-Help_Text_DefineIDNo2:: @ 81B99C4
+Help_Text_DefineIDNo2::
 	.string "The ID No. is a special number assigned\n"
 	.string "specifically to you as a Trainer.\l"
 	.string "Together with the OT name, the ID No.\l"
@@ -1493,7 +1493,7 @@ Help_Text_DefineIDNo2:: @ 81B99C4
 	.string "The ID No. does not change even if the\l"
 	.string "Pokémon is traded.$"
 
-Help_Text_DefineMoney2:: @ 81B9AA2
+Help_Text_DefineMoney2::
 	.string "Whenever you win a battle against a\n"
 	.string "Trainer, you are given prize money.\l"
 	.string "Save up your prize money so you can\l"
@@ -1508,25 +1508,25 @@ Help_Text_DefineBadges2:: @ 81B9B2F
 Help_Text_TheHelpSystem:: @ 81B9BB7
 	.string "The Help System$"
 
-Help_Text_TheGame:: @ 81B9BC7
+Help_Text_TheGame::
 	.string "The game$"
 
-Help_Text_WirelessAdapter:: @ 81B9BD0
+Help_Text_WirelessAdapter::
 	.string "Wireless Adapter$"
 
-Help_Text_GameFundamentals1:: @ 81B9BE1
+Help_Text_GameFundamentals1::
 	.string "Game fundamentals 1$"
 
-Help_Text_GameFundamentals2:: @ 81B9BF5
+Help_Text_GameFundamentals2::
 	.string "Game fundamentals 2$"
 
-Help_Text_GameFundamentals3:: @ 81B9C09
+Help_Text_GameFundamentals3::
 	.string "Game fundamentals 3$"
 
 Help_Text_WhatArePokemon:: @ 81B9C1D
 	.string "What are Pokémon?$"
 
-Help_Text_DescTheHelpSystem:: @ 81B9C2F
+Help_Text_DescTheHelpSystem::
 	.string "The help messages change depending on\n"
 	.string "how much you have progressed in the\l"
 	.string "game. They are designed to support you\l"
@@ -1534,7 +1534,7 @@ Help_Text_DescTheHelpSystem:: @ 81B9C2F
 	.string "anything that you don't understand,\l"
 	.string "please look up the Help System!$"
 
-Help_Text_DescTheGame:: @ 81B9D04
+Help_Text_DescTheGame::
 	.string "You become the main character to\n"
 	.string "explore the world of Pokémon!\l"
 	.string "By talking to people and solving\l"
@@ -1542,7 +1542,7 @@ Help_Text_DescTheGame:: @ 81B9D04
 	.string "Strive for the goal together with your\l"
 	.string "wonderful Pokémon!$"
 
-Help_Text_DescWirelessAdapter:: @ 81B9DC5
+Help_Text_DescWirelessAdapter::
 	.string "This game communicates over a wireless\n"
 	.string "link using the Wireless Adapter.\p"
 	.string "Go wireless anywhere, anytime, and\n"
@@ -1550,14 +1550,14 @@ Help_Text_DescWirelessAdapter:: @ 81B9DC5
 	.string "Try playing with the Wireless Adapter\n"
 	.string "always attached!$"
 
-Help_Text_DescGameFundamentals1:: @ 81B9E75
+Help_Text_DescGameFundamentals1::
 	.string "Visit every city and town, travel every\n"
 	.string "road, explore every cave, and face\l"
 	.string "every challenge as you strive to\l"
 	.string "become the greatest Trainer of\l"
 	.string "Pokémon!$"
 
-Help_Text_DescGameFundamentals2:: @ 81B9F09
+Help_Text_DescGameFundamentals2::
 	.string "On your adventure, you will be faced\n"
 	.string "with many obstacles. Every obstacle\l"
 	.string "can be overcome by doing something\l"
@@ -1565,7 +1565,7 @@ Help_Text_DescGameFundamentals2:: @ 81B9F09
 	.string "are affected by something that happens\l"
 	.string "far away.$"
 
-Help_Text_DescGameFundamentals3:: @ 81B9FCE
+Help_Text_DescGameFundamentals3::
 	.string "Some of the obstacles in your way can\n"
 	.string "be removed once your Pokémon learn\l"
 	.string "specific moves.$"
@@ -1578,7 +1578,7 @@ Help_Text_DescWhatArePokemon:: @ 81BA027
 	.string "They appear to grow obedient to the\l"
 	.string "Trainers that caught them.$"
 
-Help_Text_UsingTypeMatchupList:: @ 81BA0F1
+Help_Text_UsingTypeMatchupList::
 	.string "Using the Type Matchup List$"
 
 Help_Text_OwnMoveDark:: @ 81BA10D
@@ -1683,7 +1683,7 @@ Help_Text_OwnMoveBug:: @ 81BA3ED
 Help_Text_OwnPokemonBug:: @ 81BA400
 	.string "Own Pokémon type: Bug$"
 
-Help_Text_HowToUseTypeMatchupList:: @ 81BA416
+Help_Text_HowToUseTypeMatchupList::
 	.string "Depending on the matchup of the\n"
 	.string "move type and the target Pokémon's\l"
 	.string "type, the move's effectiveness varies:\l"

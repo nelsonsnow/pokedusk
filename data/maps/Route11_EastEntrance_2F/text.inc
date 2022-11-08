@@ -1,4 +1,4 @@
-Route11_EastEntrance_2F_Text_GiveItemfinderIfCaught30:: @ 819E9E5
+Route11_EastEntrance_2F_Text_GiveItemfinderIfCaught30::
     .string "Hi! Remember me?\n"
     .string "I'm one of Prof. Oak's Aides.\p"
     .string "If your Pokédex has complete data\n"
@@ -10,17 +10,17 @@ Route11_EastEntrance_2F_Text_GiveItemfinderIfCaught30:: @ 819E9E5
     .string "Have you gathered data on at least\n"
     .string "{STR_VAR_1} kinds of Pokémon?$"
 
-Route11_EastEntrance_2F_Text_GreatHereYouGo:: @ 819EAE4
+Route11_EastEntrance_2F_Text_GreatHereYouGo::
     .string "Great! You have caught or owned\n"
     .string "{STR_VAR_3} kinds of Pokémon!\p"
     .string "Congratulations!\n"
     .string "Here you go!$"
 
-Route11_EastEntrance_2F_Text_ReceivedItemfinderFromAide:: @ 819EB37
+Route11_EastEntrance_2F_Text_ReceivedItemfinderFromAide::
     .string "{PLAYER} received the {STR_VAR_2}\n"
     .string "from the Aide.$"
 
-Route11_EastEntrance_2F_Text_ExplainItemfinder:: @ 819EB59
+Route11_EastEntrance_2F_Text_ExplainItemfinder::
     .string "There are items on the ground that\n"
     .string "may be hidden from view.\p"
     .string "Use the ItemFinder to detect any\n"
@@ -32,17 +32,17 @@ Route11_EastEntrance_2F_Text_ExplainItemfinder:: @ 819EB59
     .string "Use it to get your bearings, then\n"
     .string "search the suspect area by hand.$"
 
-Route11_EastEntrance_2F_Text_BigMonAsleepOnRoad:: @ 819EC8A
+Route11_EastEntrance_2F_Text_BigMonAsleepOnRoad::
     .string "Let's see what the binoculars have\n"
     .string "to show…\p"
     .string "A big Pokémon is asleep on a road!$"
 
-Route11_EastEntrance_2F_Text_WhatABreathtakingView:: @ 819ECD9
+Route11_EastEntrance_2F_Text_WhatABreathtakingView::
     .string "Let's see what the binoculars have\n"
     .string "to show…\p"
     .string "What a breathtaking view!$"
 
-Route11_EastEntrance_2F_Text_RockTunnelGoodRouteToLavender:: @ 819ED1F
+Route11_EastEntrance_2F_Text_RockTunnelGoodRouteToLavender::
     .string "Let's see what the binoculars have\n"
     .string "to show…\p"
     .string "To get to Lavender Town from\n"

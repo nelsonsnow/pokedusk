@@ -13,7 +13,7 @@ FuchsiaCity_Text_WheresSara:: @ 818062C
     .string "Erik: Where's Sara?\n"
     .string "I said I'd meet her here.$"
 
-FuchsiaCity_Text_ItemBallInThere:: @ 818065A
+FuchsiaCity_Text_ItemBallInThere::
     .string "That item ball in there…\n"
     .string "Were you wanting that?\p"
     .string "Me, too!\n"
@@ -77,7 +77,7 @@ FuchsiaCity_Text_KabutoSign:: @ 81808FA
     .string "regenerated from a fossil.$"
 
 @ Unused. May have been meant to be the placeholder text for the zoo mons, similar to RB's "!" text
-FuchsiaCity_Text_Ellipsis:: @ 8180945
+FuchsiaCity_Text_Ellipsis::
     .string "……$"
 
 Text_SubstituteTeach:: @ 8180948
@@ -92,7 +92,7 @@ Text_SubstituteTeach:: @ 8180948
     .string "Want me to teach Substitute to\n"
     .string "one of your Pokémon?$"
 
-Text_SubstituteDeclined:: @ 8180A32
+Text_SubstituteDeclined::
     .string "Oh, really?\n"
     .string "Substitute seems so fun…$"
 
@@ -100,7 +100,7 @@ Text_SubstituteWhichMon:: @ 8180A57
     .string "Which Pokémon wants to learn\n"
     .string "Substitute?$"
 
-Text_SubstituteTaught:: @ 8180A80
+Text_SubstituteTaught::
     .string "Boy, what I'd give to crawl inside\n"
     .string "a Kangaskhan belly pouch…$"
 

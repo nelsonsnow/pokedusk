@@ -31,7 +31,7 @@
 #include "constants/maps.h"
 #include "constants/songs.h"
 #include "constants/pokemon.h"
-#include "constants/trainer_classes.h"
+#include "constants/trainers.h"
 
 enum
 {
@@ -181,7 +181,7 @@ static void Task_BattleStart(u8 taskId)
     case 0:
         if (!FldEffPoison_IsActive())
         {
-        	HelpSystem_Disable();
+            HelpSystem_Disable();
             BT_StartOnField(tTransition);
             ++tState;
         }
@@ -189,7 +189,7 @@ static void Task_BattleStart(u8 taskId)
     case 1:
         if (BT_IsDone() == TRUE)
         {
-        	HelpSystem_Enable();
+            HelpSystem_Enable();
             CleanupOverworldWindowsAndTilemaps();
             SetMainCallback2(CB2_InitBattle);
             RestartWildEncounterImmunitySteps();
@@ -211,7 +211,13 @@ static void CreateBattleStartTask(u8 transition, u16 song) // song == 0 means de
 static bool8 CheckSilphScopeInPokemonTower(u16 mapGroup, u16 mapNum)
 {
     if (mapGroup == MAP_GROUP(POKEMON_TOWER_1F)
-     && ((u16)(mapNum - MAP_NUM(POKEMON_TOWER_1F)) <= 6)
+     && (mapNum == MAP_NUM(POKEMON_TOWER_1F)
+      || mapNum == MAP_NUM(POKEMON_TOWER_2F)
+      || mapNum == MAP_NUM(POKEMON_TOWER_3F)
+      || mapNum == MAP_NUM(POKEMON_TOWER_4F)
+      || mapNum == MAP_NUM(POKEMON_TOWER_5F)
+      || mapNum == MAP_NUM(POKEMON_TOWER_6F)
+      || mapNum == MAP_NUM(POKEMON_TOWER_7F))
      && !(CheckBagHasItem(ITEM_SILPH_SCOPE, 1)))
         return TRUE;
     else
@@ -230,7 +236,7 @@ void StartWildBattle(void)
 
 static void DoStandardWildBattle(void)
 {
-    ScriptContext2_Enable();
+    LockPlayerFieldControls();
     FreezeObjectEvents();
     StopPlayerAvatar();
     gMain.savedCallback = CB2_EndWildBattle;
@@ -242,7 +248,7 @@ static void DoStandardWildBattle(void)
 
 void StartRoamerBattle(void)
 {
-    ScriptContext2_Enable();
+    LockPlayerFieldControls();
     FreezeObjectEvents();
     StopPlayerAvatar();
     gMain.savedCallback = CB2_EndWildBattle;
@@ -254,7 +260,7 @@ void StartRoamerBattle(void)
 
 static void DoSafariBattle(void)
 {
-    ScriptContext2_Enable();
+    LockPlayerFieldControls();
     FreezeObjectEvents();
     StopPlayerAvatar();
     gMain.savedCallback = CB2_EndSafariBattle;
@@ -264,7 +270,7 @@ static void DoSafariBattle(void)
 
 static void DoGhostBattle(void)
 {
-    ScriptContext2_Enable();
+    LockPlayerFieldControls();
     FreezeObjectEvents();
     StopPlayerAvatar();
     gMain.savedCallback = CB2_EndWildBattle;
@@ -285,7 +291,7 @@ static void DoTrainerBattle(void)
 void StartOldManTutorialBattle(void)
 {
     CreateMaleMon(&gEnemyParty[0], SPECIES_WEEDLE, 5);
-    ScriptContext2_Enable();
+    LockPlayerFieldControls();
     gMain.savedCallback = CB2_ReturnToFieldContinueScriptPlayMapMusic;
     gBattleTypeFlags = BATTLE_TYPE_OLD_MAN_TUTORIAL;
     CreateBattleStartTask(B_TRANSITION_SLICED_SCREEN, 0);
@@ -293,7 +299,7 @@ void StartOldManTutorialBattle(void)
 
 void StartScriptedWildBattle(void)
 {
-    ScriptContext2_Enable();
+    LockPlayerFieldControls();
     gMain.savedCallback = CB2_EndScriptedWildBattle;
     gBattleTypeFlags = BATTLE_TYPE_WILD_SCRIPTED;
     CreateBattleStartTask(GetWildBattleTransition(), 0);
@@ -303,7 +309,7 @@ void StartScriptedWildBattle(void)
 
 void StartMarowakBattle(void)
 {
-    ScriptContext2_Enable();
+    LockPlayerFieldControls();
     gMain.savedCallback = CB2_EndMarowakBattle;
     if (CheckBagHasItem(ITEM_SILPH_SCOPE, 1))
     {
@@ -322,7 +328,7 @@ void StartMarowakBattle(void)
 
 void StartSouthernIslandBattle(void)
 {
-    ScriptContext2_Enable();
+    LockPlayerFieldControls();
     gMain.savedCallback = CB2_EndScriptedWildBattle;
     gBattleTypeFlags = BATTLE_TYPE_LEGENDARY;
     CreateBattleStartTask(GetWildBattleTransition(), 0);
@@ -334,7 +340,7 @@ void StartLegendaryBattle(void)
 {
     u16 species;
     
-    ScriptContext2_Enable();
+    LockPlayerFieldControls();
     gMain.savedCallback = CB2_EndScriptedWildBattle;
     gBattleTypeFlags = BATTLE_TYPE_LEGENDARY | BATTLE_TYPE_LEGENDARY_FRLG;
     species = GetMonData(&gEnemyParty[0], MON_DATA_SPECIES);
@@ -363,7 +369,7 @@ void StartLegendaryBattle(void)
 
 void StartGroudonKyogreBattle(void)
 {
-    ScriptContext2_Enable();
+    LockPlayerFieldControls();
     gMain.savedCallback = CB2_EndScriptedWildBattle;
     gBattleTypeFlags = BATTLE_TYPE_LEGENDARY | BATTLE_TYPE_KYOGRE_GROUDON;
     if (gGameVersion == VERSION_FIRE_RED)
@@ -376,7 +382,7 @@ void StartGroudonKyogreBattle(void)
 
 void StartRegiBattle(void)
 {
-    ScriptContext2_Enable();
+    LockPlayerFieldControls();
     gMain.savedCallback = CB2_EndScriptedWildBattle;
     gBattleTypeFlags = BATTLE_TYPE_LEGENDARY | BATTLE_TYPE_REGI;
     CreateBattleStartTask(B_TRANSITION_BLUR, MUS_RS_VS_TRAINER);
@@ -384,20 +390,20 @@ void StartRegiBattle(void)
     IncrementGameStat(GAME_STAT_WILD_BATTLES);
 }
 
-// not used
-static void sub_807FAF8(void)
+// Unused
+static void EndPokedudeBattle(void)
 {
     LoadPlayerParty();
     CB2_EndWildBattle();
 }
 
-// not used
-static void sub_807FB08(void)
+// Unused
+static void StartPokedudeBattle(void)
 {
-    ScriptContext2_Enable();
+    LockPlayerFieldControls();
     FreezeObjectEvents();
     StopPlayerAvatar();
-    gMain.savedCallback = sub_807FAF8;
+    gMain.savedCallback = EndPokedudeBattle;
     SavePlayerParty();
     InitPokedudePartyAndOpponent();
     CreateBattleStartTask(GetWildBattleTransition(), 0);
@@ -454,7 +460,7 @@ u8 BattleSetup_GetTerrainId(void)
 
     PlayerGetDestCoords(&x, &y);
     tileBehavior = MapGridGetMetatileBehaviorAt(x, y);
-    if (MetatileBehavior_IsTallGrass_2(tileBehavior))
+    if (MetatileBehavior_IsTallGrass(tileBehavior))
         return BATTLE_TERRAIN_GRASS;
     if (MetatileBehavior_IsLongGrass(tileBehavior))
         return BATTLE_TERRAIN_LONG_GRASS;
@@ -613,7 +619,7 @@ static u8 GetTrainerBattleTransition(void)
 
     if (gTrainerBattleOpponent_A == TRAINER_SECRET_BASE)
         return B_TRANSITION_BLUE;
-    if (gTrainers[gTrainerBattleOpponent_A].trainerClass == CLASS_ELITE_FOUR_2)
+    if (gTrainers[gTrainerBattleOpponent_A].trainerClass == TRAINER_CLASS_ELITE_FOUR)
     {
         if (gTrainerBattleOpponent_A == TRAINER_ELITE_FOUR_LORELEI || gTrainerBattleOpponent_A == TRAINER_ELITE_FOUR_LORELEI_2)
             return B_TRANSITION_LORELEI;
@@ -625,7 +631,7 @@ static u8 GetTrainerBattleTransition(void)
             return B_TRANSITION_LANCE;
         return B_TRANSITION_BLUE;
     }
-    if (gTrainers[gTrainerBattleOpponent_A].trainerClass == CLASS_CHAMPION_2)
+    if (gTrainers[gTrainerBattleOpponent_A].trainerClass == TRAINER_CLASS_CHAMPION)
         return B_TRANSITION_BLUE;
     if (gTrainers[gTrainerBattleOpponent_A].doubleBattle == TRUE)
         minPartyCount = 2; // double battles always at least have 2 pokemon.
@@ -817,8 +823,8 @@ void ConfigureAndSetUpOneTrainerBattle(u8 trainerEventObjId, const u8 *trainerSc
     gSelectedObjectEvent = trainerEventObjId;
     gSpecialVar_LastTalked = gObjectEvents[trainerEventObjId].localId;
     BattleSetup_ConfigureTrainerBattle(trainerScript + 1);
-    ScriptContext1_SetupScript(EventScript_DoTrainerBattleFromApproach);
-    ScriptContext2_Enable();
+    ScriptContext_SetupScript(EventScript_DoTrainerBattleFromApproach);
+    LockPlayerFieldControls();
 }
 
 bool32 GetTrainerFlagFromScriptPointer(const u8 *data)
@@ -883,7 +889,7 @@ void StartTrainerBattle(void)
         gBattleTypeFlags |= BATTLE_TYPE_FIRST_BATTLE;
     gMain.savedCallback = CB2_EndTrainerBattle;
     DoTrainerBattle();
-    ScriptContext1_Stop();
+    ScriptContext_Stop();
 }
 
 static void CB2_EndTrainerBattle(void)
@@ -958,7 +964,7 @@ void StartRematchBattle(void)
     gBattleTypeFlags = BATTLE_TYPE_TRAINER;
     gMain.savedCallback = CB2_EndRematchBattle;
     DoTrainerBattle();
-    ScriptContext1_Stop();
+    ScriptContext_Stop();
 }
 
 void ShowTrainerIntroSpeech(void)

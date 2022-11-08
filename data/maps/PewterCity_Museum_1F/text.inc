@@ -1,22 +1,22 @@
-PewterCity_Museum_1F_Text_Its50YForChildsTicket:: @ 81904B5
+PewterCity_Museum_1F_Text_Its50YForChildsTicket::
     .string "Yes, yes.\n"
     .string "It's ¥50 for a child's ticket.\p"
     .string "Would you like to come in?$"
 
-PewterCity_Museum_1F_Text_ComeAgain:: @ 81904F9
+PewterCity_Museum_1F_Text_ComeAgain::
     .string "Come again!$"
 
-PewterCity_Museum_1F_Text_Right50YThankYou:: @ 8190505
+PewterCity_Museum_1F_Text_Right50YThankYou::
     .string "Right, ¥50!\n"
     .string "Thank you!$"
 
-PewterCity_Museum_1F_Text_DontHaveEnoughMoney:: @ 819051C
+PewterCity_Museum_1F_Text_DontHaveEnoughMoney::
     .string "You don't have enough money.$"
 
-PewterCity_Museum_1F_Text_PleaseEnjoyYourself:: @ 8190539
+PewterCity_Museum_1F_Text_PleaseEnjoyYourself::
     .string "Please enjoy yourself.$"
 
-PewterCity_Museum_1F_Text_DoYouKnowWhatAmberIs:: @ 8190550
+PewterCity_Museum_1F_Text_DoYouKnowWhatAmberIs::
     .string "You can't sneak in the back way!\n"
     .string "Nice try, kid, but no.\p"
     .string "Oh, whatever!\n"
@@ -35,16 +35,16 @@ PewterCity_Museum_1F_Text_AmberIsFossilizedSap:: @ 8190627
     .string "time to become rock-hard Amber.$"
 
 @ Unused
-PewterCity_Museum_1F_Text_PleaseGoAround:: @ 81906A6
+PewterCity_Museum_1F_Text_PleaseGoAround::
     .string "あちらへ　おまわりください$"
 
-PewterCity_Museum_1F_Text_ShouldBeGratefulForLongLife:: @ 81906B4
+PewterCity_Museum_1F_Text_ShouldBeGratefulForLongLife::
     .string "I should be grateful for my long\n"
     .string "life.\p"
     .string "Never did I think I would get to\n"
     .string "see the bones of a dragon!$"
 
-PewterCity_Museum_1F_Text_WantYouToGetAmberExamined:: @ 8190717
+PewterCity_Museum_1F_Text_WantYouToGetAmberExamined::
     .string "Ssh! Listen, I need to share a\n"
     .string "secret with someone.\p"
     .string "I think that this chunk of Amber\n"
@@ -62,18 +62,18 @@ PewterCity_Museum_1F_Text_ReceivedOldAmberFromMan:: @ 8190866
     .string "{PLAYER} received the Old Amber\n"
     .string "from the man.$"
 
-PewterCity_Museum_1F_Text_GetOldAmberChecked:: @ 819088E
+PewterCity_Museum_1F_Text_GetOldAmberChecked::
     .string "Ssh!\n"
     .string "Get the Old Amber checked!$"
 
-PewterCity_Museum_1F_Text_DontHaveSpaceForThis:: @ 81908AE
+PewterCity_Museum_1F_Text_DontHaveSpaceForThis::
     .string "You don't have space for this.$"
 
-PewterCity_Museum_1F_Text_WeHaveTwoFossilsOnExhibit:: @ 81908CD
+PewterCity_Museum_1F_Text_WeHaveTwoFossilsOnExhibit::
     .string "We have two fossils of rare,\n"
     .string "prehistoric Pokémon on exhibit.$"
 
-PewterCity_Museum_1F_Text_BeautifulPieceOfAmber:: @ 819090A
+PewterCity_Museum_1F_Text_BeautifulPieceOfAmber::
     .string "There is a beautiful piece of\n"
     .string "Amber in a clear gold color.$"
 

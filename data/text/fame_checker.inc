@@ -235,7 +235,7 @@ gFameCheckerFlavorText_Koga1:: @ 0x81AE31D
 
 gFameCheckerFlavorText_Koga2:: @ 0x81AE37D
 	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person like?\p"
-	.string "{SIZE 04}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Even though I've lost, I will keep\n"
+	.string "{FONT_4}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Even though I've lost, I will keep\n"
 	.string "training according to the teachings\l"
 	.string "of Koga, my ninja master.$"
 
@@ -277,14 +277,14 @@ gFameCheckerFlavorText_Sabrina1:: @ 0x81AE656
 
 gFameCheckerFlavorText_Sabrina2:: @ 0x81AE6D7
 	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person like?\p"
-	.string "{SIZE 05}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}I have had psychic powers since\n"
+	.string "{FONT_5}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}I have had psychic powers since\n"
 	.string "I was a child.\p"
 	.string "It started when a spoon I\n"
 	.string "carelessly tossed, bent.$"
 
 gFameCheckerFlavorText_Sabrina3:: @ 0x81AE762
 	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person like?\p"
-	.string "{SIZE 05}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}I dislike battling, but if you wish,\n"
+	.string "{FONT_5}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}I dislike battling, but if you wish,\n"
 	.string "I will show you my powers!$"
 
 gFameCheckerFlavorText_Sabrina4:: @ 0x81AE7CB
@@ -424,7 +424,7 @@ gFameCheckerFlavorText_Agatha1:: @ 0x81AF248
 
 gFameCheckerFlavorText_Agatha2:: @ 0x81AF2B7
 	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person like?\p"
-	.string "{SIZE 04}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}That old lady's also got a really\n"
+	.string "{FONT_4}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}That old lady's also got a really\n"
 	.string "short fuse, too.\p"
 	.string "It doesn't take anything to get\n"
 	.string "that scary lady hollering.$"
@@ -467,7 +467,7 @@ gFameCheckerFlavorText_Lance1:: @ 0x81AF567
 
 gFameCheckerFlavorText_Lance2:: @ 0x81AF641
 	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person like?\p"
-	.string "{SIZE 05}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}He stands for justice!\n"
+	.string "{FONT_5}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}He stands for justice!\n"
 	.string "He's cool, and yet passionate!\l"
 	.string "He's the greatest, Lance!$"
 
@@ -505,7 +505,7 @@ gFameCheckerFlavorText_Bill1:: @ 0x81AF8CA
 
 gFameCheckerFlavorText_Bill2:: @ 0x81AF929
 	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person like?\p"
-	.string "{SIZE 04}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}He's my grandson!\p"
+	.string "{FONT_4}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}He's my grandson!\p"
 	.string "He always liked collecting things,\n"
 	.string "even as a child!$"
 
@@ -530,7 +530,7 @@ gFameCheckerFlavorText_Bill5:: @ 0x81AFAB9
 
 gFameCheckerFlavorText_MrFuji0:: @ 0x81AFB0C
 	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}What does this person do?\p"
-	.string "{SIZE 05}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}He's really kind.\p"
+	.string "{FONT_5}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}He's really kind.\p"
 	.string "He looks after abandoned and\n"
 	.string "orphaned Pokémon.$"
 
@@ -594,7 +594,7 @@ gFameCheckerFlavorText_Giovanni2:: @ 0x81AFFA8
 
 gFameCheckerFlavorText_Giovanni3:: @ 0x81B0022
 	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}What does this person do?\p"
-	.string "{SIZE 04}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Welcome to my hideout!\p"
+	.string "{FONT_4}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Welcome to my hideout!\p"
 	.string "It shall be so until I can restore\n"
 	.string "Team Rocket to its former glory.$"
 
@@ -630,7 +630,7 @@ gFameCheckerPersonName_Daisy:: @ 0x81B0251
 gFameCheckerPersonQuote_Daisy:: @ 0x81B025D
 	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}From: Daisy\n"
 	.string "To: {PLAYER}\p"
-	.string "{SIZE 05}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}While I was comfortably enjoying\n"
+	.string "{FONT_5}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}While I was comfortably enjoying\n"
 	.string "my tea breaks, you've grown very\l"
 	.string "skilled and powerful.\p"
 	.string "I hope you'll remain a good rival\n"
@@ -664,7 +664,7 @@ gFameCheckerPersonName_LtSurge:: @ 0x81B0446
 gFameCheckerPersonQuote_LtSurge:: @ 0x81B0456
 	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}From: Lt. Surge\n"
 	.string "To: {PLAYER}\p"
-	.string "{SIZE 04}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Hey, kid!\n"
+	.string "{FONT_4}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Hey, kid!\n"
 	.string "You electrified me in our battle!\p"
 	.string "I didn't know that there were\n"
 	.string "gutsy Trainers like you.\p"
@@ -690,7 +690,7 @@ gFameCheckerPersonName_Koga:: @ 0x81B05C2
 gFameCheckerPersonQuote_Koga:: @ 0x81B05CD
 	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}From: Koga\n"
 	.string "To: {PLAYER}\p"
-	.string "{SIZE 04}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}You and I, we must both set our\n"
+	.string "{FONT_4}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}You and I, we must both set our\n"
 	.string "sights higher and work towards\l"
 	.string "meeting our challenges.\p"
 	.string "Now, I must go train my daughter.$"
@@ -723,7 +723,7 @@ gFameCheckerPersonName_Lorelei:: @ 0x81B079F
 gFameCheckerPersonQuote_Lorelei:: @ 0x81B07AD
 	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}From: Lorelei\n"
 	.string "To: {PLAYER}\p"
-	.string "{SIZE 05}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}I needed to thank you for your\n"
+	.string "{FONT_5}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}I needed to thank you for your\n"
 	.string "help.\p"
 	.string "But that has nothing to do with our\n"
 	.string "battles.\p"
@@ -756,7 +756,7 @@ gFameCheckerPersonName_Lance:: @ 0x81B097F
 gFameCheckerPersonQuote_Lance:: @ 0x81B098B
 	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}From: Lance\n"
 	.string "To: {PLAYER}\p"
-	.string "{SIZE 04}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}I'm considering going back to my\n"
+	.string "{FONT_4}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}I'm considering going back to my\n"
 	.string "hometown.\p"
 	.string "I want to retrain my Dragon-type\n"
 	.string "Pokémon and strengthen them.\p"
@@ -792,7 +792,7 @@ gFameCheckerPersonName_Giovanni:: @ 0x81B0BA6
 gFameCheckerPersonQuote_Giovanni:: @ 0x81B0BB5
 	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}From: Giovanni\n"
 	.string "To: {PLAYER}\p"
-	.string "{SIZE 04}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}There is nothing that I wish to say\n"
+	.string "{FONT_4}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}There is nothing that I wish to say\n"
 	.string "to you.\p"
 	.string "I will concentrate solely on\n"
 	.string "bettering myself, and none other.$"
@@ -1319,7 +1319,7 @@ gFameCheckerFlavorTextOriginObjectName_Lance4:: @ 81B13BC
 gFameCheckerFlavorTextOriginObjectName_Lance5:: @ 81B13CC
 	.string "Young Man$"
 
-gFameCheckerFlavorTextOriginObjectName_Bill0:: @ 81B13D6
+gFameCheckerFlavorTextOriginObjectName_Bill0::
 	.string "{RIVAL}$"
 
 gFameCheckerFlavorTextOriginObjectName_Bill1:: @ 81B13D9

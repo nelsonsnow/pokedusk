@@ -1,4 +1,4 @@
-RocketHideout_B4F_Text_GiovanniIntro:: @ 8175226
+RocketHideout_B4F_Text_GiovanniIntro::
     .string "So! I must say, I am impressed you\n"
     .string "got here.\p"
     .string "Team Rocket captures Pokémon from\n"
@@ -21,36 +21,36 @@ RocketHideout_B4F_Text_GiovanniPostBattle:: @ 817532D
     .string "I shall step aside this time!\p"
     .string "I hope we meet again…$"
 
-RocketHideout_B4F_Text_Grunt2Intro:: @ 81753D0
+RocketHideout_B4F_Text_Grunt2Intro::
     .string "I know you!\n"
     .string "You ruined our plans at Mt. Moon!$"
 
-RocketHideout_B4F_Text_Grunt2Defeat:: @ 81753FE
+RocketHideout_B4F_Text_Grunt2Defeat::
     .string "Burned again!$"
 
 RocketHideout_B4F_Text_Grunt2PostBattle:: @ 817540C
     .string "Do you have something against Team\n"
     .string "Rocket?$"
 
-RocketHideout_B4F_Text_Grunt3Intro:: @ 8175437
+RocketHideout_B4F_Text_Grunt3Intro::
     .string "How can you not see the beauty of\n"
     .string "our evil?$"
 
-RocketHideout_B4F_Text_Grunt3Defeat:: @ 8175463
+RocketHideout_B4F_Text_Grunt3Defeat::
     .string "Ayaya!$"
 
 RocketHideout_B4F_Text_Grunt3PostBattle:: @ 817546A
     .string "Boss!\n"
     .string "I'm sorry I failed you!$"
 
-RocketHideout_B4F_Text_Grunt1Intro:: @ 8175488
+RocketHideout_B4F_Text_Grunt1Intro::
     .string "The elevator doesn't work?\n"
     .string "Who has the Lift Key?$"
 
-RocketHideout_B4F_Text_Grunt1Defeat:: @ 81754B9
+RocketHideout_B4F_Text_Grunt1Defeat::
     .string "No!$"
 
-RocketHideout_B4F_Text_Grunt1PostBattle:: @ 81754BD
+RocketHideout_B4F_Text_Grunt1PostBattle::
     .string "Oh, no!\n"
     .string "I dropped the Lift Key!$"
 

@@ -6,6 +6,6 @@ Route18_EastEntrance_1F_Text_CyclingRoadAllUphillFromHere:: @ 819FD3A
     .string "Cycling Road is all uphill from\n"
     .string "here.$"
 
-Route18_EastEntrance_1F_Text_ExcuseMe:: @ 819FD60
+Route18_EastEntrance_1F_Text_ExcuseMe::
     .string "Excuse me!$"
 
