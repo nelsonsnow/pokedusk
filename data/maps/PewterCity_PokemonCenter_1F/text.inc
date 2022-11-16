@@ -5,7 +5,7 @@ PewterCity_PokemonCenter_1F_Text_TeamRocketMtMoonImOnPhone::
     .string "I'm on the phone!\n"
     .string "Scram!$"
 
-PewterCity_Museum_1F_Text_Jigglypuff:: @ 81916EA
+PewterCity_PokemonCenter_1F_Text_Jigglypuff:: @ 81916EA
     .string "Jigglypuff: Puu pupuu!$"
 
 PewterCity_PokemonCenter_1F_Text_WhenJiggylypuffSingsMonsGetDrowsy::
@@ -15,11 +15,11 @@ PewterCity_PokemonCenter_1F_Text_WhenJiggylypuffSingsMonsGetDrowsy::
     .string "…Me, too…\n"
     .string "Snore…$"
 
-PewterCity_Museum_1F_Text_TradingMyClefairyForPikachu:: @ 8191743
+PewterCity_PokemonCenter_1F_Text_TradingMyClefairyForPikachu:: @ 8191743
     .string "I really want a Pikachu, so I'm\n"
     .string "trading my Clefairy for one.$"
 
-PewterCity_Museum_1F_Text_TradingPikachuWithKid:: @ 8191780
+PewterCity_PokemonCenter_1F_Text_TradingPikachuWithKid:: @ 8191780
     .string "I'm trading Pokémon with that kid\n"
     .string "there.\p"
     .string "I had two Pikachu, so I figured\n"

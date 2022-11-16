@@ -1,5 +1,5 @@
 PalletTown_ProfessorOaksLab_Text_RivalGrampsIsntAround::
-    .string "{RIVAL}: What, it's only {PLAYER}?\n"
+    .string "{RIVAL}:{PLAYER}, what do you want?\n"
     .string "Gramps isn't around.$"
 
 PalletTown_ProfessorOaksLab_Text_RivalFedUpWithWaiting::
@@ -7,12 +7,12 @@ PalletTown_ProfessorOaksLab_Text_RivalFedUpWithWaiting::
     .string "I'm fed up with waiting!$"
 
 PalletTown_ProfessorOaksLab_Text_RivalNoFairWhatAboutMe::
-    .string "{RIVAL}: Hey! Gramps! No fair!\n"
+    .string "{RIVAL}: What gives?!\n"
     .string "What about me?$"
 
 PalletTown_ProfessorOaksLab_Text_RivalGoChoosePlayer::
-    .string "{RIVAL}: Heh, I don't need to be\n"
-    .string "greedy like you. I'm mature!\p"
+    .string "{RIVAL}: Pfft! Whatever loser.\n"
+    .string "I don't need to pick first.\p"
     .string "Go ahead and choose, {PLAYER}!$"
 
 PalletTown_ProfessorOaksLab_Text_RivalIllTakeThisOneThen::
@@ -29,64 +29,63 @@ PalletTown_ProfessorOaksLab_Text_RivalMyMonLooksTougher:: @ 818DD75
 PalletTown_ProfessorOaksLab_Text_RivalLetsCheckOutMons::
     .string "{RIVAL}: Wait, {PLAYER}!\n"
     .string "Let's check out our Pokémon!\p"
-    .string "Come on, I'll take you on!$"
+    .string "I'll use you as a warm up!$"
 
 PalletTown_ProfessorOaksLab_Text_RivalDefeat:: @ 818DDEA
     .string "What?\n"
-    .string "Unbelievable!\l"
-    .string "I picked the wrong Pokémon!$"
+    .string "No way!\l"
+    .string "I call hacks!$"
 
 @ Also used for early Route 22 battle
 Text_RivalVictory::
     .string "{RIVAL}: Yeah!\n"
-    .string "Am I great or what?$"
+    .string "Take that loser!$"
 
 PalletTown_ProfessorOaksLab_Text_RivalGoToughenMyMon::
     .string "{RIVAL}: Okay! I'll make my\n"
-    .string "Pokémon battle to toughen it up!\p"
-    .string "{PLAYER}! Gramps!\n"
-    .string "Smell you later!$"
+    .string "Pokémon battle to toughen up!\p"
+    .string "See ya later, Gramps!\n"
+    .string "{PLAYER}! Adios loser!$"
 
 PalletTown_ProfessorOaksLab_Text_RivalGramps::
     .string "{RIVAL}: Gramps!$"
 
 PalletTown_ProfessorOaksLab_Text_RivalWhatDidYouCallMeFor::
-    .string "{RIVAL}: I almost forgot!\n"
+    .string "{RIVAL}: I was all ready in Veridian!\n"
     .string "What did you call me for?$"
 
 PalletTown_ProfessorOaksLab_Text_RivalLeaveItToMeGramps::
     .string "{RIVAL}: All right, Gramps!\n"
-    .string "Leave it all to me!$"
+    .string "You can rely on me!$"
 
 PalletTown_ProfessorOaksLab_Text_RivalTellSisNotToGiveYouMap::
-    .string "{PLAYER}, I hate to say it, but you\n"
+    .string "{PLAYER}, You can go home, you\n"
     .string "won't be necessary for this.\p"
     .string "I know! I'll borrow a Town Map\n"
-    .string "from my sis!\p"
+    .string "from my sister!\p"
     .string "I'll tell her not to lend you one,\n"
-    .string "{PLAYER}! Hahaha!\p"
-    .string "Don't bother coming around to\n"
+    .string "{PLAYER}, loser!\p"
+    .string "Don't be showing up at\n"
     .string "my place after this!$"
 
 PalletTown_ProfessorOaksLab_Text_OakThreeMonsChooseOne:: @ 818DFBC
-    .string "Oak: {RIVAL}?\n"
-    .string "Let me think…\p"
-    .string "Oh, that's right, I told you to\n"
-    .string "come! Just wait!\p"
+    .string "Oak: {RIVAL}!\n"
+    .string "Stop being so rude.\p"
+    .string "I told you to come and wait.\n"
+    .string "Be patient, boy.\p"
     .string "Here, {PLAYER}.\p"
     .string "There are three Pokémon here.\p"
-    .string "Haha!\p"
     .string "The Pokémon are held inside\n"
     .string "these Poké Balls.\p"
     .string "When I was young, I was a serious\n"
     .string "Pokémon Trainer.\p"
-    .string "But now, in my old age, I have\n"
-    .string "only these three left.\p"
-    .string "You can have one.\n"
+    .string "But now, in my old age, I'm done\n"
+    .string "I want you two to carry my\p"
+    .string "legacy. You can have one.\n"
     .string "Go on, choose!$"
 
 PalletTown_ProfessorOaksLab_Text_OakBePatientRival:: @ 818E0EA
-    .string "Oak: Be patient, {RIVAL}.\n"
+    .string "Oak: Relax, {RIVAL}.\n"
     .string "You can have one, too!$"
 
 PalletTown_ProfessorOaksLab_Text_OakWhichOneWillYouChoose:: @ 818E116
@@ -102,19 +101,19 @@ PalletTown_ProfessorOaksLab_Text_OakHeyDontGoAwayYet:: @ 818E177
 
 PalletTown_ProfessorOaksLab_Text_OakChoosingCharmander:: @ 818E194
     .string "Ah! Charmander is your choice.\n"
-    .string "You should raise it patiently.\p"
+    .string "You must be patient with them.\p"
     .string "So, {PLAYER}, you're claiming the\n"
     .string "Fire Pokémon Charmander?$"
 
 PalletTown_ProfessorOaksLab_Text_OakChoosingSquirtle:: @ 818E207
     .string "Hm! Squirtle is your choice.\n"
-    .string "It's one worth raising.\p"
+    .string "Such a regel Pokémon.\p"
     .string "So, {PLAYER}, you've decided on the\n"
     .string "Water Pokémon Squirtle?$"
 
 PalletTown_ProfessorOaksLab_Text_OakChoosingBulbasaur:: @ 818E272
     .string "I see! Bulbasaur is your choice.\n"
-    .string "It's very easy to raise.\p"
+    .string "One of my personal favorites.\p"
     .string "So, {PLAYER}, you want to go with\n"
     .string "the Grass Pokémon Bulbasaur?$"
 
@@ -152,8 +151,8 @@ PalletTown_ProfessorOaksLab_Text_DeliveredOaksParcel:: @ 818E4AF
 
 PalletTown_ProfessorOaksLab_Text_OakCustomBallIOrdered::
     .string "Ah! \n"
-    .string "It's the custom Poké Ball!\p"
-    .string "I had it on order.\n"
+    .string "It's the custom Poké Ball\p"
+    .string "I had commissioned from Silph co.\n"
     .string "Thank you!$"
 
 PalletTown_ProfessorOaksLab_Text_OakHaveRequestForYouTwo:: @ 818E508
@@ -168,7 +167,7 @@ PalletTown_ProfessorOaksLab_Text_OakPokedexOnDesk::
     .string "It's a high-tech encyclopedia!$"
 
 PalletTown_ProfessorOaksLab_Text_OakTakeTheseWithYou:: @ 818E5C5
-    .string "Oak: {PLAYER} and {RIVAL}.\n"
+    .string "Oak: {PLAYER}, {RIVAL}.\n"
     .string "Take these with you.$"
 
 PalletTown_ProfessorOaksLab_Text_ReceivedPokedexFromOak:: @ 818E5EA
@@ -180,36 +179,35 @@ PalletTown_ProfessorOaksLab_Text_OakCatchMonsForDataTakeThese:: @ 818E612
     .string "on Pokémon by just seeing them.\p"
     .string "You must catch them to obtain\n"
     .string "complete data.\p"
-    .string "So, here are some tools for\n"
-    .string "catching wild Pokémon.$"
+    .string "So, here are some Poké Balls.$"
 
 PalletTown_ProfessorOaksLab_Text_ReceivedFivePokeBalls:: @ 818E6B3
     .string "{PLAYER} received five Poké Balls.$"
 
 PalletTown_ProfessorOaksLab_Text_OakExplainCatching:: @ 818E6D0
     .string "When a wild Pokémon appears,\n"
-    .string "it's fair game.\p"
-    .string "Just throw a Poké Ball at it and\n"
-    .string "try to catch it!\p"
+    .string "it's fair game. Just throw a\p"
+    .string "Poké Ball to catch it.\n"
+    .string "Make sure to tire them out first\p"
     .string "This won't always work, however.\p"
     .string "A healthy Pokémon can escape.\n"
     .string "You have to be lucky!$"
 
 PalletTown_ProfessorOaksLab_Text_OakCompleteMonGuideWasMyDream::
     .string "To make a complete guide on all\n"
-    .string "the Pokémon in the world…\p"
+    .string "the Pokémon in the Kanto…\p"
     .string "That was my dream!\p"
-    .string "But, I'm too old.\n"
+    .string "But, I'm passed my prime.\n"
     .string "I can't get the job done.\p"
     .string "So, I want you two to fulfill my\n"
-    .string "dream for me.\p"
-    .string "Get moving, you two.\p"
+    .string "dream. I beleive in you.\p"
+    .string "Go out there and do your best.\p"
     .string "This is a great undertaking in\n"
     .string "Pokémon history!$"
 
 PalletTown_ProfessorOaksLab_Text_OakMonsAroundWorldWait:: @ 818E871
-    .string "Pokémon around the world wait for\n"
-    .string "you, {PLAYER}!$"
+    .string "There are Pokémon all around\n"
+    .string "the world waiting for you!$"
 
 PalletTown_ProfessorOaksLab_Text_OakAddedNothingToPokedex::
     .string "Ah, {PLAYER}!\n"

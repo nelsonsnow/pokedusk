@@ -450,3 +450,19 @@ PalletTown_EventScript_SignLadyStartShowSign::
 	call PalletTown_EventScript_SignLadyShowSign
 	release
 	end
+
+MyMap_MapScripts::
+	.byte 0
+
+
+PalletTown_EventScript_MemorialPark::
+	lockall
+	msgbox PalletTown_EventScript_MemorialPark_Text_0
+	releaseall
+	return
+
+PalletTown_EventScript_MemorialPark_Text_0:
+	.string "For the Trainers gone too soon.\n"
+	.string "We will always remember you.$"
+	
+	

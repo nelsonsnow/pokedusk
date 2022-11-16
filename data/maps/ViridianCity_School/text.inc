@@ -46,18 +46,18 @@ ViridianCity_School_Text_NotebookFourthPage::
 ViridianCity_School_Text_TurnThePage::
     .string "Turn the page?$"
 
-ViridianCity_House2_Text_HeyDontLookAtMyNotes:: @ 818FF28
+ViridianCity_School_Text_HeyDontLookAtMyNotes:: @ 818FF28
     .string "Girl: Hey!\n"
     .string "Don't look at my notes!$"
 
-ViridianCity_House2_Text_BlackboardListsStatusProblems:: @ 818FF4B
+ViridianCity_School_Text_BlackboardListsStatusProblems:: @ 818FF4B
     .string "The blackboard lists Pokémon\n"
     .string "Status problems during battles.$"
 
 ViridianCity_School_Text_ReadWhichTopic::
     .string "Which topic do you want to read?$"
 
-ViridianCity_House2_Text_ExplainSleep:: @ 818FFA9
+ViridianCity_School_Text_ExplainSleep:: @ 818FFA9
     .string "A Pokémon can't attack if it's\n"
     .string "asleep.\p"
     .string "Pokémon will stay asleep even\n"
@@ -65,19 +65,19 @@ ViridianCity_House2_Text_ExplainSleep:: @ 818FFA9
     .string "Use Awakening to awaken one\n"
     .string "from sleep.$"
 
-ViridianCity_House2_Text_ExplainBurn:: @ 8190025
+ViridianCity_School_Text_ExplainBurn:: @ 8190025
     .string "A burn reduces Attack power.\n"
     .string "It also causes ongoing HP loss.\p"
     .string "A burn remains after a battle.\n"
     .string "Use Burn Heal to cure a burn.$"
 
-ViridianCity_House2_Text_ExplainPoison:: @ 819009F
+ViridianCity_School_Text_ExplainPoison:: @ 819009F
     .string "When poisoned, a Pokémon's health\n"
     .string "steadily drops.\p"
     .string "Poison lingers after battles.\n"
     .string "Use an Antidote to cure poison!$"
 
-ViridianCity_House2_Text_ExplainFreeze:: @ 819010F
+ViridianCity_School_Text_ExplainFreeze:: @ 819010F
     .string "A frozen Pokémon becomes\n"
     .string "helplessly immobile.\p"
     .string "It stays frozen even after the\n"
@@ -85,7 +85,7 @@ ViridianCity_House2_Text_ExplainFreeze:: @ 819010F
     .string "Use Ice Heal to thaw out the\n"
     .string "suffering Pokémon.$"
 
-ViridianCity_House2_Text_ExplainParalysis:: @ 8190199
+ViridianCity_School_Text_ExplainParalysis:: @ 8190199
     .string "Paralysis reduces Speed and may\n"
     .string "prevent the Pokémon from moving.\p"
     .string "Paralysis remains after battles.\n"

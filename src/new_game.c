@@ -149,6 +149,10 @@ void NewGameInitData(void)
     RunScriptImmediately(EventScript_ResetAllMapFlags);
     StringCopy(gSaveBlock1Ptr->rivalName, rivalName);
     ResetTrainerTowerResults();
+    
+    //AutoRun    
+    gSaveBlock2Ptr->autoRun = FALSE;
+    FlagSet(FLAG_SYS_B_DASH);
 }
 
 static void ResetMiniGamesResults(void)

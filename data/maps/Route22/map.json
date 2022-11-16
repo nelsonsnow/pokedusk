@@ -46,15 +46,15 @@
       "x": 8,
       "y": 5,
       "elevation": 0,
-      "dest_map": "MAP_ROUTE22_NORTH_ENTRANCE",
-      "dest_warp_id": "2"
+      "dest_map": "MAP_NEW_ROUTE22_NORTH_ENTRANCE",
+      "dest_warp_id": "1"
     },
     {
       "x": 9,
       "y": 5,
       "elevation": 0,
-      "dest_map": "MAP_ROUTE22_NORTH_ENTRANCE",
-      "dest_warp_id": "2"
+      "dest_map": "MAP_NEW_ROUTE22_NORTH_ENTRANCE",
+      "dest_warp_id": "1"
     }
   ],
   "coord_events": [

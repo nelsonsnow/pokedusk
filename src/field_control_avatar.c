@@ -70,6 +70,7 @@ static s8 GetWarpEventAtMapPosition(struct MapHeader * mapHeader, struct MapPosi
 static bool8 TryDoorWarp(struct MapPosition * position, u16 metatileBehavior, u8 playerDirection);
 static s8 GetWarpEventAtPosition(struct MapHeader * mapHeader, u16 x, u16 y, u8 z);
 static const u8 *GetCoordEventScriptAtPosition(struct MapHeader * mapHeader, u16 x, u16 y, u8 z);
+static bool8 EnableAutoRun(void);
 
 struct FieldInput gInputToStoreInQuestLogMaybe;
 
@@ -289,9 +290,15 @@ int ProcessPlayerFieldInput(struct FieldInput *input)
         ShowStartMenu();
         return TRUE;
     }
+
     if (input->pressedSelectButton && UseRegisteredKeyItemOnField() == TRUE)
     {
         gInputToStoreInQuestLogMaybe.pressedSelectButton = TRUE;
+        return TRUE;
+    }
+
+    if (input->pressedRButton && EnableAutoRun())
+    {
         return TRUE;
     }
 
@@ -1179,4 +1186,26 @@ int SetCableClubWarp(void)
     MapGridGetMetatileBehaviorAt(position.x, position.y);  // unnecessary
     SetupWarp(&gMapHeader, GetWarpEventAtMapPosition(&gMapHeader, &position), &position);
     return 0;
+}
+
+extern const u8 EventScript_DisableAutoRun[];
+extern const u8 EventScript_EnableAutoRun[];
+static bool8 EnableAutoRun(void)
+{
+    if (!FlagGet(FLAG_SYS_B_DASH))
+        return FALSE;   //auto run unusable until you get running shoes
+
+    PlaySE(SE_SELECT);
+    if (gSaveBlock2Ptr->autoRun)
+    {
+        gSaveBlock2Ptr->autoRun = FALSE;
+        ScriptContext_SetupScript(EventScript_DisableAutoRun);
+    }
+    else
+    {
+        gSaveBlock2Ptr->autoRun = TRUE;
+        ScriptContext_SetupScript(EventScript_EnableAutoRun);
+    }
+
+    return TRUE;
 }

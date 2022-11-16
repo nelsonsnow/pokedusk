@@ -64,4 +64,3 @@ PalletTown_Text_OakYouEnjoyingTraveling:: @ 817DA16
     .string "exotic locales.\p"
     .string "Good for you, good for you.\n"
     .string "Hohoho.$"
-

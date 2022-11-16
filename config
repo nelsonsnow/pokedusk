@@ -1,0 +1,11 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = true
+	ignorecase = true
+[remote "pret"]
+	url = https://github.com/pret/pokefirered
+	fetch = +refs/heads/*:refs/remotes/pret/*
+[remote "sotomura"]
+	url = https://github.com/Sotomura/pokefirered/
+	fetch = +refs/heads/*:refs/remotes/sotomura/*

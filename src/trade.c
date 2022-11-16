@@ -434,7 +434,7 @@ static const u8 *const sTradeUITextPtrs[] = {
     gTradeText_ChooseAPokemon,
     gTradeText_Summary,
     gTradeText_Trade,
-    gText_CancelTrade,
+    gTradeText_CancelTrade,
     gTradeText_PressBButtonToExit
 };
 

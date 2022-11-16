@@ -1066,6 +1066,7 @@ static const u16 sTMHMMoves_Duplicate[] =
 enum
 {
     CURSOR_OPTION_SUMMARY,
+    CURSOR_OPTION_NICKNAME,
     CURSOR_OPTION_SWITCH,
     CURSOR_OPTION_CANCEL1,
     CURSOR_OPTION_ITEM,
@@ -1093,6 +1094,7 @@ static struct
 } const sCursorOptions[] =
 {
     [CURSOR_OPTION_SUMMARY]                              = {gText_Summary5,               CursorCB_Summary  },
+    [CURSOR_OPTION_NICKNAME]                             = {gText_Nickname,               CursorCB_Nickname },
     [CURSOR_OPTION_SWITCH]                               = {gText_Switch2,                CursorCB_Switch   },
     [CURSOR_OPTION_CANCEL1]                              = {gFameCheckerText_Cancel,      CursorCB_Cancel1  },
     [CURSOR_OPTION_ITEM]                                 = {gText_Item,                   CursorCB_Item     },

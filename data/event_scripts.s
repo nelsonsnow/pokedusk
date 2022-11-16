@@ -885,15 +885,15 @@ gText_PkmnFainted3::
 
 Text_WelcomeWantToHealPkmn:: @ 81A5483
 	.string "Welcome to our Pokémon Center!\p"
-	.string "Would you like me to heal your\n"
-	.string "Pokémon back to perfect health?$"
+	.string "I'm Nurse Joy. Would you like\n"
+	.string "for me to restore your Pokémon?$"
 
 Text_TakeYourPkmnForFewSeconds:: @ 81A54E1
 	.string "Okay, I'll take your Pokémon for a\n"
 	.string "few seconds.$"
 
 Text_WeHopeToSeeYouAgain::
-	.string "We hope to see you again!$"
+	.string "Take care now!$"
 
 Text_RestoredPkmnToFullHealth::
 	.string "Thank you for waiting.\n"
@@ -1358,3 +1358,13 @@ Text_TestMsg::
 	.include "data/text/save.inc"
 	.include "data/text/new_game_intro.inc"
 	.include "data/text/pokedude.inc"
+
+	.include "data/maps/New_Route22_NorthEntrance/scripts.inc"
+	.include "data/maps/New_Route22_NorthEntrance/text.inc"
+
+	.include "data/maps/Route28/scripts.inc"
+
+	.include "data/maps/MtSilverExterior/scripts.inc"
+
+	.include "data/maps/Route26/scripts.inc"
+

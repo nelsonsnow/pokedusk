@@ -400,7 +400,7 @@ static const u8 *const sMaleNameChoices[] = {
     gNameChoice_Kene,
     gNameChoice_Geki,
 #elif defined(LEAFGREEN)
-    gNameChoice_Green,
+    gNameChoice_Blue,
     gNameChoice_Leaf,
     gNameChoice_Gary,
     gNameChoice_Kaz,
@@ -427,7 +427,7 @@ static const u8 *const sFemaleNameChoices[] = {
     gNameChoice_Red,
     gNameChoice_Fire,
 #elif defined(LEAFGREEN)
-    gNameChoice_Green,
+    gNameChoice_Blue,
     gNameChoice_Leaf,
 #endif
     gNameChoice_Omi,
@@ -451,7 +451,7 @@ static const u8 *const sFemaleNameChoices[] = {
 
 static const u8 *const sRivalNameChoices[] = {
 #if defined(FIRERED)
-    gNameChoice_Green,
+    gNameChoice_Blue,
     gNameChoice_Gary,
     gNameChoice_Kaz,
     gNameChoice_Toru
@@ -563,23 +563,15 @@ static void Task_OaksSpeech1(u8 taskId)
         CopyBgTilemapBufferToVram(1);
         break;
     case 7:
-        CreateTopBarWindowLoadPalette(0, 30, 0, 13, 0x1C4);
-        FillBgTilemapBufferRect_Palette0(1, 0xD00F,  0,  0, 30, 2);
-        FillBgTilemapBufferRect_Palette0(1, 0xD002,  0,  2, 30, 1);
-        FillBgTilemapBufferRect_Palette0(1, 0xD00E,  0, 19, 30, 1);
-        CreateHelpDocsPage1();
         gPaletteFade.bufferTransferDisabled = FALSE;
-        gTasks[taskId].data[5] = CreateTextCursorSpriteForOakSpeech(0, 0xE6, 0x95, 0, 0);
         BlendPalettes(PALETTES_ALL, 0x10, 0x00);
         break;
     case 10:
-        BeginNormalPaletteFade(PALETTES_ALL, 0, 16, 0, RGB_BLACK);
         SetGpuReg(REG_OFFSET_DISPCNT, DISPCNT_MODE_0 | DISPCNT_OBJ_1D_MAP | DISPCNT_OBJ_ON);
         ShowBg(0);
         ShowBg(1);
         SetVBlankCallback(VBlankCB_NewGameOaksSpeech);
-        PlayBGM(MUS_NEW_GAME_INSTRUCT);
-        gTasks[taskId].func = Task_OaksSpeech2;
+        gTasks[taskId].func = Task_OakSpeech9;
         gMain.state = 0;
         return;
     }
@@ -974,7 +966,7 @@ static void Task_OakSpeech13(u8 taskId)
         if (gTasks[taskId].data[3] == 32)
         {
             OaksSpeechPrintMessage(gOakText_WorldInhabited2, sOakSpeechResources->textSpeed);
-            PlayCry_Normal(SPECIES_NIDORAN_F, 0);
+            PlayCry_Normal(SPECIES_EEVEE, 0);
         }
     }
 }
@@ -1629,9 +1621,9 @@ static void CreateNidoranFSprite(u8 taskId)
 {
     u8 spriteId;
 
-    DecompressPicFromTable(&gMonFrontPicTable[SPECIES_NIDORAN_F], OakSpeechNidoranFGetBuffer(0), SPECIES_NIDORAN_F);
-    LoadCompressedSpritePaletteUsingHeap(&gMonPaletteTable[SPECIES_NIDORAN_F]);
-    SetMultiuseSpriteTemplateToPokemon(SPECIES_NIDORAN_F, 0);
+    DecompressPicFromTable(&gMonFrontPicTable[SPECIES_EEVEE], OakSpeechNidoranFGetBuffer(0), SPECIES_EEVEE);
+    LoadCompressedSpritePaletteUsingHeap(&gMonPaletteTable[SPECIES_EEVEE]);
+    SetMultiuseSpriteTemplateToPokemon(SPECIES_EEVEE, 0);
     spriteId = CreateSprite(&gMultiuseSpriteTemplate, 0x60, 0x60, 1);
     gSprites[spriteId].callback = SpriteCallbackDummy;
     gSprites[spriteId].oam.priority = 1;

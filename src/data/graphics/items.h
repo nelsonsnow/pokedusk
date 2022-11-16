@@ -670,3 +670,6 @@ const u32 gFile_graphics_items_icon_palettes_powder_jar_palette[] = INCBIN_U32("
 const u32 gFile_graphics_items_icon_palettes_ruby_palette[] = INCBIN_U32("graphics/items/icon_palettes/ruby.gbapal.lz");
 const u32 gFile_graphics_items_icons_gem_sheet[] = INCBIN_U32("graphics/items/icons/gem.4bpp.lz");
 const u32 gFile_graphics_items_icon_palettes_sapphire_palette[] = INCBIN_U32("graphics/items/icon_palettes/sapphire.gbapal.lz");
+
+const u32 gFile_graphics_items_icons_kings_stone_sheet[] = INCBIN_U32("graphics/items/icons/kings_stone.4bpp.lz");
+const u32 gFile_graphics_items_icon_palettes_kings_stone_palette[] = INCBIN_U32("graphics/items/icon_palettes/kings_stone.gbapal.lz");

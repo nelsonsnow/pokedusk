@@ -50,3 +50,5 @@ EventScript_PalletTown_PlayersHouse_2F_ShutDownPC::
 	special SetHelpContextForMap
 	releaseall
 	end
+	
+	

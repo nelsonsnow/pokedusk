@@ -198,6 +198,7 @@
 #define MAP_ONE_ISLAND_KINDLE_ROAD_EMBER_SPA          (57 | (2 << 8))
 #define MAP_BIRTH_ISLAND_HARBOR                       (58 | (2 << 8))
 #define MAP_NAVEL_ROCK_HARBOR                         (59 | (2 << 8))
+#define MAP_MT_SILVER_EXTERIOR                        (60 | (2 << 8))
 
 // gMapGroup_TownsAndRoutes
 #define MAP_PALLET_TOWN                          (0 | (3 << 8))
@@ -266,6 +267,8 @@
 #define MAP_SEVEN_ISLAND_SEVAULT_CANYON_ENTRANCE (63 | (3 << 8))
 #define MAP_SEVEN_ISLAND_SEVAULT_CANYON          (64 | (3 << 8))
 #define MAP_SEVEN_ISLAND_TANOBY_RUINS            (65 | (3 << 8))
+#define MAP_ROUTE28                              (66 | (3 << 8))
+#define MAP_ROUTE26                              (67 | (3 << 8))
 
 // gMapGroup_IndoorPallet
 #define MAP_PALLET_TOWN_PLAYERS_HOUSE_1F   (0 | (4 << 8))
@@ -435,7 +438,8 @@
 #define MAP_ROUTE19_UNUSED_HOUSE (0 | (27 << 8))
 
 // gMapGroup_IndoorRoute22
-#define MAP_ROUTE22_NORTH_ENTRANCE (0 | (28 << 8))
+#define MAP_ROUTE22_NORTH_ENTRANCE     (0 | (28 << 8))
+#define MAP_NEW_ROUTE22_NORTH_ENTRANCE (1 | (28 << 8))
 
 // gMapGroup_IndoorRoute23
 #define MAP_ROUTE23_UNUSED_HOUSE (0 | (29 << 8))
@@ -516,6 +520,8 @@
 // gMapGroup_IndoorSevenIslandRoute
 #define MAP_SEVEN_ISLAND_SEVAULT_CANYON_HOUSE (0 | (42 << 8))
 
-#define MAP_GROUPS_COUNT 43
+// gMapGroup_NewMaps
+
+#define MAP_GROUPS_COUNT 44
 
 #endif // GUARD_CONSTANTS_MAP_GROUPS_H

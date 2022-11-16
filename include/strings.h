@@ -88,6 +88,7 @@ extern const u8 gText_PkmnFainted3[];
 extern const u8 gText_Coins[];
 extern const u8 gText_EggNickname[];
 extern const u8 gText_MenuPokemon[];
+extern const u8 gText_Nickname[];
 
 extern const u8 gOtherText_Use[];
 extern const u8 gOtherText_Toss[];
@@ -846,7 +847,7 @@ extern const u8 gTradeText_Cancel[];
 extern const u8 gTradeText_ChooseAPokemon[];
 extern const u8 gTradeText_Summary[];
 extern const u8 gTradeText_Trade[];
-extern const u8 gText_CancelTrade[];
+extern const u8 gTradeText_CancelTrade[];
 extern const u8 gTradeText_PressBButtonToExit[];
 extern const u8 gText_TradeAction_Summary[];
 extern const u8 gText_TradeAction_Trade[];

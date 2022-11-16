@@ -2441,7 +2441,7 @@ bool8 HelpMenuSubroutine_HelpItemWaitButton(struct HelpSystemListMenu * helpList
         helpListMenu->state = 5;
         return TRUE;
     }
-    if (JOY_NEW(L_BUTTON | R_BUTTON))
+    if (JOY_NEW(L_BUTTON))
         return FALSE;
     return TRUE;
 }
