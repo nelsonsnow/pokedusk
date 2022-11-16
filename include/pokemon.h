@@ -238,20 +238,21 @@ struct BattleMove
     u8 accuracy;
     u8 pp;
     u8 secondaryEffectChance;
-    u8 target;
+    u16 target;
     s8 priority;
     u8 flags;
+    u8 category;    
 };
 
 extern const struct BattleMove gBattleMoves[];
 
-// Battle move flags
-#define FLAG_MAKES_CONTACT          (1 << 0)
-#define FLAG_PROTECT_AFFECTED       (1 << 1)
-#define FLAG_MAGIC_COAT_AFFECTED    (1 << 2)
-#define FLAG_SNATCH_AFFECTED        (1 << 3)
-#define FLAG_MIRROR_MOVE_AFFECTED   (1 << 4)
-#define FLAG_KINGS_ROCK_AFFECTED    (1 << 5)
+#define FLAG_MAKES_CONTACT          0x1
+#define FLAG_PROTECT_AFFECTED       0x2
+#define FLAG_MAGICCOAT_AFFECTED     0x4
+#define FLAG_SNATCH_AFFECTED        0x8
+#define FLAG_MIRROR_MOVE_AFFECTED   0x10
+#define FLAG_KINGSROCK_AFFECTED     0x20
+#define FLAG_DEFROST                0x40
 
 struct SpindaSpot
 {
@@ -287,6 +288,13 @@ enum
     BODY_COLOR_GRAY,
     BODY_COLOR_WHITE,
     BODY_COLOR_PINK
+};
+
+enum
+{
+    MOVE_PHYSICAL,
+    MOVE_SPECIAL,
+    MOVE_STATUS
 };
 
 #define EVO_FRIENDSHIP       0x0001 // Pokémon levels up with friendship ≥ 220

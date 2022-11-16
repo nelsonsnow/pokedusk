@@ -38,9 +38,9 @@ PalletTown_RivalsHouse_Text_ItsBigMapOfKanto:: @ 818D763
 
 PalletTown_RivalsHouse_Text_ShelvesCrammedFullOfBooks::
     .string "The shelves are crammed full of\n"
-    .string "Pokémon novels. Wait...\p"
+    .string "Pokémon books. Wait...\p"
     .string "There's a book hidden back here\n"
-    .string "Looks like a romance book.$"
+    .string "Looks like a romance novel.$"
 
 PalletTown_RivalsHouse_Text_LikeMeToGroomMon:: @ 818D7D3
     .string "Daisy: Hi, {PLAYER}!\n"

@@ -116,7 +116,7 @@ SaffronCity_Gym_Text_CameronPostBattle:: @ 819BBB3
     .string "The Fighting Dojo next door lost\n"
     .string "its Gym status, though.\p"
     .string "We simply creamed them when we\n"
-    .string "decided to have just one GYM.$"
+    .string "decided to have just one Gym.$"
 
 SaffronCity_Gym_Text_PrestonIntro:: @ 819BC57
     .string "Saffron Pokémon Gym is famous for\n"

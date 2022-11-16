@@ -105,8 +105,13 @@ const u8 gSpeciesNames[][11] = {
     _("Exeggutor"),
     _("Cubone"),
     _("Marowak"),
+<<<<<<< HEAD
     _("Hitmonlee"),
     _("Hitmonchan"),
+=======
+    _("HITMONLEE"),
+    _("HITMONCHAN"),
+>>>>>>> b88479900e4f4b8d0654ed47454d1e9195fca115
     _("Lickitung"),
     _("Koffing"),
     _("Weezing"),
@@ -236,7 +241,11 @@ const u8 gSpeciesNames[][11] = {
     _("Stantler"),
     _("Smeargle"),
     _("Tyrogue"),
+<<<<<<< HEAD
     _("Hitmontop"),
+=======
+    _("HITMONTOP"),
+>>>>>>> b88479900e4f4b8d0654ed47454d1e9195fca115
     _("Smoochum"),
     _("Elekid"),
     _("Magby"),

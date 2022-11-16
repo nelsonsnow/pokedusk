@@ -458,7 +458,7 @@ const u8 gKadabraPokedexTextUnused[] = _("");
 
 const u8 gAlakazamPokedexText[] = _(
     "Its brain can outperform a supercomputer.\n"
-    "Its IQ (intelligence quotient) is said to\n"
+    "Its Iq (intelligence quotient) is said to\n"
     "be around 5,000.");
 
 const u8 gAlakazamPokedexTextUnused[] = _("");

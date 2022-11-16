@@ -97,7 +97,7 @@ Route20_Text_MissyPostBattle:: @ 81881B8
     .string "now.$"
 
 Route20_Text_MelissaIntro:: @ 8188218
-    .string "Cinnabar, in the west, has a LAB\n"
+    .string "Cinnabar, in the west, has a Lab\n"
     .string "for Pokémon.\p"
     .string "My daddy works there.$"
 

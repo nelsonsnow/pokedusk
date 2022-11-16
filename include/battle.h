@@ -50,23 +50,32 @@
 
 #define MAX_TRAINER_ITEMS 4
 
-enum {
-    BATTLER_AFFINE_NORMAL,
-    BATTLER_AFFINE_EMERGE,
-    BATTLER_AFFINE_RETURN,
-};
+// array entries for battle communication
+#define MULTIUSE_STATE          0x0
+#define CURSOR_POSITION         0x1
+#define TASK_ID                 0x1 // task Id and cursor position share the same field
+#define SPRITES_INIT_STATE1     0x1 // shares the Id as well
+#define SPRITES_INIT_STATE2     0x2
+#define MOVE_EFFECT_BYTE        0x3
+#define ACTIONS_CONFIRMED_COUNT 0x4
+#define MULTISTRING_CHOOSER     0x5
+#define MSG_DISPLAY             0x7
+#define BATTLE_COMMUNICATION_ENTRIES_COUNT  0x8
 
-#define MOVE_TARGET_SELECTED            0
-#define MOVE_TARGET_DEPENDS             (1 << 0)
-#define MOVE_TARGET_USER_OR_SELECTED    (1 << 1)
-#define MOVE_TARGET_RANDOM              (1 << 2)
-#define MOVE_TARGET_BOTH                (1 << 3)
-#define MOVE_TARGET_USER                (1 << 4)
-#define MOVE_TARGET_FOES_AND_ALLY       (1 << 5)
-#define MOVE_TARGET_OPPONENTS_FIELD     (1 << 6)
-
-// For the second argument of GetMoveTarget, when no target override is needed
-#define NO_TARGET_OVERRIDE 0
+#define MOVE_TARGET_SELECTED          0x0       // Targets enemy, or selected enemy or ally
+#define MOVE_TARGET_DEPENDS           0x1       // Depends on another factor
+#define MOVE_TARGET_USER_OR_SELECTED  0x2       // Targets self or any other target
+#define MOVE_TARGET_RANDOM            0x4       // Targets random enemy
+#define MOVE_TARGET_BOTH              0x8       // Targets both enemies
+#define MOVE_TARGET_USER              0x10      // Targets self
+#define MOVE_TARGET_FOES_AND_ALLY     0x20      // Targets everyone except self
+#define MOVE_TARGET_OPPONENTS_FIELD   0x40      // Targets enemy field
+#define MOVE_TARGET_USERS_FIELD       0x80      // Target ally field
+#define MOVE_TARGET_ME_FIRST          0x100     // TODO: targets opponent if target has not gone and selected a damaging move, otherwise fails
+#define MOVE_TARGET_USER_OR_ALLY      0x200     // Targets self, or an ally
+#define MOVE_TARGET_USER_AND_ALLIES   0x400     // Targets self. and an ally
+#define MOVE_TARGET_ALLIES            0x800     // Targets allies only
+#define MOVE_TARGET_ALL               0x1000    // Targets everyone
 
 struct TrainerMonNoItemDefaultMoves
 {
@@ -372,7 +381,7 @@ struct BattleStruct
     u8 filler2; // unused
     u8 turnCountersTracker;
     u8 wrappedMove[MAX_BATTLERS_COUNT * 2]; // Leftover from Ruby's ewram access.
-    u8 moveTarget[MAX_BATTLERS_COUNT];
+    u16 moveTarget[MAX_BATTLERS_COUNT];
     u8 expGetterMonId;
     u8 field_11; // unused
     u8 wildVictorySong;
@@ -466,9 +475,6 @@ extern struct BattleStruct *gBattleStruct;
     else                                                              \
         typeArg = gBattleMoves[move].type;                            \
 }
-
-#define IS_TYPE_PHYSICAL(moveType)(moveType < TYPE_MYSTERY)
-#define IS_TYPE_SPECIAL(moveType)(moveType > TYPE_MYSTERY)
 
 #define TARGET_TURN_DAMAGED ((gSpecialStatuses[gBattlerTarget].physicalDmg != 0 || gSpecialStatuses[gBattlerTarget].specialDmg != 0))
 

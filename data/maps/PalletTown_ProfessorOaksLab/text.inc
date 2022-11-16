@@ -179,7 +179,8 @@ PalletTown_ProfessorOaksLab_Text_OakCatchMonsForDataTakeThese:: @ 818E612
     .string "on Pokémon by just seeing them.\p"
     .string "You must catch them to obtain\n"
     .string "complete data.\p"
-    .string "So, here are some Poké Balls.$"
+    .string "So, here are some tools for\n"
+    .string "catching wild Pokémon.$"
 
 PalletTown_ProfessorOaksLab_Text_ReceivedFivePokeBalls:: @ 818E6B3
     .string "{PLAYER} received five Poké Balls.$"

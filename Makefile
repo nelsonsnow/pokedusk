@@ -114,7 +114,7 @@ RAMSCRGEN := tools/ramscrgen/ramscrgen
 FIX := tools/gbafix/gbafix
 MAPJSON := tools/mapjson/mapjson
 JSONPROC := tools/jsonproc/jsonproc
-SCRIPT := tools/poryscript/poryscript$(EXE)
+SCRIPT := tools/poryscript/poryscript.exe
 
 PERL := perl
 
@@ -240,6 +240,7 @@ sound/%.bin: sound/%.aif ; $(AIF) $< $@
 data/%.inc: data/%.pory; $(SCRIPT) -i $< -o $@ -fw tools/poryscript/font_widths.json
 sound/songs/%.s: sound/songs/%.mid
 	$(MID) $< $@
+data/maps/%/.inc: data/maps/%/scripts.pory; $(SCRIPT) -i $< -o $@ -fw tools/poryscript/font_widths.json
 
 ifeq ($(MODERN),0)
 $(C_BUILDDIR)/agb_flash.o: CFLAGS := -O -mthumb-interwork

@@ -1070,7 +1070,7 @@ static void Cmd_accuracycheck(void)
             calc = (calc * 130) / 100; // 1.3 compound eyes boost
         if (WEATHER_HAS_EFFECT && gBattleMons[gBattlerTarget].ability == ABILITY_SAND_VEIL && gBattleWeather & B_WEATHER_SANDSTORM)
             calc = (calc * 80) / 100; // 1.2 sand veil loss
-        if (gBattleMons[gBattlerAttacker].ability == ABILITY_HUSTLE && IS_TYPE_PHYSICAL(type))
+        if (gBattleMons[gBattlerAttacker].ability == ABILITY_HUSTLE && gBattleMoves[move].category == MOVE_PHYSICAL)
             calc = (calc * 80) / 100; // 1.2 hustle loss
 
         if (gBattleMons[gBattlerTarget].item == ITEM_ENIGMA_BERRY)
@@ -1848,8 +1848,40 @@ static void Cmd_datahpupdate(void)
                     }
                     else
                     {
-                        gProtectStructs[gActiveBattler].specialBattlerId = gBattlerTarget;
-                        gSpecialStatuses[gActiveBattler].specialBattlerId = gBattlerTarget;
+                        gHpDealt = gBattleMons[gActiveBattler].hp;
+                        gBattleMons[gActiveBattler].hp = 0;
+                    }
+                    if (!gSpecialStatuses[gActiveBattler].dmg && !(gHitMarker & HITMARKER_PASSIVE_DAMAGE))
+                        gSpecialStatuses[gActiveBattler].dmg = gHpDealt;
+                    if (gBattleMoves[gCurrentMove].category == MOVE_PHYSICAL && !(gHitMarker & HITMARKER_PASSIVE_DAMAGE) && gCurrentMove != MOVE_PAIN_SPLIT)
+                    {
+                        gProtectStructs[gActiveBattler].physicalDmg = gHpDealt;
+                        gSpecialStatuses[gActiveBattler].physicalDmg = gHpDealt;
+                        if (gBattlescriptCurrInstr[1] == BS_TARGET)
+                        {
+                            gProtectStructs[gActiveBattler].physicalBattlerId = gBattlerAttacker;
+                            gSpecialStatuses[gActiveBattler].physicalBattlerId = gBattlerAttacker;
+                        }
+                        else
+                        {
+                            gProtectStructs[gActiveBattler].physicalBattlerId = gBattlerTarget;
+                            gSpecialStatuses[gActiveBattler].physicalBattlerId = gBattlerTarget;
+                        }
+                    }
+                    else if (gBattleMoves[gCurrentMove].category != MOVE_PHYSICAL && !(gHitMarker & HITMARKER_PASSIVE_DAMAGE))
+                    {
+                        gProtectStructs[gActiveBattler].specialDmg = gHpDealt;
+                        gSpecialStatuses[gActiveBattler].specialDmg = gHpDealt;
+                        if (gBattlescriptCurrInstr[1] == BS_TARGET)
+                        {
+                            gProtectStructs[gActiveBattler].specialBattlerId = gBattlerAttacker;
+                            gSpecialStatuses[gActiveBattler].specialBattlerId = gBattlerAttacker;
+                        }
+                        else
+                        {
+                            gProtectStructs[gActiveBattler].specialBattlerId = gBattlerTarget;
+                            gSpecialStatuses[gActiveBattler].specialBattlerId = gBattlerTarget;
+                        }
                     }
                 }
             }
@@ -4062,6 +4094,7 @@ static void Cmd_moveend(void)
     u16 *choicedMoveAtk = NULL;
     u8 endMode, endState;
     u16 originallyUsedMove;
+    u16 moveFlags;
 
     if (gChosenMove == MOVE_UNAVAILABLE)
         originallyUsedMove = MOVE_NONE;
@@ -4078,7 +4111,7 @@ static void Cmd_moveend(void)
 
     choicedMoveAtk = &gBattleStruct->choicedMove[gBattlerAttacker];
     GET_MOVE_TYPE(gCurrentMove, moveType);
-
+    moveFlags = gBattleMoves[gCurrentMove].flags;    
     do
     {
         switch (gBattleScripting.moveendState)
@@ -4102,11 +4135,11 @@ static void Cmd_moveend(void)
             break;
         case MOVEEND_DEFROST: // defrosting check
             if (gBattleMons[gBattlerTarget].status1 & STATUS1_FREEZE
-                && gBattleMons[gBattlerTarget].hp != 0
-                && gBattlerAttacker != gBattlerTarget
-                && gSpecialStatuses[gBattlerTarget].specialDmg
-                && !(gMoveResultFlags & MOVE_RESULT_NO_EFFECT)
-                && moveType == TYPE_FIRE)
+             && gBattleMons[gBattlerTarget].hp != 0
+             && gBattlerAttacker != gBattlerTarget
+             && gSpecialStatuses[gBattlerTarget].specialDmg
+             && !(gMoveResultFlags & MOVE_RESULT_NO_EFFECT)
+             && (moveType == TYPE_FIRE || moveFlags & FLAG_DEFROST))
             {
                 gBattleMons[gBattlerTarget].status1 &= ~STATUS1_FREEZE;
                 gActiveBattler = gBattlerTarget;
