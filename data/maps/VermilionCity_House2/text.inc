@@ -5,16 +5,17 @@ VermilionCity_House2_Text_DoYouHaveMonWantToTradeForMyMon::
 	.string "{STR_VAR_2}?$"
 
 VermilionCity_House2_Text_ThatsTooBad::
-	.string "That's too bad.$"
+	.string "Aww man!\n" 
+	.string "I really want a {STR_VAR_1}.$"
 
 VermilionCity_House2_Text_ThisIsNoMon::
-	.string "…This is no {STR_VAR_1}.\p"
-	.string "If you get one, please trade it\n"
-	.string "to me!$"
+	.string "…This is not a {STR_VAR_1}.\p"
+	.string "Don't try and play me!\n"
+	.string "I can't believe you!$"
 
 VermilionCity_House2_Text_ThankYou::
-	.string "Thank you!$"
+	.string "Thanks!$"
 
 VermilionCity_House2_Text_HowIsMyOldMon::
-	.string "How is my old {STR_VAR_2}?\p"
-	.string "My {STR_VAR_1} is doing great!$"
+	.string "How is {STR_VAR_2}?\p"
+	.string "My {STR_VAR_1} is amazing!$"

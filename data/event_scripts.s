@@ -1367,4 +1367,11 @@ Text_TestMsg::
 	.include "data/maps/MtSilverExterior/scripts.inc"
 
 	.include "data/maps/Route26/scripts.inc"
+	
+	.include "data/maps/Route27/scripts.inc"
+
+	.include "data/maps/NewBarkTown/scripts.inc"
+	.include "data/maps/NewBarkTown/text.inc"
+
+	.include "data/maps/PikachuMeadow/scripts.inc"
 

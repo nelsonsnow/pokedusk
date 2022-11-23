@@ -1,6 +1,5 @@
 Route4_Text_TrippedOverGeodude::
-    .string "Ouch! I tripped over a rocky\n"
-    .string "Pokémon, Geodude!$"
+    .string "Ouch! I tripped over a Geodude!$"
 
 Route4_Text_CrissyIntro:: @ 8183906
     .string "I came to Mt. Moon in search of\n"

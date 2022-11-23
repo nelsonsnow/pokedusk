@@ -50,17 +50,11 @@
 
 #define MAX_TRAINER_ITEMS 4
 
-// array entries for battle communication
-#define MULTIUSE_STATE          0x0
-#define CURSOR_POSITION         0x1
-#define TASK_ID                 0x1 // task Id and cursor position share the same field
-#define SPRITES_INIT_STATE1     0x1 // shares the Id as well
-#define SPRITES_INIT_STATE2     0x2
-#define MOVE_EFFECT_BYTE        0x3
-#define ACTIONS_CONFIRMED_COUNT 0x4
-#define MULTISTRING_CHOOSER     0x5
-#define MSG_DISPLAY             0x7
-#define BATTLE_COMMUNICATION_ENTRIES_COUNT  0x8
+enum {
+    BATTLER_AFFINE_NORMAL,
+    BATTLER_AFFINE_EMERGE,
+    BATTLER_AFFINE_RETURN,
+};
 
 #define MOVE_TARGET_SELECTED          0x0       // Targets enemy, or selected enemy or ally
 #define MOVE_TARGET_DEPENDS           0x1       // Depends on another factor
@@ -76,6 +70,8 @@
 #define MOVE_TARGET_USER_AND_ALLIES   0x400     // Targets self. and an ally
 #define MOVE_TARGET_ALLIES            0x800     // Targets allies only
 #define MOVE_TARGET_ALL               0x1000    // Targets everyone
+
+#define NO_TARGET_OVERRIDE 0
 
 struct TrainerMonNoItemDefaultMoves
 {
@@ -475,6 +471,9 @@ extern struct BattleStruct *gBattleStruct;
     else                                                              \
         typeArg = gBattleMoves[move].type;                            \
 }
+
+#define IS_TYPE_PHYSICAL(moveType)(moveType < TYPE_MYSTERY)
+#define IS_TYPE_SPECIAL(moveType)(moveType > TYPE_MYSTERY)
 
 #define TARGET_TURN_DAMAGED ((gSpecialStatuses[gBattlerTarget].physicalDmg != 0 || gSpecialStatuses[gBattlerTarget].specialDmg != 0))
 

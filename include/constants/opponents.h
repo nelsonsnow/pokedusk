@@ -357,7 +357,7 @@
 #define TRAINER_TEAM_ROCKET_GRUNT                351
 #define TRAINER_TEAM_ROCKET_GRUNT_2              352
 #define TRAINER_TEAM_ROCKET_GRUNT_3              353
-#define TRAINER_TEAM_ROCKET_GRUNT_4              354
+#define TRAINER_TEAM_ROCKET_JESSIEJAMES          354
 #define TRAINER_TEAM_ROCKET_GRUNT_5              355
 #define TRAINER_TEAM_ROCKET_GRUNT_6              356
 #define TRAINER_TEAM_ROCKET_GRUNT_7              357
@@ -746,12 +746,30 @@
 #define TRAINER_CHAMPION_REMATCH_BULBASAUR       740
 #define TRAINER_CHAMPION_REMATCH_CHARMANDER      741
 #define TRAINER_CUE_BALL_PAXTON                  742
+#define TRAINER_RIVAL_OAKS_LAB_CHIKORITA         743
+#define TRAINER_RIVAL_OAKS_LAB_TOTODILE          744
+#define TRAINER_RIVAL_OAKS_LAB_CYNDAQUIL         745
+#define TRAINER_RIVAL_OAKS_LAB_TREECKO           746
+#define TRAINER_RIVAL_OAKS_LAB_MUDKIP            747
+#define TRAINER_RIVAL_OAKS_LAB_TORCHIC           748
+#define TRAINER_RIVAL_ROUTE22_EARLY_CHIKORITA    749
+#define TRAINER_RIVAL_ROUTE22_EARLY_TOTODILE     750
+#define TRAINER_RIVAL_ROUTE22_EARLY_CYNDAQUIL    751
+#define TRAINER_RIVAL_ROUTE22_EARLY_TREECKO      752
+#define TRAINER_RIVAL_ROUTE22_EARLY_MUDKIP       753
+#define TRAINER_RIVAL_ROUTE22_EARLY_TORCHIC      754
+#define TRAINER_RIVAL_CERULEAN_CHIKORITA         755
+#define TRAINER_RIVAL_CERULEAN_TOTODILE          756
+#define TRAINER_RIVAL_CERULEAN_CYNDAQUIL         757
+#define TRAINER_RIVAL_CERULEAN_TREECKO           758
+#define TRAINER_RIVAL_CERULEAN_MUDKIP            759
+#define TRAINER_RIVAL_CERULEAN_TORCHIC           760
 
 // NOTE: Because each Trainer uses a flag to determine when they are defeated, there is 
 //       only space for 25 additional trainers before trainer flag space overflows.
 //       MAX_TRAINERS_COUNT can be increased but will take up additional saveblock space
 
-#define NUM_TRAINERS                             743
+#define NUM_TRAINERS                             761
 #define MAX_TRAINERS_COUNT                       768
 
 #endif  // GUARD_CONSTANTS_OPPONENTS_H

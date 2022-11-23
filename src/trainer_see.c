@@ -343,9 +343,6 @@ static bool8 TrainerSeeFunc_TrainerApproach(u8 taskId, struct Task *task, struct
     return FALSE;
 }
 
-<<<<<<< HEAD
-static bool8 TrainerSeeFunc_PrepareToEngage(u8 taskId, struct Task *task, struct ObjectEvent * trainerObj)
-=======
 static bool8 TrainerSeeFunc_PlayerFaceApproachingTrainer(u8 taskId, struct Task *task, struct ObjectEvent *trainerObj)
 {
     struct ObjectEvent *playerObj;
@@ -374,7 +371,6 @@ static bool8 TrainerSeeFunc_WaitPlayerFaceApproachingTrainer(u8 taskId, struct T
 }
 
 static bool8 TrainerSeeFunc_PrepareToEngage(u8 taskId, struct Task * task, struct ObjectEvent * trainerObj)
->>>>>>> b88479900e4f4b8d0654ed47454d1e9195fca115
 {
     struct ObjectEvent *playerObj;
 

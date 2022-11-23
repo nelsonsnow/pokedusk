@@ -2729,7 +2729,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_3 = {
 				{
 					.species = SPECIES_HITMONLEE,
 					.heldItem = ITEM_SCOPE_LENS,
-					.moves = {MOVE_ROCK_TOMB, MOVE_HI_JUMP_KICK, MOVE_BULK_UP, MOVE_PROTECT},
+					.moves = {MOVE_ROCK_TOMB, MOVE_HI_JUMP_KICK, MOVE_MEDITATE, MOVE_PROTECT},
 					.hpEV = 255,
 					.attackEV = 255,
 					.defenseEV = 0,
@@ -2839,7 +2839,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_3 = {
 				{
 					.species = SPECIES_POLIWRATH,
 					.heldItem = ITEM_SCOPE_LENS,
-					.moves = {MOVE_FOCUS_PUNCH, MOVE_SURF, MOVE_BULK_UP, MOVE_PROTECT},
+					.moves = {MOVE_FOCUS_PUNCH, MOVE_SURF, MOVE_MEDITATE, MOVE_PROTECT},
 					.hpEV = 0,
 					.attackEV = 255,
 					.defenseEV = 255,
@@ -2982,7 +2982,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_3 = {
 				{
 					.species = SPECIES_POLIWRATH,
 					.heldItem = ITEM_SCOPE_LENS,
-					.moves = {MOVE_FOCUS_PUNCH, MOVE_SURF, MOVE_BULK_UP, MOVE_PROTECT},
+					.moves = {MOVE_FOCUS_PUNCH, MOVE_SURF, MOVE_MEDITATE, MOVE_PROTECT},
 					.hpEV = 0,
 					.attackEV = 255,
 					.defenseEV = 255,
@@ -6879,9 +6879,9 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Mixed_3 = {
 			.name = _("Owen"),
 			.facilityClass = FACILITY_CLASS_SUPER_NERD,
 			.textColor = 2,
-			.speechBefore = {EC_WORD_HERE_IT_IS, EC_MOVE2(THUNDER_WAVE), EC_WORD_DON_T, EC_MOVE2(WRAP), EC_WORD_ME, EC_WORD_EXCL},
+			.speechBefore = {EC_WORD_HERE_IT_IS, EC_MOVE2(THUNDER_WAVE), EC_WORD_DON_T, EC_MOVE2(BIND), EC_WORD_ME, EC_WORD_EXCL},
 			.speechWin = {EC_WORD_ACCEPT, EC_WORD_MY, EC_MOVE2(PRESENT), EC_WORD_OF, EC_MOVE2(THUNDER_WAVE), EC_WORD_EXCL},
-			.speechLose = {EC_MOVE2(WRAP), EC_MOVE(BIND), EC_WORD_ELECTRIC, EC_MOVE2(WHIRLWIND), EC_WORD_SPIRALING, EC_WORD_AROUND},
+			.speechLose = {EC_MOVE2(BIND), EC_MOVE(BIND), EC_WORD_ELECTRIC, EC_MOVE2(WHIRLWIND), EC_WORD_SPIRALING, EC_WORD_AROUND},
 			.speechAfter = {EC_MOVE2(WHIRLWIND), EC_WORD_SPIRALING, 0xFFFF, 0xFFFF, EC_WORD_SPIRALING, EC_MOVE2(WHIRLWIND)},
 			.mons = {
 				{

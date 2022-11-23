@@ -4749,7 +4749,7 @@
       "price": 3000,
       "holdEffect": "HOLD_EFFECT_NONE",
       "holdEffectParam": 0,
-      "description_english": "The user tightens all its muscles\\nand bulks up, boosting both its\\nAttack and Defense stats.",
+      "description_english": "The user meditates to\\nawaken its power and\\nraise its Attack and Defense.",
       "importance": 0,
       "exitsBagOnUse": 0,
       "pocket": "POCKET_TM_CASE",
@@ -4758,7 +4758,7 @@
       "battleUsage": 0,
       "battleUseFunc": "NULL",
       "secondaryId": 0,
-      "moveId": "BulkUp"
+      "moveId": "Meditate"
     },
     {
       "english": "TM09",

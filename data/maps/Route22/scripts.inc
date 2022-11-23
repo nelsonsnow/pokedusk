@@ -35,6 +35,12 @@ Route22_EventScript_EarlyRival::
 	call_if_eq VAR_STARTER_MON, 2, Route22_EventScript_EarlyRivalSquirtle
 	call_if_eq VAR_STARTER_MON, 1, Route22_EventScript_EarlyRivalBulbasaur
 	call_if_eq VAR_STARTER_MON, 0, Route22_EventScript_EarlyRivalCharmander
+	call_if_eq VAR_STARTER_MON, 5, Route22_EventScript_EarlyRivalTotodile
+	call_if_eq VAR_STARTER_MON, 4, Route22_EventScript_EarlyRivalChikorita
+	call_if_eq VAR_STARTER_MON, 3, Route22_EventScript_EarlyRivalCyndaquil
+	call_if_eq VAR_STARTER_MON, 8, Route22_EventScript_EarlyRivalMudkip
+	call_if_eq VAR_STARTER_MON, 7, Route22_EventScript_EarlyRivalTreecko
+	call_if_eq VAR_STARTER_MON, 6, Route22_EventScript_EarlyRivalTorchic
 	msgbox Route22_Text_EarlyRivalPostBattle
 	closemessage
 	delay 10
@@ -69,6 +75,30 @@ Route22_EventScript_EarlyRivalBulbasaur::
 
 Route22_EventScript_EarlyRivalCharmander::
 	trainerbattle_earlyrival TRAINER_RIVAL_ROUTE22_EARLY_CHARMANDER, 0, Route22_Text_EarlyRivalDefeat, Text_RivalVictory
+	return
+
+Route22_EventScript_EarlyRivalTotodile::
+	trainerbattle_earlyrival TRAINER_RIVAL_ROUTE22_EARLY_TOTODILE, 0, Route22_Text_EarlyRivalDefeat, Text_RivalVictory
+	return
+
+Route22_EventScript_EarlyRivalChikorita::
+	trainerbattle_earlyrival TRAINER_RIVAL_ROUTE22_EARLY_CHIKORITA, 0, Route22_Text_EarlyRivalDefeat, Text_RivalVictory
+	return
+
+Route22_EventScript_EarlyRivalCyndaquil::
+	trainerbattle_earlyrival TRAINER_RIVAL_ROUTE22_EARLY_CYNDAQUIL, 0, Route22_Text_EarlyRivalDefeat, Text_RivalVictory
+	return
+
+Route22_EventScript_EarlyRivalMudkip::
+	trainerbattle_earlyrival TRAINER_RIVAL_ROUTE22_EARLY_MUDKIP, 0, Route22_Text_EarlyRivalDefeat, Text_RivalVictory
+	return
+
+Route22_EventScript_EarlyRivalTreecko::
+	trainerbattle_earlyrival TRAINER_RIVAL_ROUTE22_EARLY_TREECKO, 0, Route22_Text_EarlyRivalDefeat, Text_RivalVictory
+	return
+
+Route22_EventScript_EarlyRivalTorchic::
+	trainerbattle_earlyrival TRAINER_RIVAL_ROUTE22_EARLY_TORCHIC, 0, Route22_Text_EarlyRivalDefeat, Text_RivalVictory
 	return
 
 Route22_EventScript_EarlyRivalExit::

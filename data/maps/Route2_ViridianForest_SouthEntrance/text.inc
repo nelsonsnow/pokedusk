@@ -1,10 +1,10 @@
 Route2_ViridianForest_SouthEntrance_Text_ForestIsMaze:: @ 819D52C
-    .string "Are you going to Viridian Forest?\n"
-    .string "It's a natural maze in there.\l"
-    .string "Be careful you don't get lost.$"
+    .string "Going into Viridian Forest?\n"
+    .string "It's a labyrinth, and not the\l"
+    .string "fun kind with David Bowie.$"
 
 Route2_ViridianForest_SouthEntrance_Text_RattataHasWickedBite:: @ 819D58B
-    .string "Rattata may be small, but don't\n"
-    .string "underestimate its wicked bite.\p"
-    .string "Have you caught one already?$"
+    .string "Rattata is small, but don't\n"
+    .string "underestimate its chompers.\p"
+    .string "You'll end up with nine fingers.$"
 

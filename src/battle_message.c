@@ -1042,7 +1042,7 @@ const u16 gFirstTurnOfTwoStringIds[] =
 const u16 gWrappedStringIds[] =
 {
     STRINGID_PKMNSQUEEZEDBYBIND,   // MOVE_BIND
-    STRINGID_PKMNWRAPPEDBY,        // MOVE_WRAP
+    STRINGID_PKMNWRAPPEDBY,        // MOVE_
     STRINGID_PKMNTRAPPEDINVORTEX,  // MOVE_FIRE_SPIN
     STRINGID_PKMNCLAMPED,          // MOVE_CLAMP
     STRINGID_PKMNTRAPPEDINVORTEX,  // MOVE_WHIRLPOOL
@@ -1263,7 +1263,6 @@ const u16 gDoubleBattleRecallStrings[1 << (MAX_BATTLERS_COUNT / 2)] =
 const u16 gTrappingMoves[NUM_TRAPPING_MOVES + 1] =
 {
     MOVE_BIND,
-    MOVE_WRAP,
     MOVE_FIRE_SPIN,
     MOVE_CLAMP,
     MOVE_WHIRLPOOL,
@@ -1449,7 +1448,6 @@ static const u16 sGrammarMoveUsedTable[] =
     MOVE_AMNESIA,
     MOVE_FLAIL,
     MOVE_TAUNT,
-    MOVE_BULK_UP,
     MOVE_NONE,
 
     MOVE_MEDITATE,
@@ -1480,7 +1478,6 @@ static const u16 sGrammarMoveUsedTable[] =
     MOVE_BIND,
     MOVE_SLAM,
     MOVE_HORN_ATTACK,
-    MOVE_WRAP,
     MOVE_THRASH,
     MOVE_TAIL_WHIP,
     MOVE_LEER,

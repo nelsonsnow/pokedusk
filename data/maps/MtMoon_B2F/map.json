@@ -68,7 +68,7 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "3",
-      "script": "MtMoon_B2F_EventScript_Grunt4",
+      "script": "MtMoon_B2F_EventScript_Grunt1",
       "flag": "FLAG_HIDE_MISC_KANTO_ROCKETS"
     },
     {
@@ -82,7 +82,7 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "2",
-      "script": "MtMoon_B2F_EventScript_Grunt1",
+      "script": "MtMoon_B2F_EventScript_Grunt4",
       "flag": "FLAG_HIDE_MISC_KANTO_ROCKETS"
     },
     {
@@ -197,6 +197,13 @@
       "y": 10,
       "elevation": 3,
       "dest_map": "MAP_MT_MOON_B1F",
+      "dest_warp_id": "6"
+    },
+    {
+      "x": 8,
+      "y": 32,
+      "elevation": 0,
+      "dest_map": "MAP_PALLET_TOWN",
       "dest_warp_id": "6"
     }
   ],

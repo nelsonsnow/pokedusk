@@ -229,7 +229,6 @@ gBattleScriptsForMoveEffects::
 	.4byte BattleScript_EffectTickle                 @ EFFECT_TICKLE
 	.4byte BattleScript_EffectCosmicPower            @ EFFECT_COSMIC_POWER
 	.4byte BattleScript_EffectSkyUppercut            @ EFFECT_SKY_UPPERCUT
-	.4byte BattleScript_EffectBulkUp                 @ EFFECT_BULK_UP
 	.4byte BattleScript_EffectPoisonHit              @ EFFECT_POISON_TAIL
 	.4byte BattleScript_EffectWaterSport             @ EFFECT_WATER_SPORT
 	.4byte BattleScript_EffectCalmMind               @ EFFECT_CALM_MIND
@@ -2704,31 +2703,6 @@ BattleScript_CosmicPowerEnd::
 BattleScript_EffectSkyUppercut::
 	orword gHitMarker, HITMARKER_IGNORE_ON_AIR
 	goto BattleScript_EffectHit
-
-BattleScript_EffectBulkUp::
-	attackcanceler
-	attackstring
-	ppreduce
-	jumpifstat BS_ATTACKER, CMP_LESS_THAN, STAT_ATK, MAX_STAT_STAGE, BattleScript_BulkUpDoMoveAnim
-	jumpifstat BS_ATTACKER, CMP_EQUAL, STAT_DEF, MAX_STAT_STAGE, BattleScript_CantRaiseMultipleStats
-BattleScript_BulkUpDoMoveAnim::
-	attackanimation
-	waitanimation
-	setbyte sSTAT_ANIM_PLAYED, FALSE
-	playstatchangeanimation BS_ATTACKER, BIT_ATK | BIT_DEF, 0
-	setstatchanger STAT_ATK, 1, FALSE
-	statbuffchange MOVE_EFFECT_AFFECTS_USER | STAT_CHANGE_ALLOW_PTR, BattleScript_BulkUpTryDef
-	jumpifbyte CMP_EQUAL, cMULTISTRING_CHOOSER, B_MSG_STAT_WONT_INCREASE, BattleScript_BulkUpTryDef
-	printfromtable gStatUpStringIds
-	waitmessage B_WAIT_TIME_LONG
-BattleScript_BulkUpTryDef::
-	setstatchanger STAT_DEF, 1, FALSE
-	statbuffchange MOVE_EFFECT_AFFECTS_USER | STAT_CHANGE_ALLOW_PTR, BattleScript_BulkUpEnd
-	jumpifbyte CMP_EQUAL, cMULTISTRING_CHOOSER, B_MSG_STAT_WONT_INCREASE, BattleScript_BulkUpEnd
-	printfromtable gStatUpStringIds
-	waitmessage B_WAIT_TIME_LONG
-BattleScript_BulkUpEnd::
-	goto BattleScript_MoveEnd
 
 BattleScript_EffectCalmMind::
 	attackcanceler

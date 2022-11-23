@@ -1,66 +1,68 @@
 Text_DreamEaterTeach::
-    .string "Yawn!\n"
-    .string "I must have dozed off in the sun.\p"
-    .string "I had this weird dream about\n"
+    .string "Yawn, oh man, I'm exhausted.\n"
+    .string "I must have dozed off.\p"
+    .string "I had a nightmare about\n"
     .string "a Drowzee eating my dream.\p"
-    .string "And…\n"
+    .string "And I think I know how it works…\n"
     .string "I learned how to eat dreams…\p"
-    .string "Oogh, this is too spooky!\p"
+    .string "Om nom nom! Spooky spooky!\p"
     .string "Let me teach it to a Pokémon so\n"
-    .string "I can forget about it!$"
+    .string "I can sleep peacefully!$"
 
 Text_DreamEaterDeclined::
-    .string "…Snore…$"
+    .string "…zzzzzzz…$"
 
 Text_DreamEaterWhichMon:: @ 817E3F1
     .string "Which Pokémon wants to learn\n"
     .string "Dream Eater?$"
 
 Text_DreamEaterTaught::
-    .string "…ZZZ…\n"
-    .string "I…can't eat…anymore…$"
+    .string "…zzzzzzzz…\n"
+    .string "I…am full…of eaten…dreams.$"
 
 PewterCity_Text_ClefairyCameFromMoon:: @ 817E436
-    .string "Clefairy came from the moon.\n"
-    .string "That's what the rumor is.\p"
-    .string "They appeared after Moon Stones\n"
-    .string "fell on Mt. Moon.$"
+    .string "It's said that Clefairy came down\n"
+    .string "from the moon. But it's a myth.\p"
+    .string "It's one of those old wive's tales\n"
+    .string "shared over generations.$"
 
 PewterCity_Text_BrockOnlySeriousTrainerHere:: @ 817E49F
     .string "There aren't many serious Pokémon\n"
-    .string "Trainers here.\p"
+    .string "Trainers here. It's whack.\p"
     .string "They're all like Bug Catchers,\n"
-    .string "you know, just hobbyists.\p"
-    .string "But Pewter Gym's Brock isn't like\n"
-    .string "that, not one bit.$"
+    .string "and little forest wannabes.\p"
+    .string "But Brock isn't like he is\n"
+    .string "pretty tough.$"
 
 PewterCity_Text_DidYouCheckOutMuseum:: @ 817E53E
-    .string "Did you check out the Museum?$"
+    .string "Have you checked out the Museum?$"
 
 PewterCity_Text_WerentThoseFossilsAmazing:: @ 817E55C
     .string "Weren't those fossils from Mt. Moon\n"
-    .string "amazing?$"
+    .string "dope as hell?$"
 
 PewterCity_Text_ReallyYouHaveToGo::
-    .string "Really?\n"
-    .string "You absolutely have to go!$"
+    .string "Really? If you haven't then\n"
+    .string "you 100% have to go!$"
 
 PewterCity_Text_ThisIsTheMuseum:: @ 817E5AC
     .string "This is it, the Museum.\p"
     .string "You have to pay to get in, but it's\n"
-    .string "worth it. See you around!$"
+    .string "worth it. They have some cool shit!$"
 
 PewterCity_Text_DoYouKnowWhatImDoing::
     .string "Psssst!\n"
-    .string "Do you know what I'm doing?$"
+    .string "I'm sure you know what\l"
+    .string "I'm doin out here?$"
 
 PewterCity_Text_ThatsRightItsHardWork::
-    .string "That's right!\n"
-    .string "It's hard work!$"
+    .string "You're damn right!\n"
+    .string "Someone's gotta do it!$"
 
 PewterCity_Text_SprayingRepelToKeepWildMonsOut:: @ 817E644
     .string "I'm spraying Repel to keep wild\n"
-    .string "Pokémon out of my garden!$"
+    .string "Pokémon out of my garden.\l"
+    .string "They keep eating my damn tomatoes!$"
 
 PewterCity_Text_BrocksLookingForChallengersFollowMe:: @ 817E67E
     .string "You're a Trainer, right?\p"
@@ -73,8 +75,9 @@ PewterCity_Text_GoTakeOnBrock::
 
 PewterCity_Text_TrainerTipsEarningEXP:: @ 817E6F6
     .string "Trainer Tips\p"
-    .string "All Pokémon that appear in battle,\n"
-    .string "however briefly, earn Exp Points.$"
+    .string "Make sure to to have fun and not\n"
+    .string "take things too seriously.\l"
+    .string "Life is too short to not have fun.$"
 
 PewterCity_Text_CallPoliceIfInfoOnThieves:: @ 817E748
     .string "Notice!\p"
@@ -84,7 +87,7 @@ PewterCity_Text_CallPoliceIfInfoOnThieves:: @ 817E748
     .string "you have any information.$"
 
 PewterCity_Text_MuseumOfScience:: @ 817E7C5
-    .string "Pewter Museum Of Science$"
+    .string "Pewter's Museum Of Natural Science$"
 
 PewterCity_Text_GymSign:: @ 817E7DE
     .string "Pewter City Pokémon Gym\n"
@@ -93,7 +96,7 @@ PewterCity_Text_GymSign:: @ 817E7DE
 
 PewterCity_Text_CitySign:: @ 817E824
     .string "Pewter City\n"
-    .string "A Stone Gray City$"
+    .string "The Stone Gray City$"
 
 @ The below 3 JP texts are unused. Possibly a cut NPC meant to give the player the Berry Pouch
 PewterCity_Text_DefeatedBrockYouCanHaveTreasure::

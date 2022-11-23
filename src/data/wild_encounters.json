@@ -1101,7 +1101,7 @@
               {
                 "min_level": 6,
                 "max_level": 6,
-                "species": "SPECIES_KAKUNA"
+                "species": "SPECIES_GASTLY"
               },
               {
                 "min_level": 5,
@@ -16441,7 +16441,7 @@
               {
                 "min_level": 3,
                 "max_level": 3,
-                "species": "SPECIES_CLEFAIRY"
+                "species": "SPECIES_ROOKIDEE"
               },
               {
                 "min_level": 3,
@@ -16486,7 +16486,7 @@
               {
                 "min_level": 4,
                 "max_level": 4,
-                "species": "SPECIES_EEVEE"
+                "species": "SPECIES_ROOKIDEE"
               },
               {
                 "min_level": 5,
@@ -25312,6 +25312,75 @@
                 "min_level": 40,
                 "max_level": 40,
                 "species": "SPECIES_POLITOED"
+              }
+            ]
+          }
+        },
+        {
+          "map": "MAP_PIKACHU_MEADOW",
+          "base_label": "gPikachuMeadow0",
+          "land_mons": {
+            "encounter_rate": 21,
+            "mons": [
+              {
+                "min_level": 3,
+                "max_level": 7,
+                "species": "SPECIES_PIKACHU"
+              },
+              {
+                "min_level": 3,
+                "max_level": 7,
+                "species": "SPECIES_PIKACHU"
+              },
+              {
+                "min_level": 2,
+                "max_level": 6,
+                "species": "SPECIES_PIKACHU"
+              },
+              {
+                "min_level": 4,
+                "max_level": 8,
+                "species": "SPECIES_PIKACHU"
+              },
+              {
+                "min_level": 2,
+                "max_level": 8,
+                "species": "SPECIES_PIKACHU"
+              },
+              {
+                "min_level": 4,
+                "max_level": 8,
+                "species": "SPECIES_PIKACHU"
+              },
+              {
+                "min_level": 5,
+                "max_level": 6,
+                "species": "SPECIES_PIKACHU"
+              },
+              {
+                "min_level": 2,
+                "max_level": 4,
+                "species": "SPECIES_PICHU"
+              },
+              {
+                "min_level": 2,
+                "max_level": 5,
+                "species": "SPECIES_PLUSLE"
+              },
+              {
+                "min_level": 2,
+                "max_level": 6,
+                "species": "SPECIES_MINUN"
+              },
+              {
+                "min_level": 2,
+                "max_level": 10,
+                "species": "SPECIES_PIKACHU"
+              },
+              {
+                "min_level": 2,
+                "max_level": 6,
+                "species": "SPECIES_MIMIKYU"
               }
             ]
           }

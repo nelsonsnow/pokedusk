@@ -15,21 +15,20 @@
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": [
     {
-      "direction": "up",
+      "map": "MAP_ROUTE1",
       "offset": 0,
-      "map": "MAP_ROUTE1"
+      "direction": "up"
     },
     {
-      "direction": "down",
+      "map": "MAP_ROUTE21_NORTH",
       "offset": 0,
-      "map": "MAP_ROUTE21_NORTH"
+      "direction": "down"
     }
   ],
   "object_events": [
     {
       "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_WOMAN_1",
-      "in_connection": false,
       "x": 3,
       "y": 10,
       "elevation": 3,
@@ -39,12 +38,12 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "PalletTown_EventScript_SignLady",
-      "flag": "0"
+      "flag": "0",
+      "in_connection": false
     },
     {
       "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_FAT_MAN",
-      "in_connection": false,
       "x": 13,
       "y": 17,
       "elevation": 3,
@@ -54,12 +53,12 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "PalletTown_EventScript_FatMan",
-      "flag": "0"
+      "flag": "0",
+      "in_connection": false
     },
     {
       "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_PROF_OAK",
-      "in_connection": false,
       "x": 10,
       "y": 8,
       "elevation": 3,
@@ -69,7 +68,8 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "0x0",
-      "flag": "FLAG_HIDE_OAK_IN_PALLET_TOWN"
+      "flag": "FLAG_HIDE_OAK_IN_PALLET_TOWN",
+      "in_connection": false
     }
   ],
   "warp_events": [
@@ -92,14 +92,35 @@
       "y": 13,
       "elevation": 0,
       "dest_map": "MAP_PALLET_TOWN_PROFESSOR_OAKS_LAB",
-      "dest_warp_id": 0
+      "dest_warp_id": "0"
     },
     {
-      "x": 20,
-      "y": 1,
+      "x": 25,
+      "y": 16,
       "elevation": 0,
-      "dest_map": "MAP_PROTOTYPE_SEVII_ISLE_9",
-      "dest_warp_id": 0
+      "dest_map": "MAP_PEWTER_CITY_POKEMON_CENTER_1F",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 26,
+      "y": 16,
+      "elevation": 0,
+      "dest_map": "MAP_ROCK_TUNNEL_1F",
+      "dest_warp_id": "4"
+    },
+    {
+      "x": 27,
+      "y": 16,
+      "elevation": 0,
+      "dest_map": "MAP_CERULEAN_CITY_POKEMON_CENTER_1F",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 24,
+      "y": 16,
+      "elevation": 0,
+      "dest_map": "MAP_MT_MOON_B2F",
+      "dest_warp_id": "4"
     }
   ],
   "coord_events": [

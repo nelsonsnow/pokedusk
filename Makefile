@@ -114,7 +114,7 @@ RAMSCRGEN := tools/ramscrgen/ramscrgen
 FIX := tools/gbafix/gbafix
 MAPJSON := tools/mapjson/mapjson
 JSONPROC := tools/jsonproc/jsonproc
-SCRIPT := tools/poryscript/poryscript.exe
+SCRIPT := tools/poryscript/poryscript
 
 PERL := perl
 

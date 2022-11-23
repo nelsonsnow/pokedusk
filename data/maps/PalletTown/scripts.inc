@@ -464,5 +464,5 @@ PalletTown_EventScript_MemorialPark::
 PalletTown_EventScript_MemorialPark_Text_0:
 	.string "For the Trainers gone too soon.\n"
 	.string "We will always remember you.$"
-	
+
 	

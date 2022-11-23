@@ -56,7 +56,7 @@ gMoveDescription_Fly::
 	.string "A 2-turn move that\nhits on the 2nd\nturn. Use it to fly\nto any known town.$"
 
 gMoveDescription_Bind::
-	.string "A long body or\ntentacles are used\nto bind the foe for\ntwo to five turns.$"
+	.string "A long body or\nappendage are used\nto bind the foe for\ntwo to five turns."
 
 gMoveDescription_Slam::
 	.string "The foe is struck\nwith a long tail,\nvines, etc.$"
@@ -100,8 +100,8 @@ gMoveDescription_Tackle::
 gMoveDescription_BodySlam::
 	.string "The user drops its\nfull body on the\nfoe. It may leave\nthe foe paralyzed.$"
 
-gMoveDescription_Wrap::
-	.string "A long body or\nvines are used to\nwrap the foe for\ntwo to five turns.$"
+gMoveDescription_Fairy_Wind::
+	.string "The user stirs up\n a fairy wind \nand strikes the\n target with it."
 
 gMoveDescription_TakeDown::
 	.string "A reckless, full-\nbody charge attack\nthat also hurts the\nuser a little.$"
@@ -1012,8 +1012,8 @@ gMoveDescription_DragonClaw::
 gMoveDescription_FrenzyPlant::
 	.string "The foe is hit with\nan enormous branch.\nThe user can't move\non the next turn.$"
 
-gMoveDescription_BulkUp:: @ 84882B4
-	.string "The user bulks up\nits body to boost\nboth its Attack and\nDefense stats.$"
+gMoveDescription_DisarmingVoice:: @ 84882B4
+	.string "Letting out a cry\nthe user does emotional\n damage to target\n This attack never misses.$"
 
 gMoveDescription_Bounce::
 	.string "The user bounces\non the foe on the\n2nd turn. It may\nparalyze the foe.$"

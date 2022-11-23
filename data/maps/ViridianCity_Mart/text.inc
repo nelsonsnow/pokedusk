@@ -1,6 +1,6 @@
 ViridianCity_Mart_Text_YouCameFromPallet::
-    .string "Hey!\n"
-    .string "You came from Pallet Town?$"
+    .string "Hey! {PLAYER}, good to see you\n"
+    .string "Can you do me a solid?$"
 
 ViridianCity_Mart_Text_TakeThisToProfOak:: @ 819023A
     .string "You know Prof. Oak, right?\p"
@@ -12,15 +12,15 @@ ViridianCity_Mart_Text_ReceivedOaksParcelFromClerk:: @ 8190289
     .string "from the Pokémon Mart clerk.$"
 
 ViridianCity_Mart_Text_SayHiToOakForMe::
-    .string "Okay, thanks! Please say hi to\n"
-    .string "Prof. Oak for me, too.$"
+    .string "You are a life saver!\n"
+    .string "Thanks!$"
 
 ViridianCity_Mart_Text_ShopDoesGoodBusinessInAntidotes::
-    .string "This shop does good business in\n"
-    .string "Antidotes, I've heard.$"
+    .string "Why are you talking to me?\n"
+    .string "...$"
 
 ViridianCity_Mart_Text_GotToBuySomePotions:: @ 819032C
-    .string "I've got to buy some Potions.\p"
-    .string "You never know when your Pokémon\n"
-    .string "will need quick healing.$"
+    .string "I'm looking for corn. I love it.\p"
+    .string "A big lump with knobs,\n"
+    .string "IT HAS THE JUICE!$"
 

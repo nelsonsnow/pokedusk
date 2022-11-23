@@ -102,6 +102,7 @@ static const struct ItemSlot gNewGamePCItems[] = {
     { ITEM_POKE_BALL, 10 },
     { ITEM_EXP_SHARE, 1 },
     { ITEM_NUGGET, 10 },
+    { ITEM_RARE_CANDY, 99 },
     { ITEM_NONE,   0 }
 };
 

@@ -9,11 +9,7 @@ CeladonCity_DepartmentStore_2F_Text_BuyReviveForLongOutings::
 
 CeladonCity_DepartmentStore_2F_Text_FloorSign:: @ 8195638
     .string "Top-Grade Items for Trainers!\p"
-<<<<<<< HEAD
     .string "2F: Trainer's Market$"
-=======
-    .string "2f: Trainer's Market$"
->>>>>>> b88479900e4f4b8d0654ed47454d1e9195fca115
 
 CeladonCity_DepartmentStore_2F_Text_LanceComesToBuyCapes:: @ 819566B
     .string "We have a customer, Lance, who\n"

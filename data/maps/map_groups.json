@@ -176,7 +176,8 @@
     "SixIsland_DottedHole_B4F",
     "SixIsland_DottedHole_SapphireRoom",
     "SixIsland_PatternBush",
-    "SixIsland_AlteringCave"
+    "SixIsland_AlteringCave",
+    "PikachuMeadow"
   ],
   "gMapGroup_SpecialArea": [
     "NavelRock_Exterior",
@@ -287,6 +288,9 @@
     "Route23",
     "Route24",
     "Route25",
+    "Route26",
+    "Route27",
+    "Route28",
     "OneIsland_KindleRoad",
     "OneIsland_TreasureBeach",
     "TwoIsland_CapeBrink",
@@ -308,8 +312,7 @@
     "SevenIsland_SevaultCanyon_Entrance",
     "SevenIsland_SevaultCanyon",
     "SevenIsland_TanobyRuins",
-    "Route28",
-    "Route26"
+    "NewBarkTown"
   ],
   "gMapGroup_IndoorPallet": [
     "PalletTown_PlayersHouse_1F",

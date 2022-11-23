@@ -1,38 +1,39 @@
 PewterCity_Museum_1F_Text_Its50YForChildsTicket::
     .string "Yes, yes.\n"
-    .string "It's ¥50 for a child's ticket.\p"
+    .string "It's ¥50 for a ticket.\p"
     .string "Would you like to come in?$"
 
 PewterCity_Museum_1F_Text_ComeAgain::
-    .string "Come again!$"
+    .string "Thank you! Come again!$"
 
 PewterCity_Museum_1F_Text_Right50YThankYou::
     .string "Right, ¥50!\n"
     .string "Thank you!$"
 
 PewterCity_Museum_1F_Text_DontHaveEnoughMoney::
-    .string "You don't have enough money.$"
+    .string "What are you trying to pull?\n"
+    .string "You're broke, get out of here!$"
 
 PewterCity_Museum_1F_Text_PleaseEnjoyYourself::
-    .string "Please enjoy yourself.$"
+    .string "Enjoy and don't touch anything.$"
 
 PewterCity_Museum_1F_Text_DoYouKnowWhatAmberIs::
-    .string "You can't sneak in the back way!\n"
-    .string "Nice try, kid, but no.\p"
-    .string "Oh, whatever!\n"
-    .string "Do you know what Amber is?$"
+    .string "Hey! How'd you get back here?\n"
+    .string "Whatever, I don''t get paid enough.\p"
+    .string "You can chill if you don't mess aroung.\n"
+    .string "By the way, Do you know what Amber is?$"
 
 PewterCity_Museum_1F_Text_AmberContainsGeneticMatter:: @ 81905B1
     .string "Amber contains the genetic matter\n"
     .string "of ancient Pokémon.\p"
-    .string "There's a Lab somewhere trying to\n"
-    .string "resurrect Pokémon from Amber.$"
+    .string "It's like that gem from Jurrasic Park\n"
+    .string "with the mosquito in it.$"
 
 PewterCity_Museum_1F_Text_AmberIsFossilizedSap:: @ 8190627
-    .string "Amber is actually sap, that gooey\n"
-    .string "stuff that oozes from trees.\p"
-    .string "The ancient sap fossilized over\n"
-    .string "time to become rock-hard Amber.$"
+    .string "Amber is fossilized tree sap.\n"
+    .string "After eons it becomes a gem.\p"
+    .string "Amber can sometimes contain insects\n"
+    .string "that have fed from ancient Pokémon.$"
 
 @ Unused
 PewterCity_Museum_1F_Text_PleaseGoAround::

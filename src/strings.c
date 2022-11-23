@@ -1334,3 +1334,7 @@ const u8 gText_Receive[] = _("Receive");
 const u8 gText_Send[] = _("Send");
 const u8 gText_Toss[] = _("Toss");
 const u8 gText_DelAllCancelOk[] = _("Del. All{CLEAR_TO 0x57}Cancel{CLEAR_TO 0xA4}Ok");
+
+const u8 gText_KantoStarter[] = _("Kanto");
+const u8 gText_JohtoStarter[] = _("Johto");
+const u8 gText_HoennStarter[] = _("Hoenn");

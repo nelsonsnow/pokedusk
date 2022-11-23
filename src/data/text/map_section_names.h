@@ -107,3 +107,4 @@ const u8 gMapSecName_RixyChamber[] = _("Rixy Chamber");
 const u8 gMapSecName_ViapoisChamber[] = _("Viapois Chamber");
 const u8 gMapSecName_EmberSpa[] = _("Ember Spa");
 const u8 gMapSecName_CeladonDept[] = _("Celadon Dept.");
+const u8 gMapSecName_PikachuMeadow[] = _("Pikachu Meadow");

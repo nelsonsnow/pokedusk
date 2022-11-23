@@ -1,103 +1,101 @@
 ViridianForest_Text_FriendsItchingToBattle::
-    .string "I came here with some friends to\n"
+    .string "Me and the boys came out to\n"
     .string "catch us some Bug Pokémon!\p"
-    .string "They're all itching to get into\n"
-    .string "some Pokémon battles!$"
+    .string "They wild out here, they will\n"
+    .string "100% fight you. I warned you.$"
 
 ViridianForest_Text_RickIntro:: @ 81722C7
     .string "Hey! You have Pokémon!\n"
-    .string "Come on!\l"
-    .string "Let's battle 'em!$"
+    .string "Haha, you're going down!\l"
+    .string "Get ready for a beating!$"
 
 ViridianForest_Text_RickDefeat:: @ 81722F9
-    .string "No!\nCaterpie can't hack it!$"
+    .string "Shit!\nCaterpie sucks ass!$"
 
 ViridianForest_Text_RickPostBattle::
-    .string "Ssh! You'll scare the bugs away.\n"
-    .string "Another time, okay?$"
+    .string "Bugger off! I'll get you back\n"
+    .string "another time, mark my words!$"
 
 ViridianForest_Text_DougIntro::
     .string "Yo!\n"
-    .string "You can't jam out if you're a\l"
-    .string "Pokémon Trainer!$"
+    .string "You came to the wrong neck of the\l"
+    .string "woods..forest..YOU KNOW WHAT I MEAN!$"
 
 ViridianForest_Text_DougDefeat::
-    .string "Huh?\n"
-    .string "I ran out of Pokémon!$"
+    .string "Gods Dammit!?\n"
+    .string "Useless ass Pokémon!$"
 
 ViridianForest_Text_DougPostBattle::
-    .string "That totally stinks! I'm going to\n"
-    .string "catch some stronger ones!$"
+    .string "You're an ass! I'm going to\n"
+    .string "come back stronger!$"
 
 ViridianForest_Text_SammyIntro::
-    .string "Hey, wait up!\n"
-    .string "What's the hurry? Why the rush?$"
+    .string "Where you think you going?!\n"
+    .string "Come catch these hands!$"
 
 ViridianForest_Text_SammyDefeat::
-    .string "I give!\n"
-    .string "You're good at this!$"
+    .string "I give up!\n"
+    .string "You're bas ass, I guess!$"
 
 ViridianForest_Text_SammyPostBattle::
-    .string "Sometimes, you can find stuff on\n"
-    .string "the ground.\p"
-    .string "I'm looking for the stuff I\n"
-    .string "dropped. Can you help me?$"
+    .string "You're getting on my nerves.\n"
+    .string "You better get out of my face.\p"
+    .string "I dropped something and I'm\n"
+    .string "looking for it. Get lost!$"
 
 ViridianForest_Text_AnthonyIntro::
-    .string "I might be little, but I won't like\n"
-    .string "it if you go easy on me!$"
+    .string "WHO YOU CALLING SMALL!\n"
+    .string "I'M WAITING ON A GROWTH SPURT!$"
 
 ViridianForest_Text_AnthonyDefeat::
-    .string "Oh, boo.\n"
-    .string "Nothing went right.$"
+    .string "UGH!\n"
+    .string "I STILL WON'T MY DRINK MILK!$"
 
 ViridianForest_Text_AnthonyPostBattle::
-    .string "I lost some of my allowance…$"
+    .string "IM NOT THAT SMALL!$"
 
 ViridianForest_Text_CharlieIntro:: @ 81724F9
-    .string "Did you know that Pokémon evolve?$"
+    .string "I got a trick up my sleeve!$"
 
 ViridianForest_Text_CharlieDefeat::
-    .string "Oh!\n"
-    .string "I lost!$"
+    .string "Fuck!\n"
+    .string "I just had sand in my eye!$"
 
 ViridianForest_Text_CharliePostBattle:: @ 8172527
-    .string "Bug Pokémon evolve quickly.\n"
-    .string "They're a lot of fun!$"
+    .string "What you standing around for?\n"
+    .string "Get out of here!$"
 
 ViridianForest_Text_RanOutOfPokeBalls:: @ 8172559
-    .string "I was throwing Poké Balls to\n"
-    .string "catch Pokémon, and I ran out.\p"
-    .string "That's why you can never have too\n"
-    .string "many Poké Balls.$"
+    .string "Leave me be...$"
 
 ViridianForest_Text_AvoidGrassyAreasWhenWeak:: @ 81725C7
     .string "Trainer Tips\p"
-    .string "If your Pokémon are weak and you\n"
-    .string "want to avoid battles, stay away\l"
-    .string "from grassy areas!$"
+    .string "Make sure you go out and touch\n"
+    .string "some real grass. It'll be good\l"
+    .string "for you.$"
 
 ViridianForest_Text_UseAntidoteForPoison:: @ 8172629
-    .string "For poison, use Antidote!\n"
-    .string "Get it at Pokémon Marts!$"
+    .string "If you don't know how to fix\n"
+    .string "poison, why are you here?$"
 
 ViridianForest_Text_ContactOakViaPCToRatePokedex:: @ 817265C
     .string "Trainer Tips\p"
-    .string "Contact Prof. Oak via a PC to\n"
-    .string "get your Pokédex evaluated!$"
+    .string "Just becuase you know what is\n"
+    .string "in their pants, doesn't mean\l"
+    .string "you know their gender!$"
 
 ViridianForest_Text_CantCatchOwnedMons:: @ 81726A3
     .string "Trainer Tips\p"
-    .string "You can't catch a Pokémon that\n"
-    .string "belongs to someone else.\p"
-    .string "Throw Poké Balls only at wild\n"
-    .string "Pokémon to catch them!$"
+    .string "Life is like a box of chocolates\n"
+    .string "you'll never know what you\l"
+    .string "gonna get. Great movie\l"
+    .string "Go watch it!$"
 
 ViridianForest_Text_WeakenMonsBeforeCapture:: @ 817271D
     .string "Trainer Tips\p"
-    .string "Weaken Pokémon before attempting\n"
-    .string "capture!\p"
-    .string "When healthy, they may escape!$"
+    .string "Spending thousands on Pokémon\n"
+    .string "Cards isn't healthy.\p"
+    .string "What do I know? I'm just a sign.$"
 
 ViridianForest_Text_LeavingViridianForest:: @ 8172773
     .string "Leaving Viridian Forest\n"

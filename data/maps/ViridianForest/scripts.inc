@@ -62,3 +62,55 @@ ViridianForest_EventScript_Charlie::
 	trainerbattle_single TRAINER_BUG_CATCHER_CHARLIE, ViridianForest_Text_CharlieIntro, ViridianForest_Text_CharlieDefeat
 	msgbox ViridianForest_Text_CharliePostBattle, MSGBOX_AUTOCLOSE
 	end
+
+ViridianForest_Trigger_Gengar::
+	lockall
+	msgbox ViridianForest_Trigger_Gengar_Text_2
+	applymovement 11, ViridianForest_GengarAlert
+	msgbox ViridianForest_Trigger_Gengar_Text_0
+	waitbuttonpress
+	applymovement 11, ViridianForest_GengarRuns
+	waitmovement 11
+	msgbox ViridianForest_Trigger_Gengar_Text_1
+	removeobject 11
+	setvar VAR_FOREST_GENGAR, 1
+	setflag FLAG_GENGAR_FOREST
+	releaseall
+	return
+
+ViridianForest_GengarAlert::
+	emote_question_mark
+	face_player
+	delay_16
+	delay_16
+	delay_16
+	delay_16
+	delay_16
+	delay_16
+	delay_16
+	delay_16
+
+ViridianForest_GengarRuns::
+	delay_16
+	delay_16
+	delay_16
+	delay_16
+	delay_16
+	delay_16
+	delay_16
+	delay_16
+	walk_faster_up
+	walk_faster_up
+	walk_faster_up
+	walk_faster_up
+	walk_faster_up
+	step_end
+
+ViridianForest_Trigger_Gengar_Text_0:
+	.string "What is that?$"
+
+ViridianForest_Trigger_Gengar_Text_1:
+	.string "Was that a Gengar?$"
+
+ViridianForest_Trigger_Gengar_Text_2:
+	.string "Huh?$"

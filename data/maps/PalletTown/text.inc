@@ -3,22 +3,23 @@ PalletTown_Text_OakDontGoOut:: @ 817D72C
     .string "Don't go out!$"
 
 PalletTown_Text_OakGrassUnsafeNeedMon:: @ 817D74A
-    .string "Oak: It's unsafe!\n"
+    .string "Oak: It's not save!\n"
     .string "Wild Pokémon live in tall grass!\p"
-    .string "You need your own Pokémon for\n"
+    .string "You'll need your own Pokémon for\n"
     .string "your protection.\p"
     .string "I know!\n"
-    .string "Here, come with me!$"
+    .string "Come along now, {PLAYER}!$"
 
 PalletTown_Text_RaisingMonsToo:: @ 817D7C8
-    .string "I'm raising Pokémon, too.\p"
-    .string "When they get strong, they can\n"
-    .string "protect me.$"
+    .string "I'm gonna be a Pokémon Trainer.\p"
+    .string "I wanna be the very best,\n"
+    .string "that no one ever was.$"
 
 PalletTown_Text_CanStoreItemsAndMonsInPC::
-    .string "Technology is incredible!\p"
-    .string "You can now store and recall items\n"
-    .string "and Pokémon as data via PC.$"
+    .string "Kids and thier technodoodles!\p"
+    .string "Back in my day we used to have\n"
+    .string "to carry all our items and\l"
+    .string "Pokémon on our backs.$"
 
 PalletTown_Text_OakPokemonResearchLab:: @ 817D866
     .string "Oak Pokémon Research Lab$"
@@ -31,12 +32,12 @@ PalletTown_Text_RivalsHouse::
 
 PalletTown_Text_TownSign:: @ 817D895
     .string "Pallet Town\n"
-    .string "Shades of your journey await!$"
+    .string "Shades of a Hero's town!$"
 
 PalletTown_Text_OakLetMeSeePokedex:: @ 817D8BF
     .string "Oak: Ah, {PLAYER}!\n"
-    .string "You're back, are you?\p"
-    .string "How much have you filled in your\n"
+    .string "You're back, great!\p"
+    .string "How much have you filled your\n"
     .string "Pokédex?\p"
     .string "May I see it?\p"
     .string "Let's see…$"
@@ -62,5 +63,4 @@ PalletTown_Text_OakYouEnjoyingTraveling:: @ 817DA16
     .string "Knowing you, {PLAYER}, I can easily\n"
     .string "imagine you going out to even more\l"
     .string "exotic locales.\p"
-    .string "Good for you, good for you.\n"
-    .string "Hohoho.$"
+    .string "Good for you, good for you.$"

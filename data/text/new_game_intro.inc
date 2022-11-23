@@ -16,20 +16,20 @@ gNameChoice_Fire:: @ 81C5767
 gNameChoice_Gary:: @ 81C576C
     .string "Gary$"
 
-gNameChoice_Kaz:: @ 81C5771
-    .string "Kaz$"
+gNameChoice_Samuel:: @ 81C5771
+    .string "Samuel$"
 
-gNameChoice_Toru:: @ 81C5775
-    .string "Toru$"
+gNameChoice_Elvis:: @ 81C5775
+    .string "Elvis$"
 
 gNameChoice_Ash:: @ 81C577A
     .string "Ash$"
 
-gNameChoice_Kene:: @ 81C577E
-    .string "Kene$"
+gNameChoice_Liam:: @ 81C577E
+    .string "Liam$"
 
-gNameChoice_Geki:: @ 81C5783
-    .string "Geki$"
+gNameChoice_Nelson:: @ 81C5783
+    .string "Nelson$"
 
 gNameChoice_Jak:: @ 81C5788
     .string "Jak$"
@@ -70,8 +70,8 @@ gNameChoice_Kay:: @ 81C57C2
 gNameChoice_Tosh:: @ 81C57C6
     .string "Tosh$"
 
-gNameChoice_Roak:: @ 81C57CB
-    .string "Roak$"
+gNameChoice_Water:: @ 81C57CB
+    .string "Water$"
 
 gNameChoice_Omi:: @ 81C57D0
     .string "Omi$"
@@ -97,8 +97,8 @@ gNameChoice_Paula:: @ 81C57F4
 gNameChoice_June:: @ 81C57FA
     .string "June$"
 
-gNameChoice_Cassie:: @ 81C57FF
-    .string "Cassie$"
+gNameChoice_Vee:: @ 81C57FF
+    .string "Vee$"
 
 gNameChoice_Rey:: @ 81C5806
     .string "Rey$"
@@ -118,11 +118,14 @@ gNameChoice_Norie:: @ 81C5819
 gNameChoice_Sai:: @ 81C581F
     .string "Sai$"
 
-gNameChoice_Momo:: @ 81C5823
-    .string "Momo$"
+gNameChoice_Jenn:: @ 81C5823
+    .string "Jenn$"
 
 gNameChoice_Suzi:: @ 81C5828
     .string "Suzi$"
+
+gNameChoice_Green:: @ 81C5828
+    .string "Green$"
 
 gNewGame_HelpDocs1::
     .string "The various buttons will be explained in\n"

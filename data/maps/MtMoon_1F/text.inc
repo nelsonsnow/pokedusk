@@ -1,14 +1,14 @@
 MtMoon_1F_Text_MarcosIntro:: @ 817279D
     .string "Whoa!\n"
     .string "You shocked me!\l"
-    .string "…Oh, you're just a kid!$"
+    .string "You gotta be more careful!$"
 
 MtMoon_1F_Text_MarcosDefeat::
-    .string "Wow!\n"
+    .string "Woah!\n"
     .string "Shocked again!$"
 
 MtMoon_1F_Text_MarcosPostBattle::
-    .string "Kids like you shouldn't be\n"
+    .string "You really shouldn't be\n"
     .string "wandering around here in the dark.$"
 
 MtMoon_1F_Text_JoshIntro::
@@ -16,43 +16,43 @@ MtMoon_1F_Text_JoshIntro::
     .string "too?$"
 
 MtMoon_1F_Text_JoshDefeat::
-    .string "Losing stinks!\n"
+    .string "Losing sucks ass!\n"
     .string "It's so uncool.$"
 
 MtMoon_1F_Text_JoshPostBattle::
     .string "I came all the way down here to\n"
-    .string "show off to girls.$"
+    .string "impress some chicks.$"
 
 MtMoon_1F_Text_MiriamIntro::
-    .string "Wow! It's way bigger in here than\n"
+    .string "It's way bigger in here than\n"
     .string "I thought!$"
 
 MtMoon_1F_Text_MiriamDefeat::
     .string "Oh!\n"
-    .string "I lost it!$"
+    .string "I lost!$"
 
 MtMoon_1F_Text_MiriamPostBattle::
     .string "How do you get out of here?\n"
-    .string "It's so big, I may get lost.$"
+    .string "Where's David Bowie when you\l"
+    .string "need him.$"
 
 MtMoon_1F_Text_JovanIntro::
-    .string "What!\n"
+    .string "AHHH!\n"
     .string "Don't sneak up on me!$"
 
 MtMoon_1F_Text_JovanDefeat:: @ 8172927
-    .string "My Pokémon won't do!$"
+    .string "My Pokémon really fizzed out!$"
 
 MtMoon_1F_Text_JovanPostBattle:: @ 817293C
     .string "I have to find stronger Pokémon.\n"
-    .string "Where might they be?$"
+    .string "I'll keep looking?$"
 
 MtMoon_1F_Text_IrisIntro::
-    .string "What?\n"
-    .string "I'm waiting for my friends to find\l"
-    .string "me here.$"
+    .string "Whadaya want?\n"
+    .string "I'm waiting for my friends$"
 
 MtMoon_1F_Text_IrisDefeat::
-    .string "I lost?$"
+    .string "Aww... I lost?$"
 
 MtMoon_1F_Text_IrisPostBattle::
     .string "I came because I heard there are\n"
@@ -66,7 +66,7 @@ MtMoon_1F_Text_KentDefeat::
     .string "You got me!$"
 
 MtMoon_1F_Text_KentPostBattle::
-    .string "I saw them!\n"
+    .string "The suspicious men? I saw them...\n"
     .string "I'm sure they're from Team Rocket!$"
 
 MtMoon_1F_Text_RobbyIntro::
@@ -74,19 +74,18 @@ MtMoon_1F_Text_RobbyIntro::
     .string "to get to Cerulean City.$"
 
 MtMoon_1F_Text_RobbyDefeat::
-    .string "I lost.$"
+    .string "Dammit!$"
 
 MtMoon_1F_Text_RobbyPostBattle:: @ 8172A97
-    .string "Zubat is tough!\n"
-    .string "But if you can catch one, you'll\l"
-    .string "be able to count on it.$"
+    .string "I like Zubat!\n"
+    .string "It reminds me of the caves back\l"
+    .string "home.$"
 
 MtMoon_1F_Text_ZubatIsABloodsucker::
     .string "Beware!\n"
-    .string "Zubat is a bloodsucker!$"
+    .string "Zubats above!$"
 
 MtMoon_1F_Text_BrockHelpsExcavateFossils::
-    .string "Hi, I'm excavating for fossils here\n"
+    .string "I'm excavating for fossils here\n"
     .string "under Mt. Moon.\p"
-    .string "Sometimes, Brock of Pewter Gym\n"
-    .string "lends me a hand.$"
+    .string "Sometimes, Brock lends me a hand.$"

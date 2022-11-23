@@ -109,7 +109,7 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "EventScript_CutTree",
       "flag": "FLAG_TEMP_12"
-       }
+    }
   ],
   "warp_events": [
     {
@@ -198,33 +198,6 @@
       "var": "VAR_MAP_SCENE_PEWTER_CITY",
       "var_value": "0",
       "script": "PewterCity_EventScript_GymGuideTriggerRight"
-    },
-    {
-      "type": "trigger",
-      "x": 46,
-      "y": 21,
-      "elevation": 3,
-      "var": "VAR_MAP_SCENE_PEWTER_CITY",
-      "var_value": "1",
-      "script": "PewterCity_EventScript_RunningShoesAideTriggerTop"
-    },
-    {
-      "type": "trigger",
-      "x": 46,
-      "y": 22,
-      "elevation": 3,
-      "var": "VAR_MAP_SCENE_PEWTER_CITY",
-      "var_value": "1",
-      "script": "PewterCity_EventScript_RunningShoesAideTriggerMid"
-    },
-    {
-      "type": "trigger",
-      "x": 46,
-      "y": 23,
-      "elevation": 3,
-      "var": "VAR_MAP_SCENE_PEWTER_CITY",
-      "var_value": "1",
-      "script": "PewterCity_EventScript_RunningShoesAideTriggerBottom"
     }
   ],
   "bg_events": [

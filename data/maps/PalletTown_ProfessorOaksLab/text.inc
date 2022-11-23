@@ -82,7 +82,7 @@ PalletTown_ProfessorOaksLab_Text_OakThreeMonsChooseOne:: @ 818DFBC
     .string "But now, in my old age, I'm done\n"
     .string "I want you two to carry my\p"
     .string "legacy. You can have one.\n"
-    .string "Go on, choose!$"
+    .string "{PLAYER} You're up first...$"
 
 PalletTown_ProfessorOaksLab_Text_OakBePatientRival:: @ 818E0EA
     .string "Oak: Relax, {RIVAL}.\n"
@@ -116,6 +116,42 @@ PalletTown_ProfessorOaksLab_Text_OakChoosingBulbasaur:: @ 818E272
     .string "One of my personal favorites.\p"
     .string "So, {PLAYER}, you want to go with\n"
     .string "the Grass Pokémon Bulbasaur?$"
+
+PalletTown_ProfessorOaksLab_Text_OakChoosingTorchic:: @ 818E194
+    .string "Ah! Torchic is your choice.\n"
+    .string "They are pretty fiesty Pokémon.\p"
+    .string "So, {PLAYER}, you're claiming the\n"
+    .string "Fire Pokémon Torchic?$"
+
+PalletTown_ProfessorOaksLab_Text_OakChoosingMudkip:: @ 818E207
+    .string "Hm! Mudkip is your choice.\n"
+    .string "Ah, a Pokémon with strong resolve.\p"
+    .string "So, {PLAYER}, you've decided on the\n"
+    .string "Water Pokémon Mudkip?$"
+
+PalletTown_ProfessorOaksLab_Text_OakChoosingChikorita:: @ 818E272
+    .string "I see! Chikorita is your choice.\n"
+    .string "They are such loyal Pokémon.\p"
+    .string "So, {PLAYER}, you want to go with\n"
+    .string "the Grass Pokémon Chikorita?$"
+
+PalletTown_ProfessorOaksLab_Text_OakChoosingCyndaquil:: @ 818E194
+    .string "Ah! Cyndaquil is your choice.\n"
+    .string "a reserved Pokémon but reliable.\p"
+    .string "So, {PLAYER}, you're claiming the\n"
+    .string "Fire Pokémon Cyndaquil?$"
+
+PalletTown_ProfessorOaksLab_Text_OakChoosingTotodile:: @ 818E207
+    .string "Hm! Totodile is your choice.\n"
+    .string "Such a rambunctious Pokémon.\p"
+    .string "So, {PLAYER}, you've decided on the\n"
+    .string "Water Pokémon Totodile?$"
+
+PalletTown_ProfessorOaksLab_Text_OakChoosingTreecko:: @ 818E272
+    .string "I see! Treecko is your choice.\n"
+    .string "The stern and agile Pokémon.\p"
+    .string "So, {PLAYER}, you want to go with\n"
+    .string "the Grass Pokémon Treecko?$"
 
 PalletTown_ProfessorOaksLab_Text_OakThisMonIsEnergetic:: @ 818E2E5
     .string "This Pokémon is really quite\n"
@@ -179,7 +215,14 @@ PalletTown_ProfessorOaksLab_Text_OakCatchMonsForDataTakeThese:: @ 818E612
     .string "on Pokémon by just seeing them.\p"
     .string "You must catch them to obtain\n"
     .string "complete data.\p"
-    .string "So, here are some tools for\n"
+    .string "However it is only set up for\n"
+    .string "Pokémon in Kanto.\p"
+    .string "There are some migratory Pokémon\n"
+    .string "that you might encounter and\l"
+    .string "they won't be recorded.\p"
+    .string "But don't worry. I am working\n"
+    .string "on an upgrade!\p"
+    .string "Also, here are some tools for\n"
     .string "catching wild Pokémon.$"
 
 PalletTown_ProfessorOaksLab_Text_ReceivedFivePokeBalls:: @ 818E6B3
@@ -354,3 +397,9 @@ PalletTown_ProfessorOaksLab_Text_RivalIllCompleteThePokedex::
     .string "One Island first…\p"
     .string "Anyways, I'm outta here!$"
 
+PalletTown_ProfessorOaksLab_EventScript_Oak_Text_0:
+	.string "Ok, where were we? Ah yes! Where\n"
+	.string "would you like your starter from?$"
+
+PalletTown_ProfessorOaksLab_EventScript_Oak_Text_1:
+	.string "Go on, choose...$"

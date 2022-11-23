@@ -55,7 +55,7 @@ gBattleAnims_Moves::
 	.4byte Move_HORN_DRILL
 	.4byte Move_TACKLE
 	.4byte Move_BODY_SLAM
-	.4byte Move_WRAP
+	.4byte Move_FAIRY_WIND
 	.4byte Move_TAKE_DOWN
 	.4byte Move_THRASH
 	.4byte Move_DOUBLE_EDGE
@@ -359,7 +359,7 @@ gBattleAnims_Moves::
 	.4byte Move_HOWL
 	.4byte Move_DRAGON_CLAW
 	.4byte Move_FRENZY_PLANT
-	.4byte Move_BULK_UP
+	.4byte Move_DISARMING_VOICE
 	.4byte Move_BOUNCE
 	.4byte Move_MUD_SHOT
 	.4byte Move_POISON_TAIL
@@ -4455,13 +4455,16 @@ Move_HOWL:
 	delay 30
 	end
 
-Move_BULK_UP:
-	loadspritegfx ANIM_TAG_BREATH
-	createvisualtask AnimTask_GrowAndShrink, 2
-	playsewithpan SE_M_SWAGGER, SOUND_PAN_ATTACKER
+Move_DISARMING_VOICE:
+	loadspritegfx ANIM_TAG_NOISE_LINE
+	createvisualtask AnimTask_DeepInhale, 2, 0
+	createvisualtask SoundTask_PlayDoubleCry, 2, ANIM_ATTACKER, DOUBLE_CRY_GROWL
+	call RoarEffect
+	delay 12
+	createvisualtask AnimTask_ShakeMon2, 2, ANIM_TARGET, 2, 0, 8, 1
+	createvisualtask AnimTask_ShakeMon2, 2, ANIM_TARGET, 2, 0, 8, 1
 	waitforvisualfinish
-	createsprite gBreathPuffSpriteTemplate, ANIM_ATTACKER, 2
-	loopsewithpan SE_M_SWAGGER, SOUND_PAN_ATTACKER, 4, 2
+	createvisualtask SoundTask_WaitForCry, 5
 	waitforvisualfinish
 	end
 
@@ -7239,10 +7242,6 @@ BindWrapSqueezeTarget:
 	delay 16
 	return
 
-Move_WRAP:
-	createvisualtask AnimTask_TranslateMonEllipticalRespectSide, 2, ANIM_ATTACKER, 6, 4, 2, 4
-	goto BindWrap
-
 Move_PSYBEAM:
 	loadspritegfx ANIM_TAG_GOLD_RING
 	playsewithpan SE_M_PSYBEAM, SOUND_PAN_ATTACKER
@@ -7264,6 +7263,20 @@ Move_PSYBEAM:
 	waitforvisualfinish
 	delay 1
 	call UnsetPsychicBackground
+	end
+
+	Move_FAIRY_WIND:
+	loadspritegfx ANIM_TAG_PINK_PETAL
+	playsewithpan SE_M_SWEET_SCENT, SOUND_PAN_ATTACKER
+	createsprite gSweetScentPetalSpriteTemplate, ANIM_ATTACKER, 2, 100, 0, 100
+	delay 25
+	setpan 0
+	call SweetScentEffect
+	createsprite gSweetScentPetalSpriteTemplate, ANIM_ATTACKER, 2, 55, 0
+	setpan SOUND_PAN_TARGET
+	createvisualtask AnimTask_BlendColorCycle, 2, F_PAL_DEF_SIDE, 1, 5, 5, 13, RGB(31, 21, 21)
+	call SweetScentEffect
+	waitforvisualfinish
 	end
 
 PsybeamRings:

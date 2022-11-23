@@ -3938,6 +3938,78 @@ const struct Trainer gTrainers[] = {
         .partySize = NELEMS(sParty_RivalOaksLabCharmander),
         .party = {.NoItemDefaultMoves = sParty_RivalOaksLabCharmander}
     },
+    [TRAINER_RIVAL_OAKS_LAB_TOTODILE] = {
+        .partyFlags = 0,
+        .trainerClass = TRAINER_CLASS_RIVAL_EARLY,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_RIVAL_EARLY,
+        .trainerName = _("Terry"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
+        .partySize = NELEMS(sParty_RivalOaksLabTotodile),
+        .party = {.NoItemDefaultMoves = sParty_RivalOaksLabTotodile}
+    },
+    [TRAINER_RIVAL_OAKS_LAB_CHIKORITA] = {
+        .partyFlags = 0,
+        .trainerClass = TRAINER_CLASS_RIVAL_EARLY,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_RIVAL_EARLY,
+        .trainerName = _("Terry"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
+        .partySize = NELEMS(sParty_RivalOaksLabChikorita),
+        .party = {.NoItemDefaultMoves = sParty_RivalOaksLabChikorita}
+    },
+    [TRAINER_RIVAL_OAKS_LAB_CYNDAQUIL] = {
+        .partyFlags = 0,
+        .trainerClass = TRAINER_CLASS_RIVAL_EARLY,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_RIVAL_EARLY,
+        .trainerName = _("Terry"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
+        .partySize = NELEMS(sParty_RivalOaksLabCyndaquil),
+        .party = {.NoItemDefaultMoves = sParty_RivalOaksLabCyndaquil}
+    },
+    [TRAINER_RIVAL_OAKS_LAB_MUDKIP] = {
+        .partyFlags = 0,
+        .trainerClass = TRAINER_CLASS_RIVAL_EARLY,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_RIVAL_EARLY,
+        .trainerName = _("Terry"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
+        .partySize = NELEMS(sParty_RivalOaksLabMudkip),
+        .party = {.NoItemDefaultMoves = sParty_RivalOaksLabMudkip}
+    },
+    [TRAINER_RIVAL_OAKS_LAB_TREECKO] = {
+        .partyFlags = 0,
+        .trainerClass = TRAINER_CLASS_RIVAL_EARLY,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_RIVAL_EARLY,
+        .trainerName = _("Terry"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
+        .partySize = NELEMS(sParty_RivalOaksLabTreecko),
+        .party = {.NoItemDefaultMoves = sParty_RivalOaksLabTreecko}
+    },
+    [TRAINER_RIVAL_OAKS_LAB_TORCHIC] = {
+        .partyFlags = 0,
+        .trainerClass = TRAINER_CLASS_RIVAL_EARLY,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_RIVAL_EARLY,
+        .trainerName = _("Terry"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
+        .partySize = NELEMS(sParty_RivalOaksLabTorchic),
+        .party = {.NoItemDefaultMoves = sParty_RivalOaksLabTorchic}
+    },
     [TRAINER_RIVAL_ROUTE22_EARLY_SQUIRTLE] = {
         .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_RIVAL_EARLY,
@@ -3974,6 +4046,78 @@ const struct Trainer gTrainers[] = {
         .partySize = NELEMS(sParty_RivalRoute22EarlyCharmander),
         .party = {.NoItemCustomMoves = sParty_RivalRoute22EarlyCharmander}
     },
+        [TRAINER_RIVAL_ROUTE22_EARLY_TOTODILE] = {
+        .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_RIVAL_EARLY,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_RIVAL_EARLY,
+        .trainerName = _("Terry"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
+        .partySize = NELEMS(sParty_RivalRoute22EarlyTotodile),
+        .party = {.NoItemCustomMoves = sParty_RivalRoute22EarlyTotodile}
+    },
+    [TRAINER_RIVAL_ROUTE22_EARLY_CHIKORITA] = {
+        .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_RIVAL_EARLY,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_RIVAL_EARLY,
+        .trainerName = _("Terry"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
+        .partySize = NELEMS(sParty_RivalRoute22EarlyChikorita),
+        .party = {.NoItemCustomMoves = sParty_RivalRoute22EarlyChikorita}
+    },
+    [TRAINER_RIVAL_ROUTE22_EARLY_CYNDAQUIL] = {
+        .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_RIVAL_EARLY,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_RIVAL_EARLY,
+        .trainerName = _("Terry"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
+        .partySize = NELEMS(sParty_RivalRoute22EarlyCyndaquil),
+        .party = {.NoItemCustomMoves = sParty_RivalRoute22EarlyCyndaquil}
+    },
+        [TRAINER_RIVAL_ROUTE22_EARLY_MUDKIP] = {
+        .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_RIVAL_EARLY,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_RIVAL_EARLY,
+        .trainerName = _("Terry"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
+        .partySize = NELEMS(sParty_RivalRoute22EarlyMudkip),
+        .party = {.NoItemCustomMoves = sParty_RivalRoute22EarlyMudkip}
+    },
+    [TRAINER_RIVAL_ROUTE22_EARLY_TREECKO] = {
+        .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_RIVAL_EARLY,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_RIVAL_EARLY,
+        .trainerName = _("Terry"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
+        .partySize = NELEMS(sParty_RivalRoute22EarlyTreecko),
+        .party = {.NoItemCustomMoves = sParty_RivalRoute22EarlyTreecko}
+    },
+    [TRAINER_RIVAL_ROUTE22_EARLY_TORCHIC] = {
+        .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_RIVAL_EARLY,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_RIVAL_EARLY,
+        .trainerName = _("Terry"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
+        .partySize = NELEMS(sParty_RivalRoute22EarlyTorchic),
+        .party = {.NoItemCustomMoves = sParty_RivalRoute22EarlyTorchic}
+    },
     [TRAINER_RIVAL_CERULEAN_SQUIRTLE] = {
         .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_RIVAL_EARLY,
@@ -4009,6 +4153,78 @@ const struct Trainer gTrainers[] = {
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
         .partySize = NELEMS(sParty_RivalCeruleanCharmander),
         .party = {.NoItemCustomMoves = sParty_RivalCeruleanCharmander}
+    },
+        [TRAINER_RIVAL_CERULEAN_TOTODILE] = {
+        .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_RIVAL_EARLY,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_RIVAL_EARLY,
+        .trainerName = _("Terry"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
+        .partySize = NELEMS(sParty_RivalCeruleanTotodile),
+        .party = {.NoItemCustomMoves = sParty_RivalCeruleanTotodile}
+    },
+    [TRAINER_RIVAL_CERULEAN_CHIKORITA] = {
+        .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_RIVAL_EARLY,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_RIVAL_EARLY,
+        .trainerName = _("Terry"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
+        .partySize = NELEMS(sParty_RivalCeruleanChikorita),
+        .party = {.NoItemCustomMoves = sParty_RivalCeruleanChikorita}
+    },
+    [TRAINER_RIVAL_CERULEAN_CYNDAQUIL] = {
+        .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_RIVAL_EARLY,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_RIVAL_EARLY,
+        .trainerName = _("Terry"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
+        .partySize = NELEMS(sParty_RivalCeruleanCyndaquil),
+        .party = {.NoItemCustomMoves = sParty_RivalCeruleanCyndaquil}
+    },
+        [TRAINER_RIVAL_CERULEAN_MUDKIP] = {
+        .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_RIVAL_EARLY,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_RIVAL_EARLY,
+        .trainerName = _("Terry"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
+        .partySize = NELEMS(sParty_RivalCeruleanMudkip),
+        .party = {.NoItemCustomMoves = sParty_RivalCeruleanMudkip}
+    },
+    [TRAINER_RIVAL_CERULEAN_TREECKO] = {
+        .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_RIVAL_EARLY,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_RIVAL_EARLY,
+        .trainerName = _("Terry"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
+        .partySize = NELEMS(sParty_RivalCeruleanTreecko),
+        .party = {.NoItemCustomMoves = sParty_RivalCeruleanTreecko}
+    },
+    [TRAINER_RIVAL_CERULEAN_TORCHIC] = {
+        .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_RIVAL_EARLY,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_RIVAL_EARLY,
+        .trainerName = _("Terry"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
+        .partySize = NELEMS(sParty_RivalCeruleanTorchic),
+        .party = {.NoItemCustomMoves = sParty_RivalCeruleanTorchic}
     },
     [TRAINER_SCIENTIST_TED] = {
         .partyFlags = 0,
@@ -4238,17 +4454,17 @@ const struct Trainer gTrainers[] = {
         .partySize = NELEMS(sParty_TeamRocketGrunt3),
         .party = {.NoItemDefaultMoves = sParty_TeamRocketGrunt3}
     },
-    [TRAINER_TEAM_ROCKET_GRUNT_4] = {
+    [TRAINER_TEAM_ROCKET_JESSIEJAMES] = {
         .partyFlags = 0,
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
-        .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
-        .trainerName = _("Grunt"),
+        .trainerPic = TRAINER_PIC_JESSIEJAMES,
+        .trainerName = _("Trio"),
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
-        .partySize = NELEMS(sParty_TeamRocketGrunt4),
-        .party = {.NoItemDefaultMoves = sParty_TeamRocketGrunt4}
+        .partySize = NELEMS(sParty_TeamRocketJessieJames1),
+        .party = {.NoItemDefaultMoves = sParty_TeamRocketJessieJames1}
     },
     [TRAINER_TEAM_ROCKET_GRUNT_5] = {
         .partyFlags = 0,

@@ -23,7 +23,6 @@ static const u16 sEasyChatGroup_Move2[] = {
     MOVE_BONEMERANG,
     MOVE_BOUNCE,
     MOVE_BUBBLE_BEAM,
-    MOVE_BULK_UP,
     MOVE_BULLET_SEED,
     MOVE_CALM_MIND,
     MOVE_CAMOUFLAGE,
@@ -199,6 +198,5 @@ static const u16 sEasyChatGroup_Move2[] = {
     MOVE_WHIRLWIND,
     MOVE_WING_ATTACK,
     MOVE_WISH,
-    MOVE_WRAP,
     MOVE_ZAP_CANNON,
 };

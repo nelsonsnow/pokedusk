@@ -397,14 +397,12 @@ static const u8 *const sMaleNameChoices[] = {
     gNameChoice_Red,
     gNameChoice_Fire,
     gNameChoice_Ash,
-    gNameChoice_Kene,
-    gNameChoice_Geki,
+    gNameChoice_Nelson,
 #elif defined(LEAFGREEN)
     gNameChoice_Blue,
-    gNameChoice_Leaf,
+    gNameChoice_Water
     gNameChoice_Gary,
-    gNameChoice_Kaz,
-    gNameChoice_Toru,
+    gNameChoice_Elvis,
 #endif
     gNameChoice_Jak,
     gNameChoice_Janne,
@@ -418,48 +416,49 @@ static const u8 *const sMaleNameChoices[] = {
     gNameChoice_Jon,
     gNameChoice_Ralph,
     gNameChoice_Kay,
-    gNameChoice_Tosh,
-    gNameChoice_Roak
+    gNameChoice_Liam,
+    gNameChoice_Samuel,
+    gNameChoice_Tosh
 };
 
 static const u8 *const sFemaleNameChoices[] = {
 #if defined(FIRERED)
-    gNameChoice_Red,
-    gNameChoice_Fire,
+    gNameChoice_Green,
+    gNameChoice_Leaf,
+    gNameChoice_Vee,
+    gNameChoice_Jenn,
 #elif defined(LEAFGREEN)
     gNameChoice_Blue,
     gNameChoice_Leaf,
 #endif
     gNameChoice_Omi,
-    gNameChoice_Jodi,
     gNameChoice_Amanda,
     gNameChoice_Hillary,
     gNameChoice_Makey,
     gNameChoice_Michi,
     gNameChoice_Paula,
     gNameChoice_June,
-    gNameChoice_Cassie,
     gNameChoice_Rey,
     gNameChoice_Seda,
     gNameChoice_Kiko,
     gNameChoice_Mina,
     gNameChoice_Norie,
     gNameChoice_Sai,
-    gNameChoice_Momo,
-    gNameChoice_Suzi
+    gNameChoice_Suzi,
+    gNameChoice_Jodi
 };
 
 static const u8 *const sRivalNameChoices[] = {
 #if defined(FIRERED)
     gNameChoice_Blue,
+    gNameChoice_Water,
     gNameChoice_Gary,
-    gNameChoice_Kaz,
-    gNameChoice_Toru
+    gNameChoice_Elvis
 #elif defined(LEAFGREEN)
     gNameChoice_Red,
     gNameChoice_Ash,
-    gNameChoice_Kene,
-    gNameChoice_Geki
+    gNameChoice_Liam,
+    gNameChoice_Nelson
 #endif
 };
 
@@ -1140,13 +1139,26 @@ static void Task_OakSpeech23(u8 taskId)
 
 static void Task_OakSpeech24(u8 taskId)
 {
+
+    s16 * data = gTasks[taskId].data;
+
     if (!IsTextPrinterActive(0))
     {
-        BeginNormalPaletteFade(PALETTES_ALL, 0, 0, 16, RGB_BLACK);
-        sOakSpeechResources->hasPlayerBeenNamed = FALSE;
-        gTasks[taskId].func = Task_OakSpeech25;
+        if (tTrainerPicPosX > -60)
+        {
+            tTrainerPicPosX -= 2;
+            gSpriteCoordOffsetX += 2;
+            ChangeBgX(2, 0x200, 2);
+        }
+        else
+        {
+            tTrainerPicPosX = -60;
+            PrintNameChoiceOptions(taskId, sOakSpeechResources->hasPlayerBeenNamed);
+            gTasks[taskId].func = Task_OakSpeech29;
+        }
     }
 }
+
 static void Task_OakSpeech35(u8 taskId)
 {
     s16 * data = gTasks[taskId].data;
@@ -1201,7 +1213,10 @@ static void Task_OakSpeech29(u8 taskId)
         break;
     case 0:
         PlaySE(SE_SELECT);
-        BeginNormalPaletteFade(PALETTES_ALL, 0, 0, 16, 0);
+        ClearStdWindowAndFrameToTransparent(data[13], TRUE);
+        RemoveWindow(data[13]);
+        GetDefaultName(sOakSpeechResources->hasPlayerBeenNamed, input - 1);
+        data[15] = 1;
         gTasks[taskId].func = Task_OakSpeech25;
         break;
     case -1:
@@ -1216,6 +1231,8 @@ static void Task_OakSpeech25(u8 taskId)
         GetDefaultName(sOakSpeechResources->hasPlayerBeenNamed, 0);
         if (sOakSpeechResources->hasPlayerBeenNamed == FALSE)
         {
+            ClearStdWindowAndFrameToTransparent(gTasks[taskId].data[13], 1);
+            RemoveWindow(gTasks[taskId].data[13]);
             DoNamingScreen(NAMING_SCREEN_PLAYER, gSaveBlock2Ptr->playerName, gSaveBlock2Ptr->playerGender, 0, 0, CB2_ReturnFromNamingScreen);
         }
         else
@@ -1885,9 +1902,9 @@ static void GetDefaultName(u8 hasPlayerBeenNamed, u8 rivalNameChoice)
     if (hasPlayerBeenNamed == FALSE)
     {
         if (gSaveBlock2Ptr->playerGender == MALE)
-            src = sMaleNameChoices[Random() % 19];
+            src = sMaleNameChoices[rivalNameChoice];
         else
-            src = sFemaleNameChoices[Random() % 19];
+            src = sFemaleNameChoices[rivalNameChoice];
         dest = gSaveBlock2Ptr->playerName;
     }
     else
