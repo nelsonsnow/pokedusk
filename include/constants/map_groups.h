@@ -137,6 +137,7 @@
 #define MAP_SIX_ISLAND_PATTERN_BUSH              (121 | (1 << 8))
 #define MAP_SIX_ISLAND_ALTERING_CAVE             (122 | (1 << 8))
 #define MAP_PIKACHU_MEADOW                       (123 | (1 << 8))
+#define MAP_CLEFARY_COVE                         (124 | (1 << 8))
 
 // gMapGroup_SpecialArea
 #define MAP_NAVEL_ROCK_EXTERIOR                       (0 | (2 << 8))
@@ -272,6 +273,8 @@
 #define MAP_SEVEN_ISLAND_SEVAULT_CANYON          (67 | (3 << 8))
 #define MAP_SEVEN_ISLAND_TANOBY_RUINS            (68 | (3 << 8))
 #define MAP_NEW_BARK_TOWN                        (69 | (3 << 8))
+#define MAP_ROUTE29                              (70 | (3 << 8))
+#define MAP_CHERRYGROVE_CITY                     (71 | (3 << 8))
 
 // gMapGroup_IndoorPallet
 #define MAP_PALLET_TOWN_PLAYERS_HOUSE_1F   (0 | (4 << 8))

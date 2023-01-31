@@ -1375,3 +1375,9 @@ Text_TestMsg::
 
 	.include "data/maps/PikachuMeadow/scripts.inc"
 
+	.include "data/maps/ClefaryCove/scripts.inc"
+
+
+	.include "data/maps/Route29/scripts.inc"
+
+	.include "data/maps/CherrygroveCity/scripts.inc"

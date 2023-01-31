@@ -451,7 +451,7 @@ static const u8 gInitialMovementTypeFacingDirections[MOVEMENT_TYPES_COUNT] = {
 #define OBJ_EVENT_PAL_TAG_NPC_PINK_REFLECTION         0x1108
 #define OBJ_EVENT_PAL_TAG_NPC_GREEN_REFLECTION        0x1109
 #define OBJ_EVENT_PAL_TAG_NPC_WHITE_REFLECTION        0x110A
-#define OBJ_EVENT_PAL_TAG_RS_QUINTY_PLUMP             0x110B
+#define OBJ_EVENT_PAL_TAG_RS_QUINTY_PLUMP             0x110B //Jessie and James Palette
 #define OBJ_EVENT_PAL_TAG_RS_QUINTY_PLUMP_REFLECTION  0x110C
 #define OBJ_EVENT_PAL_TAG_RS_TRUCK                    0x110D
 #define OBJ_EVENT_PAL_TAG_RS_MACHOKE                  0x110E
@@ -496,7 +496,7 @@ static const struct SpritePalette sObjectEventSpritePalettes[] = {
     {gObjectEventPal_PlayerReflection,        OBJ_EVENT_PAL_TAG_PLAYER_GREEN_REFLECTION},
     {gObjectEventPal_Meteorite,               OBJ_EVENT_PAL_TAG_METEORITE},
     {gObjectEventPal_SSAnne,                  OBJ_EVENT_PAL_TAG_SS_ANNE},
-    {gObjectEventPal_Seagallop,               OBJ_EVENT_PAL_TAG_SEAGALLOP},
+    {gObjectEventPal_Seagallop,               OBJ_EVENT_PAL_TAG_SEAGALLOP},   
     {},
 };
 

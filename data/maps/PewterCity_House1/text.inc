@@ -10,6 +10,6 @@ PewterCity_House1_Text_TradeMonsAreFinicky:: @ 81915DB
     .string "He is a rescue Pokémon that we were\n"
     .string "able to care for after he was abused.\p"
     .string "Team Rocket is a menace and really\n"
-    .string "hurts Pokémon. Justice will eventually\p"
+    .string "hurt Pokémon. Justice will eventually\p"
     .string "come for them and they will go down…$"
 

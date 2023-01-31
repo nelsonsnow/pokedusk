@@ -20,7 +20,7 @@ ViridianCity_Mart_Text_ShopDoesGoodBusinessInAntidotes::
     .string "...$"
 
 ViridianCity_Mart_Text_GotToBuySomePotions:: @ 819032C
-    .string "I'm looking for corn. I love it.\p"
-    .string "A big lump with knobs,\n"
-    .string "IT HAS THE JUICE!$"
+    .string "Potions...potions...potions....\p"
+    .string "I'm looking for a special brand,\n"
+    .string "Its my brand!$"
 

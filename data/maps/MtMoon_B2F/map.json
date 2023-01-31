@@ -50,11 +50,11 @@
       "y": 11,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
-      "movement_range_x": 1,
-      "movement_range_y": 1,
-      "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "0",
-      "script": "MtMoon_B2F_EventScript_Miguel",
+      "movement_range_x": 2,
+      "movement_range_y": 2,
+      "trainer_type": "TRAINER_TYPE_NORMAL",
+      "trainer_sight_or_berry_tree_id": "5",
+      "script": "MtMoon_B2F_EventScript_BattleMiguel",
       "flag": "0"
     },
     {
@@ -69,20 +69,6 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "3",
       "script": "MtMoon_B2F_EventScript_Grunt1",
-      "flag": "FLAG_HIDE_MISC_KANTO_ROCKETS"
-    },
-    {
-      "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_ROCKET_M",
-      "x": 12,
-      "y": 20,
-      "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
-      "movement_range_x": 1,
-      "movement_range_y": 1,
-      "trainer_type": "TRAINER_TYPE_NORMAL",
-      "trainer_sight_or_berry_tree_id": "2",
-      "script": "MtMoon_B2F_EventScript_Grunt4",
       "flag": "FLAG_HIDE_MISC_KANTO_ROCKETS"
     },
     {
@@ -168,6 +154,48 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "MtMoon_B2F_EventScript_ItemAntidote",
       "flag": "FLAG_HIDE_MT_MOON_B2F_ANTIDOTE"
+    },
+    {
+      "type": "object",
+      "graphics_id": "OBJ_EVENT_GFX_JESSIE",
+      "x": 12,
+      "y": 15,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "FLAG_JESSEJAMESMTMOON"
+    },
+    {
+      "type": "object",
+      "graphics_id": "OBJ_EVENT_GFX_JAMES",
+      "x": 13,
+      "y": 15,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "FLAG_JESSEJAMESMTMOON"
+    },
+    {
+      "type": "object",
+      "graphics_id": "OBJ_EVENT_GFX_TRMEOWTH",
+      "x": 14,
+      "y": 15,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "FLAG_JESSEJAMESMTMOON"
     }
   ],
   "warp_events": [
@@ -205,17 +233,33 @@
       "elevation": 0,
       "dest_map": "MAP_PALLET_TOWN",
       "dest_warp_id": "6"
+    },
+    {
+      "x": 47,
+      "y": 14,
+      "elevation": 0,
+      "dest_map": "MAP_CLEFARY_COVE",
+      "dest_warp_id": "0"
     }
   ],
   "coord_events": [
     {
       "type": "trigger",
-      "x": 14,
-      "y": 11,
-      "elevation": 3,
-      "var": "VAR_MAP_SCENE_MT_MOON_B2F",
+      "x": 12,
+      "y": 21,
+      "elevation": 0,
+      "var": "VAR_JESSEJAMESMTMOON",
       "var_value": "0",
-      "script": "MtMoon_B2F_EventScript_MiguelTrigger"
+      "script": "MtMoon_B2F_EventScript_JessieJamesTriggerTop"
+    },
+    {
+      "type": "trigger",
+      "x": 12,
+      "y": 22,
+      "elevation": 0,
+      "var": "VAR_JESSEJAMESMTMOON",
+      "var_value": "0",
+      "script": "MtMoon_B2F_EventScript_JessieJamesTriggerBottom"
     }
   ],
   "bg_events": [

@@ -1,6 +1,6 @@
 Route24_Text_JustEarnedFabulousPrize::
     .string "Congratulations! You beat our\n"
-    .string "five contest Trainers!\p"
+    .string "five Trainers!\p"
     .string "You just earned a fabulous prize!$"
 
 Route24_Text_ReceivedNuggetFromMysteryTrainer:: @ 8188C93
@@ -11,90 +11,94 @@ Route24_Text_YouDontHaveAnyRoom::
     .string "You don't have any room!$"
 
 Route24_Text_JoinTeamRocket::
-    .string "By the way, how would you like to\n"
-    .string "join Team Rocket?\p"
-    .string "We're a group of professional\n"
-    .string "criminals specializing in Pokémon!\p"
-    .string "Want to join?\p"
-    .string "Are you sure?\p"
-    .string "Come on, join us!\p"
+    .string "This was a test and you passed\n"
+    .string "with flying colors!!!\p"
+    .string "You have earned an opportunity\n"
+    .string "to join.....Team Rocket!\p"
+    .string "We are an organization that\n"
+    .string "specializes in Pokémon aquisition!\p"
+    .string "How would you like to be a member?\p"
+    .string "No? Are you certain?\p"
+    .string "This is the opportunity of a\n"
+    ,string "lifetime. Don't miss out!\p"
     .string "I'm telling you to join!\p"
-    .string "…Okay, you need convincing!\p"
+    .string "…Fine then, I'll beat you to join!\p"
     .string "I'll make you an offer you can't\n"
     .string "refuse!$"
 
 Route24_Text_RocketDefeat::
-    .string "Arrgh!\n"
-    .string "You are good!$"
+    .string "Fucking hells!\n"
+    .string "You really are prime!$"
 
 Route24_Text_YoudBecomeTopRocketLeader::
-    .string "With your ability, you'd become\n"
-    .string "a top leader in Team Rocket.\p"
-    .string "Come on, think of the opportunity!\n"
-    .string "Don't let this chance go to waste.$"
+    .string "With your skill, you'd become\n"
+    .string "a lieutenant in Team Rocket\l"
+    .string "in no time flat\p"
+    .string "If you ever change your mind!\n"
+    .string "I'm pretty sure you could find us.$"
 
 Route24_Text_ShaneIntro::
-    .string "I saw your feat from the grass!$"
+    .string "I saw you fight from the grass!$"
 
 Route24_Text_ShaneDefeat::
-    .string "I thought not!$"
+    .string "You really are tough!$"
 
 Route24_Text_ShanePostBattle::
     .string "I hid because the people on the\n"
-    .string "bridge frightened me.$"
+    .string "bridge freaked me out.$"
 
 Route24_Text_EthanIntro::
-    .string "Okay! I'm No. 5!\n"
-    .string "I'll stomp you!$"
+    .string "Last stop is the 5 train!\n"
+    .string "End of the line for you!$"
 
 Route24_Text_EthanDefeat::
-    .string "Whoa!\n"
-    .string "Too much!$"
+    .string "Going too fast!\n"
+    .string "Gotta pull the emergency brake!$"
 
 Route24_Text_EthanPostBattle::
-    .string "I did my best. I have no regrets!$"
+    .string "You really derailed me!$"
 
 Route24_Text_ReliIntro::
-    .string "I'm No. 4!\n"
-    .string "Getting tired?$"
+    .string "I'm numero cuatro!\n"
+    .string "Getting tired yet?$"
 
 Route24_Text_ReliDefeat::
-    .string "I lost, too!$"
+    .string "You did me dirty!$"
 
 Route24_Text_ReliPostBattle::
-    .string "I did my best, so I've no regrets!$"
+    .string "You got the sauce kid!$"
 
 Route24_Text_TimmyIntro::
-    .string "Here's No. 3!\n"
-    .string "I won't be easy!$"
+    .string "Im the Third Amigo!\n"
+    .string "I keep it real!$"
 
 Route24_Text_TimmyDefeat::
-    .string "Ow!\n"
-    .string "Stomped flat!$"
+    .string "Oof!\n"
+    .string "Big sad.$"
 
 Route24_Text_TimmyPostBattle::
-    .string "I did my best. I have no regrets!$"
+    .string "You put me in my place!$"
 
 Route24_Text_AliIntro::
-    .string "I'm second!\n"
-    .string "Now it's serious!$"
+    .string "I'm next up!\n"
+    .string "Do you have the endurance!$"
 
 Route24_Text_AliDefeat::
-    .string "How could I lose?$"
+    .string "What is this feeling?$"
 
 Route24_Text_AliPostBattle::
-    .string "I did my best. I have no regrets!$"
+    .string "You really made me work!$"
 
 Route24_Text_CaleIntro:: @ 818901B
-    .string "People call this the Nugget\n"
+    .string "People call this the Rival\n"
     .string "Bridge!\p"
     .string "Beat us five Trainers and win\n"
-    .string "a fabulous prize!\p"
-    .string "Think you got what it takes?$"
+    .string "the grand prize!\p"
+    .string "Let's see what you're made of$"
 
 Route24_Text_CaleDefeat::
-    .string "Whoo!\n"
-    .string "Good stuff!$"
+    .string "Gods Dammit!\n"
+    .string "You really did a number on me!$"
 
 Route24_Text_CalePostBattle::
-    .string "I did my best. I have no regrets!$"
+    .string "Great job! Color me impressed.$"

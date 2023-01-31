@@ -1,26 +1,26 @@
 Route25_Text_JoeyIntro:: @ 81890C0
-    .string "Local Trainers come here to\n"
-    .string "practice.$"
+    .string "This is Trainer's alley,\n"
+    .string "this is where we come to spar.$"
 
 Route25_Text_JoeyDefeat::
-    .string "You're decent.$"
+    .string "You alright I guess.$"
 
 Route25_Text_JoeyPostBattle:: @ 81890F5
-    .string "All Pokémon have weaknesses.\n"
-    .string "Even the strongest ones.\p"
-    .string "That's why it's best to raise\n"
-    .string "Pokémon of different types.$"
+    .string "All Pokémon have weaknesses.\p"
+    .string "That's why it's smart to raise\n"
+    .string "all different types.$"
 
 Route25_Text_DanIntro::
-    .string "Dad took me to a great party on\n"
-    .string "the S.S. Anne at Vermilion City.$"
+    .string "My Dad took me to a party on\n"
+    .string "the S.S. Anne at Vermilion City.\p"
+    .string "It was lit a.f.$"
 
 Route25_Text_DanDefeat::
-    .string "I'm not mad!$"
+    .string "I'm tight right now!$"
 
 Route25_Text_DanPostBattle:: @ 81891B3
     .string "On the S.S. Anne, I saw Trainers\n"
-    .string "from around the world.$"
+    .string "from all over the world.$"
 
 Route25_Text_FlintIntro::
     .string "I'm a cool guy.\n"

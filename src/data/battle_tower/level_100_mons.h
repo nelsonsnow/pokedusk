@@ -502,7 +502,7 @@ const struct BattleTowerPokemonTemplate gBattleTowerLevel100Mons[] =
 			MOVE_STOMP,
 			MOVE_RAZOR_LEAF,
 			MOVE_GUST,
-			MOVE_SYNTHESIS
+			MOVE_CURE_WOUNDS
 		},
 		.evSpread = F_EV_SPREAD_ATTACK,
 		.nature = NATURE_HARDY,
@@ -1242,7 +1242,7 @@ const struct BattleTowerPokemonTemplate gBattleTowerLevel100Mons[] =
 		.moves = {
 			MOVE_GIGA_DRAIN,
 			MOVE_ATTRACT,
-			MOVE_MORNING_SUN,
+			MOVE_CURE_WOUNDS,
 			MOVE_STUN_SPORE
 		},
 		.evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_ATTACK | F_EV_SPREAD_HP,
@@ -1515,7 +1515,7 @@ const struct BattleTowerPokemonTemplate gBattleTowerLevel100Mons[] =
 		.moves = {
 			MOVE_PETAL_DANCE,
 			MOVE_GROWTH,
-			MOVE_SYNTHESIS,
+			MOVE_CURE_WOUNDS,
 			MOVE_GRASS_WHISTLE
 		},
 		.evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_HP,
@@ -1984,7 +1984,7 @@ const struct BattleTowerPokemonTemplate gBattleTowerLevel100Mons[] =
 			MOVE_SURF,
 			MOVE_FOCUS_PUNCH,
 			MOVE_FAKE_OUT,
-			MOVE_SYNTHESIS
+			MOVE_CURE_WOUNDS
 		},
 		.evSpread = F_EV_SPREAD_SPEED | F_EV_SPREAD_DEFENSE | F_EV_SPREAD_ATTACK | F_EV_SPREAD_HP,
 		.nature = NATURE_TIMID,
@@ -2218,7 +2218,7 @@ const struct BattleTowerPokemonTemplate gBattleTowerLevel100Mons[] =
 			MOVE_RAZOR_LEAF,
 			MOVE_EARTHQUAKE,
 			MOVE_ATTRACT,
-			MOVE_SYNTHESIS
+			MOVE_CURE_WOUNDS
 		},
 		.evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_ATTACK,
 		.nature = NATURE_JOLLY,

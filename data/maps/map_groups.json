@@ -177,7 +177,8 @@
     "SixIsland_DottedHole_SapphireRoom",
     "SixIsland_PatternBush",
     "SixIsland_AlteringCave",
-    "PikachuMeadow"
+    "PikachuMeadow",
+    "ClefaryCove"
   ],
   "gMapGroup_SpecialArea": [
     "NavelRock_Exterior",
@@ -312,7 +313,9 @@
     "SevenIsland_SevaultCanyon_Entrance",
     "SevenIsland_SevaultCanyon",
     "SevenIsland_TanobyRuins",
-    "NewBarkTown"
+    "NewBarkTown",
+    "Route29",
+    "CherrygroveCity"
   ],
   "gMapGroup_IndoorPallet": [
     "PalletTown_PlayersHouse_1F",

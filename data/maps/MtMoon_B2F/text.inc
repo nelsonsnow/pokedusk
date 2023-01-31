@@ -4,22 +4,14 @@ MtMoon_B2F_Text_MiguelIntro::
     .string "They're both mine!$"
 
 MtMoon_B2F_Text_MiguelDefeat::
-    .string "Okay!\n"
-    .string "I'll share!$"
+    .string "Fine!\n"
+    .string "You can have them!$"
 
 MtMoon_B2F_Text_WellEachTakeAFossil::
-    .string "We'll each take a fossil!\n"
-    .string "No being greedy!$"
-
-MtMoon_B2F_Text_ThenThisFossilIsMine::
-    .string "All right.\n"
-    .string "Then this fossil is mine!$"
-
-MtMoon_B2F_Text_LabOnCinnabarRegeneratesFossils:: @ 8172BFB
-    .string "Far away, on Cinnabar Island,\n"
-    .string "there's a Pokémon Lab.\p"
-    .string "They do research on regenerating\n"
-    .string "fossils.$"
+    .string "You won fair and square!\n"
+    .string "I concede!\p"
+    .string "You can go to Cinnibar to\n"
+    .string "To revive the fossils.$"
 
 MtMoon_B2F_Text_Grunt1Intro:: @ 8172C5A
     .string "We, Team Rocket, shall find the\n"

@@ -233,7 +233,7 @@ const u8 gMoveNames[][13] = {
     _("Iron Tail"),
     _("Metal Claw"),
     _("Vital Throw"),
-    _("Morning Sun"),
+    _("Brave Bird"),
     _("Cure Wounds"),
     _("Moonlight"),
     _("Hidden Power"),

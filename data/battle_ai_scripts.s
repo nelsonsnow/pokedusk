@@ -723,7 +723,7 @@ AI_CheckViability::
 	if_effect EFFECT_BATON_PASS, AI_CV_BatonPass
 	if_effect EFFECT_PURSUIT, AI_CV_Pursuit
 	if_effect EFFECT_MORNING_SUN, AI_CV_HealWeather
-	if_effect EFFECT_SYNTHESIS, AI_CV_HealWeather
+	if_effect EFFECT_CURE_WOUNDS, AI_CV_HealWeather
 	if_effect EFFECT_MOONLIGHT, AI_CV_HealWeather
 	if_effect EFFECT_RAIN_DANCE, AI_CV_RainDance
 	if_effect EFFECT_SUNNY_DAY, AI_CV_SunnyDay
@@ -2995,7 +2995,7 @@ AI_HPAware_DiscouragedEffectsWhenHighHP::
 	.byte EFFECT_FLAIL
 	.byte EFFECT_ENDURE
 	.byte EFFECT_MORNING_SUN
-	.byte EFFECT_SYNTHESIS
+	.byte EFFECT_CURE_WOUNDS
 	.byte EFFECT_MOONLIGHT
 	.byte EFFECT_SOFTBOILED
 	.byte EFFECT_MEMENTO

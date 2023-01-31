@@ -673,3 +673,22 @@ const u32 gFile_graphics_items_icon_palettes_sapphire_palette[] = INCBIN_U32("gr
 
 const u32 gFile_graphics_items_icons_kings_stone_sheet[] = INCBIN_U32("graphics/items/icons/kings_stone.4bpp.lz");
 const u32 gFile_graphics_items_icon_palettes_kings_stone_palette[] = INCBIN_U32("graphics/items/icon_palettes/kings_stone.gbapal.lz");
+
+const u32 gFile_graphics_items_icons_second_spoon_sheet[] = INCBIN_U32("graphics/items/icons/second_spoon.4bpp.lz");
+
+const u32 gFile_graphics_items_icons_glowing_geode_sheet[] = INCBIN_U32("graphics/items/icons/glowing_geode.4bpp.lz");
+
+const u32 gFile_graphics_items_icons_champs_belt_sheet[] = INCBIN_U32("graphics/items/icons/champs_belt.4bpp.lz");
+const u32 gFile_graphics_items_icon_palettes_champs_belt_palette[] = INCBIN_U32("graphics/items/icon_palettes/champs_belt.gbapal.lz");
+
+const u32 gFile_graphics_items_icons_obsidian_sheet[] = INCBIN_U32("graphics/items/icons/obsidian.4bpp.lz");
+const u32 gFile_graphics_items_icon_palettes_obsidian_palette[] = INCBIN_U32("graphics/items/icon_palettes/obsidian.gbapal.lz");
+
+const u32 gFile_graphics_items_icons_iron_ore_sheet[] = INCBIN_U32("graphics/items/icons/iron_ore.4bpp.lz");
+
+const u32 gFile_graphics_items_icons_wifi_sheet[] = INCBIN_U32("graphics/items/icons/wifi.4bpp.lz");
+
+const u32 gFile_graphics_items_icons_update_sheet[] = INCBIN_U32("graphics/items/icons/update.4bpp.lz");
+
+const u32 gFile_graphics_items_icons_ice_stone_sheet[] = INCBIN_U32("graphics/items/icons/ice_stone.4bpp.lz");
+const u32 gFile_graphics_items_icon_palettes_ice_stone_palette[] = INCBIN_U32("graphics/items/icon_palettes/ice_stone.gbapal.lz");

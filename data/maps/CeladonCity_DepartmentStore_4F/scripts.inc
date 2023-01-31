@@ -32,7 +32,14 @@ CeladonCity_DepartmentStore_4F_Items::
 	.2byte ITEM_THUNDER_STONE
 	.2byte ITEM_WATER_STONE
 	.2byte ITEM_LEAF_STONE
+	.2byte ITEM_ICE_STONE
 	.2byte ITEM_KINGS_STONE
+	.2byte ITEM_IRON_ORE
+	.2byte ITEM_OBSIDIAN
+	.2byte ITEM_GLOWING_GEODE
+	.2byte ITEM_CHAMPS_BELT
+	.2byte ITEM_SECOND_SPOON
+
 	.2byte ITEM_NONE
 	release
 	end

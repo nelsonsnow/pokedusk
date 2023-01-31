@@ -154,7 +154,7 @@ gBattleScriptsForMoveEffects::
 	.4byte BattleScript_EffectSonicboom              @ EFFECT_SONICBOOM
 	.4byte BattleScript_EffectHit                    @ EFFECT_UNUSED_83
 	.4byte BattleScript_EffectMorningSun             @ EFFECT_MORNING_SUN
-	.4byte BattleScript_EffectSynthesis              @ EFFECT_SYNTHESIS
+	.4byte BattleScript_EffectCureWounds              @ EFFECT_CURE_WOUNDS
 	.4byte BattleScript_EffectMoonlight              @ EFFECT_MOONLIGHT
 	.4byte BattleScript_EffectHiddenPower            @ EFFECT_HIDDEN_POWER
 	.4byte BattleScript_EffectRainDance              @ EFFECT_RAIN_DANCE
@@ -1723,7 +1723,7 @@ BattleScript_EffectSonicboom::
 	goto BattleScript_HitFromAtkAnimation
 
 BattleScript_EffectMorningSun::
-BattleScript_EffectSynthesis::
+BattleScript_EffectCureWounds::
 BattleScript_EffectMoonlight::
 	attackcanceler
 	attackstring

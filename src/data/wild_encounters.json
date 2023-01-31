@@ -21911,7 +21911,7 @@
               {
                 "min_level": 20,
                 "max_level": 25,
-                "species": "SPECIES_PSYDUCK"
+                "species": "SPECIES_SLOWPOKE"
               },
               {
                 "min_level": 25,
@@ -21926,7 +21926,7 @@
               {
                 "min_level": 35,
                 "max_level": 40,
-                "species": "SPECIES_PSYDUCK"
+                "species": "SPECIES_SLOWPOKE"
               }
             ]
           },
@@ -21976,7 +21976,7 @@
               {
                 "min_level": 15,
                 "max_level": 25,
-                "species": "SPECIES_PSYDUCK"
+                "species": "SPECIES_SLOWPOKE"
               },
               {
                 "min_level": 25,
@@ -25381,6 +25381,75 @@
                 "min_level": 2,
                 "max_level": 6,
                 "species": "SPECIES_MIMIKYU"
+              }
+            ]
+          }
+        },
+        {
+          "map": "MAP_CLEFARY_COVE",
+          "base_label": "gClefaryCove0",
+          "land_mons": {
+            "encounter_rate": 21,
+            "mons": [
+              {
+                "min_level": 3,
+                "max_level": 6,
+                "species": "SPECIES_CLEFFA"
+              },
+              {
+                "min_level": 10,
+                "max_level": 10,
+                "species": "SPECIES_CLEFAIRY"
+              },
+              {
+                "min_level": 10,
+                "max_level": 10,
+                "species": "SPECIES_CLEFAIRY"
+              },
+              {
+                "min_level": 10,
+                "max_level": 10,
+                "species": "SPECIES_CLEFAIRY"
+              },
+              {
+                "min_level": 10,
+                "max_level": 10,
+                "species": "SPECIES_CLEFAIRY"
+              },
+              {
+                "min_level": 10,
+                "max_level": 10,
+                "species": "SPECIES_CLEFAIRY"
+              },
+              {
+                "min_level": 10,
+                "max_level": 11,
+                "species": "SPECIES_CLEFAIRY"
+              },
+              {
+                "min_level": 10,
+                "max_level": 11,
+                "species": "SPECIES_CLEFAIRY"
+              },
+              {
+                "min_level": 10,
+                "max_level": 11,
+                "species": "SPECIES_GEODUDE"
+              },
+              {
+                "min_level": 10,
+                "max_level": 12,
+                "species": "SPECIES_ZUBAT"
+              },
+              {
+                "min_level": 12,
+                "max_level": 16,
+                "species": "SPECIES_GOLBAT"
+              },
+              {
+                "min_level": 12,
+                "max_level": 16,
+                "species": "SPECIES_CLEFABLE"
               }
             ]
           }

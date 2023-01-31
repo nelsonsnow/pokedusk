@@ -116,7 +116,7 @@ const u16 gEggMoves[] = {
               MOVE_SWORDS_DANCE,
               MOVE_RAZOR_LEAF,
               MOVE_FLAIL,
-              MOVE_SYNTHESIS,
+              MOVE_CURE_WOUNDS,
               MOVE_CHARM,
               MOVE_INGRAIN),
 
@@ -212,7 +212,7 @@ const u16 gEggMoves[] = {
               MOVE_SWORDS_DANCE,
               MOVE_ENCORE,
               MOVE_REFLECT,
-              MOVE_SYNTHESIS,
+              MOVE_CURE_WOUNDS,
               MOVE_LEECH_LIFE,
               MOVE_INGRAIN,
               MOVE_MAGICAL_LEAF),
@@ -325,7 +325,7 @@ const u16 gEggMoves[] = {
               MOVE_SWORDS_DANCE),
 
     egg_moves(EXEGGCUTE,
-              MOVE_SYNTHESIS,
+              MOVE_CURE_WOUNDS,
               MOVE_MOONLIGHT,
               MOVE_REFLECT,
               MOVE_ANCIENT_POWER,
@@ -940,7 +940,7 @@ const u16 gEggMoves[] = {
               MOVE_TRICK),
 
     egg_moves(LOTAD,
-              MOVE_SYNTHESIS,
+              MOVE_CURE_WOUNDS,
               MOVE_RAZOR_LEAF,
               MOVE_SWEET_SCENT,
               MOVE_LEECH_SEED,
@@ -1176,7 +1176,7 @@ const u16 gEggMoves[] = {
 
     egg_moves(ROSELIA,
               MOVE_SPIKES,
-              MOVE_SYNTHESIS,
+              MOVE_CURE_WOUNDS,
               MOVE_PIN_MISSILE,
               MOVE_COTTON_SPORE),
 

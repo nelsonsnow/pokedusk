@@ -312,6 +312,38 @@ static const u8 sItemEffect_KingsStone[6] = {
     [4] = ITEM4_EVO_STONE,
 };
 
+static const u8 sItemEffect_SecondSpoon[6] = {
+    [4] = ITEM4_EVO_STONE,
+};
+
+static const u8 sItemEffect_GlowingGeode[6] = {
+    [4] = ITEM4_EVO_STONE,
+};
+
+static const u8 sItemEffect_ChampsBelt[6] = {
+    [4] = ITEM4_EVO_STONE,
+};
+
+static const u8 sItemEffect_Obsidian[6] = {
+    [4] = ITEM4_EVO_STONE,
+};
+
+static const u8 sItemEffect_IronOre[6] = {
+    [4] = ITEM4_EVO_STONE,
+};
+
+static const u8 sItemEffect_Update[6] = {
+    [4] = ITEM4_EVO_STONE,
+};
+
+static const u8 sItemEffect_Wifi[6] = {
+    [4] = ITEM4_EVO_STONE,
+};
+
+static const u8 sItemEffect_IceStone[6] = {
+    [4] = ITEM4_EVO_STONE,
+};
+
 static const u8 sItemEffect_CheriBerry[6] = {
     [3] = ITEM3_PARALYSIS,
 };
@@ -411,6 +443,14 @@ const u8 *const gItemEffectTable[] =
     [ITEM_WATER_STONE - ITEM_POTION] = sItemEffect_WaterStone,
     [ITEM_LEAF_STONE - ITEM_POTION] = sItemEffect_LeafStone,
     [ITEM_KINGS_STONE - ITEM_POTION] = sItemEffect_KingsStone,
+    [ITEM_SECOND_SPOON - ITEM_POTION] = sItemEffect_SecondSpoon,
+    [ITEM_GLOWING_GEODE - ITEM_POTION] = sItemEffect_GlowingGeode,
+    [ITEM_CHAMPS_BELT - ITEM_POTION] = sItemEffect_ChampsBelt,
+    [ITEM_OBSIDIAN - ITEM_POTION] = sItemEffect_Obsidian,
+    [ITEM_IRON_ORE - ITEM_POTION] = sItemEffect_IronOre,
+    [ITEM_UPDATE - ITEM_POTION] = sItemEffect_Update,
+    [ITEM_WIFI - ITEM_POTION] = sItemEffect_Wifi,
+    [ITEM_ICE_STONE - ITEM_POTION] = sItemEffect_IceStone,
     [ITEM_CHERI_BERRY - ITEM_POTION] = sItemEffect_CheriBerry,
     [ITEM_CHESTO_BERRY - ITEM_POTION] = sItemEffect_ChestoBerry,
     [ITEM_PECHA_BERRY - ITEM_POTION] = sItemEffect_PechaBerry,

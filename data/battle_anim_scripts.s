@@ -254,8 +254,8 @@ gBattleAnims_Moves::
 	.4byte Move_IRON_TAIL
 	.4byte Move_METAL_CLAW
 	.4byte Move_VITAL_THROW
-	.4byte Move_MORNING_SUN
-	.4byte Move_SYNTHESIS
+	.4byte Move_BRAVE_BIRD
+	.4byte Move_CURE_WOUNDS
 	.4byte Move_MOONLIGHT
 	.4byte Move_HIDDEN_POWER
 	.4byte Move_CROSS_CHOP
@@ -6017,7 +6017,7 @@ Move_LEECH_LIFE:
 	blendoff
 	end
 
-Move_SYNTHESIS:
+Move_CURE_WOUNDS:
 	loadspritegfx ANIM_TAG_BLUE_STAR
 	loadspritegfx ANIM_TAG_SPARKLE_2
 	createvisualtask AnimTask_BlendColorCycle, 2, F_PAL_ATTACKER, 2, 2, 0, 16, RGB(27, 31, 18)
@@ -8433,32 +8433,27 @@ Move_TRANSFORM:
 	clearmonbg ANIM_ATTACKER
 	end
 
-Move_MORNING_SUN:
-	loadspritegfx ANIM_TAG_GREEN_STAR
-	loadspritegfx ANIM_TAG_BLUE_STAR
-	createvisualtask AnimTask_MorningSunLightBeam, 5
-	delay 8
-	createvisualtask AnimTask_BlendBattleAnimPal, 10, F_PAL_BG | F_PAL_BATTLERS_2, 8, 0, 12, RGB_WHITE
-	delay 14
-	call MorningSunStar
-	call MorningSunStar
-	call MorningSunStar
-	call MorningSunStar
-	call MorningSunStar
-	call MorningSunStar
-	call MorningSunStar
-	call MorningSunStar
-	call MorningSunStar
-	call MorningSunStar
-	call MorningSunStar
-	call MorningSunStar
-	call MorningSunStar
-	call MorningSunStar
-	call MorningSunStar
-	createvisualtask AnimTask_BlendBattleAnimPal, 10, F_PAL_BG | F_PAL_BATTLERS_2, 3, 12, 0, RGB_WHITE
+Move_BRAVE_BIRD:
+	loadspritegfx ANIM_TAG_IMPACT
+	loadspritegfx ANIM_TAG_BIRD
+	call SetSkyBg
+	monbg ANIM_ATTACKER
+	createvisualtask AnimTask_BlendBattleAnimPal, 10, F_PAL_ATTACKER, 0, 0, 16, RGB_WHITE
+	delay 4
+	createvisualtask AnimTask_AttackerFadeToInvisible, 5, 0
 	waitforvisualfinish
-	waitsound
-	call HealingEffect
+	createvisualtask SoundTask_PlaySE2WithPanning, 5, SE_M_SKY_UPPERCUT, SOUND_PAN_ATTACKER
+	createsprite gSkyAttackBirdSpriteTemplate, ANIM_TARGET, 2
+	delay 14
+	createvisualtask AnimTask_ShakeMon2, 2, ANIM_TARGET, 10, 0, 18, 1
+	createvisualtask SoundTask_PlaySE1WithPanning, 5, SE_M_MEGA_KICK2, SOUND_PAN_TARGET
+	delay 20
+	createvisualtask AnimTask_AttackerFadeFromInvisible, 5, 1
+	delay 2
+	createvisualtask AnimTask_BlendBattleAnimPal, 10, F_PAL_ATTACKER, 0, 15, 0, RGB_WHITE
+	waitforvisualfinish
+	clearmonbg ANIM_ATTACKER
+	call UnsetSkyBg
 	end
 
 MorningSunStar:

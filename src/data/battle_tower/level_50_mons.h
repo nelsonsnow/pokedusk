@@ -891,7 +891,7 @@ const struct BattleTowerPokemonTemplate gBattleTowerLevel50Mons[] =
 		.moves = {
 			MOVE_SUNNY_DAY,
 			MOVE_SOLAR_BEAM,
-			MOVE_SYNTHESIS,
+			MOVE_CURE_WOUNDS,
 			MOVE_RAZOR_LEAF
 		},
 		.evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_DEFENSE,
@@ -1527,7 +1527,7 @@ const struct BattleTowerPokemonTemplate gBattleTowerLevel50Mons[] =
 		.teamFlags = 0xC7,
 		.moves = {
 			MOVE_EARTHQUAKE,
-			MOVE_SYNTHESIS,
+			MOVE_CURE_WOUNDS,
 			MOVE_RAZOR_LEAF,
 			MOVE_HYPER_BEAM
 		},
@@ -2229,7 +2229,7 @@ const struct BattleTowerPokemonTemplate gBattleTowerLevel50Mons[] =
 		.teamFlags = 0xC3,
 		.moves = {
 			MOVE_SUNNY_DAY,
-			MOVE_SYNTHESIS,
+			MOVE_CURE_WOUNDS,
 			MOVE_SOLAR_BEAM,
 			MOVE_LEECH_SEED
 		},

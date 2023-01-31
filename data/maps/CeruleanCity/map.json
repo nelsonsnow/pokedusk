@@ -38,7 +38,7 @@
   "object_events": [
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_POLICEMAN",
+      "graphics_id": "OBJ_EVENT_GFX_OFFICERJENNY",
       "x": 31,
       "y": 12,
       "elevation": 3,

@@ -4,21 +4,21 @@ Route5_PokemonDayCare_Text_WantMeToRaiseMon:: @ 819DD66
 	.string "your Pokémon?$"
 
 Route5_PokemonDayCare_Text_ComeAgain::
-	.string "Come again.$"
+	.string "See you soon.$"
 
 Route5_PokemonDayCare_Text_WhichMonShouldIRaise:: @ 819DDBE
-	.string "Which Pokémon should I raise?$"
+	.string "Which Pokémon should I care for?$"
 
 Route5_PokemonDayCare_Text_ComeAnytimeYouLike::
-	.string "Fine.\n"
-	.string "Come anytime you like.$"
+	.string "Okeedokie.\n"
+	.string "Come by anytime you like.$"
 
 Route5_PokemonDayCare_Text_LookAfterMonForAWhile::
-	.string "Fine, I'll look after your\n"
+	.string "Alrighty, I'll look after\n"
 	.string "{STR_VAR_1} for a while.$"
 
 Route5_PokemonDayCare_Text_ComeSeeMeInAWhile::
-	.string "Come see me in a while.$"
+	.string "Come see me when you can.$"
 
 Route5_PokemonDayCare_Text_MonNeedsToSpendMoreTime::
 	.string "You're back already?\p"
@@ -35,15 +35,15 @@ Route5_PokemonDayCare_Text_ThankYouHeresMon::
 
 Route5_PokemonDayCare_Text_PlayerGotMonBack::
 	.string "{PLAYER} got {STR_VAR_1} back\n"
-	.string "from the Day-Care Man.$"
+	.string "from the Caretaker.$"
 
 Route5_PokemonDayCare_Text_OnlyHaveOneMonWithYou:: @ 819DEF5
 	.string "Oh? You only have one Pokémon\n"
 	.string "with you.$"
 
 Route5_PokemonDayCare_Text_WhatWillYouBattleWith:: @ 819DF1D
-	.string "If you leave me that Pokémon,\n"
-	.string "what will you battle with?$"
+	.string "If you leave that Pokémon,\n"
+	.string "how will you defend yourself?$"
 
 Route5_PokemonDayCare_Text_MonHasGrownByXLevels::
 	.string "Your {STR_VAR_1} has grown a lot.\n"
@@ -53,7 +53,7 @@ Route5_PokemonDayCare_Text_MonHasGrownByXLevels::
 	.string "Aren't I great?$"
 
 Route5_PokemonDayCare_Text_YouveGotNoRoomForIt:: @ 819DFC2
-	.string "You can't take this Pokémon back\n"
+	.string "You can't take your Pokémon back\n"
 	.string "if you've got no room for it.$"
 
 Route5_PokemonDayCare_Text_DontHaveEnoughMoney::

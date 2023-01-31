@@ -25,13 +25,13 @@ PewterCity_Gym_Text_BrockDefeat::
     .string "BoulderBadge.\p"
     .string "{FONT_2}{PLAYER} received the BoulderBadge\n"
     .string "from Brock!{PAUSE_MUSIC}{PLAY_BGM}{MUS_OBTAIN_BADGE}{PAUSE 0xFE}{PAUSE 0x56}{RESUME_MUSIC}\p"
-    .string "{FONT_4}ÇJust having the BoulderBadge makes\n"
+    .string "{FONT_4}Just having the BoulderBadge makes\n"
     .string "your Pokémon more powerful.\p"
     .string "It also your Pokémon to use\n"
     .string "Flash outside of battle if they know it.$"
 
 PewterCity_Gym_Text_TakeThisWithYou::
-    .string "Also I want to for you something\n"
+    .string "Also I want to give you something\n"
     .string "for the road ahead.$"
 
 PewterCity_Gym_Text_ReceivedTM39FromBrock::

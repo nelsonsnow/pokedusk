@@ -1,36 +1,37 @@
 CeruleanCity_BikeShop_Text_WelcomeToBikeShop::
-    .string "Hi!\n"
+    .string "Hello!\n"
     .string "Welcome to our Bike Shop.\p"
+    .string "Number one in all of Kanto!\p"
     .string "Have we got just the Bike for\n"
     .string "you!$"
 
 CeruleanCity_BikeShop_Text_SorryYouCantAffordIt::
     .string "Sorry!\n"
-    .string "You can't afford it!$"
+    .string "We are not a charity!$"
 
 CeruleanCity_BikeShop_Text_OhBikeVoucherHereYouGo::
     .string "Oh, that's…\p"
     .string "A Bike Voucher!\p"
-    .string "Okay!\n"
+    .string "How lucky for you!\n"
     .string "Here you go!$"
 
 CeruleanCity_BikeShop_Text_ExchangedVoucherForBicycle::
     .string "{PLAYER} exchanged the\n"
-    .string "Bike Voucher for a Bicycle.$"
+    .string "Bike Voucher for a Bike.$"
 
 CeruleanCity_BikeShop_Text_ThankYouComeAgain::
     .string "Thank you!\n"
-    .string "Come back again sometime!$"
+    .string "Come back again!$"
 
 CeruleanCity_BikeShop_Text_HowDoYouLikeNewBicycle:: @ 8192833
-    .string "How do you like your new Bicycle?\n"
+    .string "How do you like your new Bike?\n"
     .string "Do you like how it rides?\p"
     .string "You can take it out on Cycling\n"
     .string "Road and even into caves!$"
 
 CeruleanCity_BikeShop_Text_MakeRoomForBicycle::
     .string "You better make room for your\n"
-    .string "Bicycle!$"
+    .string "Bike!$"
 
 CeruleanCity_BikeShop_Text_CityBikeGoodEnoughForMe::
     .string "A plain city bike is good enough\n"
@@ -40,7 +41,7 @@ CeruleanCity_BikeShop_Text_CityBikeGoodEnoughForMe::
 
 CeruleanCity_BikeShop_Text_BikesCoolButExpensive::
     .string "These bikes are cool, but they're\n"
-    .string "way expensive!$"
+    .string "way out of my price range!$"
 
 CeruleanCity_BikeShop_Text_WowYourBikeIsCool::
     .string "Wow.\n"
@@ -53,5 +54,5 @@ CeruleanCity_BikeShop_Text_GermanFoldableBicyleFinallyOnMarket::
     .string "おりたたみ　じてんしゃ！$"
 
 CeruleanCity_BikeShop_Text_ShinyNewBicycle:: @ 81929AD
-    .string "A shiny new Bicycle!$"
+    .string "A shiny new Nimbus 3000 Bike!$"
 

@@ -700,7 +700,7 @@ gMoveDescription_VitalThrow::
 gMoveDescription_MorningSun::
 	.string "Restores the user's\nHP. The amount of\nHP regained varies\nwith the weather.$"
 
-gMoveDescription_Synthesis::
+gMoveDescription_CureWounds::
 	.string "Restores the user's\nHP. The amount of\nHP regained varies\nwith the weather.$"
 
 gMoveDescription_Moonlight::

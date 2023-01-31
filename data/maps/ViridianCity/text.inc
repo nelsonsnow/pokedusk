@@ -6,7 +6,7 @@ ViridianCity_Text_CanCarryMonsAnywhere:: @ 817DABB
 
 ViridianCity_Text_GymClosedWonderWhoLeaderIs:: @ 817DB39
     .string "This Pokémon Gym is always closed.\p"
-    .string "This is just bad for the economy?$"
+    .string "This is just bad for the economy!$"
 
 ViridianCity_Text_ViridiansGymLeaderReturned:: @ 817DB78
     .string "Viridian Gym's Leader returned!\p"

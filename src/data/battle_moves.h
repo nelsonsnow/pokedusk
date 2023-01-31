@@ -3269,21 +3269,20 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
 		.category = MOVE_PHYSICAL
     },
 
-    [MOVE_MORNING_SUN] =
+    [MOVE_BRAVE_BIRD] =
     {
-        .effect = EFFECT_MORNING_SUN,
-        .power = 0,
-        .type = TYPE_NORMAL,
-        .accuracy = 0,
-        .pp = 5,
+        .effect = EFFECT_DOUBLE_EDGE,
+        .power = 120,
+        .type = TYPE_FLYING,
+        .accuracy = 100,
+        .pp = 15,
         .secondaryEffectChance = 0,
-        .target = MOVE_TARGET_USER,
+        .target = MOVE_TARGET_SELECTED,
         .priority = 0,
-        .flags = FLAG_SNATCH_AFFECTED,
-		.category = MOVE_STATUS
+        .flags = FLAG_MAKES_CONTACT | FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGSROCK_AFFECTED,
     },
 
-    [MOVE_SYNTHESIS] =
+    [MOVE_CURE_WOUNDS] =
     {
         .effect = EFFECT_WISH,
         .power = 0,

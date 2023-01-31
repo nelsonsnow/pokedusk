@@ -191,9 +191,9 @@
 #define VAR_MAP_SCENE_MT_MOON_B2F                                              0x408B
 
 
-#define VAR_STARTER_REGION         0x408C //used
+#define VAR_STARTER_REGION         0x408C
 #define VAR_FOREST_GENGAR          0x408D
-#define VAR_0x408E                 0x408E
+#define VAR_JESSEJAMESMTMOON       0x408E
 #define VAR_0x408F                 0x408F
 #define VAR_0x4090                 0x4090
 #define VAR_0x4091                 0x4091

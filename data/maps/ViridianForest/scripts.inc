@@ -65,40 +65,25 @@ ViridianForest_EventScript_Charlie::
 
 ViridianForest_Trigger_Gengar::
 	lockall
-	msgbox ViridianForest_Trigger_Gengar_Text_2
-	applymovement 11, ViridianForest_GengarAlert
-	msgbox ViridianForest_Trigger_Gengar_Text_0
-	waitbuttonpress
-	applymovement 11, ViridianForest_GengarRuns
+	msgbox ViridianForest_Trigger_Gengar_Text_0, MSGBOX_AUTOCLOSE
+	waitmessage
+	playse SE_PIN
+	applymovement 11, ViridianForest_Gengar
 	waitmovement 11
-	msgbox ViridianForest_Trigger_Gengar_Text_1
+	msgbox ViridianForest_Trigger_Gengar_Text_1, MSGBOX_AUTOCLOSE
 	removeobject 11
 	setvar VAR_FOREST_GENGAR, 1
 	setflag FLAG_GENGAR_FOREST
 	releaseall
 	return
 
-ViridianForest_GengarAlert::
+ViridianForest_Gengar::
+	delay_16
 	emote_question_mark
-	face_player
+	face_down_fast
 	delay_16
 	delay_16
-	delay_16
-	delay_16
-	delay_16
-	delay_16
-	delay_16
-	delay_16
-
-ViridianForest_GengarRuns::
-	delay_16
-	delay_16
-	delay_16
-	delay_16
-	delay_16
-	delay_16
-	delay_16
-	delay_16
+	face_up
 	walk_faster_up
 	walk_faster_up
 	walk_faster_up
@@ -107,10 +92,8 @@ ViridianForest_GengarRuns::
 	step_end
 
 ViridianForest_Trigger_Gengar_Text_0:
-	.string "What is that?$"
+	.string "Huh? What is that?$"
 
 ViridianForest_Trigger_Gengar_Text_1:
-	.string "Was that a Gengar?$"
-
-ViridianForest_Trigger_Gengar_Text_2:
-	.string "Huh?$"
+	.string "Was that a Gengar?\p"
+	.string "That's strange...$"

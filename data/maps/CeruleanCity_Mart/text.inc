@@ -10,5 +10,5 @@ CeruleanCity_Mart_Text_DoYouKnowAboutRareCandy:: @ 8192A79
     .string "Do you know about Rare Candy?\n"
     .string "They don't sell it in shops.\p"
     .string "I think it makes Pokémon grow\n"
-    .string "very quickly all of a sudden.$"
+    .string "very quickly.$"
 

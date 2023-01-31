@@ -4530,11 +4530,10 @@ static const struct TrainerMonNoItemDefaultMoves sParty_TeamRocketJessieJames1[]
         .lvl = 13,
         .species = SPECIES_KOFFING,
     },
-        {
+    {
         .iv = 50,
         .lvl = 15,
         .species = SPECIES_MEOWTH,
-        .moves = {MOVE_SCRATCH, MOVE_GROWTH, MOVE_BITE, MOVE_FURY_SWIPES},
     },
 };
 
@@ -5306,7 +5305,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_CooltrainerRolando[] = {
         .iv = 100,
         .lvl = 42,
         .species = SPECIES_IVYSAUR,
-        .moves = {MOVE_RAZOR_LEAF, MOVE_SLEEP_POWDER, MOVE_SWEET_SCENT, MOVE_SYNTHESIS},
+        .moves = {MOVE_RAZOR_LEAF, MOVE_SLEEP_POWDER, MOVE_SWEET_SCENT, MOVE_CURE_WOUNDS},
     },
     {
         .iv = 100,
@@ -6428,7 +6427,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_RivalRoute22LateBulbasaur
         .iv = 250,
         .lvl = 53,
         .species = SPECIES_VENUSAUR,
-        .moves = {MOVE_RAZOR_LEAF, MOVE_SWEET_SCENT, MOVE_GROWTH, MOVE_SYNTHESIS},
+        .moves = {MOVE_RAZOR_LEAF, MOVE_SWEET_SCENT, MOVE_GROWTH, MOVE_CURE_WOUNDS},
     },
 };
 
@@ -6557,7 +6556,7 @@ static const struct TrainerMonItemCustomMoves sParty_ChampionFirstBulbasaur[] = 
         .lvl = 63,
         .species = SPECIES_VENUSAUR,
         .heldItem = ITEM_SITRUS_BERRY,
-        .moves = {MOVE_SOLAR_BEAM, MOVE_SYNTHESIS, MOVE_SUNNY_DAY, MOVE_GROWTH},
+        .moves = {MOVE_SOLAR_BEAM, MOVE_CURE_WOUNDS, MOVE_SUNNY_DAY, MOVE_GROWTH},
     },
 };
 

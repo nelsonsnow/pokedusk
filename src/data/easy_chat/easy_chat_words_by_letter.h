@@ -1047,7 +1047,7 @@ static const u16 sEasyChatWordsByLetter_M[] = {
     EC_MOVE2(MOONLIGHT),
     EC_WORD_MORE,
     EC_WORD_MORNING,
-    EC_MOVE(MORNING_SUN),
+    EC_MOVE(CURE_WOUNDS),
     EC_WORD_MOTHER,
     EC_WORD_MOVE,
     EC_WORD_MOVIE,
@@ -1615,7 +1615,7 @@ static const u16 sEasyChatWordsByLetter_S[] = {
     EC_POKEMON(SWINUB),
     EC_MOVE2(SWORDS_DANCE),
     EC_WORD_SYNCHRONIZE,
-    EC_MOVE(SYNTHESIS),
+    EC_MOVE(CURE_WOUNDS),
     EC_WORD_SYSTEM,
 };
 
