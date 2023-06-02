@@ -9,6 +9,15 @@ EventScript_PkmnCenterNurse::
 	case SCR_MENU_CANCEL, EventScript_PkmnCenterNurse_Goodbye
 	end
 
+EventScript_Chansey::
+	lock
+	faceplayer
+	message Text_Chansey
+	waitmessage
+	waitbuttonpress
+	release
+	end
+
 EventScript_PkmnCenterNurse_HealPkmn::
 	incrementgamestat GAME_STAT_USED_POKECENTER
 	message Text_TakeYourPkmnForFewSeconds

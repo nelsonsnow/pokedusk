@@ -54,7 +54,7 @@ OneIsland_PokemonCenter_1F_Text_CanYouDeliverThisMeteoritePlayer::
     .string "The island next to this one's\n"
     .string "called Two Island.\p"
     .string "There's a guy there that runs\n"
-    .string "a Game Corner.\p"
+    .string "a Casino.\p"
     .string "He has this thing for rare rocks\n"
     .string "and gems.\p"
     .string "We keep in touch, being fellow\n"

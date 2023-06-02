@@ -18,7 +18,7 @@ CeruleanCity_Text_RivalPostBattle::
     .string "show me his rare Pokémon.\p"
     .string "That added a lot of pages to my\n"
     .string "Pokédex!\p"
-    .string "After all, Bill's world famous as a\n"
+    .string "After all, Bill's famous as a\n"
     .string "Pokémaniac.\p"
     .string "I guess since you're already out\n"
     .string "here you might as well visit.\p"
@@ -38,8 +38,8 @@ CeruleanCity_Text_ExplainFameCheckerSmellYa::
     .string "For a gossip like you…\n"
     .string "That's a perfect gift.\p"
     .string "I don't need it because I don't\n"
-    .string "give a hoot about others.\p"
-    .string "All right, this time I really am\n"
+    .string "give a fuck about others.\p"
+    .string "Alright, this time I really am\n"
     .string "gone. Smell ya!$"
 
 @ RB translation: "Heh! You're no match for my genius!"
@@ -88,12 +88,10 @@ CeruleanCity_Text_YouCanCutDownSmallTrees:: @ 817EF89
     .string "There's a way around it, though.$"
 
 CeruleanCity_Text_IfSlowbroWasntThereCouldCutTree:: @ 817F01D
-    .string "SLOWBRO! Get out of the way!\n"
-    .string "People are trying to cut the tree.\p"
-    .string "Come on! Please listen!\n"
-    .string "Ugh!\p"
-    .string "I'm so sorry. He is a bit\n"
-    .string "slow on the uptake.$"
+    .string "That Slowbro is blocking people\n"
+    .string "who are trying to cut the tree.\p"
+    .string "It won't listen to it's trainer.\n"
+    .string "Some trainers bite off too much.$"
 
 CeruleanCity_Text_PokemonEncyclopediaAmusing::
     .string "You're making an encyclopedia on\n"
@@ -163,10 +161,10 @@ CeruleanCity_Text_TrainerTipsHeldItems:: @ 817F453
     .string "If you're having an issue\n"
     .string "trying to catch a Pokémon\p"
     .string "Maybe you should just try\n"
-    .string "catching it, it't that simple.$"
+    .string "catching it, it's that simple.$"
 
 CeruleanCity_Text_BikeShopSign::
-    .string "The Number one Bike Shop!\n"
+    .string "The Number one Bike Shop\n"
     .string "in Kanto!$"
 
 CeruleanCity_Text_GymSign:: @ 817F4EF

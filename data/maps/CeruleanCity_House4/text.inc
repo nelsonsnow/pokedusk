@@ -9,7 +9,7 @@ CeruleanCity_House4_Text_NewNewsInformativeHaveThis::
     .string "A new news report!\p"
     .string "Hmm…\p"
     .string "I see!\n"
-    .string "That was quite informative!\p"
+    .string "Them damn Rockets!!\p"
     .string "I applaud you for taking interest\n"
     .string "in the news at your young age.\p"
     .string "As my thanks for sharing the news\n"

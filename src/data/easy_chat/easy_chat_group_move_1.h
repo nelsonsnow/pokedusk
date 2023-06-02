@@ -65,7 +65,7 @@ static const u16 sEasyChatGroup_Move1[] = {
     MOVE_KINESIS,
     MOVE_LEECH_LIFE,
     MOVE_LICK,
-    MOVE_LOVELY_KISS,
+    MOVE_DRAINING_KISS,
     MOVE_LOW_KICK,
     MOVE_MEAN_LOOK,
     MOVE_MEMENTO,

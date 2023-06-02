@@ -1,29 +1,29 @@
 CeladonCity_Condominiums_1F_Text_Meowth:: @ 81960BB
-    .string "Meowth: Meow!$"
+    .string "Meowth: Meowth!$"
 
 CeladonCity_Condominiums_1F_Text_TryThisDrinkInstead::
     .string "You shouldn't spend all your money\n"
-    .string "on drinks.\p"
+    .string "on booze.\p"
     .string "Try this instead.$"
 
 CeladonCity_Condominiums_1F_Text_NothingBeatsThirstLikeTea::
     .string "Nothing beats thirst like some hot\n"
     .string "Tea.\p"
-    .string "It really is the best.$"
+    .string "It's the best.$"
 
 CeladonCity_Condominiums_1F_Text_MyDearMonsKeepMeCompany:: @ 8196148
-    .string "My dear Pokémon keep me company.\n"
+    .string "My Pokémon keep me company.\n"
     .string "Meowth even brings money home!$"
 
 CeladonCity_Condominiums_1F_Text_DaisyComesToBuyTea::
-    .string "Oh, hello, dearie.\n"
+    .string "Oh, hello, sweetie.\n"
     .string "Did you enjoy my Tea?\p"
-    .string "By the way, dear. Are you, by any\n"
-    .string "chance, from Pallet Town?\p"
+    .string "Are you, by any chance,\n"
+    .string "From Pallet Town?\p"
     .string "A girl from Pallet Town, Daisy,\n"
-    .string "she enjoys Tea every day.\p"
+    .string "she enjoys Tea like me.\p"
     .string "She visits the Celadon Dept. Store\n"
-    .string "to buy some Tea.$"
+    .string "to buy some.$"
 
 CeladonCity_Condominiums_1F_Text_Clefairy:: @ 819625B
     .string "Clefairy: Pi pippippi!$"

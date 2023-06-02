@@ -1,5 +1,5 @@
 TwoIsland_PokemonCenter_1F_Text_HaveYouVisitedGameCorner:: @ 81A2E59
-    .string "Have you visited the Game Corner\n"
+    .string "Have you visited the Casino\n"
     .string "already?\p"
     .string "It's no good to go alone.\n"
     .string "You have to take a friend along.$"

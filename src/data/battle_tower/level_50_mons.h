@@ -2943,7 +2943,7 @@ const struct BattleTowerPokemonTemplate gBattleTowerLevel50Mons[] =
 		.heldItem = BATTLE_TOWER_ITEM_LUM_BERRY,
 		.teamFlags = 0x96,
 		.moves = {
-			MOVE_MIST_BALL,
+			MOVE_PLAY_ROUGH,
 			MOVE_THUNDERBOLT,
 			MOVE_REST,
 			MOVE_DRAGON_CLAW
@@ -3333,7 +3333,7 @@ const struct BattleTowerPokemonTemplate gBattleTowerLevel50Mons[] =
 		.heldItem = BATTLE_TOWER_ITEM_APICOT_BERRY,
 		.teamFlags = 0x96,
 		.moves = {
-			MOVE_MIST_BALL,
+			MOVE_PLAY_ROUGH,
 			MOVE_REFLECT,
 			MOVE_RECOVER,
 			MOVE_DRAGON_CLAW
@@ -3723,7 +3723,7 @@ const struct BattleTowerPokemonTemplate gBattleTowerLevel50Mons[] =
 		.heldItem = BATTLE_TOWER_ITEM_SHELL_BELL,
 		.teamFlags = 0x92,
 		.moves = {
-			MOVE_MIST_BALL,
+			MOVE_PLAY_ROUGH,
 			MOVE_THUNDERBOLT,
 			MOVE_EARTHQUAKE,
 			MOVE_ICE_BEAM
@@ -3853,7 +3853,7 @@ const struct BattleTowerPokemonTemplate gBattleTowerLevel50Mons[] =
 		.heldItem = BATTLE_TOWER_ITEM_LUM_BERRY,
 		.teamFlags = 0x92,
 		.moves = {
-			MOVE_MIST_BALL,
+			MOVE_PLAY_ROUGH,
 			MOVE_RECOVER,
 			MOVE_ATTRACT,
 			MOVE_DRAGON_CLAW

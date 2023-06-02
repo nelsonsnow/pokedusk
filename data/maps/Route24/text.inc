@@ -20,7 +20,7 @@ Route24_Text_JoinTeamRocket::
     .string "How would you like to be a member?\p"
     .string "No? Are you certain?\p"
     .string "This is the opportunity of a\n"
-    ,string "lifetime. Don't miss out!\p"
+    .string "lifetime. Don't miss out!\p"
     .string "I'm telling you to join!\p"
     .string "…Fine then, I'll beat you to join!\p"
     .string "I'll make you an offer you can't\n"

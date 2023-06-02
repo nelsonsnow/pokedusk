@@ -20,5 +20,5 @@ CeruleanCity_House2_Text_TeamRocketTryingToDigIntoNoGood:: @ 8191F2A
 
 CeruleanCity_House2_Text_TeamRocketLeftWayOut:: @ 8191F64
     .string "Team Rocket blasted through!\n"
-    .string "my back wall!$"
+    .string "my back wall! Sons of bitchs!$"
 

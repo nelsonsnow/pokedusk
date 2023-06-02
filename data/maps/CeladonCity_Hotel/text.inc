@@ -10,9 +10,11 @@ CeladonCity_Hotel_Text_OnVacationWithBrotherAndBoyfriend::
 
 CeladonCity_Hotel_Text_WhyDidSheBringBrother::
     .string "Why?\n"
-    .string "Why did she bring her brother?$"
+    .string "Why did she bring her brother?\p"
+    .string "I was hoping to get lucky, but\n"
+    .string "the brat is a cock block.$"
 
 CeladonCity_Hotel_Text_SisBroughtMeOnVacation::
-    .string "Yippee! I'm on vacation!\n"
-    .string "My sis brought me along! Awesome!$"
+    .string "Yay! I'm on vacation!\n"
+    .string "My sis brought me along!!$"
 

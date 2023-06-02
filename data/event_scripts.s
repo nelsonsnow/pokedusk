@@ -902,6 +902,9 @@ Text_RestoredPkmnToFullHealth::
 
 	.include "data/text/surf.inc"
 
+Text_Chansey::
+	.string "Chansey! Chansey!$"
+
 @ Unused, from R/S
 Text_DoorOpenedFarAway::
 	.string "どこか　とおくの　とびらが\n"
@@ -1381,3 +1384,4 @@ Text_TestMsg::
 	.include "data/maps/Route29/scripts.inc"
 
 	.include "data/maps/CherrygroveCity/scripts.inc"
+

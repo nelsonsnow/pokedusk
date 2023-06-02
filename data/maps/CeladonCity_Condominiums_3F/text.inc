@@ -38,5 +38,5 @@ CeladonCity_Condominiums_3F_Text_ItsScriptBetterNotLookAtEnding::
     .string "Better not look at the ending!$"
 
 CeladonCity_Condominiums_3F_Text_GameFreakDevelopmentRoom:: @ 81964A8
-    .string "Game Freak Development Room$"
+    .string "Nelson's Development Room$"
 

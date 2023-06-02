@@ -162,7 +162,7 @@ gBattleAnims_Moves::
 	.4byte Move_POISON_GAS
 	.4byte Move_BARRAGE
 	.4byte Move_LEECH_LIFE
-	.4byte Move_LOVELY_KISS
+	.4byte Move_DRAINING_KISS
 	.4byte Move_SKY_ATTACK
 	.4byte Move_TRANSFORM
 	.4byte Move_BUBBLE
@@ -316,7 +316,7 @@ gBattleAnims_Moves::
 	.4byte Move_CAMOUFLAGE
 	.4byte Move_TAIL_GLOW
 	.4byte Move_LUSTER_PURGE
-	.4byte Move_MIST_BALL
+	.4byte Move_PLAY_ROUGH
 	.4byte Move_FEATHER_DANCE
 	.4byte Move_TEETER_DANCE
 	.4byte Move_BLAZE_KICK
@@ -4019,7 +4019,7 @@ Move_LUSTER_PURGE:
 	call UnsetPsychicBackground
 	end
 
-Move_MIST_BALL:
+Move_PLAY_ROUGH:
 	loadspritegfx ANIM_TAG_SMALL_BUBBLES
 	loadspritegfx ANIM_TAG_WHITE_FEATHER
 	delay 0
@@ -7939,7 +7939,7 @@ Move_SWEET_KISS:
 	createsprite gRedHeartBurstSpriteTemplate, ANIM_TARGET, 3, -384, -31
 	end
 
-Move_LOVELY_KISS:
+Move_DRAINING_KISS:
 	loadspritegfx ANIM_TAG_PINK_HEART
 	loadspritegfx ANIM_TAG_DEVIL
 	createsprite gDevilSpriteTemplate, ANIM_TARGET, 2, 0, -24

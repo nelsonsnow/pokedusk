@@ -111,7 +111,7 @@ static const u16 sEasyChatGroup_Move2[] = {
     MOVE_MIMIC,
     MOVE_MINIMIZE,
     MOVE_MIRROR_COAT,
-    MOVE_MIST_BALL,
+    MOVE_PLAY_ROUGH,
     MOVE_MOONLIGHT,
     MOVE_MUD_SHOT,
     MOVE_MUD_SPORT,

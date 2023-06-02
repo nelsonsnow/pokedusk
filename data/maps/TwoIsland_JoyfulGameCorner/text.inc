@@ -18,7 +18,7 @@ TwoIsland_JoyfulGameCorner_Text_PleaseHelpFindLostelle::
     .string "Please go search Three Island!$"
 
 TwoIsland_JoyfulGameCorner_Text_IsThisOnlyThreeIsland:: @ 81A259A
-    .string "Hah? What is this Game Corner?\n"
+    .string "Hah? What is this Casino?\n"
     .string "How much sadder can this get?\p"
     .string "Those clowns…\p"
     .string "They said they'd be waiting on the\n"
@@ -101,7 +101,7 @@ TwoIsland_JoyfulGameCorner_Text_NotGoingToFitInBag:: @ 81A2ACA
     .string "thing…$"
 
 TwoIsland_JoyfulGameCorner_Text_IllGetGameCornerRunning:: @ 81A2AF5
-    .string "All right, I'll get the Game Corner\n"
+    .string "All right, I'll get the Casino\n"
     .string "running right away.\p"
     .string "You have to come visit with a\n"
     .string "friend.$"

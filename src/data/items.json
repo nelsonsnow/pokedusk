@@ -4166,7 +4166,7 @@
       "price": 0,
       "holdEffect": "HOLD_EFFECT_NONE",
       "holdEffectParam": 0,
-      "description_english": "A case for holding Coins obtained\\nat the Game Corner.\\nIt holds up to 9,999 Coins.",
+      "description_english": "A case for holding Coins obtained\\nat the Casino.\\nIt holds up to 9,999 Coins.",
       "importance": 1,
       "exitsBagOnUse": 0,
       "pocket": "POCKET_KEY_ITEMS",

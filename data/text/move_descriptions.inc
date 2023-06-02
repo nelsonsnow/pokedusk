@@ -421,8 +421,8 @@ gMoveDescription_Barrage::
 gMoveDescription_LeechLife::
 	.string "An attack that\nabsorbs half the\ndamage it inflicted\nto restore HP.$"
 
-gMoveDescription_LovelyKiss::
-	.string "The user forces a\nkiss on the foe\nwith a scary face\nthat induces sleep.$"
+gMoveDescription_DrainingKiss::
+	.string "The user forces a\nkiss on the foe\nwith a fey energy\nthat drains target.$"
 
 gMoveDescription_SkyAttack::
 	.string "A 2nd-turn attack\nmove with a high\ncritical-hit ratio.\nThe foe may flinch.$"
@@ -884,7 +884,7 @@ gMoveDescription_LusterPurge:: @ 84876E6
 	.string "A burst of light\ninjures the foe. It\nmay also lower the\nfoe's Sp. Def.$"
 
 gMoveDescription_MistBall:: @ 848772D
-	.string "A flurry of down\nhits the foe. It\nmay also lower the\nfoe's Sp. Atk.$"
+	.string "A flurry of down\nhits the foe. It\nmay also lower the\nfoe's Atk.$"
 
 gMoveDescription_FeatherDance:: @ 8487771
 	.string "The foe is covered\nwith a mass of down\nthat sharply cuts\nthe Attack stat.$"

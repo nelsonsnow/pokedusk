@@ -4,7 +4,7 @@ TwoIsland_Text_IslandSign:: @ 8181A88
 
 TwoIsland_Text_JoyfulGameCornerSign::
     .string "Skip & Chomp!\n"
-    .string "Joyful Game Corner$"
+    .string "Joyful Casino$"
 
 TwoIsland_Text_DangerFastCurrent:: @ 8181AC8
     .string "Danger! Fast Current!\n"
@@ -49,7 +49,7 @@ TwoIsland_Text_FellowMovedFromCeladonCity::
 
 TwoIsland_Text_ShopkeepersBrotherWorksGameCorner::
     .string "The shopkeeper's brother took\n"
-    .string "a job at the Game Corner.\p"
+    .string "a job at the Casino.\p"
     .string "He's trying to pull together money\n"
     .string "so they can buy more merchandise.$"
 

@@ -1,21 +1,22 @@
 CeruleanCity_House1_Text_BadgesHaveAmazingSecrets:: @ 81918E7
-    .string "Only skilled Trainers can collect\n"
-    .string "Pokémon Badges.\p"
+    .string "Only top notch Trainers can\n"
+    .string "collect Pokémon Badges.\p"
     .string "I see you have at least one.\p"
     .string "Those Badges have amazing secrets,\n"
-    .string "did you know?$"
+    .string "just don't ask me how it works?\p"
+    .string "'Cause I have no Idea...$"
 
 CeruleanCity_House1_Text_DescribeWhichBadge::
     .string "Now then…\p"
     .string "Which of the eight Badges should\n"
-    .string "I describe?$"
+    .string "I devulge the secrets of?$"
 
 CeruleanCity_House1_Text_ComeVisitAnytime::
-    .string "Come visit me anytime you wish.$"
+    .string "You're welcomed here anytime.$"
 
 CeruleanCity_House1_Text_AttackStatFlash:: @ 81919BE
     .string "The Attack stat of all your\n"
-    .string "Pokémon increases a little bit.\p"
+    .string "Pokémon increases a bit.\p"
     .string "It also lets you use the move\n"
     .string "Flash outside of battle.$"
 

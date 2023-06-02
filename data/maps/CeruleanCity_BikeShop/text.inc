@@ -54,5 +54,5 @@ CeruleanCity_BikeShop_Text_GermanFoldableBicyleFinallyOnMarket::
     .string "おりたたみ　じてんしゃ！$"
 
 CeruleanCity_BikeShop_Text_ShinyNewBicycle:: @ 81929AD
-    .string "A shiny new Nimbus 3000 Bike!$"
+    .string "A shiny new Nimbus-3000 Bike!$"
 

@@ -2,14 +2,14 @@ CinnabarIsland_Text_DoorIsLocked::
     .string "The door is locked…$"
 
 CinnabarIsland_Text_BlaineLivedHereSinceBeforeLab:: @ 8180B34
-    .string "Cinnabar Gym's Blaine is quite the\n"
-    .string "odd fellow.\p"
-    .string "He's lived on the island since way\n"
-    .string "before the Lab was built.$"
+    .string "Gym Leader Blaine is quite the\n"
+    .string "weirdo.\p"
+    .string "He's lived on the island before\n"
+    .string "the lab was even built.$"
 
 CinnabarIsland_Text_ScientistsExperimentInMansion::
-    .string "Scientists conduct experiments \n"
-    .string "in the burned-out building.\p"
+    .string "Scientists conducted experiments\n"
+    .string "in that burned-out building.\p"
     .string "You know, the one they call the\n"
     .string "Pokémon Mansion.$"
 
@@ -23,36 +23,33 @@ CinnabarIsland_Text_PokemonLab:: @ 8180C3E
 CinnabarIsland_Text_GymSign:: @ 8180C4A
     .string "Cinnabar Island Pokémon Gym\n"
     .string "Leader: Blaine\l"
-    .string "The Hotheaded Quiz Master!$"
+    .string "The Hotheaded Gambler!$"
 
 CinnabarIsland_Text_HeyIfItIsntPlayer::
     .string "Huh?\n"
     .string "Hey, if it isn't {PLAYER}!$"
 
 CinnabarIsland_Text_ComeWithMeToOneIsland:: @ 8180CAA
-    .string "Look, it's me, Bill.\n"
+    .string "It's me, Bill.\n"
     .string "Long time no see!\p"
-    .string "I hope you're still using my\n"
-    .string "PC system.\p"
     .string "Well, listen, since we met up here,\n"
-    .string "how about spending time with me?\p"
-    .string "There's this little island in the far\n"
+    .string "how about hanging out?\p"
+    .string "There's this island in the far\n"
     .string "south called One Island.\p"
     .string "A friend invited me, so I'm on my\n"
     .string "way out there.\p"
     .string "How about it?\n"
-    .string "Do you feel like coming with me?$"
+    .string "Do you feel like coming with?$"
 
 CinnabarIsland_Text_AllRightLetsGo::
     .string "All right, then.\n"
     .string "Let's go!$"
 
 CinnabarIsland_Text_IllBeWaitingInPokeCenter::
-    .string "What, are you too busy?\p"
+    .string "Aw, man.\p"
     .string "Well, all right.\n"
     .string "The boat hasn't arrived yet anyway.\p"
-    .string "I'll be waiting at the Pokémon\n"
-    .string "Center over there.\p"
+    .string "I'll be waiting at the Pokécenter.\p"
     .string "Come see me when you're done with\n"
     .string "your business here.$"
 

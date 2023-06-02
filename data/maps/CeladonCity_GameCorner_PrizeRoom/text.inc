@@ -1,5 +1,5 @@
 CeladonCity_GameCorner_PrizeRoom_Text_FancyThatPorygon:: @ 8196FC1
-    .string "I sure do fancy that Porygon!\n"
+    .string "I really dig that Porygon!\n"
     .string "But, it's hard to win at slots!$"
 
 CeladonCity_GameCorner_PrizeRoom_Text_RakedItInToday::

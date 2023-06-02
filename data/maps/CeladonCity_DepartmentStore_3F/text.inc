@@ -22,40 +22,39 @@ CeladonCity_DepartmentStore_3F_Text_CanIdentifyTradeMonsByID:: @ 8195823
     .string "in trades by their ID Numbers.$"
 
 CeladonCity_DepartmentStore_3F_Text_ItsSuperNES::
-    .string "It's a Super NES.$"
+    .string "It's a SNES.$"
 
 CeladonCity_DepartmentStore_3F_Text_AnRPG::
-    .string "An RPG!\n"
-    .string "There's no time for that!$"
+    .string "Oh man! Chrono Trigger?\n"
+    .string "I wish I could stay and play!$"
 
 CeladonCity_DepartmentStore_3F_Text_SportsGame::
-    .string "A sports game!\n"
-    .string "Dad'll like that!$"
+    .string "NHL! I love hockey games\n"
+    .string "Let's go Islanders!$"
 
 CeladonCity_DepartmentStore_3F_Text_PuzzleGame::
-    .string "A puzzle game!\n"
-    .string "Looks addictive!$"
+    .string "Megaman X!\n"
+    .string "Such a classic!$"
 
 CeladonCity_DepartmentStore_3F_Text_FightingGame::
-    .string "A fighting game!\n"
-    .string "Looks tough!$"
+    .string "Dragon Ball FighterZ!\n"
+    .string "Destructive Finish!$"
 
 CeladonCity_DepartmentStore_3F_Text_TVGameShop:: @ 81958F6
     .string "3F: TV Game Shop$"
 
 CeladonCity_DepartmentStore_3F_Text_RedGreenBothArePokemon::
-    .string "Red and Green!\n"
-    .string "Both are Pokémon!$"
+    .string "Red, Blue, Green, and Yellow!\n"
+    .string "Classic Pokémon games!$"
 
 Text_CounterTeach::
-    .string "Oh, hi!\n"
+    .string "Oh, hey!\n"
     .string "I finally finished Pokémon.\p"
     .string "Not done yet? How about I teach\n"
     .string "you a good move?\p"
     .string "The move I have in mind is\n"
     .string "Counter.\p"
-    .string "Not like the one I'm leaning on,\n"
-    .string "mind you!$"
+    .string "Not like the one I'm leaning on!$"
 
 Text_CounterDeclined::
     .string "You're not interested? Come see\n"

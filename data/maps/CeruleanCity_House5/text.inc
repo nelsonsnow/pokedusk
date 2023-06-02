@@ -3,68 +3,9 @@ CeruleanCity_House1_Text_AnyInterestInBerries::
     .string "from Berry Powder.\p"
     .string "Using good Berry Powder, I can\n"
     .string "make any kind of medicine.\p"
-    .string "Now tell me, have you any interest\n"
-    .string "in Berries?$"
-
-CeruleanCity_House1_Text_HaveJustTheThing::
-    .string "Ah, good! For you, then, I have\n"
-    .string "just the thing.$"
-
-CeruleanCity_House1_Text_GoCrushBerriesAtDirectCorner::
-    .string "There's something new on the second\n"
-    .string "floor of Pokémon Centers, at the\l"
-    .string "Direct Corner.\p"
-    .string "They installed a Wireless Adapter\n"
-    .string "machine for crushing Berries.\p"
-    .string "This is where you come in.\p"
-    .string "I have a favor to ask, one that\n"
-    .string "I can entrust only to you.\p"
-    .string "Could you make Berry Powder for\n"
-    .string "me using that machine?\p"
-    .string "Don't forget, the machine is at the\n"
-    .string "Direct Corner of Pokémon Centers.\p"
-    .string "I'll concoct medicine for you if\n"
-    .string "you bring me some Berry Powder.\p"
-    .string "Don't forget, crush Berries into\n"
-    .string "Berry Powder and bring it to me.$"
-
-CeruleanCity_House1_Text_WhyMustYouLieNoBerries::
-    .string "Why must you lie to me?\p"
-    .string "How many Berries do you have?\n"
-    .string "Not a one!$"
-
-CeruleanCity_House1_Text_TakeInterestInAllSortsOfThings:: @ 819325E
-    .string "You have no interest in Berries?\p"
-    .string "Young one, it's important to take an\n"
-    .string "interest in all sorts of things.$"
-
-CeruleanCity_House1_Text_HaveYouBroughtBerryPowder::
-    .string "Er-hem! Have you brought me some\n"
-    .string "Berry Powder?$"
-
-CeruleanCity_House5_Text_ExchangeWithWhat::
-    .string "With what would you like to \n"
-    .string "exchange it?$"
-
-CeruleanCity_House1_Text_YoullExchangeBerryPowderForItem:: @ 819331E
-    .string "Fine, you'll exchange your Berry\n"
-    .string "Powder for one {STR_VAR_1}?$"
-
-CeruleanCity_House1_Text_DontHaveEnoughBerryPowder::
-    .string "Hm? You don't have enough\n"
-    .string "Berry Powder.$"
-
-CeruleanCity_House1_Text_TradeMoreBerryPowder:: @ 819337A
-    .string "This is fine Berry Powder indeed.\n"
-    .string "It will make excellent medicine.\p"
-    .string "Would you like to trade more Berry\n"
-    .string "Powder for something else?$"
+    .string "Would you like to see my stock?$"
 
 CeruleanCity_House1_Text_HopeToSeeYouAgain::
-    .string "That's fine, then.\n"
+    .string "Wonderful.\n"
     .string "I'll hope to see you back again.$"
-
-CeruleanCity_House1_Text_SeeMeIfYoudLikeToTradePowder::
-    .string "Come see me if you'd like to trade\n"
-    .string "your Berry Powder.$"
 

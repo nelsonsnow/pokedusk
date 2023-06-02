@@ -47,7 +47,7 @@ CeruleanCity_Gym_Text_DianaPostBattle:: @ 81924E4
     .string "there to see what you are made of.$"
 
 CeruleanCity_Gym_Text_LuisIntro::
-    .string "Becareful!\p"
+    .string "Be careful!\p"
     .string "You might get wet...\n"
     .string "Let's get to it!$"
 

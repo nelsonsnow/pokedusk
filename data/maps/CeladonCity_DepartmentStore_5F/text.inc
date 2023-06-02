@@ -1,6 +1,6 @@
 CeladonCity_DepartmentStore_5F_Text_ExplainStatEnhancers:: @ 8195BBA
-    .string "Pokémon stat enhancers can be\n"
-    .string "bought only here.\p"
+    .string "Pokémon stat enhancers can only\n"
+    .string "be bought here.\p"
     .string "HP Up increases the base HP of a\n"
     .string "Pokémon.\p"
     .string "Calcium raises the base Sp. Atk\n"
@@ -19,5 +19,5 @@ CeladonCity_DepartmentStore_5F_Text_HereForStatEnhancers:: @ 8195CA0
     .string "stat.$"
 
 CeladonCity_DepartmentStore_5F_Text_Drugstore:: @ 8195D14
-    .string "5F: Drugstore$"
+    .string "5F: Pharmacy$"
 

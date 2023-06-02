@@ -1,5 +1,5 @@
 CeladonCity_DepartmentStore_Roof_Text_ImThirstyGiveHerDrink::
-    .string "I'm thirsty!\n"
+    .string "Ugh, I'm thirsty!\n"
     .string "I want something to drink!\p"
     .string "{FONT_2}Give her a drink?$"
 
@@ -7,10 +7,10 @@ CeladonCity_DepartmentStore_Roof_Text_GiveWhichDrink::
     .string "Give her which drink?$"
 
 CeladonCity_DepartmentStore_Roof_Text_YayFreshWaterHaveThis::
-    .string "Yay!\p"
-    .string "Fresh Water!\p"
-    .string "Thank you!\n"
-    .string "You can have this from me!$"
+    .string "OMG TYSM!\p"
+    .string "Water!\p"
+    .string "Thanks!\n"
+    .string "You can have this!$"
 
 Text_ReceivedItemFromLittleGirl::
     .string "{PLAYER} received a {STR_VAR_2}\n"
@@ -22,10 +22,10 @@ CeladonCity_DepartmentStore_Roof_Text_ExplainTM16:: @ 8195DD4
     .string "of special attacks by your foe.$"
 
 CeladonCity_DepartmentStore_Roof_Text_YaySodaPopHaveThis::
-    .string "Yay!\p"
-    .string "Soda Pop!\p"
-    .string "Thank you!\n"
-    .string "You can have this from me!$"
+    .string "You're so clutch!\p"
+    .string "I love soda!\p"
+    .string "Thanks!\n"
+    .string "You can have this!$"
 
 CeladonCity_DepartmentStore_Roof_Text_ExplainTM20:: @ 8195E68
     .string "TM20 contains Safeguard.\p"
@@ -33,10 +33,10 @@ CeladonCity_DepartmentStore_Roof_Text_ExplainTM20:: @ 8195E68
     .string "problems among your Pokémon.$"
 
 CeladonCity_DepartmentStore_Roof_Text_YayLemonadeHaveThis::
-    .string "Yay!\p"
+    .string "You are a dream come true!\p"
     .string "Lemonade!\p"
-    .string "Thank you!\n"
-    .string "You can have this from me!$"
+    .string "Thanks!\n"
+    .string "You can have this!$"
 
 CeladonCity_DepartmentStore_Roof_Text_ExplainTM33:: @ 8195EF4
     .string "TM33 contains Reflect.\p"
@@ -47,17 +47,16 @@ CeladonCity_DepartmentStore_Roof_Text_DontHaveSpaceForThis::
     .string "You don't have space for this!$"
 
 CeladonCity_DepartmentStore_Roof_Text_ImNotThirstyAfterAll::
-    .string "No, thank you!\n"
-    .string "I'm not thirsty after all!$"
+    .string "No, thanks!\n"
+    .string "I'm gucci now!$"
 
 CeladonCity_DepartmentStore_Roof_Text_MySisterIsImmature:: @ 8195F98
-    .string "My sister is a Trainer, believe it\n"
-    .string "or not.\p"
-    .string "But, she's so immature, she drives\n"
-    .string "me nuts!$"
+    .string "My sister is a Trainer!\p"
+    .string "But, she's so immature, she's\n"
+    .string "so damned annoying!$"
 
 CeladonCity_DepartmentStore_Roof_Text_ImThirstyIWantDrink::
-    .string "I'm thirsty!\n"
+    .string "Ugh! I'm thirsty!\n"
     .string "I want something to drink!$"
 
 CeladonCity_DepartmentStore_Roof_Text_FloorSign:: @ 8196017
@@ -69,7 +68,7 @@ CeladonCity_DepartmentStore_Roof_Text_VendingMachineWhatDoesItHave::
     .string "What does it have?$"
 
 CeladonCity_DepartmentStore_Roof_Text_NotEnoughMoney::
-    .string "Oops, not enough money!$"
+    .string "Insufficient Funds!$"
 
 CeladonCity_DepartmentStore_Roof_Text_DrinkCanPoppedOut::
     .string "A can of {STR_VAR_1} popped out!$"

@@ -1984,11 +1984,11 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
 		.category = MOVE_PHYSICAL
     },
 
-    [MOVE_LOVELY_KISS] =
+    [MOVE_DRAINING_KISS] =
     {
-        .effect = EFFECT_SLEEP,
+        .effect = EFFECT_ABSORB,
         .power = 0,
-        .type = TYPE_NORMAL,
+        .type = TYPE_FAIRY,
         .accuracy = 75,
         .pp = 10,
         .secondaryEffectChance = 0,
@@ -4134,14 +4134,14 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
 		.category = MOVE_SPECIAL
     },
 
-    [MOVE_MIST_BALL] =
+    [MOVE_PLAY_ROUGH] =
     {
-        .effect = EFFECT_SPECIAL_ATTACK_DOWN_HIT,
-        .power = 70,
-        .type = TYPE_PSYCHIC,
-        .accuracy = 100,
-        .pp = 5,
-        .secondaryEffectChance = 50,
+        .effect = EFFECT_ATTACK_DOWN_HIT,
+        .power = 90,
+        .type = TYPE_FAIRY,
+        .accuracy = 90,
+        .pp = 10,
+        .secondaryEffectChance = 10,
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,
         .flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED,

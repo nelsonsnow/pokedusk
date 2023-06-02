@@ -5,11 +5,11 @@ CeladonCity_Restaurant_Text_TakingBreakRightNow::
 
 CeladonCity_Restaurant_Text_OftenGoToDrugstore:: @ 8197915
     .string "My Pokémon are weak, so I often\n"
-    .string "have to go to the Drugstore.$"
+    .string "have to go to the pharmacy.$"
 
 CeladonCity_Restaurant_Text_PsstBasementUnderGameCorner::
     .string "Psst! There's a basement under the\n"
-    .string "Game Corner, I hear.$"
+    .string "Casino, I hear.$"
 
 CeladonCity_Restaurant_Text_ManLostItAllAtSlots::
     .string "Munch…\p"
