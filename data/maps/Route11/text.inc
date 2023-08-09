@@ -3,9 +3,9 @@ Route11_Text_HugoIntro::
 
 Route11_Text_HugoDefeat::
     .string "Atcha!\n"
-    .string "Didn't go my way!$"
+    .string "Nani? Tondemonai!$"
 
-Route11_Text_HugoPostBattle:: @ 8184F2E
+Route11_Text_HugoPostBattle::
     .string "Pokémon is life!\n"
     .string "And to live is to play games!$"
 
@@ -14,14 +14,14 @@ Route11_Text_JasperIntro::
     .string "I can't get enough!$"
 
 Route11_Text_JasperDefeat::
-    .string "I had a chance!$"
+    .string "Dammit! So close!$"
 
 Route11_Text_JasperPostBattle::
     .string "You can't be a coward in the world\n"
     .string "of Pokémon!$"
 
 Route11_Text_EddieIntro::
-    .string "Let's go, but don't cheat!$"
+    .string "Let's go, but keep it clean!$"
 
 Route11_Text_EddieDefeat::
     .string "Huh?\n"
@@ -39,45 +39,46 @@ Route11_Text_BraxtonDefeat::
     .string "That was electric!$"
 
 Route11_Text_BraxtonPostBattle::
-    .string "Spread the word to save energy!$"
+    .string "Spread the word to save energy!\n"
+    .string "Solar, wind, and hydro!$"
 
 Route11_Text_DillonIntro:: @ 818506A
-    .string "I just became a Trainer.\n"
+    .string "I'm abrand new Trainer.\n"
     .string "But, I think I can win.$"
 
 Route11_Text_DillonDefeat:: @ 818509B
-    .string "My Pokémon couldn't win…\n"
-    .string "Haven't they grown enough?$"
+    .string "My Pokémon couldn't hack it…\n"
+    .string "They're not strong enought yet.$"
 
 Route11_Text_DillonPostBattle::
-    .string "What now?\n"
-    .string "Leave me alone!$"
+    .string "Thanks for the battle!\n"
+    .string "I learned a lot!$"
 
 Route11_Text_DirkIntro::
-    .string "Fwahaha!\n"
-    .string "I have never lost!$"
+    .string "I'm the undefeated champ of\n"
+    .string "Route 11!$"
 
 Route11_Text_DirkDefeat::
-    .string "My first loss!$"
+    .string "Fuck! My first loss!$"
 
 Route11_Text_DirkPostBattle::
-    .string "You were just lucky, that's all.$"
+    .string "Ugh, I'm 21-1 now.$"
 
 Route11_Text_DarianIntro::
-    .string "I have never won before…$"
+    .string "I've only ever lost…$"
 
 Route11_Text_DarianDefeat::
     .string "I saw this coming…$"
 
 Route11_Text_DarianPostBattle::
-    .string "I was unlucky, as always.$"
+    .string "I lost… again…$"
 
 Route11_Text_YasuIntro::
     .string "I'm the best in my class.\n"
     .string "I train every morning.$"
 
 Route11_Text_YasuDefeat::
-    .string "Darn!\n"
+    .string "Damn!\n"
     .string "My Pokémon need to be stronger!$"
 
 Route11_Text_YasuPostBattle:: @ 81851D2
@@ -87,11 +88,11 @@ Route11_Text_YasuPostBattle:: @ 81851D2
     .string "catch it.$"
 
 Route11_Text_BernieIntro::
-    .string "Watch out for live wires!$"
+    .string "I'm a live wire!$"
 
 Route11_Text_BernieDefeat::
     .string "Whoa!\n"
-    .string "You spark plug!$"
+    .string "You plugged my socket!$"
 
 Route11_Text_BerniePostBattle::
     .string "Well, better get back to work.$"
@@ -101,12 +102,12 @@ Route11_Text_DaveIntro:: @ 8185285
     .string "They should be ready by now!$"
 
 Route11_Text_DaveDefeat::
-    .string "Bye-bye!\n"
+    .string "Oof!\n"
     .string "Thank you, and good-bye!$"
 
 Route11_Text_DavePostBattle::
     .string "Tch…\n"
-    .string "I better go find stronger ones!$"
+    .string "I better go train up!$"
 
 Route11_Text_DiglettsCave:: @ 8185308
     .string "Diglett's Cave$"

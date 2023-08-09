@@ -363,7 +363,7 @@
 #define TRAINER_TEAM_ROCKET_GRUNT_7              357
 #define TRAINER_TEAM_ROCKET_GRUNT_8              358
 #define TRAINER_TEAM_ROCKET_GRUNT_9              359
-#define TRAINER_TEAM_ROCKET_GRUNT_10             360
+#define TRAINER_TEAM_ROCKET_JESSIE               360
 #define TRAINER_TEAM_ROCKET_GRUNT_11             361
 #define TRAINER_TEAM_ROCKET_GRUNT_12             362
 #define TRAINER_TEAM_ROCKET_GRUNT_13             363
@@ -371,7 +371,7 @@
 #define TRAINER_TEAM_ROCKET_GRUNT_15             365
 #define TRAINER_TEAM_ROCKET_GRUNT_16             366
 #define TRAINER_TEAM_ROCKET_GRUNT_17             367
-#define TRAINER_TEAM_ROCKET_GRUNT_18             368
+#define TRAINER_TEAM_ROCKET_JAMES                368
 #define TRAINER_TEAM_ROCKET_GRUNT_19             369
 #define TRAINER_TEAM_ROCKET_GRUNT_20             370
 #define TRAINER_TEAM_ROCKET_GRUNT_21             371
@@ -432,9 +432,9 @@
 #define TRAINER_RIVAL_SS_ANNE_SQUIRTLE           426
 #define TRAINER_RIVAL_SS_ANNE_BULBASAUR          427
 #define TRAINER_RIVAL_SS_ANNE_CHARMANDER         428
-#define TRAINER_RIVAL_POKENON_TOWER_SQUIRTLE     429
-#define TRAINER_RIVAL_POKENON_TOWER_BULBASAUR    430
-#define TRAINER_RIVAL_POKENON_TOWER_CHARMANDER   431
+#define TRAINER_RIVAL_POKEMON_TOWER_SQUIRTLE     429
+#define TRAINER_RIVAL_POKEMON_TOWER_BULBASAUR    430
+#define TRAINER_RIVAL_POKEMON_TOWER_CHARMANDER   431
 #define TRAINER_RIVAL_SILPH_SQUIRTLE             432
 #define TRAINER_RIVAL_SILPH_BULBASAUR            433
 #define TRAINER_RIVAL_SILPH_CHARMANDER           434
@@ -764,12 +764,24 @@
 #define TRAINER_RIVAL_CERULEAN_TREECKO           758
 #define TRAINER_RIVAL_CERULEAN_MUDKIP            759
 #define TRAINER_RIVAL_CERULEAN_TORCHIC           760
+#define TRAINER_RIVAL_SS_ANNE_CHIKORITA          761
+#define TRAINER_RIVAL_SS_ANNE_TOTODILE           762
+#define TRAINER_RIVAL_SS_ANNE_CYNDAQUIL          763
+#define TRAINER_RIVAL_SS_ANNE_TREECKO            764
+#define TRAINER_RIVAL_SS_ANNE_MUDKIP             765
+#define TRAINER_RIVAL_SS_ANNE_TORCHIC            766
+#define TRAINER_RIVAL_POKEMON_TOWER_CHIKORITA    767
+#define TRAINER_RIVAL_POKEMON_TOWER_TOTODILE     768
+#define TRAINER_RIVAL_POKEMON_TOWER_CYNDAQUIL    769
+#define TRAINER_RIVAL_POKEMON_TOWER_TREECKO      770
+#define TRAINER_RIVAL_POKEMON_TOWER_MUDKIP       771
+#define TRAINER_RIVAL_POKEMON_TOWER_TORCHIC      772
 
 // NOTE: Because each Trainer uses a flag to determine when they are defeated, there is 
 //       only space for 25 additional trainers before trainer flag space overflows.
 //       MAX_TRAINERS_COUNT can be increased but will take up additional saveblock space
 
-#define NUM_TRAINERS                             761
-#define MAX_TRAINERS_COUNT                       768
+#define NUM_TRAINERS                             773
+#define MAX_TRAINERS_COUNT                       800
 
 #endif  // GUARD_CONSTANTS_OPPONENTS_H

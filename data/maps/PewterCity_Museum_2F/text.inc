@@ -33,7 +33,7 @@ PewterCity_Museum_1F_Text_BoughtColorTVForMoonLanding::
     .string "I bought a color TV just so I\n"
     .string "could watch that news.\p"
     .string "One small step for man,\n"
-    .string "One giant leap for mankind$"
+    .string "One giant leap for mankind!$"
 
 PewterCity_Museum_1F_Text_RunningSpaceExhibitThisMonth::
     .string "This month, we're running a space\n"

@@ -178,7 +178,10 @@
     "SixIsland_PatternBush",
     "SixIsland_AlteringCave",
     "PikachuMeadow",
-    "ClefaryCove"
+    "ClefaryCove",
+    "CoveTunnel",
+    "SquirtleGrove",
+    "Bulbameadow"
   ],
   "gMapGroup_SpecialArea": [
     "NavelRock_Exterior",
@@ -315,13 +318,15 @@
     "SevenIsland_TanobyRuins",
     "NewBarkTown",
     "Route29",
-    "CherrygroveCity"
+    "CherrygroveCity",
+    "Route30"
   ],
   "gMapGroup_IndoorPallet": [
     "PalletTown_PlayersHouse_1F",
     "PalletTown_PlayersHouse_2F",
     "PalletTown_RivalsHouse",
-    "PalletTown_ProfessorOaksLab"
+    "PalletTown_ProfessorOaksLab",
+    "Debug"
   ],
   "gMapGroup_IndoorViridian": [
     "ViridianCity_House",

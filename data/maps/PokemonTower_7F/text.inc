@@ -1,20 +1,19 @@
 PokemonTower_7F_Text_Grunt1Intro::
-    .string "What do you want?\n"
-    .string "Why are you here?$"
+    .string "What the fuck do you want?$"
 
 PokemonTower_7F_Text_Grunt1Defeat::
-    .string "I give up!$"
+    .string "Grr, I give!$"
 
 PokemonTower_7F_Text_Grunt1PostBattle::
     .string "I'm not going to forget this!$"
 
 PokemonTower_7F_Text_Grunt2Intro::
-    .string "This old guy marched right up to\n"
-    .string "our Hideout.\p"
+    .string "This old guy marched right up\n"
+    .string "here while we're working.\p"
     .string "Then, he starts ranting about how\n"
-    .string "Team Rocket's abusing Pokémon.\p"
-    .string "So, we're just talking it over as\n"
-    .string "adults.$"
+    .string "Team Rocket's killing Pokémon.\p"
+    .string "So, we're just talking it over\n"
+    .string "like civilized people.$"
 
 PokemonTower_7F_Text_Grunt2Defeat::
     .string "Please!\n"

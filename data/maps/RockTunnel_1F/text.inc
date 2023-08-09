@@ -3,12 +3,12 @@ RockTunnel_1F_Text_LennyIntro::
     .string "This tunnel goes a long way, kid!$"
 
 RockTunnel_1F_Text_LennyDefeat::
-    .string "Doh!\n"
+    .string "Woah!\n"
     .string "You win!$"
 
 RockTunnel_1F_Text_LennyPostBattle:: @ 8179396
-    .string "Watch for Onix.\n"
-    .string "They appear only occasionally.\p"
+    .string "Watch out for Onix.\n"
+    .string "They appear occasionally.\p"
     .string "High-level ones can put the\n"
     .string "squeeze on you!$"
 
@@ -18,7 +18,6 @@ RockTunnel_1F_Text_OliverIntro::
 
 RockTunnel_1F_Text_OliverDefeat::
     .string "Ease up!\n"
-    .string "What am I doing?\l"
     .string "Which way is out?$"
 
 RockTunnel_1F_Text_OliverPostBattle:: @ 817943A
@@ -36,14 +35,14 @@ RockTunnel_1F_Text_LucasPostBattle::
     .string "You're talented enough to hike!$"
 
 RockTunnel_1F_Text_AshtonIntro:: @ 81794D4
-    .string "Pokémon fight!\n"
-    .string "Ready, go!$"
+    .string "Enter Credits!\n"
+    .string "A New Challanger Approachs!$"
 
 RockTunnel_1F_Text_AshtonDefeat::
-    .string "Game over!$"
+    .string "Game over, man! GAME OVER!$"
 
 RockTunnel_1F_Text_AshtonPostBattle:: @ 81794F9
-    .string "Oh well, I'll get a Zubat as I go!$"
+    .string "I need to work on my arcade skills!$"
 
 RockTunnel_1F_Text_LeahIntro::
     .string "Eek!\p"
@@ -54,10 +53,10 @@ RockTunnel_1F_Text_LeahDefeat::
     .string "It was too dark…$"
 
 RockTunnel_1F_Text_LeahPostBattle:: @ 8179558
-    .string "I saw a Machop in this tunnel.$"
+    .string "So many creeps about.$"
 
 RockTunnel_1F_Text_DanaIntro::
-    .string "I came this far looking for wild\n"
+    .string "I came here looking for wild\n"
     .string "Pokémon.$"
 
 RockTunnel_1F_Text_DanaDefeat:: @ 81795A1
@@ -76,7 +75,7 @@ RockTunnel_1F_Text_ArianaDefeat::
 
 RockTunnel_1F_Text_ArianaPostBattle::
     .string "Whew!\n"
-    .string "I'm all sweaty now.$"
+    .string "That was exhausting.$"
 
 RockTunnel_1F_Text_RouteSign:: @ 817962D
     .string "Rock Tunnel\n"

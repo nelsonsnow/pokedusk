@@ -95,8 +95,8 @@ MtMoon_B2F_EventScript_JessieJames::
 	removeobject 11
 	removeobject 12
 	removeobject 13
-	setflag FLAG_JESSEJAMESMTMOON
-	setvar VAR_JESSEJAMESMTMOON, 1
+	setflag FLAG_JESSIEJAMESMTMOON
+	setvar VAR_JESSIEJAMESMTMOON, 1
 	releaseall
 	end
 
@@ -236,3 +236,10 @@ MtMoon_B2F_EventScript_JessieJamesPostBattle::
 
 MtMoon_B2F_EventScript_JessieJamesLost::
 	.string "The boss is gonna kill us.$"
+
+MtMoon_B2F_Trigger_Gengar::
+	removeobject 14
+	removeobject 15
+	setvar VAR_MTMOON_GENGAR, 1
+	setflag FLAG_GENGAR_MTMOON
+	return

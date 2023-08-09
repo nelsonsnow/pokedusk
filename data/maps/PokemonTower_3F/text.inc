@@ -3,12 +3,12 @@ PokemonTower_3F_Text_HopeIntro::
     .string "Huhu… Graa…$"
 
 PokemonTower_3F_Text_HopeDefeat::
-    .string "Hwa!\n"
+    .string "I thank you!\n"
     .string "I'm saved!$"
 
 PokemonTower_3F_Text_HopePostBattle::
-    .string "The ghosts can be identified by\n"
-    .string "the Silph Scope.$"
+    .string "I heard the ghosts can be \n"
+    .string "identified by the Silph Scope.$"
 
 PokemonTower_3F_Text_CarlyIntro::
     .string "Kekeke…\n"
@@ -27,8 +27,8 @@ PokemonTower_3F_Text_PatriciaIntro::
     .string "Malevolent spirit!$"
 
 PokemonTower_3F_Text_PatriciaDefeat::
-    .string "Whew!\n"
-    .string "The spirit left!$"
+    .string "Oh, I'm sorry!\n"
+    .string "I thought you were a demon!$"
 
 PokemonTower_3F_Text_PatriciaPostBattle::
     .string "The others above…\n"

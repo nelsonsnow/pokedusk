@@ -444,7 +444,6 @@ static const u8 *const sFemaleNameChoices[] = {
     gNameChoice_Mina,
     gNameChoice_Norie,
     gNameChoice_Sai,
-    gNameChoice_Suzi,
     gNameChoice_Jodi
 };
 

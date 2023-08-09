@@ -16,5 +16,5 @@ Route2_ViridianForest_NorthEntrance_Text_CanCancelEvolution::
     .string "Some Pokémon can only learn moves\n"
     .string "During an earlier stage.\p"
     .string "There is also an item to stop\n"
-    .string "your Pokémon from Evololving.$"
+    .string "your Pokémon from Evolving.$"
 

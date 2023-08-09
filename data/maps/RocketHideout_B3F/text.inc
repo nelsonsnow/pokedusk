@@ -1,26 +1,26 @@
 RocketHideout_B3F_Text_Grunt1Intro:: @ 817511A
-    .string "Stop meddling in Team Rocket's\n"
-    .string "affairs or else!$"
+    .string "Hey kid! Stay out of our\n"
+    .string "business or else!$"
 
 RocketHideout_B3F_Text_Grunt1Defeat::
     .string "Oof!\n"
-    .string "Taken down!$"
+    .string "That one stung!$"
 
 RocketHideout_B3F_Text_Grunt1PostBattle:: @ 817515B
     .string "Silph Scope?\n"
     .string "Oh, that machine the Boss stole.\p"
-    .string "It's here somewhere.$"
+    .string "Like I'd tell you...$"
 
 RocketHideout_B3F_Text_Grunt2Intro::
-    .string "We got word from upstairs that you\n"
-    .string "were coming!$"
+    .string "We got word from my homies\n"
+    .string "upstairs that you were coming!$"
 
 RocketHideout_B3F_Text_Grunt2Defeat::
-    .string "What?\n"
-    .string "I lost? No!$"
+    .string "Gods dammit! They told\n"
+    .string " me not to underestimate you...!$"
 
 RocketHideout_B3F_Text_Grunt2PostBattle::
-    .string "Go ahead and go!\p"
-    .string "But you can't run the elevator\n"
+    .string "Get! Fuckin' kid.\p"
+    .string "Doesn't matter\n"
     .string "without the Lift Key.$"
 

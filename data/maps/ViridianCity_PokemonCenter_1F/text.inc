@@ -7,7 +7,7 @@ ViridianCity_PokemonCenter_1F_Text_FeelFreeToUsePC::
 ViridianCity_PokemonCenter_1F_Text_PokeCenterInEveryTown:: @ 81903E5
     .string "There's a Pokémon Center in every\n"
     .string "town ahead. They charge no money!\p"
-    .string "Don't you love free heathcare? do\n"
+    .string "Don't you love free heathcare? Do\n"
     .string "not be shy about healing Pokémon.$"
 
 ViridianCity_PokemonCenter_1F_Text_PokeCentersHealMons:: @ 8190450

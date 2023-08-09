@@ -4456,7 +4456,7 @@
     {
       "id": "LAYOUT_PIKACHU_MEADOW",
       "name": "PikachuMeadow_Layout",
-      "width": 20,
+      "width": 22,
       "height": 20,
       "border_width": 3,
       "border_height": 2,
@@ -4485,21 +4485,81 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_PalletTown",
+      "secondary_tileset": "gTileset_VermilionCity",
       "border_filepath": "data/layouts/Route29/border.bin",
       "blockdata_filepath": "data/layouts/Route29/map.bin"
     },
     {
       "id": "LAYOUT_CHERRYGROVE_CITY",
       "name": "CherrygroveCity_Layout",
+      "width": 60,
+      "height": 24,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_VermilionCity",
+      "border_filepath": "data/layouts/CherrygroveCity/border.bin",
+      "blockdata_filepath": "data/layouts/CherrygroveCity/map.bin"
+    },
+    {
+      "id": "LAYOUT_DEBUG",
+      "name": "Debug_Layout",
       "width": 40,
-      "height": 28,
+      "height": 7,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_PowerPlant",
+      "border_filepath": "data/layouts/Debug/border.bin",
+      "blockdata_filepath": "data/layouts/Debug/map.bin"
+    },
+    {
+      "id": "LAYOUT_COVE_TUNNEL",
+      "name": "CoveTunnel_Layout",
+      "width": 3,
+      "height": 8,
+      "border_width": 1,
+      "border_height": 1,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/CoveTunnel/border.bin",
+      "blockdata_filepath": "data/layouts/CoveTunnel/map.bin"
+    },
+    {
+      "id": "LAYOUT_SQUIRTLE_GROVE",
+      "name": "SquirtleGrove_Layout",
+      "width": 27,
+      "height": 30,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_CinnabarIsland",
-      "border_filepath": "data/layouts/CherrygroveCity/border.bin",
-      "blockdata_filepath": "data/layouts/CherrygroveCity/map.bin"
+      "border_filepath": "data/layouts/SquirtleGrove/border.bin",
+      "blockdata_filepath": "data/layouts/SquirtleGrove/map.bin"
+    },
+    {
+      "id": "LAYOUT_BULBAMEADOW",
+      "name": "Bulbameadow_Layout",
+      "width": 30,
+      "height": 20,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_ViridianForest",
+      "border_filepath": "data/layouts/Bulbameadow/border.bin",
+      "blockdata_filepath": "data/layouts/Bulbameadow/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE30",
+      "name": "Route30_Layout",
+      "width": 20,
+      "height": 60,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_VermilionCity",
+      "border_filepath": "data/layouts/Route30/border.bin",
+      "blockdata_filepath": "data/layouts/Route30/map.bin"
     }
   ]
 }

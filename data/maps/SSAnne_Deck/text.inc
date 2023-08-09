@@ -13,10 +13,10 @@ SSAnne_Deck_Text_FeelSeasick::
 
 SSAnne_Deck_Text_EdmondIntro::
     .string "Hey, matey!\p"
-    .string "Let's do a little jig!$"
+    .string "How about a contest?!$"
 
 SSAnne_Deck_Text_EdmondDefeat::
-    .string "You're impressive!$"
+    .string "You took the wind out of my sails!$"
 
 SSAnne_Deck_Text_EdmondPostBattle:: @ 817333E
     .string "How many kinds of Pokémon do you\n"
@@ -30,6 +30,6 @@ SSAnne_Deck_Text_TrevorDefeat::
     .string "I was just careless!$"
 
 SSAnne_Deck_Text_TrevorPostBattle::
-    .string "My pa said there are 100 kinds of\n"
+    .string "My pa said there are thousands of\n"
     .string "Pokémon. I think there are more.$"
 

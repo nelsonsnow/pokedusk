@@ -1385,3 +1385,18 @@ Text_TestMsg::
 
 	.include "data/maps/CherrygroveCity/scripts.inc"
 
+
+	.include "data/maps/Debug/scripts.inc"
+	.include "data/maps/Debug/text.inc"
+
+	.include "data/maps/CoveTunnel/scripts.inc"
+	.include "data/maps/CoveTunnel/text.inc"
+
+	.include "data/maps/SquirtleGrove/scripts.inc"
+	.include "data/maps/SquirtleGrove/text.inc"
+
+	.include "data/maps/Bulbameadow/scripts.inc"
+	.include "data/maps/Bulbameadow/text.inc"
+
+	.include "data/maps/Route30/scripts.inc"
+	.include "data/maps/Route30/text.inc"

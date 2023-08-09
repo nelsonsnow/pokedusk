@@ -69,7 +69,7 @@ Route24_Text_ReliPostBattle::
     .string "You got the sauce kid!$"
 
 Route24_Text_TimmyIntro::
-    .string "Im the Third Amigo!\n"
+    .string "I'm the Third Amigo!\n"
     .string "I keep it real!$"
 
 Route24_Text_TimmyDefeat::

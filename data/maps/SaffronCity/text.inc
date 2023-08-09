@@ -7,28 +7,28 @@ SaffronCity_Text_BossTakeTownForTeamRocket:: @ 818101F
     .string "in the name of Team Rocket!$"
 
 SaffronCity_Text_DontGetDefiantOrIllHurtYou::
-    .string "Don't get defiant!\n"
-    .string "Or I'll have to hurt you!$"
+    .string "Stay in line! You don't want\n"
+    .string " to fuck around and find out!$"
 
 SaffronCity_Text_SaffronBelongsToTeamRocket:: @ 8181087
-    .string "Saffron belongs to Team Rocket!$"
+    .string "Saffron is Team Rocket territory!$"
 
 SaffronCity_Text_CriminalLifeMakesMeFeelAlive::
-    .string "My life as a criminal makes me feel\n"
-    .string "so alive!$"
+    .string "Being a part of Team Rocket makes\n"
+    .string "me feel so alive!$"
 
 SaffronCity_Text_WatchWhereYoureWalking::
-    .string "Ow!\n"
+    .string "HEY!\n"
     .string "Watch where you're walking!$"
 
 SaffronCity_Text_WeCanExploitMonsAroundWorld:: @ 81810F5
     .string "With Silph under control, we can\n"
     .string "exploit Pokémon around the world!\p"
-    .string "We'll get stinking rich, yeahah!$"
+    .string "Hey, I'm on the phone! Back off!$"
 
 SaffronCity_Text_YouBeatTeamRocket:: @ 8181159
     .string "You beat Team Rocket all alone?\n"
-    .string "That's amazing!$"
+    .string "That's dope!$"
 
 SaffronCity_Text_SafeToGoOutAgain:: @ 8181189
     .string "Yeah! Team Rocket is gone!\n"
@@ -37,17 +37,17 @@ SaffronCity_Text_SafeToGoOutAgain:: @ 8181189
 SaffronCity_Text_PeopleComingBackToSaffron::
     .string "People fled from here in droves\n"
     .string "when those Rockets came.\p"
-    .string "They should be flocking back to\n"
-    .string "Saffron now.$"
+    .string "They should be coming back to\n"
+    .string "Saffron any day now.$"
 
 SaffronCity_Text_FlewHereOnPidgeot:: @ 8181225
     .string "I flew here on my Pidgeot when\n"
     .string "I read about Silph.\p"
     .string "It's already over?\n"
-    .string "I missed the media action…$"
+    .string "I missed the action…$"
 
 SaffronCity_Text_Pidgeot:: @ 8181286
-    .string "Pidgeot: Bi bibii!$"
+    .string "Pidgeot: Brii bribrii!$"
 
 SaffronCity_Text_SawRocketBossEscaping:: @ 8181299
     .string "I saw the Rocket Boss escaping\n"
@@ -59,12 +59,12 @@ SaffronCity_Text_ImASecurityGuard::
 
 SaffronCity_Text_HesTakingASnooze::
     .string "…\n"
-    .string "Snore…\p"
-    .string "Hah! He's taking a snooze!$"
+    .string "zzz…\p"
+    .string "Hah! He's out!$"
 
 SaffronCity_Text_CitySign:: @ 8181326
     .string "Saffron City\n"
-    .string "Shining, Golden Land of Commerce$"
+    .string "Golden City of Oppurtunity.$"
 
 SaffronCity_Text_FightingDojo:: @ 8181354
     .string "Fighting Dojo$"
@@ -72,22 +72,16 @@ SaffronCity_Text_FightingDojo:: @ 8181354
 SaffronCity_Text_GymSign:: @ 8181362
     .string "Saffron City Pokémon Gym\n"
     .string "Leader: Sabrina\l"
-    .string "The Master of Psychic Pokémon!$"
+    .string "The Mistress of Psychic Pokémon!$"
 
 SaffronCity_Text_FullHealCuresStatus:: @ 81813AA
     .string "Trainer Tips\p"
-    .string "Full Heal cures all ailments like\n"
-    .string "burns, paralysis, poisoning,\l"
-    .string "freezing, and sleep.\p"
-    .string "It costs a bit more, but it's more\n"
-    .string "convenient than buying other items.$"
+    .string "Don't be a dick.$"
 
 SaffronCity_Text_GreatBallImprovedCatchRate:: @ 8181452
     .string "Trainer Tips\p"
-    .string "The new Great Ball offers improved\n"
-    .string "catching rates.\p"
-    .string "Try it on those hard-to-catch\n"
-    .string "Pokémon.$"
+    .string "Treat people how you want to be\n"
+    .string "treated. Aka, don't be a dick.$"
 
 SaffronCity_Text_SilphCoSign:: @ 81814B9
     .string "Silph Co. Office Building$"
@@ -97,7 +91,7 @@ SaffronCity_Text_MrPsychicsHouse:: @ 81814D3
 
 SaffronCity_Text_SilphsLatestProduct:: @ 81814E7
     .string "Silph's latest product!\n"
-    .string "Release to be determined…$"
+    .string "Release to be announced…$"
 
 SaffronCity_Text_TrainerFanClubSign:: @ 8181519
     .string "Pokémon Trainer Fan Club\p"
@@ -110,6 +104,6 @@ SaffronCity_Text_HowCanClubNotRecognizeLance:: @ 8181569
     .string "How could they not recognize\n"
     .string "the brilliance that is Lance?\p"
     .string "He stands for justice!\n"
-    .string "He's cool, and yet passionate!\l"
+    .string "He's so freaking awesome!\l"
     .string "He's the greatest, Lance!$"
 

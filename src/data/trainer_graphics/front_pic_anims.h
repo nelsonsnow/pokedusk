@@ -743,6 +743,16 @@ static const union AnimCmd *const sAnims_JessieJames[] =
     sAnim_GeneralFrame0,
 };
 
+static const union AnimCmd *const sAnims_Jessie[] =
+{
+    sAnim_GeneralFrame0,
+};
+
+static const union AnimCmd *const sAnims_James[] =
+{
+    sAnim_GeneralFrame0,
+};
+
 const union AnimCmd *const *const gTrainerFrontAnimsPtrTable[] =
 {
     [TRAINER_PIC_AQUA_LEADER_ARCHIE]    = sAnims_AquaLeaderArchie,
@@ -894,4 +904,6 @@ const union AnimCmd *const *const gTrainerFrontAnimsPtrTable[] =
     [TRAINER_PIC_LADY]                  = sAnims_Lady,
     [TRAINER_PIC_PAINTER]               = sAnims_Painter,
     [TRAINER_PIC_JESSIEJAMES]           = sAnims_JessieJames,
+    [TRAINER_PIC_JESSIE]                = sAnims_Jessie,
+    [TRAINER_PIC_JAMES]                 = sAnims_James,
 };

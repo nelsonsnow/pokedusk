@@ -747,7 +747,6 @@ extern const u8 gNameChoice_Mina[];
 extern const u8 gNameChoice_Norie[];
 extern const u8 gNameChoice_Sai[];
 extern const u8 gNameChoice_Jenn[];
-extern const u8 gNameChoice_Suzi[];
 extern const u8 gNameChoice_Green[];
 extern const u8 gNewGame_HelpDocs1[];
 extern const u8 gNewGame_HelpDocs2[];

@@ -12,5 +12,6 @@ LavenderTown_PokemonCenter_1F_Text_CubonesMotherKilledByRockets:: @ 81934DE
 LavenderTown_PokemonCenter_1F_Text_PeoplePayForCuboneSkulls:: @ 819353A
     .string "You know how the Cubone species\n"
     .string "wears skulls, right?\p"
-    .string "People will pay a lot for one.$"
+    .string "Some people, disgusting people,\n"
+    .string "Will pay a premium for them.$"
 

@@ -4,7 +4,8 @@ PalletTown_PlayersHouse_2F_Text_PlayedWithNES::
     .string "Ok, It's time to go!$"
 
 PalletTown_PlayersHouse_2F_Text_PressLRForHelp::
-    .string "This is a sign\p"
-    .string "No really, just a sign\n"
-    .string "Nothing to see here...$"
+    .string "Press R to enable and disable\n"
+    .string "Auto Run. Quite a nifty feature!\p"
+    .string "Also, hold B to walk in Auto\n"
+    .string "Run mode.$"
 

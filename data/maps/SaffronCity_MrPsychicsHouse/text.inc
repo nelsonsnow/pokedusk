@@ -9,7 +9,7 @@ SaffronCity_MrPsychicsHouse_Text_ReceivedTM29FromMrPsychic::
 SaffronCity_MrPsychicsHouse_Text_ExplainTM29::
     .string "You already know, don't you?\n"
     .string "TM29 is Psychic.\p"
-    .string "It's an attack that may also lower\n"
+    .string "It's an attack that may lower\n"
     .string "the target's special stats.$"
 
 SaffronCity_MrPsychicsHouse_Text_YouveNoRoom::

@@ -4532,6 +4532,11 @@ static const struct TrainerMonNoItemDefaultMoves sParty_TeamRocketJessieJames1[]
     },
     {
         .iv = 50,
+        .lvl = 11,
+        .species = SPECIES_ZUBAT,
+    },
+    {
+        .iv = 50,
         .lvl = 15,
         .species = SPECIES_MEOWTH,
     },
@@ -4602,7 +4607,25 @@ static const struct TrainerMonNoItemDefaultMoves sParty_TeamRocketGrunt9[] = {
     },
 };
 
-static const struct TrainerMonNoItemCustomMoves sParty_TeamRocketGrunt10[] = {
+static const struct TrainerMonNoItemDefaultMoves sParty_TeamRocketJessie[] = {
+    {
+        .iv = 0,
+        .lvl = 23,
+        .species = SPECIES_ARBOK,
+    },
+    {
+        .iv = 0,
+        .lvl = 20,
+        .species = SPECIES_LICKITUNG,
+    },
+    {
+        .iv = 0,
+        .lvl = 20,
+        .species = SPECIES_SHELLDER,
+    },
+};
+
+static const struct TrainerMonNoItemCustomMoves sParty_TeamRocketGrunt11[] = {
     {
         .iv = 0,
         .lvl = 20,
@@ -4620,29 +4643,6 @@ static const struct TrainerMonNoItemCustomMoves sParty_TeamRocketGrunt10[] = {
         .lvl = 20,
         .species = SPECIES_KOFFING,
         .moves = {MOVE_SMOG, MOVE_TACKLE, MOVE_POISON_GAS, MOVE_NONE},
-    },
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_TeamRocketGrunt11[] = {
-    {
-        .iv = 0,
-        .lvl = 19,
-        .species = SPECIES_RATTATA,
-    },
-    {
-        .iv = 0,
-        .lvl = 19,
-        .species = SPECIES_RATICATE,
-    },
-    {
-        .iv = 0,
-        .lvl = 19,
-        .species = SPECIES_RATICATE,
-    },
-    {
-        .iv = 0,
-        .lvl = 19,
-        .species = SPECIES_RATTATA,
     },
 };
 
@@ -4761,7 +4761,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_TeamRocketGrunt17[] = {
     },
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_TeamRocketGrunt18[] = {
+static const struct TrainerMonNoItemDefaultMoves sParty_TeamRocketJames[] = {
     {
         .iv = 0,
         .lvl = 21,
@@ -4770,7 +4770,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_TeamRocketGrunt18[] = {
     {
         .iv = 0,
         .lvl = 21,
-        .species = SPECIES_ZUBAT,
+        .species = SPECIES_WEEPINBELL,
     },
 };
 
@@ -6185,7 +6185,145 @@ static const struct TrainerMonNoItemDefaultMoves sParty_RivalSsAnneCharmander[] 
     },
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_RivalPokenonTowerSquirtle[] = {
+static const struct TrainerMonNoItemDefaultMoves sParty_RivalSsAnneTotodile[] = {
+    {
+        .iv = 50,
+        .lvl = 19,
+        .species = SPECIES_PIDGEOTTO,
+    },
+    {
+        .iv = 50,
+        .lvl = 16,
+        .species = SPECIES_RATICATE,
+    },
+    {
+        .iv = 50,
+        .lvl = 18,
+        .species = SPECIES_KADABRA,
+    },
+    {
+        .iv = 100,
+        .lvl = 20,
+        .species = SPECIES_CROCONAW,
+    },
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_RivalSsAnneChikorita[] = {
+    {
+        .iv = 50,
+        .lvl = 19,
+        .species = SPECIES_PIDGEOTTO,
+    },
+    {
+        .iv = 50,
+        .lvl = 16,
+        .species = SPECIES_RATICATE,
+    },
+    {
+        .iv = 50,
+        .lvl = 18,
+        .species = SPECIES_KADABRA,
+    },
+    {
+        .iv = 100,
+        .lvl = 20,
+        .species = SPECIES_BAYLEEF,
+    },
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_RivalSsAnneCyndaquil[] = {
+    {
+        .iv = 50,
+        .lvl = 19,
+        .species = SPECIES_PIDGEOTTO,
+    },
+    {
+        .iv = 50,
+        .lvl = 16,
+        .species = SPECIES_RATICATE,
+    },
+    {
+        .iv = 50,
+        .lvl = 18,
+        .species = SPECIES_KADABRA,
+    },
+    {
+        .iv = 100,
+        .lvl = 20,
+        .species = SPECIES_QUILAVA,
+    },
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_RivalSsAnneMudkip[] = {
+    {
+        .iv = 50,
+        .lvl = 19,
+        .species = SPECIES_PIDGEOTTO,
+    },
+    {
+        .iv = 50,
+        .lvl = 16,
+        .species = SPECIES_RATICATE,
+    },
+    {
+        .iv = 50,
+        .lvl = 18,
+        .species = SPECIES_KADABRA,
+    },
+    {
+        .iv = 100,
+        .lvl = 20,
+        .species = SPECIES_MARSHTOMP,
+    },
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_RivalSsAnneTreecko[] = {
+    {
+        .iv = 50,
+        .lvl = 19,
+        .species = SPECIES_PIDGEOTTO,
+    },
+    {
+        .iv = 50,
+        .lvl = 16,
+        .species = SPECIES_RATICATE,
+    },
+    {
+        .iv = 50,
+        .lvl = 18,
+        .species = SPECIES_KADABRA,
+    },
+    {
+        .iv = 100,
+        .lvl = 20,
+        .species = SPECIES_GROVYLE,
+    },
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_RivalSsAnneTorchic[] = {
+    {
+        .iv = 50,
+        .lvl = 19,
+        .species = SPECIES_PIDGEOTTO,
+    },
+    {
+        .iv = 50,
+        .lvl = 16,
+        .species = SPECIES_RATICATE,
+    },
+    {
+        .iv = 50,
+        .lvl = 18,
+        .species = SPECIES_KADABRA,
+    },
+    {
+        .iv = 100,
+        .lvl = 20,
+        .species = SPECIES_COMBUSKEN,
+    },
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_RivalPokemonTowerSquirtle[] = {
     {
         .iv = 100,
         .lvl = 25,
@@ -6213,7 +6351,9 @@ static const struct TrainerMonNoItemDefaultMoves sParty_RivalPokenonTowerSquirtl
     },
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_RivalPokenonTowerBulbasaur[] = {
+
+
+static const struct TrainerMonNoItemDefaultMoves sParty_RivalPokemonTowerBulbasaur[] = {
     {
         .iv = 100,
         .lvl = 25,
@@ -6241,7 +6381,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_RivalPokenonTowerBulbasa
     },
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_RivalPokenonTowerCharmander[] = {
+static const struct TrainerMonNoItemDefaultMoves sParty_RivalPokemonTowerCharmander[] = {
     {
         .iv = 100,
         .lvl = 25,
@@ -6266,6 +6406,178 @@ static const struct TrainerMonNoItemDefaultMoves sParty_RivalPokenonTowerCharman
         .iv = 100,
         .lvl = 25,
         .species = SPECIES_CHARMELEON,
+    },
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_RivalPokemonTowerTotodile[] = {
+    {
+        .iv = 100,
+        .lvl = 25,
+        .species = SPECIES_PIDGEOTTO,
+    },
+    {
+        .iv = 100,
+        .lvl = 23,
+        .species = SPECIES_GROWLITHE,
+    },
+    {
+        .iv = 100,
+        .lvl = 22,
+        .species = SPECIES_EXEGGCUTE,
+    },
+    {
+        .iv = 100,
+        .lvl = 20,
+        .species = SPECIES_KADABRA,
+    },
+    {
+        .iv = 100,
+        .lvl = 25,
+        .species = SPECIES_CROCONAW,
+    },
+};
+
+
+
+static const struct TrainerMonNoItemDefaultMoves sParty_RivalPokemonTowerChikorita[] = {
+    {
+        .iv = 100,
+        .lvl = 25,
+        .species = SPECIES_PIDGEOTTO,
+    },
+    {
+        .iv = 100,
+        .lvl = 23,
+        .species = SPECIES_GYARADOS,
+    },
+    {
+        .iv = 100,
+        .lvl = 22,
+        .species = SPECIES_GROWLITHE,
+    },
+    {
+        .iv = 100,
+        .lvl = 20,
+        .species = SPECIES_KADABRA,
+    },
+    {
+        .iv = 100,
+        .lvl = 25,
+        .species = SPECIES_BAYLEEF,
+    },
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_RivalPokemonTowerCyndaquil[] = {
+    {
+        .iv = 100,
+        .lvl = 25,
+        .species = SPECIES_PIDGEOTTO,
+    },
+    {
+        .iv = 100,
+        .lvl = 23,
+        .species = SPECIES_EXEGGCUTE,
+    },
+    {
+        .iv = 100,
+        .lvl = 22,
+        .species = SPECIES_GYARADOS,
+    },
+    {
+        .iv = 100,
+        .lvl = 20,
+        .species = SPECIES_KADABRA,
+    },
+    {
+        .iv = 100,
+        .lvl = 25,
+        .species = SPECIES_QUILAVA,
+    },
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_RivalPokemonTowerMudkip[] = {
+    {
+        .iv = 100,
+        .lvl = 25,
+        .species = SPECIES_PIDGEOTTO,
+    },
+    {
+        .iv = 100,
+        .lvl = 23,
+        .species = SPECIES_GROWLITHE,
+    },
+    {
+        .iv = 100,
+        .lvl = 22,
+        .species = SPECIES_EXEGGCUTE,
+    },
+    {
+        .iv = 100,
+        .lvl = 20,
+        .species = SPECIES_KADABRA,
+    },
+    {
+        .iv = 100,
+        .lvl = 25,
+        .species = SPECIES_MARSHTOMP,
+    },
+};
+
+
+
+static const struct TrainerMonNoItemDefaultMoves sParty_RivalPokemonTowerTreecko[] = {
+    {
+        .iv = 100,
+        .lvl = 25,
+        .species = SPECIES_PIDGEOTTO,
+    },
+    {
+        .iv = 100,
+        .lvl = 23,
+        .species = SPECIES_GYARADOS,
+    },
+    {
+        .iv = 100,
+        .lvl = 22,
+        .species = SPECIES_GROWLITHE,
+    },
+    {
+        .iv = 100,
+        .lvl = 20,
+        .species = SPECIES_KADABRA,
+    },
+    {
+        .iv = 100,
+        .lvl = 25,
+        .species = SPECIES_GROVYLE,
+    },
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_RivalPokemonTowerTorchic[] = {
+    {
+        .iv = 100,
+        .lvl = 25,
+        .species = SPECIES_PIDGEOTTO,
+    },
+    {
+        .iv = 100,
+        .lvl = 23,
+        .species = SPECIES_EXEGGCUTE,
+    },
+    {
+        .iv = 100,
+        .lvl = 22,
+        .species = SPECIES_GYARADOS,
+    },
+    {
+        .iv = 100,
+        .lvl = 20,
+        .species = SPECIES_KADABRA,
+    },
+    {
+        .iv = 100,
+        .lvl = 25,
+        .species = SPECIES_COMBUSKEN,
     },
 };
 

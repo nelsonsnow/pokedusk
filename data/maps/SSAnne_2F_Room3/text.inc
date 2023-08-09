@@ -8,5 +8,5 @@ SSAnne_2F_Room3_Text_SomeTreesCanBeCutDown::
     .string "But remember this!\n"
     .string "Cut is an HM technique.\p"
     .string "Once learned, it is not so easily\n"
-    .string "discarded.$"
+    .string "forgotten.$"
 

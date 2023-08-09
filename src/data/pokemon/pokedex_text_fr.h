@@ -644,7 +644,7 @@ const u8 gCloysterPokedexTextUnused[] = _("");
 
 const u8 gGastlyPokedexText[] = _(
     "A being that exists as a thin gas. It can\n"
-    "topple an Indian elephant by enveloping\n"
+    "topple a Snorlax by enveloping\n"
     "the prey in two seconds.");
 
 const u8 gGastlyPokedexTextUnused[] = _("");

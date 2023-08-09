@@ -1,15 +1,15 @@
 PokemonTower_2F_Text_RivalIntro::
     .string "{RIVAL}: Hey, {PLAYER}!\n"
-    .string "What brings you here?\l"
-    .string "Is your Pokémon dead?\p"
-    .string "Hey! It's alive!\p"
-    .string "I can at least make them faint!\n"
+    .string "Oh shit...\l"
+    .string "Did one of your Pokémon die?\p"
+    .string "Oh fuck! You scared me.\p"
+    .string "That means we can fight!\n"
     .string "Let's go!$"
 
 PokemonTower_2F_Text_RivalDefeat::
-    .string "What?\n"
-    .string "You stinker!\p"
-    .string "I took it easy on you, too!$"
+    .string "Motherfuuuuuuck!\n"
+    .string "You assbutt!\p"
+    .string "I took it easy on you!$"
 
 @ Unused. Translated below
 @ Aw, man! They really kicked the bucket! Weak! Do them a favor and raise them more properly.
@@ -20,19 +20,23 @@ PokemonTower_2F_Text_RivalVictory::
     .string "もっと　ちゃんと　そだてて　やれよ$"
 
 PokemonTower_2F_Text_RivalPostBattle:: @ 8179DD4
-    .string "How's your Pokédex coming?\n"
-    .string "I just caught a Cubone!\p"
-    .string "I can't find the bigger Marowak.\n"
-    .string "Where could they be?\p"
-    .string "I bet there aren't any left!\p"
+    .string "Fine, it was a good fight.\n"
+    .string "I just caught a Cubone by the way.\p"
+    .string "But I can't find a Marowak.\n"
+    .string "I heard Team Rocket killed a bunch\l"
+    .string "for thier skulls. Pretty morbid.\p"
     .string "Well, I better get going.\n"
-    .string "I've got a lot to accomplish,\l"
+    .string "I've got better things to do,\l"
     .string "unlike you.\p"
-    .string "Smell ya later!$"
+    .string "Later fish breath!$"
 
 PokemonTower_2F_Text_SilphScopeCouldUnmaskGhosts::
     .string "Even we could not identify the\n"
-    .string "wayward ghosts.\p"
-    .string "A Silph Scope might be able to\n"
-    .string "unmask them.$"
+    .string "vengeful spirits above.\p"
+    .string "We have discouraged visiters\n"
+    .string "to go higher than this level.\p"
+    .string "Our Channelers have been trying\n"
+    .string "to get a hold of the situation\l"
+    .string "but to no avail...\p"
+    .string "You have been warned...$"
 

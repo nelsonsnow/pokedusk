@@ -138,6 +138,9 @@
 #define MAP_SIX_ISLAND_ALTERING_CAVE             (122 | (1 << 8))
 #define MAP_PIKACHU_MEADOW                       (123 | (1 << 8))
 #define MAP_CLEFARY_COVE                         (124 | (1 << 8))
+#define MAP_COVE_TUNNEL                          (125 | (1 << 8))
+#define MAP_SQUIRTLE_GROVE                       (126 | (1 << 8))
+#define MAP_BULBAMEADOW                          (127 | (1 << 8))
 
 // gMapGroup_SpecialArea
 #define MAP_NAVEL_ROCK_EXTERIOR                       (0 | (2 << 8))
@@ -275,12 +278,14 @@
 #define MAP_NEW_BARK_TOWN                        (69 | (3 << 8))
 #define MAP_ROUTE29                              (70 | (3 << 8))
 #define MAP_CHERRYGROVE_CITY                     (71 | (3 << 8))
+#define MAP_ROUTE30                              (72 | (3 << 8))
 
 // gMapGroup_IndoorPallet
 #define MAP_PALLET_TOWN_PLAYERS_HOUSE_1F   (0 | (4 << 8))
 #define MAP_PALLET_TOWN_PLAYERS_HOUSE_2F   (1 | (4 << 8))
 #define MAP_PALLET_TOWN_RIVALS_HOUSE       (2 | (4 << 8))
 #define MAP_PALLET_TOWN_PROFESSOR_OAKS_LAB (3 | (4 << 8))
+#define MAP_DEBUG                          (4 | (4 << 8))
 
 // gMapGroup_IndoorViridian
 #define MAP_VIRIDIAN_CITY_HOUSE             (0 | (5 << 8))

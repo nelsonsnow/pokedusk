@@ -1,25 +1,25 @@
 SSAnne_CaptainsOffice_Text_CaptainIFeelSeasick:: @ 8173646
     .string "Captain: Ooargh…\n"
-    .string "I feel hideous…\l"
+    .string "I feel like shit…\l"
     .string "Urrp! Seasick…$"
 
 SSAnne_CaptainsOffice_Text_RubbedCaptainsBack:: @ 8173676
     .string "{PLAYER} rubbed the Captain's\n"
-    .string "back!\p"
-    .string "Rub-rub…\n"
-    .string "Rub-rub…$"
+    .string "back Karate kid style!\p"
+    .string "Wax on…\n"
+    .string "Wax off…$"
 
 SSAnne_CaptainsOffice_Text_ThankYouHaveHMForCut:: @ 81736A6
     .string "Captain: Whew! Thank you!\n"
     .string "I'm feeling much better now.\p"
-    .string "You want to see my hidden Cut\n"
-    .string "technique?\p"
     .string "I could show you my prized Cut\n"
     .string "technique if I weren't so ill…\p"
+    .string "That last kid rushed in here\n"
+    .string "and demanded Cut while I was ill.\p"
     .string "I know! You can have this!\n"
     .string "This Hidden Machine!\p"
     .string "Teach Cut to your Pokémon, and\n"
-    .string "you can see it Cut anytime!$"
+    .string "it can cut in battle and small trees!$"
 
 SSAnne_CaptainsOffice_Text_ObtainedHM01FromCaptain::
     .string "{PLAYER} obtained HM01\n"
@@ -44,7 +44,7 @@ SSAnne_CaptainsOffice_Text_YouHaveNoRoomForThis::
     .string "You have no room for this!$"
 
 SSAnne_CaptainsOffice_Text_YuckShouldntHaveLooked::
-    .string "Yuck!\n"
+    .string "Gag!\n"
     .string "Shouldn't have looked!$"
 
 SSAnne_CaptainsOffice_Text_HowToConquerSeasickness::

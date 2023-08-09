@@ -50,7 +50,7 @@ RocketHideout_B4F_EventScript_SilphScope::
 	end
 
 RocketHideout_B4F_EventScript_Grunt1::
-	trainerbattle_single TRAINER_TEAM_ROCKET_GRUNT_18, RocketHideout_B4F_Text_Grunt1Intro, RocketHideout_B4F_Text_Grunt1Defeat, RocketHideout_B4F_EventScript_DefeatedGrunt1
+	trainerbattle_single TRAINER_TEAM_ROCKET_JAMES, RocketHideout_B4F_Text_Grunt1Intro, RocketHideout_B4F_Text_Grunt1Defeat, RocketHideout_B4F_EventScript_DefeatedGrunt1
 	msgbox RocketHideout_B4F_Text_Grunt1PostBattle
 	release
 	end

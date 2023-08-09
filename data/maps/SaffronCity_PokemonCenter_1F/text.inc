@@ -4,14 +4,14 @@ SaffronCity_PokemonCenter_1F_Text_GrowthRatesDifferBySpecies:: @ 819C023
 
 SaffronCity_PokemonCenter_1F_Text_SilphCoVictimOfFame:: @ 819C058
     .string "Silph Co. is widely known to all.\p"
-    .string "It's a victim of its own fame - it\n"
-    .string "attracted Team Rocket.$"
+    .string "Team Rocket took over because it's\n"
+    .string "the largest tech company in Kanto.$"
 
 SaffronCity_PokemonCenter_1F_Text_GreatIfEliteFourCameBeatRockets::
     .string "Sigh…\n"
-    .string "Wouldn't this be great?\p"
-    .string "If the Elite Four came and\n"
-    .string "stomped Team Rocket?$"
+    .string "Wouldn't it be great if\l"
+    .string "If the Elite Four came and\l"
+    .string "stomped out Team Rocket?$"
 
 SaffronCity_PokemonCenter_1F_Text_TeamRocketTookOff:: @ 819C102
     .string "Team Rocket took off!\n"

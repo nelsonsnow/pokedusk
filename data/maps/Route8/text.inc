@@ -1,28 +1,28 @@
 Route8_Text_AidanIntro:: @ 81840C5
-    .string "You look good at Pokémon, but how\n"
-    .string "is your chemistry grade?$"
+    .string "Do you have good chemistry with\n"
+    .string "your Pokémon? Let's see!$"
 
 Route8_Text_AidanDefeat::
-    .string "Ow!\n"
+    .string "Ouch!\n"
     .string "Meltdown!$"
 
 Route8_Text_AidanPostBattle::
-    .string "I am better at school than this!$"
+    .string "I am better at science than this!$"
 
 Route8_Text_StanIntro::
     .string "All right!\n"
     .string "Let's play a game!$"
 
 Route8_Text_StanDefeat::
-    .string "Drat!\n"
+    .string "Dammit!\n"
     .string "Came up short!$"
 
 Route8_Text_StanPostBattle::
-    .string "Things didn't work today.$"
+    .string "Things didn't go my way.$"
 
 Route8_Text_GlennIntro::
     .string "You should be informed.\n"
-    .string "You need strategy to win at this!$"
+    .string "You'll need a strategy to beat me!$"
 
 Route8_Text_GlennDefeat::
     .string "It's not logical!$"
@@ -81,14 +81,14 @@ Route8_Text_MeganPostBattle:: @ 81843D2
     .string "think he's mean.$"
 
 Route8_Text_RichIntro::
-    .string "I'm a rambling, gaming dude!$"
+    .string "The house always wins!$"
 
 Route8_Text_RichDefeat::
     .string "Missed the big chance!$"
 
 Route8_Text_RichPostBattle:: @ 8184466
-    .string "Playing games and Pokémon are like\n"
-    .string "eating peanuts! I just can't stop!$"
+    .string "Gambling is just like sex for me.\n"
+    .string "I just can't stop!$"
 
 Route8_Text_JuliaIntro::
     .string "What's a cute, round, and fluffy\n"
@@ -143,7 +143,7 @@ Route8_Text_RicardoIntro::
     .string "My bike's acting up, man.$"
 
 Route8_Text_RicardoDefeat::
-    .string "Aww, man.\n"
+    .string "Aww, shit.\n"
     .string "I'm not into this.$"
 
 Route8_Text_RicardoPostBattle::
@@ -155,8 +155,8 @@ Route8_Text_JarenIntro::
     .string "down!$"
 
 Route8_Text_JarenDefeat::
-    .string "You for real, kid?$"
+    .string "You the real deal, kid!$"
 
 Route8_Text_JarenPostBattle::
     .string "Don't think you're all special and\n"
-    .string "all just because of this.$"
+    .string "shit just because you won.$"

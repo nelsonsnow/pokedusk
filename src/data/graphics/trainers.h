@@ -457,3 +457,9 @@ const u32 gTrainerPalette_OldManBackPic[] = INCBIN_U32("graphics/trainers/palett
 
 const u32 gTrainerFrontPic_JessieJames[] = INCBIN_U32("graphics/trainers/front_pics/jessie_and_james.4bpp.lz");
 const u32 gTrainerPalette_JessieJames[] = INCBIN_U32("graphics/trainers/palettes/jessie_and_james.gbapal.lz");
+
+const u32 gTrainerFrontPic_Jessie[] = INCBIN_U32("graphics/trainers/front_pics/jessie.4bpp.lz");
+const u32 gTrainerPalette_Jessie[] = INCBIN_U32("graphics/trainers/palettes/jessie_and_james.gbapal.lz");
+
+const u32 gTrainerFrontPic_James[] = INCBIN_U32("graphics/trainers/front_pics/james.4bpp.lz");
+const u32 gTrainerPalette_James[] = INCBIN_U32("graphics/trainers/palettes/jessie_and_james.gbapal.lz");

@@ -1393,7 +1393,6 @@ static const u8 *const sATypeMove_Table[NUMBER_OF_MON_TYPES] =
     [TYPE_ICE]      = gText_AnIceMove,
     [TYPE_DRAGON]   = gText_ADragonMove,
     [TYPE_DARK]     = gText_ADarkMove,
-    [TYPE_FAIRY]     = gText_AFairyMove,
 };
 
 static const u16 sGrammarMoveUsedTable[] =

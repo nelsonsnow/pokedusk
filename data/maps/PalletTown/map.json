@@ -93,34 +93,6 @@
       "elevation": 0,
       "dest_map": "MAP_PALLET_TOWN_PROFESSOR_OAKS_LAB",
       "dest_warp_id": "0"
-    },
-    {
-      "x": 27,
-      "y": 16,
-      "elevation": 0,
-      "dest_map": "MAP_CERULEAN_CITY_POKEMON_CENTER_1F",
-      "dest_warp_id": "1"
-    },
-    {
-      "x": 26,
-      "y": 16,
-      "elevation": 0,
-      "dest_map": "MAP_ROCK_TUNNEL_1F",
-      "dest_warp_id": "4"
-    },
-    {
-      "x": 25,
-      "y": 16,
-      "elevation": 0,
-      "dest_map": "MAP_PEWTER_CITY_POKEMON_CENTER_1F",
-      "dest_warp_id": "1"
-    },
-    {
-      "x": 24,
-      "y": 16,
-      "elevation": 0,
-      "dest_map": "MAP_MT_MOON_B2F",
-      "dest_warp_id": "4"
     }
   ],
   "coord_events": [

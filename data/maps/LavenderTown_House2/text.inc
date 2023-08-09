@@ -10,7 +10,7 @@ LavenderTown_House2_Text_CritiqueWhichMonsNickname:: @ 8193AA6
 
 LavenderTown_House2_Text_GiveItANicerName::
     .string "{STR_VAR_1}, is it?\n"
-    .string "That is a decent nickname!\p"
+    .string "That is a good nickname!\p"
     .string "But, would you like me to give it\n"
     .string "a nicer name?\p"
     .string "How about it?$"

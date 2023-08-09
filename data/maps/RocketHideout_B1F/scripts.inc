@@ -22,7 +22,7 @@ RocketHideout_B1F_EventScript_Grunt2::
 	end
 
 RocketHideout_B1F_EventScript_Grunt3::
-	trainerbattle_single TRAINER_TEAM_ROCKET_GRUNT_10, RocketHideout_B1F_Text_Grunt3Intro, RocketHideout_B1F_Text_Grunt3Defeat
+	trainerbattle_single TRAINER_TEAM_ROCKET_JESSIE, RocketHideout_B1F_Text_Grunt3Intro, RocketHideout_B1F_Text_Grunt3Defeat
 	msgbox RocketHideout_B1F_Text_Grunt3PostBattle, MSGBOX_AUTOCLOSE
 	end
 
@@ -34,6 +34,10 @@ RocketHideout_B1F_EventScript_Grunt4::
 RocketHideout_B1F_EventScript_Grunt5::
 	trainerbattle_single TRAINER_TEAM_ROCKET_GRUNT_12, RocketHideout_B1F_Text_Grunt5Intro, RocketHideout_B1F_Text_Grunt5Defeat, RocketHideout_B1F_EventScript_DefeatedGrunt5
 	msgbox RocketHideout_B1F_Text_Grunt5PostBattle, MSGBOX_AUTOCLOSE
+	end
+
+RocketHideout_B1F_EventScript_Meowth::
+	msgbox RocketHideout_B1F_Text_Meowth, MSGBOX_AUTOCLOSE
 	end
 
 RocketHideout_B1F_EventScript_DefeatedGrunt5::

@@ -33,17 +33,17 @@ Route3_Text_BenPostBattle:: @ 81835B4
 
 Route3_Text_JaniceIntro::
     .string "Excuse me!\n"
-    .string "You're quite good looking?$"
+    .string "You're quite good looking!$"
 
 Route3_Text_JaniceDefeat::
     .string "Don't be so mean!$"
 
 Route3_Text_JanicePostBattle::
     .string "Can I like, get your number?\n"
-    .string "Ok, hopefully I'll seee you around.$"
+    .string "Ok, hopefully I'll see you around.$"
 
 Route3_Text_GregIntro:: @ 8183682
-    .string "You're Trainer!\n"
+    .string "You're a Trainer!\n"
     .string "Let's do it!$"
 
 Route3_Text_GregDefeat:: @ 81836B3

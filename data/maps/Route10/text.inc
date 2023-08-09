@@ -1,11 +1,10 @@
 Route10_Text_MarkIntro::
-    .string "Wow, you came all the way here?\n"
+    .string "Wow, you came all the way over here?\n"
     .string "Maybe you're a Pokémaniac, too?\l"
     .string "Want to see my collection?$"
 
 Route10_Text_MarkDefeat::
-    .string "Humph.\n"
-    .string "I'm not angry!$"
+    .string "UGH!$"
 
 Route10_Text_MarkPostBattle:: @ 8184BFB
     .string "I have more rare Pokémon at home!$"
@@ -15,16 +14,15 @@ Route10_Text_ClarkIntro::
 
 Route10_Text_ClarkDefeat::
     .string "Ha-haha!\n"
-    .string "Not laughing!\l"
-    .string "Ha-hay fever! Haha-ha-choo!$"
+    .string "Ha-ha! Haha-ha-ha!$"
 
 Route10_Text_ClarkPostBattle::
-    .string "Haha-ha-choo!\n"
-    .string "Ha-choo!\l"
-    .string "Snort! Snivel!$"
+    .string "Haha-ha-ha!\n"
+    .string "cough-cough!\l"
+    .string "BWAHAHAHAHAHA!$"
 
 Route10_Text_HermanIntro::
-    .string "Hi, kid!\n"
+    .string "Hey, kid!\n"
     .string "Want to see my Pokémon?$"
 
 Route10_Text_HermanDefeat::
@@ -32,8 +30,7 @@ Route10_Text_HermanDefeat::
     .string "My Pokémon!$"
 
 Route10_Text_HermanPostBattle::
-    .string "I don't like you.\n"
-    .string "I don't like anyone better than me!$"
+    .string "I don't like you!$"
 
 Route10_Text_HeidiIntro:: @ 8184CF1
     .string "I've been out at a Pokémon Gym\n"
@@ -41,7 +38,7 @@ Route10_Text_HeidiIntro:: @ 8184CF1
     .string "…But I always lose.$"
 
 Route10_Text_HeidiDefeat::
-    .string "Ohh!\n"
+    .string "God dammit!\n"
     .string "After all my training!$"
 
 Route10_Text_HeidiPostBattle:: @ 8184D4D
@@ -58,21 +55,21 @@ Route10_Text_TrentDefeat::
     .string "That cleared my head!$"
 
 Route10_Text_TrentPostBattle::
-    .string "I feel bloated on mountain air!$"
+    .string "Mountain are is my therapy!$"
 
 Route10_Text_CarolIntro::
     .string "I'm feeling a bit faint.\n"
-    .string "I haven't hiked in some time.$"
+    .string "I haven't hiked in a minute.$"
 
 Route10_Text_CarolDefeat::
-    .string "I'm too tired.\n"
-    .string "I wasn't up for it.$"
+    .string "Ugh, I'm too tired.\n"
+    .string "I wasn't up for this.$"
 
 Route10_Text_CarolPostBattle:: @ 8184E5E
     .string "The Pokémon here in the mountains\n"
     .string "are so chunky…\p"
     .string "I wish there were pink Pokémon\n"
-    .string "with a floral pattern!$"
+    .string "with a floral pattern here!$"
 
 Route10_Text_RockTunnelDetourToLavender:: @ 8184EC5
     .string "Rock Tunnel\n"

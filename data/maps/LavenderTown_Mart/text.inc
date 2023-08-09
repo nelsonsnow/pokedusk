@@ -16,7 +16,7 @@ LavenderTown_Mart_Text_TrainerDuosCanChallengeYou:: @ 8193DF1
     .string "challenge you with two Pokémon\l"
     .string "at the same time.\p"
     .string "If that happens, you have to send\n"
-    .string "out two Pokémon to battle, too.$"
+    .string "out two Pokémon to battle, duh.$"
 
 LavenderTown_Mart_Text_SoldNuggetFromMountainsFor5000::
     .string "この　あいだ　やまおくで\n"

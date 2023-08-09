@@ -1,7 +1,7 @@
 LavenderTown_PokemonCenter_1F_Text_HearMrFujiNotFromAroundHere::
     .string "I recently moved to this town.\p"
     .string "I hear that Mr. Fuji's not from\n"
-    .string "these parts originally, either.$"
+    .string "around here either.$"
 
 LavenderTown_VolunteerPokemonHouse_Text_WhereDidMrFujiGo:: @ 81935ED
     .string "That's odd, Mr. Fuji isn't here.\n"
@@ -22,17 +22,17 @@ LavenderTown_VolunteerPokemonHouse_Text_MonsNiceToHug::
     .string "Pokémon are so nice to hug.$"
 
 LavenderTown_VolunteerPokemonHouse_Text_Nidorino:: @ 81936DE
-    .string "Nidorino: Gaoo!$"
+    .string "Nidorino: Nido! Rino!$"
 
 LavenderTown_VolunteerPokemonHouse_Text_Psyduck:: @ 81936EE
-    .string "Psyduck: Gwappa!$"
+    .string "Psyduck: Psyaiyai!$"
 
 LavenderTown_VolunteerPokemonHouse_Text_IdLikeYouToHaveThis:: @ 81936FF
     .string "Mr. Fuji: {PLAYER}…\p"
     .string "Your Pokédex quest is one that\n"
     .string "requires strong dedication.\p"
     .string "Without deep love for Pokémon,\n"
-    .string "your quest may fail.\p"
+    .string "your quest will fail.\p"
     .string "I'm not sure if this will help you,\n"
     .string "but I'd like you to have it.$"
 
@@ -63,5 +63,6 @@ LavenderTown_VolunteerPokemonHouse_Text_GrandPrizeDrawingClipped:: @ 81938A0
 LavenderTown_VolunteerPokemonHouse_Text_PokemonMagazinesLineShelf:: @ 819392B
     .string "Pokémon magazines line the shelf.\p"
     .string "Pokémon Insider…\p"
-    .string "Pokémon Fan…$"
+    .string "Nintendo Power…\p"
+    .string "Opp. This is for adults…$"
 

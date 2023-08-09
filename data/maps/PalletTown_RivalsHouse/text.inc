@@ -1,6 +1,6 @@
 PalletTown_RivalsHouse_Text_HiBrothersAtLab:: @ 818D58C
     .string "Daisy: Hi, {PLAYER}!\p"
-    .string "{RIVAL}, is at gramps lab$"
+    .string "{RIVAL}, is at gramps lab.$"
 
 PalletTown_RivalsHouse_Text_HeardYouBattledRival:: @ 818D5C4
     .string "Daisy: {PLAYER}, I heard you\n"

@@ -6,7 +6,7 @@ PokemonTower_6F_Text_AngelicaDefeat::
     .string "Groan!$"
 
 PokemonTower_6F_Text_AngelicaPostBattle::
-    .string "I feel anemic and weak…$"
+    .string "I feel weak…$"
 
 PokemonTower_6F_Text_EmiliaIntro::
     .string "Urff…\n"
@@ -24,7 +24,7 @@ PokemonTower_6F_Text_JenniferIntro::
     .string "ke…ke…ke!$"
 
 PokemonTower_6F_Text_JenniferDefeat::
-    .string "Keee!$"
+    .string "Gasp!$"
 
 PokemonTower_6F_Text_JenniferPostBattle::
     .string "What's going on here?$"

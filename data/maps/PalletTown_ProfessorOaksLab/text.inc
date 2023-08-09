@@ -1,5 +1,5 @@
 PalletTown_ProfessorOaksLab_Text_RivalGrampsIsntAround::
-    .string "{RIVAL}:{PLAYER}, what do you want?\n"
+    .string "{RIVAL}: {PLAYER}, what do you want?\n"
     .string "Gramps isn't around.$"
 
 PalletTown_ProfessorOaksLab_Text_RivalFedUpWithWaiting::
@@ -82,7 +82,7 @@ PalletTown_ProfessorOaksLab_Text_OakThreeMonsChooseOne:: @ 818DFBC
     .string "But now, in my old age, I'm done\n"
     .string "I want you two to carry my\p"
     .string "legacy. You can have one.\n"
-    .string "{PLAYER} You're up first...$"
+    .string "{PLAYER}, you're up first...$"
 
 PalletTown_ProfessorOaksLab_Text_OakBePatientRival:: @ 818E0EA
     .string "Oak: Relax, {RIVAL}.\n"

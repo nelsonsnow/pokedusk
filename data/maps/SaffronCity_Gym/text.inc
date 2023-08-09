@@ -1,17 +1,17 @@
 SaffronCity_Gym_Text_SabrinaIntro::
     .string "I had a vision of your arrival.\p"
-    .string "I have had psychic powers since\n"
-    .string "I was a child.\p"
-    .string "It started when a spoon I\n"
-    .string "carelessly tossed, bent.\p"
-    .string "I dislike battling, but if you wish,\n"
-    .string "I will show you my powers!{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}$"
+    .string "I am a psychic medium. I have\n"
+    .string "seen this battle.\p"
+    .string "This is a canon event that will\n"
+    .string "shape your destiny.\p"
+    .string "Will you rise to the occasion or\n"
+    .string "crumble under the pressure!{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}$"
 
 SaffronCity_Gym_Text_SabrinaDefeat::
-    .string "This loss shocks me!\n"
-    .string "But, a loss is a loss.\p"
-    .string "I admit, I didn't work hard enough\n"
-    .string "to win.\p"
+    .string "I am impressed!\n"
+    .string "You victory was written.\p"
+    .string "The stars tell this story and will\n"
+    .string "send you down a fated path.\p"
     .string "Your victory has earned you the\n"
     .string "MarshBadge.$"
 
@@ -63,7 +63,7 @@ SaffronCity_Gym_Text_JohanDefeat::
 
 SaffronCity_Gym_Text_JohanPostBattle:: @ 819B96D
     .string "Psychic Pokémon fear only ghosts\n"
-    .string "and bugs!$"
+    .string "and bugs! Last one is funny!$"
 
 SaffronCity_Gym_Text_StacyIntro:: @ 819B998
     .string "Pokémon take on the appearance of\n"
@@ -107,7 +107,7 @@ SaffronCity_Gym_Text_CameronIntro:: @ 819BB49
     .string "You won't reach her easily!$"
 
 SaffronCity_Gym_Text_CameronDefeat::
-    .string "Ow!\n"
+    .string "Ugh!\n"
     .string "Down and out!$"
 
 SaffronCity_Gym_Text_CameronPostBattle:: @ 819BBB3

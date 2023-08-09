@@ -41,8 +41,8 @@ VermilionCity_Gym_Text_LtSurgeDefeat::
 
 VermilionCity_Gym_Text_TuckerIntro:: @ 8194E57
     .string "When I was in the Army, Lt. Surge\n"
-    .string "was my strict Co.\p"
-    .string "He was a hard taskmaster.$"
+    .string "was my strict C.O.\p"
+    .string "He was a hard ass.$"
 
 VermilionCity_Gym_Text_TuckerDefeat::
     .string "Stop!\n"
@@ -87,7 +87,7 @@ VermilionCity_Gym_Text_GymGuyAdvice::
     .string "Champ in the making!\p"
     .string "Lt. Surge has a nickname.\p"
     .string "People refer to him as the\n"
-    .string "Lightning American!\p"
+    .string "Lightning Lieutenant!\p"
     .string "He's an expert on electric\n"
     .string "Pokémon.\p"
     .string "Bird/Water-type Pokémon match\n"
@@ -114,8 +114,8 @@ VermilionCity_Gym_Text_GymStatuePlayerWon:: @ 8195248
     .string "{RIVAL}, {PLAYER}$"
 
 VermilionCity_Gym_Text_NopeOnlyTrashHere::
-    .string "Nope!\n"
-    .string "There's only trash here.$"
+    .string "Damn!\n"
+    .string "Only trash.$"
 
 VermilionCity_Gym_Text_SwitchUnderTrashFirstLockOpened::
     .string "Hey! There's a switch under the\n"
@@ -133,8 +133,8 @@ VermilionCity_Gym_Text_SecondLockOpened::
     .string "The motorized door opened!$"
 
 VermilionCity_Gym_Text_OnlyTrashLocksWereReset::
-    .string "Nope!\n"
-    .string "There's only trash here.\p"
-    .string "Hey!\n"
-    .string "The electric locks were reset!$"
+    .string "Damn!\n"
+    .string "Only trash.\p"
+    .string "Fuck!\n"
+    .string "The locks were reset!$"
 

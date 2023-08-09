@@ -3,5 +3,5 @@ SSAnne_2F_Room6_Text_CaptainIsAwfullySick:: @ 81740A1
     .string "He was all pale.$"
 
 SSAnne_2F_Room6_Text_ManyPeopleGetSeasick::
-    .string "I hear many people get seasick.$"
+    .string "Weird for a Captain to get seasick.$"
 

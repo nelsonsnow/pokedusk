@@ -1,13 +1,13 @@
 SSAnne_2F_Room4_Text_LamarIntro::
-    .string "Which do you find more worthy,\n"
+    .string "Which do you go for more,\n"
     .string "a strong or a rare Pokémon?$"
 
 SSAnne_2F_Room4_Text_LamarDefeat::
-    .string "I must salute you!$"
+    .string "I salute you!$"
 
 SSAnne_2F_Room4_Text_LamarPostBattle::
     .string "Personally, I prefer strong and\n"
-    .string "rare Pokémon.$"
+    .string "rare Pokémon. Double whammy!$"
 
 SSAnne_2F_Room4_Text_DawnIntro::
     .string "I don't believe I saw you at the\n"

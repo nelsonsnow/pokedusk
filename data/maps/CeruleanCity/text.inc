@@ -53,7 +53,7 @@ CeruleanCity_Text_GruntIntro::
     .string "…What?\n"
     .string "Who me?\p"
     .string "I'm just an innocent bystander!\n"
-    .string "Fine then, I'll just beat your ass?{PLAY_BGM}{MUS_ENCOUNTER_ROCKET}$"
+    .string "Fine then, I'll just beat your ass!{PLAY_BGM}{MUS_ENCOUNTER_ROCKET}$"
 
 CeruleanCity_Text_GruntDefeat:: @ 817EE70
     .string "Grunt: Stop! Fuck!\n"

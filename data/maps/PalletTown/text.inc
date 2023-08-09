@@ -3,7 +3,7 @@ PalletTown_Text_OakDontGoOut:: @ 817D72C
     .string "Don't go out!$"
 
 PalletTown_Text_OakGrassUnsafeNeedMon:: @ 817D74A
-    .string "Oak: It's not save!\n"
+    .string "Oak: It's not safe!\n"
     .string "Wild Pokémon live in tall grass!\p"
     .string "You'll need your own Pokémon for\n"
     .string "your protection.\p"

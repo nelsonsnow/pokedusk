@@ -450,6 +450,7 @@ struct BattleStruct
     u8 wishPerishSongState;
     u8 wishPerishSongBattlerId;
     u8 field_182;
+    u8 ballSpriteIds[2];
     // align 4
     union {
         struct LinkBattlerHeader linkBattlerHeader;

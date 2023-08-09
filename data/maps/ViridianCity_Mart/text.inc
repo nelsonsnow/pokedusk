@@ -5,7 +5,7 @@ ViridianCity_Mart_Text_YouCameFromPallet::
 ViridianCity_Mart_Text_TakeThisToProfOak:: @ 819023A
     .string "You know Prof. Oak, right?\p"
     .string "His order came in.\n"
-    .string "Can I get you to take it to him?$"
+    .string "Can you please take it to him?$"
 
 ViridianCity_Mart_Text_ReceivedOaksParcelFromClerk:: @ 8190289
     .string "{PLAYER} received Oak's Parcel\n"

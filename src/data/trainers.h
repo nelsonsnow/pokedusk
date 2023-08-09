@@ -4461,7 +4461,7 @@ const struct Trainer gTrainers[] = {
         .trainerPic = TRAINER_PIC_JESSIEJAMES,
         .trainerName = _("Trio"),
         .items = {},
-        .doubleBattle = FALSE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
         .partySize = NELEMS(sParty_TeamRocketJessieJames1),
         .party = {.NoItemDefaultMoves = sParty_TeamRocketJessieJames1}
@@ -4526,20 +4526,20 @@ const struct Trainer gTrainers[] = {
         .partySize = NELEMS(sParty_TeamRocketGrunt9),
         .party = {.NoItemDefaultMoves = sParty_TeamRocketGrunt9}
     },
-    [TRAINER_TEAM_ROCKET_GRUNT_10] = {
-        .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
+    [TRAINER_TEAM_ROCKET_JESSIE] = {
+        .partyFlags = 0,
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
-        .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
-        .trainerName = _("Grunt"),
+        .trainerPic = TRAINER_PIC_JESSIE,
+        .trainerName = _("Jessie"),
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
-        .partySize = NELEMS(sParty_TeamRocketGrunt10),
-        .party = {.NoItemCustomMoves = sParty_TeamRocketGrunt10}
+        .partySize = NELEMS(sParty_TeamRocketJessie),
+        .party = {.NoItemDefaultMoves = sParty_TeamRocketJessie}
     },
     [TRAINER_TEAM_ROCKET_GRUNT_11] = {
-        .partyFlags = 0,
+        .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
@@ -4548,13 +4548,13 @@ const struct Trainer gTrainers[] = {
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
         .partySize = NELEMS(sParty_TeamRocketGrunt11),
-        .party = {.NoItemDefaultMoves = sParty_TeamRocketGrunt11}
+        .party = {.NoItemCustomMoves = sParty_TeamRocketGrunt11}
     },
     [TRAINER_TEAM_ROCKET_GRUNT_12] = {
         .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
-        .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
+        .trainerPic = TRAINER_PIC_ROCKET_GRUNT_F,
         .trainerName = _("Grunt"),
         .items = {},
         .doubleBattle = FALSE,
@@ -4578,7 +4578,7 @@ const struct Trainer gTrainers[] = {
         .partyFlags = 0,
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
-        .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
+        .trainerPic = TRAINER_PIC_ROCKET_GRUNT_F,
         .trainerName = _("Grunt"),
         .items = {},
         .doubleBattle = FALSE,
@@ -4602,7 +4602,7 @@ const struct Trainer gTrainers[] = {
         .partyFlags = 0,
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
-        .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
+        .trainerPic = TRAINER_PIC_ROCKET_GRUNT_F,
         .trainerName = _("Grunt"),
         .items = {},
         .doubleBattle = FALSE,
@@ -4622,17 +4622,17 @@ const struct Trainer gTrainers[] = {
         .partySize = NELEMS(sParty_TeamRocketGrunt17),
         .party = {.NoItemDefaultMoves = sParty_TeamRocketGrunt17}
     },
-    [TRAINER_TEAM_ROCKET_GRUNT_18] = {
+    [TRAINER_TEAM_ROCKET_JAMES] = {
         .partyFlags = 0,
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
-        .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
-        .trainerName = _("Grunt"),
+        .trainerPic = TRAINER_PIC_JAMES,
+        .trainerName = _("James"),
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
-        .partySize = NELEMS(sParty_TeamRocketGrunt18),
-        .party = {.NoItemDefaultMoves = sParty_TeamRocketGrunt18}
+        .partySize = NELEMS(sParty_TeamRocketJames),
+        .party = {.NoItemDefaultMoves = sParty_TeamRocketJames}
     },
     [TRAINER_TEAM_ROCKET_GRUNT_19] = {
         .partyFlags = 0,
@@ -5354,7 +5354,7 @@ const struct Trainer gTrainers[] = {
         .partySize = NELEMS(sParty_RivalSsAnneCharmander),
         .party = {.NoItemDefaultMoves = sParty_RivalSsAnneCharmander}
     },
-    [TRAINER_RIVAL_POKENON_TOWER_SQUIRTLE] = {
+    [TRAINER_RIVAL_SS_ANNE_TOTODILE] = {
         .partyFlags = 0,
         .trainerClass = TRAINER_CLASS_RIVAL_LATE,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
@@ -5363,10 +5363,10 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
-        .partySize = NELEMS(sParty_RivalPokenonTowerSquirtle),
-        .party = {.NoItemDefaultMoves = sParty_RivalPokenonTowerSquirtle}
+        .partySize = NELEMS(sParty_RivalSsAnneTotodile),
+        .party = {.NoItemDefaultMoves = sParty_RivalSsAnneTotodile}
     },
-    [TRAINER_RIVAL_POKENON_TOWER_BULBASAUR] = {
+    [TRAINER_RIVAL_SS_ANNE_CHIKORITA] = {
         .partyFlags = 0,
         .trainerClass = TRAINER_CLASS_RIVAL_LATE,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
@@ -5375,10 +5375,10 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
-        .partySize = NELEMS(sParty_RivalPokenonTowerBulbasaur),
-        .party = {.NoItemDefaultMoves = sParty_RivalPokenonTowerBulbasaur}
+        .partySize = NELEMS(sParty_RivalSsAnneChikorita),
+        .party = {.NoItemDefaultMoves = sParty_RivalSsAnneChikorita}
     },
-    [TRAINER_RIVAL_POKENON_TOWER_CHARMANDER] = {
+    [TRAINER_RIVAL_SS_ANNE_CYNDAQUIL] = {
         .partyFlags = 0,
         .trainerClass = TRAINER_CLASS_RIVAL_LATE,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
@@ -5387,8 +5387,152 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
-        .partySize = NELEMS(sParty_RivalPokenonTowerCharmander),
-        .party = {.NoItemDefaultMoves = sParty_RivalPokenonTowerCharmander}
+        .partySize = NELEMS(sParty_RivalSsAnneCyndaquil),
+        .party = {.NoItemDefaultMoves = sParty_RivalSsAnneCyndaquil}
+    },
+    [TRAINER_RIVAL_SS_ANNE_MUDKIP] = {
+        .partyFlags = 0,
+        .trainerClass = TRAINER_CLASS_RIVAL_LATE,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_RIVAL_LATE,
+        .trainerName = _("Terry"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
+        .partySize = NELEMS(sParty_RivalSsAnneMudkip),
+        .party = {.NoItemDefaultMoves = sParty_RivalSsAnneMudkip}
+    },
+    [TRAINER_RIVAL_SS_ANNE_TREECKO] = {
+        .partyFlags = 0,
+        .trainerClass = TRAINER_CLASS_RIVAL_LATE,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_RIVAL_LATE,
+        .trainerName = _("Terry"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
+        .partySize = NELEMS(sParty_RivalSsAnneTreecko),
+        .party = {.NoItemDefaultMoves = sParty_RivalSsAnneTreecko}
+    },
+    [TRAINER_RIVAL_SS_ANNE_TORCHIC] = {
+        .partyFlags = 0,
+        .trainerClass = TRAINER_CLASS_RIVAL_LATE,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_RIVAL_LATE,
+        .trainerName = _("Terry"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
+        .partySize = NELEMS(sParty_RivalSsAnneTorchic),
+        .party = {.NoItemDefaultMoves = sParty_RivalSsAnneTorchic}
+    },
+    [TRAINER_RIVAL_POKEMON_TOWER_SQUIRTLE] = {
+        .partyFlags = 0,
+        .trainerClass = TRAINER_CLASS_RIVAL_LATE,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_RIVAL_LATE,
+        .trainerName = _("Terry"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
+        .partySize = NELEMS(sParty_RivalPokemonTowerSquirtle),
+        .party = {.NoItemDefaultMoves = sParty_RivalPokemonTowerSquirtle}
+    },
+    [TRAINER_RIVAL_POKEMON_TOWER_BULBASAUR] = {
+        .partyFlags = 0,
+        .trainerClass = TRAINER_CLASS_RIVAL_LATE,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_RIVAL_LATE,
+        .trainerName = _("Terry"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
+        .partySize = NELEMS(sParty_RivalPokemonTowerBulbasaur),
+        .party = {.NoItemDefaultMoves = sParty_RivalPokemonTowerBulbasaur}
+    },
+    [TRAINER_RIVAL_POKEMON_TOWER_CHARMANDER] = {
+        .partyFlags = 0,
+        .trainerClass = TRAINER_CLASS_RIVAL_LATE,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_RIVAL_LATE,
+        .trainerName = _("Terry"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
+        .partySize = NELEMS(sParty_RivalPokemonTowerCharmander),
+        .party = {.NoItemDefaultMoves = sParty_RivalPokemonTowerCharmander}
+    },
+    [TRAINER_RIVAL_POKEMON_TOWER_TOTODILE] = {
+        .partyFlags = 0,
+        .trainerClass = TRAINER_CLASS_RIVAL_LATE,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_RIVAL_LATE,
+        .trainerName = _("Terry"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
+        .partySize = NELEMS(sParty_RivalPokemonTowerTotodile),
+        .party = {.NoItemDefaultMoves = sParty_RivalPokemonTowerTotodile}
+    },
+    [TRAINER_RIVAL_POKEMON_TOWER_CHIKORITA] = {
+        .partyFlags = 0,
+        .trainerClass = TRAINER_CLASS_RIVAL_LATE,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_RIVAL_LATE,
+        .trainerName = _("Terry"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
+        .partySize = NELEMS(sParty_RivalPokemonTowerChikorita),
+        .party = {.NoItemDefaultMoves = sParty_RivalPokemonTowerChikorita}
+    },
+    [TRAINER_RIVAL_POKEMON_TOWER_CYNDAQUIL] = {
+        .partyFlags = 0,
+        .trainerClass = TRAINER_CLASS_RIVAL_LATE,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_RIVAL_LATE,
+        .trainerName = _("Terry"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
+        .partySize = NELEMS(sParty_RivalPokemonTowerCyndaquil),
+        .party = {.NoItemDefaultMoves = sParty_RivalPokemonTowerCyndaquil}
+    },
+    [TRAINER_RIVAL_POKEMON_TOWER_MUDKIP] = {
+        .partyFlags = 0,
+        .trainerClass = TRAINER_CLASS_RIVAL_LATE,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_RIVAL_LATE,
+        .trainerName = _("Terry"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
+        .partySize = NELEMS(sParty_RivalPokemonTowerMudkip),
+        .party = {.NoItemDefaultMoves = sParty_RivalPokemonTowerMudkip}
+    },
+    [TRAINER_RIVAL_POKEMON_TOWER_TREECKO] = {
+        .partyFlags = 0,
+        .trainerClass = TRAINER_CLASS_RIVAL_LATE,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_RIVAL_LATE,
+        .trainerName = _("Terry"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
+        .partySize = NELEMS(sParty_RivalPokemonTowerTreecko),
+        .party = {.NoItemDefaultMoves = sParty_RivalPokemonTowerTreecko}
+    },
+    [TRAINER_RIVAL_POKEMON_TOWER_TORCHIC] = {
+        .partyFlags = 0,
+        .trainerClass = TRAINER_CLASS_RIVAL_LATE,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_RIVAL_LATE,
+        .trainerName = _("Terry"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
+        .partySize = NELEMS(sParty_RivalPokemonTowerTorchic),
+        .party = {.NoItemDefaultMoves = sParty_RivalPokemonTowerTorchic}
     },
     [TRAINER_RIVAL_SILPH_SQUIRTLE] = {
         .partyFlags = 0,

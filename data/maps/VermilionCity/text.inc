@@ -1,11 +1,12 @@
 VermilionCity_Text_GrimerMultipliesInSludge::
-    .string "We're careful about pollution here.\p"
-    .string "We've heard Grimer multiplies in\n"
-    .string "toxic sludge.$"
+    .string "We are very conscience here about\n"
+    .string "trash and waste.\p"
+    .string "Grimer multiplies in highly\n"
+    .string "polluted areas.$"
 
 VermilionCity_Text_DidYouSeeSSAnneInHarbor:: @ 817F776
-    .string "Did you see the S.S. Anne moored\n"
-    .string "in the harbor?$"
+    .string "Did you see the S.S. Anne?\n"
+    .string "She's docked in port?$"
 
 VermilionCity_Text_SSAnneHasDepartedForYear:: @ 817F7A6
     .string "So, the S.S. Anne has departed?\p"
@@ -14,41 +15,41 @@ VermilionCity_Text_SSAnneHasDepartedForYear:: @ 817F7A6
 
 VermilionCity_Text_BuildingOnThisLand::
     .string "I'm putting up a building on this\n"
-    .string "plot of land. I own it all.\p"
-    .string "My Pokémon is tamping the land\n"
-    .string "to lay the foundation.$"
+    .string "plot of land.\p"
+    .string "Machop is stomping the land\n"
+    .string "to lay down the foundation.$"
 
 VermilionCity_Text_Machop:: @ 817F871
-    .string "Machop: Guoh! Gogogoh!$"
+    .string "Machop: Chop! MaaaaCHOP!$"
 
 VermilionCity_Text_MachopStompingLandFlat:: @ 817F888
     .string "A Machop is stomping the land flat.$"
 
 VermilionCity_Text_SSAnneVisitsOnceAYear:: @ 817F8AC
-    .string "The S.S. Anne is a famous luxury\n"
-    .string "cruise ship.\p"
+    .string "The S.S. Anne is a cruise ship\n"
+    .string "that travels the world.\p"
     .string "It visits Vermilion once a year.$"
 
 VermilionCity_Text_CitySign:: @ 817F8FB
     .string "Vermilion City\n"
-    .string "The Port of Exquisite Sunsets$"
+    .string "Sunset City$"
 
 VermilionCity_Text_SnorlaxBlockingRoute12:: @ 817F928
     .string "Notice!\p"
     .string "Route 12 may be blocked off by a\n"
-    .string "sleeping Pokémon.\p"
+    .string "sleeping Snorlax.\p"
     .string "Detour through Rock Tunnel to\n"
-    .string "Lavender Town.\p"
-    .string "Vermilion Police$"
+    .string "get to Lavender Town.\p"
+    .string "Vermilion PD$"
 
 VermilionCity_Text_PokemonFanClubSign:: @ 817F9A1
-    .string "Pokémon Fan Club\n"
-    .string "All Pokémon fans welcome!$"
+    .string "The Pokémon Fan Club\n"
+    .string "All Pokéfans welcome!$"
 
 VermilionCity_Text_GymSign:: @ 817F9CC
     .string "Vermilion City Pokémon Gym\n"
     .string "Leader: Lt. Surge\l"
-    .string "The Lightning American!$"
+    .string "The Lightning Lieutenant!$"
 
 VermilionCity_Text_VermilionHarbor:: @ 817FA11
     .string "Vermilion Harbor$"
@@ -58,7 +59,7 @@ VermilionCity_Text_WelcomeToTheSSAnne:: @ 817FA22
 
 VermilionCity_Text_DoYouHaveATicket:: @ 817FA3C
     .string "Welcome to the S.S. Anne!\p"
-    .string "Excuse me, do you have a ticket?$"
+    .string "Ticket, please?$"
 
 VermilionCity_Text_FlashedSSTicket:: @ 817FA77
     .string "{FONT_2}{PLAYER} flashed the S.S. Ticket!\p"
@@ -69,10 +70,10 @@ VermilionCity_Text_DontHaveNeededSSTicket:: @ 817FABA
     .string "{FONT_2}{PLAYER} doesn't have the needed\n"
     .string "S.S. Ticket.\p"
     .string "{FONT_4}Sorry!\p"
-    .string "You need a ticket to get aboard.$"
+    .string "You need a ticket for the party.$"
 
 VermilionCity_Text_TheShipSetSail::
-    .string "The ship set sail.$"
+    .string "The S.S. Anne set sail.$"
 
 VermilionCity_Text_BoardSeagallopTriPass:: @ 817FB23
     .string "Ah, you have a Tri-Pass.\p"

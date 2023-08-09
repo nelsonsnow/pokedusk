@@ -5,8 +5,8 @@ Route10_PokemonCenter_1F_Text_EveryTypeStrongerThanOthers:: @ 819E523
     .string "types and weaker than others.$"
 
 Route10_PokemonCenter_1F_Text_NuggetUselessSoldFor5000:: @ 819E59D
-    .string "A Nugget is totally useless.\n"
-    .string "So I sold it for ¥5000.$"
+    .string "A Nugget is only good for selling.\n"
+    .string "It goes for about ¥5000.$"
 
 Route10_PokemonCenter_1F_Text_HeardGhostsHauntLavender::
     .string "I heard that ghosts haunt\n"
@@ -27,7 +27,7 @@ Route10_PokemonCenter_1F_Text_GiveEverstoneIfCaught20Mons::
     .string "twenty kinds of Pokémon?$"
 
 Route10_PokemonCenter_1F_Text_GreatHereYouGo::
-    .string "Great! You have caught or owned\n"
+    .string "Great! You have caught\n"
     .string "{STR_VAR_3} kinds of Pokémon!\p"
     .string "Congratulations!\n"
     .string "Here you go!$"

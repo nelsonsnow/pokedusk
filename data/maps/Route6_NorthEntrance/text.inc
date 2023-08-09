@@ -1,15 +1,15 @@
 Route6_NorthEntrance_Text_ThirstyOnGuardDuty::
     .string "I'm on guard duty.\n"
-    .string "Gee, I'm thirsty, though!\p"
-    .string "Oh, wait there, the road's closed.$"
+    .string "Fuck, I'm thirsty, though!\p"
+    .string "Oh, hold up, the road's closed.$"
 
 Route6_NorthEntrance_Text_ThatTeaLooksTasty:: @ 819E1D1
-    .string "Oh, that Tea…\n"
-    .string "It looks awfully tasty…$"
+    .string "Yo, is that Tea…\n"
+    .string "It looks so good…$"
 
 Route6_NorthEntrance_Text_ThanksIllShareTeaWithGuards::
     .string "Huh? I can have this drink?\n"
-    .string "Gee, thanks!\l"
+    .string "No fucking way! Thanks!\l"
     .string "… …\l"
     .string "Glug, glug…\l"
     .string "… …\l"
@@ -22,5 +22,5 @@ Route6_NorthEntrance_Text_ThanksIllShareTeaWithGuards::
     .string "guards!$"
 
 Route6_NorthEntrance_Text_HiHowsItGoing::
-    .string "Hi, how's it going?$"
+    .string "Hey kid, how's it going?$"
 

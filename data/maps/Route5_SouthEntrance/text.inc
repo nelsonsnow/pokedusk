@@ -1,15 +1,15 @@
 Route5_SouthEntrance_Text_ThirstyOnGuardDuty::
     .string "I'm on guard duty.\n"
-    .string "Damn, I'm thirsty!\p"
-    .string "Wait there, the road is closed.$"
+    .string "Fuck, I'm thirsty, though!\p"
+    .string "Oh, hold up, the road's closed.$"
 
 Route5_SouthEntrance_Text_ThatTeaLooksTasty:: @ 819E09B
-    .string "Huh? You have some tea?\n"
-    .string "Oh man! I am dying for some…$"
+    .string "Yo, is that Tea…\n"
+    .string "It looks so good…$"
 
 Route5_SouthEntrance_Text_ThanksIllShareTeaWithGuards::
     .string "Huh? I can have it?\n"
-    .string "You're a lifesaver!\l"
+    .string "No fucking way! Thanks!\l"
     .string "… …\l"
     .string "Glug, glug…\l"
     .string "… …\l"
@@ -21,5 +21,5 @@ Route5_SouthEntrance_Text_ThanksIllShareTeaWithGuards::
     .string "guards!$"
 
 Route5_SouthEntrance_Text_HiHowsItGoing::
-    .string "Hello again.$"
+    .string "Hey kid, how's it going?$"
 

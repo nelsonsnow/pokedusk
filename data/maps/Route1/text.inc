@@ -1,5 +1,5 @@
 Route1_Text_WorkAtPokeMartTakeSample::
-    .string "Hold on! wheres my script? AHA!\n"
+    .string "Hold on! Where's my script? AHA!\n"
     .string "Hi, I work at the PokéMart.\p"
     .string "It's part of a convenient chain\n"
     .string "selling all sorts of items.\p"

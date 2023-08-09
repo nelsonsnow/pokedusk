@@ -1,7 +1,7 @@
 SSAnne_Kitchen_Text_BusyOutOfTheWay::
     .string "You, mon petit!\n"
-    .string "We're busy here!\l"
-    .string "Out of the way!$"
+    .string "We are busy here!\l"
+    .string "Out of ze way!$"
 
 SSAnne_Kitchen_Text_SawOddBerryInTrash:: @ 8173429
     .string "I saw an odd Berry in the trash.\n"
@@ -12,20 +12,21 @@ SSAnne_Kitchen_Text_SoBusyImDizzy::
     .string "You have to give me room here!$"
 
 SSAnne_Kitchen_Text_PeelSpudsEveryDay::
-    .string "Hum-de-hum-de-ho…\p"
-    .string "I peel spuds every day!\n"
-    .string "Hum-hum…$"
+    .string "Po-ta-toes!\p"
+    .string "Boil 'em, mash 'em, stick em in\n"
+    .string "a stew!$"
 
 SSAnne_Kitchen_Text_HearAboutSnorlaxItsAGlutton:: @ 81734D3
     .string "Did you hear about Snorlax?\n"
     .string "It's a glutton.\p"
     .string "No other Pokémon eats and sleeps\n"
-    .string "the way Snorlax can and does!$"
+    .string "the way Snorlax can and does!\p"
+    .string "Reminds me of my ex-girlfriend!$"
 
 SSAnne_Kitchen_Text_OnlyGetToPeelOnions::
-    .string "Snivel… Sniff…\p"
+    .string "Whimper… Sniff…\p"
     .string "I only get to peel onions…\n"
-    .string "Snivel…$"
+    .string "My eyes burn…$"
 
 SSAnne_Kitchen_Text_IAmLeChefMainCourseIs::
     .string "Er-hem!\n"

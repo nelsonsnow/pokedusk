@@ -4,10 +4,9 @@ RocketHideout_B2F_Text_GruntIntro:: @ 817508C
     .string "the Silph Scope.$"
 
 RocketHideout_B2F_Text_GruntDefeat::
-    .string "I surrender!$"
+    .string "I give, I give!$"
 
 RocketHideout_B2F_Text_GruntPostBattle:: @ 81750CC
-    .string "The Team Rocket HQ has four\n"
-    .string "underground floors.\p"
-    .string "Think you can reach the Boss?$"
+    .string "Boss is on B4.\n"
+    .string "Take the lift...$"
 

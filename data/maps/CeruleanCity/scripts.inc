@@ -52,6 +52,12 @@ CeruleanCity_EventScript_Rival::
 	call_if_eq VAR_STARTER_MON, 2, CeruleanCity_EventScript_RivalSquirtle
 	call_if_eq VAR_STARTER_MON, 1, CeruleanCity_EventScript_RivalBulbasaur
 	call_if_eq VAR_STARTER_MON, 0, CeruleanCity_EventScript_RivalCharmander
+	call_if_eq VAR_STARTER_MON, 5, CeruleanCity_EventScript_RivalTotodile
+	call_if_eq VAR_STARTER_MON, 4, CeruleanCity_EventScript_RivalChikorita
+	call_if_eq VAR_STARTER_MON, 3, CeruleanCity_EventScript_RivalCyndaquil
+	call_if_eq VAR_STARTER_MON, 8, CeruleanCity_EventScript_RivalMudkip
+	call_if_eq VAR_STARTER_MON, 7, CeruleanCity_EventScript_RivalTreecko
+	call_if_eq VAR_STARTER_MON, 6, CeruleanCity_EventScript_RivalTorchic
 	famechecker FAMECHECKER_BILL, 0
 	msgbox CeruleanCity_Text_RivalPostBattle
 	closemessage
@@ -82,6 +88,30 @@ CeruleanCity_EventScript_RivalBulbasaur::
 
 CeruleanCity_EventScript_RivalCharmander::
 	trainerbattle_no_intro TRAINER_RIVAL_CERULEAN_CHARMANDER, CeruleanCity_Text_RivalDefeat
+	return
+
+CeruleanCity_EventScript_RivalTotodile::
+	trainerbattle_no_intro TRAINER_RIVAL_CERULEAN_TOTODILE, CeruleanCity_Text_RivalDefeat
+	return
+
+CeruleanCity_EventScript_RivalChikorita::
+	trainerbattle_no_intro TRAINER_RIVAL_CERULEAN_CHIKORITA, CeruleanCity_Text_RivalDefeat
+	return
+
+CeruleanCity_EventScript_RivalCyndaquil::
+	trainerbattle_no_intro TRAINER_RIVAL_CERULEAN_CYNDAQUIL, CeruleanCity_Text_RivalDefeat
+	return
+
+CeruleanCity_EventScript_RivalMudkip::
+	trainerbattle_no_intro TRAINER_RIVAL_CERULEAN_MUDKIP, CeruleanCity_Text_RivalDefeat
+	return
+
+CeruleanCity_EventScript_RivalTreecko::
+	trainerbattle_no_intro TRAINER_RIVAL_CERULEAN_TREECKO, CeruleanCity_Text_RivalDefeat
+	return
+
+CeruleanCity_EventScript_RivalTorchic::
+	trainerbattle_no_intro TRAINER_RIVAL_CERULEAN_TORCHIC, CeruleanCity_Text_RivalDefeat
 	return
 
 CeruleanCity_EventScript_RivalStartExit::
